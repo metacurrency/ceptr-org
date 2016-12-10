@@ -1,0 +1,108 @@
+---
+layout: post
+status: publish
+published: true
+title: Building Meaning through Semantic Alternation
+author:
+  display_name: Arthur Brock
+  login: artbrock
+  email: artbrock@geekgene.com
+  url: http://artbrock.com
+author_login: artbrock
+author_email: artbrock@geekgene.com
+author_url: http://artbrock.com
+wordpress_id: 84
+wordpress_url: http://ceptr.org/?p=84
+date: '2014-11-29 03:34:52 -0500'
+date_gmt: '2014-11-29 03:34:52 -0500'
+categories:
+- Uncategorized
+tags:
+- semantic trees
+- data structures
+- semantics
+- Semantic Alternation
+- structures
+- symbols
+comments:
+- id: 1970
+  author: Marc Clifton
+  author_email: marc.clifton@gmail.com
+  author_url: http://www.higherorderprogramming.com/
+  date: '2015-11-11 03:42:34 -0500'
+  date_gmt: '2015-11-11 03:42:34 -0500'
+  content: "It's interesting reading wikipedia's definition of \"ottoman\": \"An ottoman
+    is a piece of furniture consisting of a padded, upholstered seat or bench, usually
+    having neither a back nor arms, often used as a stool, footstool or, in some cases,
+    as a coffee table.\" Fancy that.\r\n\r\nWhen something exists in a particular
+    relationship (a \"context\") with something else, the intrepretation of that new
+    structure is potentially mapped into the meaning of something else that represents
+    the same concept, but only if the relationship itself is described! So, because
+    we have a concept of a chair, when \r\nthe ottoman is used in that manner (here
+    we just sneakily described the relationship), the concept for that specific the
+    context (sitting on the ottoman) is the same as the another concept, in this case,
+    \"chair\".\r\n\r\nWhat's interesting about this is that 1) the richer our ability
+    to map a context into another concept that we know about, probably the more creative
+    our thinking can be because we have a richer world of conceptual relationships
+    to draw upon (this is the core problem with AI, right? how to build a rich enough
+    world of relatedness), and 2) the ottoman does not lose it's original meaning
+    but the context gives it additional, contextual meaning.\r\n\r\nTo tease this
+    apart further, it sounds like what you're calling structure is actually the relationship
+    between two or more concepts, creating a context. What's interesting here though
+    is that when you put the two concepts \"Arthur\" and \"ottoman\" together in a
+    structure, the new concept is not sufficient to describe the relationship \"sitting
+    on\" and therefore is unable to map to the concept \"for now, the ottoman is like
+    a chair.\" This was the big ah ha moment that I had when writing about relationship-oriented-programming:
+    the description of the relationship is a first class citizen and is vital in mapping
+    the composite structure to another concept. For example, \"Arthur kicking the
+    ottoman\" maps better to \"soccer ball\" than to \"chair.\"\r\n\r\nSo, a couple
+    radical thoughts: semantics, in and of themselves, are only half the picture.
+    And structure, when it doesn't explicitly describe the relationship between the
+    items in the structure, can at best describe a \"has a\" relationship -- there
+    is no further information that can be gleaned. There is no \"it's also a chair
+    here\". One only has to look at the complexity of records management in law enforcement
+    to see how key the description of the relationship is to the structure. What's
+    interesting about the latlong example is that it actually is basically just a
+    \"has a\" relationship. It's only when one deals with higher order concepts that
+    \"has a\" no longer correctly describes the relationship.\r\n\r\nSo, how does
+    Ceptr capture the relationship to map the entire context (structure and relationship
+    between concepts in the structure) to another concept? :)"
+- id: 3478
+  author: Eric Harris-Braun
+  author_email: eric@harris-braun.com
+  author_url: http://eric.harris-braun.com
+  date: '2016-04-13 21:30:54 -0400'
+  date_gmt: '2016-04-13 21:30:54 -0400'
+  content: "Nice analysis Marc.  Semantics as in \"the meaning of the words\" certainly
+    isn't the full picture.  Rich relational fabric goes far beyond the just meaning
+    of the units.\r\n\r\nIn the Ceptr we use what we call \"scapes\" to weave that
+    relational fabric.  The basic idea is that semantic trees via the process of semantic
+    alternation creates deep structural meaning for units of reference.  But then
+    relationships between those units gets held in a geometrical substrate (of arbitrary
+    topology).  So you might have a linear scape that orders profiles by last name,
+    or a sphere-surface \"shaped\" scape that arranges those same profiles by lat-long.
+    \ This part of the project doesn't have any code that we can point to yet, but
+    we've done a bunch of thinking about it, and we know that it's crucial for the
+    overall functioning of Ceptr.\r\n\r\nOne of their key functions is to provide
+    \"listenability.\"  Receptors can accept listeners on their scapes.  This means
+    that as they change over time, other receptors can get notified of those changes.
+    \ So in the example I mentioned above of a lat-long scape for profiles, you could
+    imagine receptor that implements couch-surfing type app on which you plant a listener
+    for available rooms in a city, and can thus receive notifications when the \"couch-scape\"
+    so-to-speak has come into a shape the you are interested in."
+---
+<p>In designing Ceptr we&rsquo;ve discovered a pattern in how systems build meaning. It&rsquo;s likely that someone else has already written about this, but we haven&rsquo;t found it, so we don&rsquo;t know what anyone else calls it. We&rsquo;re calling it Semantic Alternation.</p>
+<p><img src="http:&#47;&#47;www.artbrock.com&#47;sites&#47;artbrock.com&#47;files&#47;images&#47;ott1.jpg" alt="" &#47;>Something has meaning or significance in a particular context. This object (a physical structure) is footstool when in front of the easy chair, a table when holding the chess board between two chairs, and when we&rsquo;re low on seating for an event and put it at the end of the dining table, it&rsquo;s a chair. (See more pictures below)</p>
+<p>Meaning is not fixed and independent; it is fluid and bound to a context.</p>
+<p>We build up meaning that way. For example, there are phones (sounds) we make when speaking which are the same, but based on the context of surrounding sounds appear to be a vowel (like &ldquo;u&rdquo; in &ldquo;round&rdquo; or &ldquo;rule&rdquo;) and in other contexts seem to be a consonant (like &ldquo;w&rdquo; in &ldquo;way&rdquo;). At the next level up, the word &ldquo;rule&rdquo; may be used as a noun (&ldquo;the golden rule&rdquo;) or a verb (&ldquo;to rule with an iron fist&rdquo;). &nbsp;Sometimes phrases even have different meaning based on the surrounding phrases in a sentence. And a sentence could be interpreted differently based on its surrounding context of other sentences.</p>
+<p>This process of assembling parts into a structure and giving meaning to those parts in the context of that assemblage is central to how we build meaning. So for example, an integer in this group of fields may be an age, and in another context may be the number of children you have. This is quite common, but we don&rsquo;t seem to have a name for the fractal pattern of repeating this across multiple levels of meaning.</p>
+<p>Let&rsquo;s take a look at an example to make this clearer.&nbsp; Suppose I have a couch-matching profile (our imaginary version of couch-surfing we often talk about in Ceptr discussions) with my home address which has been looked up to create a &ldquo;Home_Location&rdquo; in the form of a latitude and longitude. &nbsp;You could picture it like this:</p>
+<p><iframe id="iframe_container" src="https:&#47;&#47;prezi.com&#47;embed&#47;y-1ttw3mttkg&#47;?bgcolor=ffffff&amp;lock_to_path=1&amp;autoplay=0&amp;autohide_ctrls=0#" width="600" height="400" frameborder="0" allowfullscreen="allowfullscreen"><&#47;iframe></p>
+<p>Home_Location is a name given to a structure called LatLong in the context of a couch-matching profile. The LatLong is built from assembling a float structure called Latitude and a float called Longitude (along with some definitions of constraints and processes for mapping 2D coordinates on a sphere).&nbsp; The float is built by assembling an integer called Mantissa and an integer called Exponent (along with a process for using those parts to represent significant digits and raising them to a power).&nbsp; The integer is built by assembling a sequence of 32 (or 64) things called bits together and additively interpreting each successive bit to be the next power of 2 (little-endian or big-endian).&nbsp; The bits are built by assembling a set of transistors in a flip-flop circuit in the computer memory and "naming" one of the outputs (or output states) ON vs. OFF. And so on.</p>
+<p>There is an alternating pattern of Structuring and Semantics (naming the elements assembled together in the context of that structure). Hence the name &ldquo;Semantic Alternation.&rdquo;</p>
+<p>In Ceptr, this is how you define new types&#47;structures and then name them so that they can be used for storing something.</p>
+<p>...</p>
+<p><img src="http:&#47;&#47;www.artbrock.com&#47;sites&#47;artbrock.com&#47;files&#47;images&#47;ott2.jpg" alt="" &#47;></p>
+<p>These pictures illustrate the real world example of a single "structure" assembled into different semantic contexts as a "table," "chair," and "footstool."</p>
+<p><img src="http:&#47;&#47;www.artbrock.com&#47;sites&#47;artbrock.com&#47;files&#47;images&#47;ott3.jpg" alt="" &#47;></p>
+<p><strong>Notes for later idea development:<&#47;strong> Meaningfulness is constructed by alternating cycles of attributing meaning to an existing structure, then creating new assemblages of meaningful units (an new structure), then assigning meaning to the new assemblage&#47;structure (semantics &#47; naming), assembling anew based on the new meaning.&nbsp; See Lat&#47;Long example. Give biological examples, stereoscopy, auditory triangulation, rgb rods&#47;cones, neural structures, cellular behavior, hormonal signals.</p>

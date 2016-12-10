@@ -1,0 +1,51 @@
+---
+layout: post
+status: publish
+published: true
+title: Distributed Receptor-Based Computing
+author:
+  display_name: Arthur Brock
+  login: artbrock
+  email: artbrock@geekgene.com
+  url: http://artbrock.com
+author_login: artbrock
+author_email: artbrock@geekgene.com
+author_url: http://artbrock.com
+wordpress_id: 93
+wordpress_url: http://ceptr.org/?p=93
+date: '2015-11-03 04:21:06 -0500'
+date_gmt: '2015-11-03 04:21:06 -0500'
+categories:
+- Uncategorized
+tags:
+- Receptors
+- Development
+- Keys
+- Crypto
+comments: []
+---
+<p>[I shared this brief in preparation for the <a href="http:&#47;&#47;weboftrust.info&#47;">Rebooting the Web of Trust<&#47;a> event in San Francisco November 3&amp;4 2015.]</p>
+<p>The MetaCurrency Project&rsquo;s requirements for decentralization combined with a commitment to leveraging organizing principles of living systems led us to invest a lot of time in the past 5 years developing Ceptr. Ceptr is a rebuild of much of the computing stack optimized for decentralized sense-making, computation and composability. This means semantics baked into the lowest levels of memory storage, self-describing protocols which let anything talk with anything else, blockchain-like abilities for decentralized data storage and computation.</p>
+<p>Our approach addresses many issues people are tackling in a variety of projects (web of trust, blockchain, semantic web, decentralized applications, federated identity, ease of interoperability, rapid code evolution with massive reuse, mesh networks, etc.) through a unified approach. &nbsp;We know providing such a different approach creates barriers to adoption and understanding, but we also know that applications in Ceptr will be able to be developed faster, easier and should significantly outperform projects which have been cobbled together from more traditional tools.</p>
+<ul>
+<li>There&rsquo;s a lot of things we&rsquo;ve worked out pretty well, like:<&#47;li>
+<li>Lightweight virtual machines (receptors) for distributed applications&#47;computing<&#47;li>
+<li>Configurable byzantine fault tolerance options for distributed data storage with intrinsic data integrity in signed chains<&#47;li>
+<li>Deeply integrated semantics: semantic memory, semantic stacks, and a generalized parsing and pattern matching system via our semantic tree regular expression engine<&#47;li>
+<li>Built-in code repository for sharing vocabularies, code and protocols<&#47;li>
+<li>Optimization for rapid evolution and easy deprecation (of code, vocabs, protocols, etc.)<&#47;li>
+<li>Pluggable, self-describing protocols (Ceptr protocols are not textual descriptions for human protocol developers, but pluggable semantic code. A receptor can install a protocol to read a message after receiving the message it didn&rsquo;t know how to read.)<&#47;li>
+<li>Network-wide event subscription (through persistent &ldquo;listeners&rdquo;)<&#47;li>
+<li>Massive interoperability, reusability, mashability, and composability<&#47;li>
+<li>Ensuring fractal coherence (This needs a paper of its own to explain why it&rsquo;s important.)<&#47;li><br />
+<&#47;ul><br />
+Some of Ceptr is operational, some is barely operational code-scaffolding, and some is yet to be built (especially these next topics). And we could use some support designing good implementation strategies for some of these things.</p>
+<p><strong>Hierarchal Deterministic Keys and Key Management:<&#47;strong> Since every agent that wants to communicate on the Ceptr Network gets its own address and keys for signing &amp; encryption, we&rsquo;d love ideas for making it easy for people to manage a lot of keys. Also, in many configurations we&rsquo;d like to use hierarchal keys (e.g. a master receptor and with synched slave instances, an agent&#47;person and the receptors they create (whether a standalone receptor or sharded peers).</p>
+<p><strong>Capabilities-Based Security:<&#47;strong> Any tips, tricks, techniques or warnings about using capabilities-based security tokens + authorized users (Ceptr messages are always signed&#47;authenticated by source), building appropriate chains, enforcing at appropriate times&#47;sequences.</p>
+<p><strong>Lightweight Signing &amp; Multi-Party Signatures:<&#47;strong> Every network message in Ceptr is signed. We&rsquo;d like to keep that as light as possible. We also would like build a few multi-party signature scenarios into our BFT algorithms.</p>
+<p><strong>Resource Balancing in Distributed Systems with Diverse Capacities<&#47;strong>: When you have a handful of receptor instances with different resources (CPU, GPU, bandwidth, storage, network centrality, etc.), are there existing tools algorithms for &ldquo;load balancing&rdquo; based on these capacity differentials?</p>
+<h2>Ceptr Identity and Web of Trust<&#47;h2><br />
+<strong>Network Addresses<&#47;strong> &ndash; Network addresses in Ceptr are permanent IDs associated with the agent (person, program, or legal entity) communicating on the network. These UUIDs have a history and are accountable for their activities. Addresses are not temporary, reassigned, or segmented for routing.</p>
+<p>We use a <strong>progressive trust<&#47;strong> approach, where people are able to self-assert into the network as an anonymous client. Later they may upgrade via a triangulation&#47;vouching process to create a trusted peer address. When they register their address (from a sparse UUID space) on the network, they must publish a public key (to a sharded DHT), and may provide a public key-server address, revocation-server address, and identity server address. Identity information can be selectively shared via capacity-based tokens.</p>
+<p>Nodes on the network can configure their own <strong>thresholds for serving or routing traffic<&#47;strong> (whether to service requests from anonymous clients, or addresses with a history of spamming &ndash; based on activity&#47;reputation metrics built into the Ceptr routing protocols.</p>
+<p>Since every Ceptr Network message is signed with the public key of the sender you can authenticate the message source. <strong>Confirming the sender's identity<&#47;strong> can be done by means of their authorized identity service(s). We expect Ceptr to have a rich ecosystem of capabilities-based identity services from peers and trusted authorities, ranging from validating a pseudonym to confirming government issued passport&#47;citizenship&#47;voter registration or financial&#47;credit reporting. Users can control access via capabilities tokens and manage rights and restrictions on shared information via smart contracts.</p>
