@@ -20,72 +20,73 @@ categories:
 tags: []
 comments: []
 ---
-<div class="dev-callout">This is #2 in a series of <a href="&#47;category&#47;dev&#47;">dev posts<&#47;a>, which just jump right into deep end of the techie pool.<&#47;div>At the core of Ceptr you will find agent-like receptors which send each-other messages. &nbsp;We&rsquo;ve provided a simple yet sufficient instruction set for rich message programming, taking into account both synchronous and asynchronous programming needs.</p>
-<p><span style="font-weight: 400;">The overall signaling model looks like this:&nbsp;<img class="alignright wp-image-122 size-medium" src="http:&#47;&#47;ceptr.org&#47;wp-content&#47;uploads&#47;2016&#47;04&#47;Signal_Aspect_Receptor-300x157.png" alt="Signal_Aspect_Receptor" width="300" height="157" &#47;><a href="http:&#47;&#47;ceptr.org&#47;wp-content&#47;uploads&#47;2016&#47;04&#47;Membrane_Processing.png"><img class="alignright wp-image-121 size-medium" src="http:&#47;&#47;ceptr.org&#47;wp-content&#47;uploads&#47;2016&#47;04&#47;Membrane_Processing-300x218.png" alt="Membrane_Processing" width="300" height="218" &#47;><&#47;a><&#47;span></p>
+<div class="dev-callout">This is #2 in a series of <a href="/category/dev/">dev posts</a>, which just jump right into deep end of the techie pool.</div>At the core of Ceptr you will find agent-like receptors which send each-other messages.  We've provided a simple yet sufficient instruction set for rich message programming, taking into account both synchronous and asynchronous programming needs.</p>
+
+<p>The overall signaling model looks like this: <img class="alignright wp-image-122 size-medium" src="http://ceptr.org/wp-content/uploads/2016/04/Signal_Aspect_Receptor-300x157.png" alt="Signal_Aspect_Receptor" width="300" height="157" /><a href="http://ceptr.org/wp-content/uploads/2016/04/Membrane_Processing.png"><img class="alignright wp-image-121 size-medium" src="http://ceptr.org/wp-content/uploads/2016/04/Membrane_Processing-300x218.png" alt="Membrane_Processing" width="300" height="218" /></a></p>
 <ol>
-<li style="font-weight: 400;"><span style="font-weight: 400;">signals are sent on a carrier<&#47;span><&#47;li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">&ldquo;through&rdquo; an aspect<&#47;span><&#47;li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">and optionally keyed to a conversation or request<&#47;span><&#47;li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">are processed in the receptor&rsquo;s membrane<&#47;span><&#47;li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">by being matched against expectations associated with the aspect&#47;carrier&#47;conversation<&#47;span><&#47;li>
-<li style="font-weight: 400;"><span style="font-weight: 400;">each of which trigger an action which either sends more signals or transforms the receptor&rsquo;s state<&#47;span><&#47;li><br />
-<&#47;ol><br />
-<b>Requests:<&#47;b><span style="font-weight: 400;"> &nbsp;Some signals are requests, which, when received create a stateful condition of expecting a response to the requesting signal identifier. &nbsp;Additionally requests have end conditions, i.e. timeouts, response counts (there can be more than one), etc..<&#47;span></p>
-<p><b>Listening:<&#47;b><span style="font-weight: 400;"> The LISTEN instruction allows you to add expectations (with their patterns and actions) on the flux (the receptor&rsquo;s membrane).<&#47;span></p>
-<p><b>Conversations:<&#47;b><span style="font-weight: 400;"> Some signals are identified as being part of a conversation. &nbsp;Conversations are created with the CONVERSE scoping instruction. &nbsp;You can think of this instruction kind of like the &ldquo;block&rdquo; or &ldquo;scope&rdquo; construct that exists in most programming languages which creates a lexical scope for variables. &nbsp;CONVERSE creates a scope for sending and listening to signals. &nbsp;CONVERSE instructions can be nested, such that the system recognizes one conversation as a sub-part of another. &nbsp;The system also allows having multiple SAY&#47;REQUEST instructions inside of a conversation to different destinations. &nbsp;This provides underlying support for various multi-party protocols.<&#47;span></p>
-<p><b>Sync&#47;Async:<&#47;b><span style="font-weight: 400;"> The signaling instructions have waiting and non-waiting versions. &nbsp;This allows you to program in both synchronous and asynchronous style. &nbsp;For example the REQUEST instruction has an optional <&#47;span><i><span style="font-weight: 400;">action<&#47;span><&#47;i><span style="font-weight: 400;"> parameter. &nbsp;If provided, the REQUEST instruction reduces to the request signal&rsquo;s identifier, and the action process gets executed sometime later when the response arrives. &nbsp;Otherwise the tree with the REQUEST instruction goes into the waiting state and later, when the response message arrives, reduces directly to its body. &nbsp;The <&#47;span><i><span style="font-weight: 400;">action<&#47;span><&#47;i><span style="font-weight: 400;"> parameter to the LISTEN instruction is similarly optional and indicates whether the tree with the LISTEN should wait or run asynchronously. &nbsp;Similarly for conversations, the CONVERSE instruction can be set to wait or not for the conversation to be completed.<&#47;span></p>
-<p><b>Addressing:<&#47;b><span style="font-weight: 400;"> Receptor addressing in Ceptr has to take into account the fact that receptors exist inside of other receptors. &nbsp;In other words, the network topology isn&rsquo;t a two dimensional plane. &nbsp;Also, as a programmer, it helps to remember that the &ldquo;place&rdquo; where programs execute is in the membrane of the receptor. &nbsp;Thus you can visualize that any signals you generate are either internally bound, i.e. to the inside of the receptor, externally bound to a peer receptor inside the same parent, or bound to some receptor outside the parent. &nbsp;This means that each receptor gets to define its own address space to manage the coherence of messaging inside itself, as well as what messages go in and out. &nbsp;More on addressing in a future post...<&#47;span></p>
-<p><span style="font-weight: 400;">Here&rsquo;s a summary of the instructions from the Ceptr instruction set that have to do with signalling:<&#47;span></p>
+<li >signals are sent on a carrier</li>
+<li >&ldquo;through&rdquo; an aspect</li>
+<li >and optionally keyed to a conversation or request</li>
+<li >are processed in the receptor's membrane</li>
+<li >by being matched against expectations associated with the aspect/carrier/conversation</li>
+<li >each of which trigger an action which either sends more signals or transforms the receptor's state</li>
+</ol>
+<b>Requests:</b>  Some signals are requests, which, when received create a stateful condition of expecting a response to the requesting signal identifier.  Additionally requests have end conditions, i.e. timeouts, response counts (there can be more than one), etc..</p>
+<p><b>Listening:</b> The LISTEN instruction allows you to add expectations (with their patterns and actions) on the flux (the receptor's membrane).</p>
+<p><b>Conversations:</b> Some signals are identified as being part of a conversation.  Conversations are created with the CONVERSE scoping instruction.  You can think of this instruction kind of like the "block" or "scope" construct that exists in most programming languages which creates a lexical scope for variables.  CONVERSE creates a scope for sending and listening to signals.  CONVERSE instructions can be nested, such that the system recognizes one conversation as a sub-part of another.  The system also allows having multiple SAY/REQUEST instructions inside of a conversation to different destinations.  This provides underlying support for various multi-party protocols.</p>
+<p><b>Sync/Async:</b> The signaling instructions have waiting and non-waiting versions.  This allows you to program in both synchronous and asynchronous style.  For example the REQUEST instruction has an optional <i>action</i> parameter.  If provided, the REQUEST instruction reduces to the request signal's identifier, and the action process gets executed sometime later when the response arrives.  Otherwise the tree with the REQUEST instruction goes into the waiting state and later, when the response message arrives, reduces directly to its body.  The <i>action</i> parameter to the LISTEN instruction is similarly optional and indicates whether the tree with the LISTEN should wait or run asynchronously.  Similarly for conversations, the CONVERSE instruction can be set to wait or not for the conversation to be completed.</p>
+<p><b>Addressing:</b> Receptor addressing in Ceptr has to take into account the fact that receptors exist inside of other receptors.  In other words, the network topology isn't a two dimensional plane.  Also, as a programmer, it helps to remember that the "place" where programs execute is in the membrane of the receptor.  Thus you can visualize that any signals you generate are either internally bound, i.e. to the inside of the receptor, externally bound to a peer receptor inside the same parent, or bound to some receptor outside the parent.  This means that each receptor gets to define its own address space to manage the coherence of messaging inside itself, as well as what messages go in and out.  More on addressing in a future post...</p>
+<p>Here's a summary of the instructions from the Ceptr instruction set that have to do with signalling:</p>
 <table>
 <tbody>
 <tr>
-<td><b>Instruction<&#47;b><&#47;td></p>
-<td><b>Parameters<&#47;b><&#47;td></p>
-<td><b>Notes<&#47;b><&#47;td><br />
-<&#47;tr></p>
+<td><b>Instruction</b></td>
+<td><b>Parameters</b></td>
+<td><b>Notes</b></td>
+</tr>
 <tr>
-<td><span style="font-weight: 400;">SAY<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">to_address, key_by_aspect, over_carrier, message<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">Reduces to the signal&rsquo;s identifier<&#47;span><&#47;td><br />
-<&#47;tr></p>
+<td>SAY</td>
+<td>to_address, key_by_aspect, over_carrier, message</td>
+<td>Reduces to the signal's identifier</td>
+</tr>
 <tr>
-<td><span style="font-weight: 400;">REQUEST<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">Of_address, key_by_aspect, on_carrier, message, expect_response_on, until, *action<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">If <&#47;span><i><span style="font-weight: 400;">action<&#47;span><&#47;i><span style="font-weight: 400;"> provided &nbsp;then request reduces to the request&rsquo;s signal identifier. &nbsp;if no callback, then blocks and reduces to the response&rsquo;s message. <&#47;span><&#47;td><br />
-<&#47;tr></p>
+<td>REQUEST</td>
+<td>Of_address, key_by_aspect, on_carrier, message, expect_response_on, until, *action</td>
+<td>If <i>action</i> provided  then request reduces to the request's signal identifier.  if no callback, then blocks and reduces to the response's message. </td>
+</tr>
 <tr>
-<td><span style="font-weight: 400;">RESPOND<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">respond_on_carrier, response_message<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">Reduces to the response signal&rsquo;s identifier<&#47;span><&#47;td><br />
-<&#47;tr></p>
+<td>RESPOND</td>
+<td>respond_on_carrier, response_message</td>
+<td>Reduces to the response signal's identifier</td>
+</tr>
 <tr>
-<td><span style="font-weight: 400;">LISTEN<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">at_aspect, for_carrier, match_pattern, *action, *with_params, *until_end_conditions<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">If <&#47;span><i><span style="font-weight: 400;">action<&#47;span><&#47;i><span style="font-weight: 400;"> provided, reduces to REDUCTION_ERROR_SYMBOL(NULL_SYMBOL) and adds an expectation with the pattern to the flux. &nbsp;If no action, then builds a special END_CONDITION of COUNT=1 and blocks processing and then later reduces to the first signal that matches the pattern<&#47;span><&#47;td><br />
-<&#47;tr></p>
+<td>LISTEN</td>
+<td>at_aspect, for_carrier, match_pattern, *action, *with_params, *until_end_conditions</td>
+<td>If <i>action</i> provided, reduces to REDUCTION_ERROR_SYMBOL(NULL_SYMBOL) and adds an expectation with the pattern to the flux.  If no action, then builds a special END_CONDITION of COUNT=1 and blocks processing and then later reduces to the first signal that matches the pattern</td>
+</tr>
 <tr>
-<td><span style="font-weight: 400;">CONVERSE<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">scope, *end_conditions,*wait,*topic<&#47;span><br />
-<span style="font-weight: 400;">Defaults: <&#47;span><span style="font-weight: 400;">end_conditions:UNLIMITED<&#47;span></p>
-<p><span style="font-weight: 400;">wait: FALSE<&#47;span></p>
-<p><span style="font-weight: 400;">topic: none<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">Use <&#47;span><i><span style="font-weight: 400;">end_conditions<&#47;span><&#47;i><span style="font-weight: 400;"> specify when the system will terminate the conversation. &nbsp;Use <&#47;span><i><span style="font-weight: 400;">wait<&#47;span><&#47;i><span style="font-weight: 400;"> to specify whether the CONVERSE instruction should block waiting for the conversation to complete. If you use asynchronous REQUEST or LISTEN instructions in the scope the conversation and you don&rsquo;t set wait to TRUE you will want to use the THIS_SCOPE instruction to get the conversation identifier so you can call the COMPLETE instruction someplace later or the conversation will never get cleaned up.<&#47;span><&#47;td><br />
-<&#47;tr></p>
+<td>CONVERSE</td>
+<td>scope, *end_conditions, *wait, *topic
+Defaults: end_conditions:UNLIMITED
+wait: FALSE<br />
+topic: none</td>
+<td>Use <i>end_conditions</i> specify when the system will terminate the conversation.  Use <i>wait</i> to specify whether the CONVERSE instruction should block waiting for the conversation to complete. If you use asynchronous REQUEST or LISTEN instructions in the scope the conversation and you don't set wait to TRUE you will want to use the THIS_SCOPE instruction to get the conversation identifier so you can call the COMPLETE instruction someplace later or the conversation will never get cleaned up.</td>
+</tr>
 <tr>
-<td><span style="font-weight: 400;">COMPLETE<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">with_something, *conversation_ident<&#47;span><&#47;td></p>
-<td><span style="font-weight: 400;">Cleans up a conversation and causes the CONVERSE instruction to reduce to value of <&#47;span><i><span style="font-weight: 400;">with_something<&#47;span><&#47;i><span style="font-weight: 400;">. If <&#47;span><i><span style="font-weight: 400;">conversation_ident<&#47;span><&#47;i><span style="font-weight: 400;"> provided, completes that conversation, otherwise assumes the value of THIS_SCOPE. &nbsp;If the specified conversation doesn&rsquo;t exist (i.e. because it was cleaned up by its end conditions) COMPLETE will invoke the error handler. &nbsp;Note that it&rsquo;s possible that the CONVERSE instruction was already reduced, in which case the value of <&#47;span><i><span style="font-weight: 400;">with_someting<&#47;span><&#47;i><span style="font-weight: 400;"> will get ignored. &nbsp;If the COMPLETE instruction is not inside the CONVERSE scope, it will be reduced to the value of <&#47;span><i><span style="font-weight: 400;">conversation_ident<&#47;span><&#47;i><&#47;td><br />
-<&#47;tr></p>
+<td>COMPLETE</td>
+<td>with_something, *conversation_ident</td>
+<td>Cleans up a conversation and causes the CONVERSE instruction to reduce to value of <i>with_something</i>. If <i>conversation_ident</i> provided, completes that conversation, otherwise assumes the value of THIS_SCOPE.  If the specified conversation doesn't exist (i.e. because it was cleaned up by its end conditions) COMPLETE will invoke the error handler.  Note that it's possible that the CONVERSE instruction was already reduced, in which case the value of <i>with_someting</i> will get ignored.  If the COMPLETE instruction is not inside the CONVERSE scope, it will be reduced to the value of <i>conversation_ident</i></td><br />
+</tr>
 <tr>
-<td><span style="font-weight: 400;">THIS_SCOPE<&#47;span><&#47;td></p>
-<td><&#47;td></p>
-<td><span style="font-weight: 400;">Reduces to the identifier of the current conversation. Executing THIS_SCOPE not somewhere inside a CONVERSE will invoke the error handler.<&#47;span><&#47;td><br />
-<&#47;tr></p>
+<td>THIS_SCOPE</td>
+<td></td>
+<td>Reduces to the identifier of the current conversation. Executing THIS_SCOPE not somewhere inside a CONVERSE will invoke the error handler.</td>
+</tr>
 <tr>
-<td><span style="font-weight: 400;">SELF_ADDR<&#47;span><&#47;td></p>
-<td><&#47;td></p>
-<td><span style="font-weight: 400;">Reduces to the receptor address of the current receptor.<&#47;span><&#47;td><br />
-<&#47;tr><br />
-<&#47;tbody><br />
-<&#47;table><br />
-&nbsp;</p>
+<td>SELF_ADDR</td>
+<td></td>
+<td>Reduces to the receptor address of the current receptor.</td>
+</tr>
+</tbody>
+</table>
+ </p>

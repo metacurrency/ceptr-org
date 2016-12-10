@@ -11,15 +11,10 @@ author:
 author_login: Eric Harris-Braun
 author_email: eric@harris-braun.com
 author_url: http://eric.harris-braun.com
-excerpt: "Ceptr is built out of Receptors -- lightweight virtual machines which can
-  be organized fractally. This means you can compose new communication and computing
-  patterns out of receptors as coherent building blocks. But receptors themselves
-  are built out of another coherent structure: semantic trees.\r\n\r\nSimilar to how
-  our body is made out of cells, and the organization of cells is what makes different
-  kinds of organisms. Cells, themselves, are built out of amino-acid complexes at
+excerpt: "Ceptr is built out of Receptors -- lightweight virtual machines which can be organized fractally. This means you can compose new communication and computing patterns out of receptors as coherent building blocks. But receptors themselves are built out of another coherent structure: semantic trees.\r\n\r\nSimilar to how our body is made out of cells, and the organization of cells is what makes different kinds of organisms. Cells, themselves, are built out of amino-acid complexes at
   a lower level.\r\n\r\nWe produced a couple short videos showing how semantic trees
-  work for both DATA and PROCESS for our <a href=\"https:&#47;&#47;youtu.be&#47;3Db-8lD1lNA\"
-  target=\"_blank\">MIT-KIT Webinar about Ceptr<&#47;a>. This blog post just focuses
+  work for both DATA and PROCESS for our <a href=\"https://youtu.be/3Db-8lD1lNA\"
+  target=\"_blank\">MIT-KIT Webinar about Ceptr</a>. This blog post just focuses
   on the excerpt about Semantic trees for data structures and execution of code.\r\n\r\n"
 wordpress_id: 37
 wordpress_url: http://ceptr.org/?p=37
@@ -37,13 +32,20 @@ tags:
 comments: []
 ---
 <p>Ceptr is built out of Receptors -- lightweight virtual machines which can be organized fractally. This means you can compose new communication and computing patterns out of receptors as coherent building blocks. But receptors themselves are built out of another coherent structure: semantic trees.</p>
+
 <p>Similar to how our body is made out of cells, and the organization of cells is what makes different kinds of organisms. Cells, themselves, are built out of amino-acid complexes at a lower level.</p>
-<p>We produced a couple short videos showing how semantic trees work for both DATA and PROCESS for our <a href="https:&#47;&#47;youtu.be&#47;3Db-8lD1lNA" target="_blank">MIT-KIT Webinar about Ceptr<&#47;a>. This blog post just focuses on the excerpt about Semantic trees for data structures and execution of code.</p>
+
+<p>We produced a couple short videos showing how semantic trees work for both DATA and PROCESS for our <a href="https://youtu.be/3Db-8lD1lNA" target="_blank">MIT-KIT Webinar about Ceptr</a>. This blog post just focuses on the excerpt about Semantic trees for data structures and execution of code.</p>
 <p><a id="more"></a><a id="more-37"></a></p>
-<p>Semantic trees in Ceptr are like the &ldquo;Words&rdquo; of a normal CPU. &nbsp;They are our base data unit. &nbsp;So our receptors act as light-weight Virtual Machines, that instead of operating on &ldquo;32 or 64bit &lsquo;words&rsquo;&rdquo; they operate on semantic trees. &nbsp;Our intention here is to try and build meaning in at as low a level as possible in the computing stack. &nbsp;Of course these base units themselves are composed. &nbsp;A regular &ldquo;word&rdquo; in a CPU is composed of bits, that the CPU can shift, or add, etc. &nbsp;In Ceptr, we build semantic trees out of named structures, that themselves are compositions of other semantic trees.</p>
-<p>[embed]https:&#47;&#47;www.youtube.com&#47;watch?v=IGoWAHRNGw4[&#47;embed]</p>
-<p>In traditional computing, which is built on linear sequences of these&nbsp; "words"&nbsp;we're always serializing and "re-hydrating," we rebuild objects from serializations. We lex &amp; parse our programs into syntax trees to compile or interpret them. In&nbsp;Ceptr we keep meaning and structure connected with the values at the very base level.</p>
-<p>It's easy to think of XML (or HTML) as being a semantic tree, but it&rsquo;s actually serial ASCII character representation which we have to interpret to build a tree or a DOM. &nbsp;It's not surprising that we do this, because for the longest time, our primary tool for interacting with the computer has been the text editor, in one form or another. &nbsp;Interestingly Integrated Development Environments almost always try to figure out the tree structures of code on the fly, so as at to be able to provide meaningful hints in the form of syntax highlighting, auto-completion, etc.. &nbsp;(So for us a key step will be to create&nbsp;really good tool-chain and UI for building and manipulating tree.)</p>
-<p>We use semantic trees not only to represent data, and code, or, as we call it, process, but they also&nbsp;to&nbsp;hold a process's execution environment. &nbsp;Traditional computing patterns&nbsp;use a stack to hold function calls by building stack frames that hold a function's&nbsp;parameters an locally scoped variables.&nbsp;In Ceptr we use the idea of a "run tree" which is a self-eating tree that reduces itself to its result. &nbsp;This short video gives a sense of how this works:</p>
-<p>[embed]https:&#47;&#47;www.youtube.com&#47;watch?v=aIEhf97BhlA[&#47;embed]</p>
-<p>For searching and matching data in semantic trees, we've built a generalized form of regular expressions called Semtrex (SEMantic Tree Regular EXpressions). &nbsp; Marc Clifton has put together a&nbsp;<a title="CodeProject Semtrex Article" href="http:&#47;&#47;www.codeproject.com&#47;Articles&#47;894188&#47;Introducing-Semtrex" target="_blank">detailed article about Semtrex<&#47;a>, including a nice piece of code to provide some user interface for building semantic trees and writing semtrex expressions for matching on them. &nbsp;A short description is also available on the <a href="http:&#47;&#47;zippy.github.io&#47;ceptr&#47;group__semtrex.html#details">API docs page<&#47;a>.</p>
+
+<p>Semantic trees in Ceptr are like the "Words" of a normal CPU. They are our base data unit. So our receptors act as light-weight Virtual Machines, that instead of operating on "32 or 64bit 'words'" they operate on semantic trees. Our intention here is to try and build meaning in at as low a level as possible in the computing stack. Of course these base units themselves are composed. A regular "word" in a CPU is composed of bits, that the CPU can shift, or add, etc. In Ceptr, we build semantic trees out of named structures, that themselves are compositions of other semantic trees.</p>
+<p>[embed]https://www.youtube.com/watch?v=IGoWAHRNGw4[/embed]</p>
+
+<p>In traditional computing, which is built on linear sequences of these "words"we're always serializing and "re-hydrating," we rebuild objects from serializations. We lex &amp; parse our programs into syntax trees to compile or interpret them. InCeptr we keep meaning and structure connected with the values at the very base level.</p>
+
+<p>It's easy to think of XML (or HTML) as being a semantic tree, but it's actually serial ASCII character representation which we have to interpret to build a tree or a DOM. It's not surprising that we do this, because for the longest time, our primary tool for interacting with the computer has been the text editor, in one form or another. Interestingly Integrated Development Environments almost always try to figure out the tree structures of code on the fly, so as at to be able to provide meaningful hints in the form of syntax highlighting, auto-completion, etc.. (So for us a key step will be to createreally good tool-chain and UI for building and manipulating tree.)</p>
+
+<p>We use semantic trees not only to represent data, and code, or, as we call it, process, but they alsotohold a process's execution environment. Traditional computing patternsuse a stack to hold function calls by building stack frames that hold a function'sparameters an locally scoped variables.In Ceptr we use the idea of a "run tree" which is a self-eating tree that reduces itself to its result. This short video gives a sense of how this works:</p>
+
+<p>[embed]https://www.youtube.com/watch?v=aIEhf97BhlA[/embed]</p>
+<p>For searching and matching data in semantic trees, we've built a generalized form of regular expressions called Semtrex (SEMantic Tree Regular EXpressions).  Marc Clifton has put together a<a title="CodeProject Semtrex Article" href="http://www.codeproject.com/Articles/894188/Introducing-Semtrex" target="_blank">detailed article about Semtrex</a>, including a nice piece of code to provide some user interface for building semantic trees and writing semtrex expressions for matching on them. A short description is also available on the <a href="http://zippy.github.io/ceptr/group__semtrex.html#details">API docs page</a>.</p>

@@ -20,48 +20,55 @@ categories:
 tags: []
 comments: []
 ---
-<div class="dev-callout">This is #3 in a series of <a href="&#47;category&#47;dev&#47;">dev posts<&#47;a>, which just jump right into deep end of the techie pool.<&#47;div><br />
-Everything in Ceptr gets built out of semantic trees. &nbsp;Why? <a href="https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Alan_Perlis">Alan Perlis<&#47;a>&rsquo; &nbsp;<a href="http:&#47;&#47;cpsc.yale.edu&#47;epigrams-programming">epigram<&#47;a> &nbsp;#106 on programming hints at the answer:</p>
-<blockquote>
-<p style="text-align: center;"><i>It&rsquo;s difficult to extract sense from strings, but they&rsquo;re the only<&#47;i> <em>communicatio<&#47;em><em>n<&#47;em><i> coin we can count on.<&#47;i><&#47;p><br />
-<&#47;blockquote><br />
-Ceptr creates a new &ldquo;communication coin&rdquo; that we can still count on (in both senses) but from which it&rsquo;s much much easier to &ldquo;extract sense.&rdquo; &nbsp;In fact, the &ldquo;sense&rdquo; gets baked in at the bottom layer in that everything in Ceptr is built out of semantic trees. &nbsp;Extracting &ldquo;sense&rdquo; however has lots to do with pattern matching. &nbsp;Regular Expressions provide a rich expressive capacity for discovering the patterns in text. &nbsp;We have build Semantic Tree Regular Expressions (Semtrex), as way to do the same for our semantic trees. &nbsp;As a first introduction to Semtrex, you should read Marc Clifton&rsquo;s very good and detailed <a href="http:&#47;&#47;www.codeproject.com&#47;Articles&#47;894188&#47;Introducing-Semtrex">article<&#47;a>. It gives some good backstory on semantic trees with examples. In this post I want to share a little about some of the coding issues involved in implementing them, which I&rsquo;m very familiar with at the moment because of some bugs that recently showed up in my code!</p>
-<p>My implementation is heavily based on the code and theory provided by Russ Cox's &nbsp;great article on regular <a href="https:&#47;&#47;swtch.com&#47;~rsc&#47;regexp&#47;regexp1.html">expression matching.<&#47;a>&nbsp; &nbsp;As he describes, regular expression implementations usually convert the regular expression to a state machine that then gets run against a string to see if it matches. &nbsp;For example, from &nbsp;Cox&rsquo;s article here&rsquo;s the state machine for the regex abab|abbb:</p>
-<p><a href="http:&#47;&#47;ceptr.org&#47;wp-content&#47;uploads&#47;2016&#47;09&#47;cox_regex_fsa.png"><img class="aligncenter wp-image-169 size-medium" src="http:&#47;&#47;ceptr.org&#47;wp-content&#47;uploads&#47;2016&#47;09&#47;cox_regex_fsa-300x65.png" alt="cox_regex_fsa" width="300" height="65" &#47;><&#47;a></p>
-<p>In these state diagrams a labeled transition means: read a character and if it matches the label, move to the next state. &nbsp;As he explains in the article, for any state that has two branches we can theoretically assume that the machine that magically chooses the correct branch for any given string. &nbsp;Practically we implement this magic by trying both branches either sequentially with a backtracking algorithm, or by running both branches simultaneously.</p>
-<p>Now here&rsquo;s the thing about regular expressions for semantic trees: because trees are not linear (like strings) the transition from one state to the next also has to include some instructions about how move through the tree.</p>
-<p>Here&rsquo;s an example state diagram for the Semtrex: &nbsp;&#47;A&#47;(B|C&#47;D,E)</p>
-<p><a href="http:&#47;&#47;ceptr.org&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;semtrex_state_machine.png"><img class="alignnone wp-image-165 size-medium" src="http:&#47;&#47;ceptr.org&#47;wp-content&#47;uploads&#47;2016&#47;07&#47;semtrex_state_machine-300x101.png" alt="Semtrex State Machine" width="300" height="101" &#47;><&#47;a></p>
+<div class="dev-callout">This is #3 in a series of <a href="/category/dev/">dev posts</a>, which just jump right into deep end of the techie pool.</div>
+<p>Everything in Ceptr gets built out of semantic trees.  Why? <a href="https://en.wikipedia.org/wiki/Alan_Perlis">Alan Perlis</a>'  <a href="http://cpsc.yale.edu/epigrams-programming">epigram</a>  #106 on programming hints at the answer:</p>
+<blockquote><i>It's difficult to extract sense from strings, but they're the only</i> <em>communication</em><i> coin we can count on.</i></blockquote><br />
+<p>Ceptr creates a new "communication coin" that we can still count on (in both senses) but from which it's much much easier to "extract sense."  In fact, the "sense" gets baked in at the bottom layer in that everything in Ceptr is built out of semantic trees.  Extracting "sense" however has lots to do with pattern matching.  Regular Expressions provide a rich expressive capacity for discovering the patterns in text.  We have build Semantic Tree Regular Expressions (Semtrex), as way to do the same for our semantic trees.</p>
+
+<p>As a first introduction to Semtrex, you should read Marc Clifton's very good and detailed <a href="http://www.codeproject.com/Articles/894188/Introducing-Semtrex">article</a>. It gives some good backstory on semantic trees with examples. In this post I want to share a little about some of the coding issues involved in implementing them, which I'm very familiar with at the moment because of some bugs that recently showed up in my code!</p>
+
+<p>My implementation is heavily based on the code and theory provided by Russ Cox's  great article on regular <a href="https://swtch.com/~rsc/regexp/regexp1.html">expression matching.</a>   As he describes, regular expression implementations usually convert the regular expression to a state machine that then gets run against a string to see if it matches.  For example, from  Cox's article here's the state machine for the regex abab|abbb:</p>
+
+<p><a href="http://ceptr.org/wp-content/uploads/2016/09/cox_regex_fsa.png"><img class="aligncenter wp-image-169 size-medium" src="http://ceptr.org/wp-content/uploads/2016/09/cox_regex_fsa-300x65.png" alt="cox_regex_fsa" width="300" height="65" /></a></p>
+<p>In these state diagrams a labeled transition means: read a character and if it matches the label, move to the next state.  As he explains in the article, for any state that has two branches we can theoretically assume that the machine that magically chooses the correct branch for any given string.  Practically we implement this magic by trying both branches either sequentially with a backtracking algorithm, or by running both branches simultaneously.</p>
+
+<p>Now here's the thing about regular expressions for semantic trees: because trees are not linear (like strings) the transition from one state to the next also has to include some instructions about how move through the tree.</p>
+
+<p>Here's an example state diagram for the Semtrex:  /A/(B|C/D,E)</p>
+<p><a href="http://ceptr.org/wp-content/uploads/2016/07/semtrex_state_machine.png"><img class="alignnone wp-image-165 size-medium" src="http://ceptr.org/wp-content/uploads/2016/07/semtrex_state_machine-300x101.png" alt="Semtrex State Machine" width="300" height="101" /></a></p>
+
 <p>(Note that any up arrows which pop up the number of levels indicated do also have an implied next child as well.)</p>
-<p>Debugging the code that runs this machine is tricky, because it&rsquo;s hard to see the state of the whole machine in gdb debugger. &nbsp;What I did to make this easier was come up with a textual representation for the state machine. &nbsp;The machine above looks like this:</p>
-<p><code style="font-size: 80%;">(A)-Down->(s)-->(B)-Next->(E)-Up1->(m)[-->(C)-Down->(D)-Up1->X]<&#47;code></p>
-<p>Each state is an item in parens. &nbsp;If the state has a transition that matches a symbol the symbol is in the parents. &nbsp;Special states are splits (s) and match (m). &nbsp;The trick about splits is how to represent both branches. &nbsp;What you see is that one of the branches follows right out of the split, but the second comes later in square brackets. &nbsp;The outgoing arrow just points to &ldquo;X&rdquo;, which means some other part of the tree, so you have to know which&hellip; I know kinda ugly, but it&rsquo;s enough for debugging</p>
-<p>Below is actual debugging output (only slightly doctored) of that machine being run against the tree (A (C (D)) (E)). &nbsp;The output uses ANSI color coding to show in red the current state and tree position.</p>
+
+<p>Debugging the code that runs this machine is tricky, because it's hard to see the state of the whole machine in gdb debugger.  What I did to make this easier was come up with a textual representation for the state machine.  The machine above looks like this:</p>
+
+<p><code style="font-size: 80%;">(A)-Down->(s)-->(B)-Next->(E)-Up1->(m)[-->(C)-Down->(D)-Up1->X]</code></p>
+<p>Each state is an item in parens.  If the state has a transition that matches a symbol the symbol is in the parents.  Special states are splits (s) and match (m).  The trick about splits is how to represent both branches.  What you see is that one of the branches follows right out of the split, but the second comes later in square brackets.  The outgoing arrow just points to "X", which means some other part of the tree, so you have to know which&hellip; I know kinda ugly, but it's enough for debugging</p>
+<p>Below is actual debugging output (only slightly doctored) of that machine being run against the tree (A (C (D)) (E)).  The output uses ANSI color coding to show in red the current state and tree position.</p>
 <p><code style="font-size: 80%;">D_STX_MATCH: IN:Symbol<br />
-D_STX_MATCH: FSA:<span style="color: #ff0000;">(A)<&#47;span>-Down->(s)-->(B)-Next->(E)-Up1->(m)[-->(C)-Down->(D)-Up1->X]<br />
-D_STX_MATCH: tree:<span style="color: #ff0000;">(A<&#47;span> (C (D)) (E))<br />
+D_STX_MATCH: FSA:<span style="color: #ff0000;">(A)</span>-Down->(s)-->(B)-Next->(E)-Up1->(m)[-->(C)-Down->(D)-Up1->X]<br />
+D_STX_MATCH: tree:<span style="color: #ff0000;">(A</span> (C (D)) (E))<br />
 D_STX_MATCH: transition: down<br />
 D_STX_MATCH: IN:Split<br />
-D_STX_MATCH: FSA:(A)-Down-><span style="color: #ff0000;">(s)<&#47;span>-->(B)-Next->(E)-Up1->(m)[-->(C)-Down->(D)-Up1->X]<br />
-D_STX_MATCH: tree:(A <span style="color: #ff0000;">(C<&#47;span> (D)) (E))<br />
+D_STX_MATCH: FSA:(A)-Down-><span style="color: #ff0000;">(s)</span>-->(B)-Next->(E)-Up1->(m)[-->(C)-Down->(D)-Up1->X]<br />
+D_STX_MATCH: tree:(A <span style="color: #ff0000;">(C</span> (D)) (E))<br />
 D_STX_MATCH: pushing split branch for backtracking to state (C)<br />
 D_STX_MATCH: IN:Symbol<br />
-D_STX_MATCH: FSA:(A)-Down->(s)--><span style="color: #ff0000;">(B)<&#47;span>-Next->(E)-Up1->(m)[-->(C)-Down->(D)-Up1->X]<br />
-D_STX_MATCH: tree:(A <span style="color: #ff0000;">(C<&#47;span> (D)) (E))<br />
+D_STX_MATCH: FSA:(A)-Down->(s)--><span style="color: #ff0000;">(B)</span>-Next->(E)-Up1->(m)[-->(C)-Down->(D)-Up1->X]<br />
+D_STX_MATCH: tree:(A <span style="color: #ff0000;">(C</span> (D)) (E))<br />
 D_STX_MATCH: Fail: so popping to--(C (D))<br />
 D_STX_MATCH: IN:Symbol<br />
-D_STX_MATCH: FSA:(A)-Down->(s)-->(B)-Next->(E)-Up1->(m)[--><span style="color: #ff0000;">(C)<&#47;span>-Down->(D)-Up1->X]<br />
-D_STX_MATCH: tree:(A <span style="color: #ff0000;">(C<&#47;span> (D)) (E))<br />
+D_STX_MATCH: FSA:(A)-Down->(s)-->(B)-Next->(E)-Up1->(m)[--><span style="color: #ff0000;">(C)</span>-Down->(D)-Up1->X]<br />
+D_STX_MATCH: tree:(A <span style="color: #ff0000;">(C</span> (D)) (E))<br />
 D_STX_MATCH: transition: down<br />
 D_STX_MATCH: IN:Symbol<br />
-D_STX_MATCH: FSA:(A)-Down->(s)-->(B)-Next->(E)-Up1->(m)[-->(C)-Down-><span style="color: #ff0000;">(D)<&#47;span>-Up1->X]<br />
-D_STX_MATCH: tree:(A (C <span style="color: #ff0000;">(D<&#47;span>)) (E))<br />
+D_STX_MATCH: FSA:(A)-Down->(s)-->(B)-Next->(E)-Up1->(m)[-->(C)-Down-><span style="color: #ff0000;">(D)</span>-Up1->X]<br />
+D_STX_MATCH: tree:(A (C <span style="color: #ff0000;">(D</span>)) (E))<br />
 D_STX_MATCH: transition: popping -1<br />
 D_STX_MATCH: IN:Symbol<br />
-D_STX_MATCH: FSA:(A)-Down->(s)-->(B)-Next-><span style="color: #ff0000;">(E)<&#47;span>-Up1->(m)[-->(C)-Down->(D)-Up1->X]<br />
-D_STX_MATCH: tree:(A (C (D)) <span style="color: #ff0000;">(E<&#47;span>))<br />
+D_STX_MATCH: FSA:(A)-Down->(s)-->(B)-Next-><span style="color: #ff0000;">(E)</span>-Up1->(m)[-->(C)-Down->(D)-Up1->X]<br />
+D_STX_MATCH: tree:(A (C (D)) <span style="color: #ff0000;">(E</span>))<br />
 D_STX_MATCH: transition: popping -1<br />
-D_STX_MATCH: Matched!<&#47;code></p>
-<p>Adding this visualization was enough for me to find the bug I was having where the state machine wasn&rsquo;t popping back up enough in some circumstances, and it&rsquo;s revealed another bug that I&rsquo;m still working on in the case of grouping where we collect up matched data.</p>
-<p>If this kind of stuff intrigues you, feel free to show up and ask questions at one of our bi-monthly <a href="http:&#47;&#47;ceptr.org&#47;devchat">dev chats <&#47;a>which happen every 1st and 3rd Wednesday of the month at 3pm Eastern&#47;Noon Pacific.</p>
+D_STX_MATCH: Matched!</code></p>
+<p>Adding this visualization was enough for me to find the bug I was having where the state machine wasn't popping back up enough in some circumstances, and it's revealed another bug that I'm still working on in the case of grouping where we collect up matched data.</p>
+<p>If this kind of stuff intrigues you, feel free to show up and ask questions at one of our bi-monthly <a href="http://ceptr.org/devchat">dev chats </a>which happen every 1st and 3rd Wednesday of the month at 3pm Eastern/Noon Pacific.</p>
 <p>Hope to see you there!</p>

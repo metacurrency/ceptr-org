@@ -20,26 +20,27 @@ categories:
 tags: []
 comments: []
 ---
-<p>This is the first in a <a href="&#47;category&#47;dev&#47;">series of posts<&#47;a> I want to write about both building Ceptr and coding in Ceptr.  In many of them I jump right into the middle of deep tech, so hold on to your horses, and enjoy!</p>
+<p>This is the first in a <a href="/category/dev/">series of posts</a> I want to write about both building Ceptr and coding in Ceptr.  In many of them I jump right into the middle of deep tech, so hold on to your horses, and enjoy!</p>
+
 <p>I want to start out with a few key points of what Ceptr might look like to you from a programmer's perspective:</p>
 <ol>
-<li>In Ceptr you should not think of yourself as programming a computer, but rather <strong>a network of simple computers some of which are embedded inside each-other<&#47;strong>. We call these simple computers receptors.<&#47;li>
-<li>The fundamental data unit in Ceptr is not a 32 or 64 bit word; it's <strong>a semantic tree<&#47;strong>. &nbsp;Now this may sound weird, but it creates an important mental shift. &nbsp;Think of each receptor as a computer whose CPU operates by evaluating tree structures, not linear sequences of bits. &nbsp;The "program counter" doesn't move forward along a linear memory space, loading the next instruction into a register for evaluation but rather walks along a tree structured memory space <strong>recursively reducing branches down to their result<&#47;strong>.<&#47;li>
-<li>Not surprisingly, Ceptr programs are just another type of semantic tree. &nbsp;This means that fundamentally the Ceptr programming environment is <strong><a href="https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Homoiconicity">homeoiconic<&#47;a><&#47;strong>.<&#47;li>
-<li>Ceptr uses an expanded version of Regular Expressions for pattern matching, that we call SemTrex (<strong>SEMantic Tree Regular Expressions<&#47;strong>). &nbsp;Regular Expressions are designed to scan a linear sequence of characters, but SemTrex expressions operate on trees and can match on semantics as well as value.<&#47;li>
-<li>Ceptr provides a native signaling system for you to send messages between these receptors. &nbsp;Much of Ceptr programming is about <strong>expectations which trigger code<&#47;strong> when signals arrive, based both on explicit pattern matching on the content of the arriving signal (using SemTrex), and based on the entry path of the signal (kind of like known port numbers in TCP&#47;IP). Thus, the Ceptr "instruction set" includes support for rich inter-receptor communication, including single message sending, request-response patterns, and persistent connection based "conversations," and most importantly patterns for defining multi-receptor protocols.<&#47;li>
-<li>These protocols can be defined as abstractions, kind of like template classes. &nbsp;Thus, lots of Ceptr programming involves thinking about what agents are doing in a given protocol, and what the interactions of that protocol are, and finally <strong>building more complicated protocols out of simpler ones<&#47;strong>.<strong><strong>&nbsp;<&#47;strong><&#47;strong><&#47;li><br />
-<&#47;ol><br />
-I know this is all abstract. &nbsp;In future posts I&rsquo;ll get into the nitty gritty with actual code examples. &nbsp;Here&rsquo;s a list of some the topics I hope to cover in more depth:</p>
+<li>In Ceptr you should not think of yourself as programming a computer, but rather <strong>a network of simple computers some of which are embedded inside each-other</strong>. We call these simple computers receptors.</li>
+<li>The fundamental data unit in Ceptr is not a 32 or 64 bit word; it's <strong>a semantic tree</strong>.  Now this may sound weird, but it creates an important mental shift.  Think of each receptor as a computer whose CPU operates by evaluating tree structures, not linear sequences of bits.  The "program counter" doesn't move forward along a linear memory space, loading the next instruction into a register for evaluation but rather walks along a tree structured memory space <strong>recursively reducing branches down to their result</strong>.</li>
+<li>Not surprisingly, Ceptr programs are just another type of semantic tree.  This means that fundamentally the Ceptr programming environment is <strong><a href="https://en.wikipedia.org/wiki/Homoiconicity">homeoiconic</a></strong>.</li>
+<li>Ceptr uses an expanded version of Regular Expressions for pattern matching, that we call SemTrex (<strong>SEMantic Tree Regular Expressions</strong>).  Regular Expressions are designed to scan a linear sequence of characters, but SemTrex expressions operate on trees and can match on semantics as well as value.</li>
+<li>Ceptr provides a native signaling system for you to send messages between these receptors.  Much of Ceptr programming is about <strong>expectations which trigger code</strong> when signals arrive, based both on explicit pattern matching on the content of the arriving signal (using SemTrex), and based on the entry path of the signal (kind of like known port numbers in TCP/IP). Thus, the Ceptr "instruction set" includes support for rich inter-receptor communication, including single message sending, request-response patterns, and persistent connection based "conversations," and most importantly patterns for defining multi-receptor protocols.</li>
+<li>These protocols can be defined as abstractions, kind of like template classes.  Thus, lots of Ceptr programming involves thinking about what agents are doing in a given protocol, and what the interactions of that protocol are, and finally <strong>building more complicated protocols out of simpler ones</strong>.</li><br />
+</ol><br />
+I know this is all abstract.  In future posts I'll get into the nitty gritty with actual code examples.  Here's a list of some the topics I hope to cover in more depth:</p>
 <ul>
-<li><strong>Semantic trees,<&#47;strong> semantic alternation and, especially, what it feels like to code when you can't use data without thinking about what's the semantic use of that data<&#47;li>
-<li><strong>Homoiconicity,<&#47;strong> and how in Ceptr, like in a few other programming languages, a program&rsquo;s representation and structure match closely, making meta-programming much easier.<&#47;li>
-<li>Templates, slots, grammars &amp; parameters: the marriage between the known and the unknown, and the <strong>core of composability<&#47;strong>.<&#47;li>
-<li><strong>Transcoding:<&#47;strong> the semantic version of cast or type conversion.<&#47;li>
-<li><strong>Phenotype vs. Genotype<&#47;strong>, or as programmers would say: class&#47;type&#47;prototype vs. instance.<&#47;li>
-<li><strong>Coherence contexts:<&#47;strong> beyond namespaces.<&#47;li>
-<li><strong>Protocols as live, pluggable&nbsp;code<&#47;strong> rather than as specifications for coding.<&#47;li>
-<li>Signaling between receptors: <strong>Carrier&#47;Signal&#47;Protocol<&#47;strong> i.e. our version of <a href="https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Multi-agent_system">mulit-agent systems<&#47;a> or <a href="https:&#47;&#47;en.wikipedia.org&#47;wiki&#47;Actor_model">actor model<&#47;a> computation<&#47;li>
-<li><strong>Scaffolding systems into existence<&#47;strong>, or, as a Alan Perlis put it in his <a href="http:&#47;&#47;cpsc.yale.edu&#47;epigrams-programming">epigrams<&#47;a>: "Everything should be built top-down, except the first time." &nbsp;and how this applies to Ceptr.<&#47;li><br />
-<&#47;ul><br />
-So if any of these sounds particularly interesting tell me in the comments, and I&rsquo;ll push that higher in my priority list.</p>
+<li><strong>Semantic trees,</strong> semantic alternation and, especially, what it feels like to code when you can't use data without thinking about what's the semantic use of that data</li>
+<li><strong>Homoiconicity,</strong> and how in Ceptr, like in a few other programming languages, a program's representation and structure match closely, making meta-programming much easier.</li>
+<li>Templates, slots, grammars &amp; parameters: the marriage between the known and the unknown, and the <strong>core of composability</strong>.</li>
+<li><strong>Transcoding:</strong> the semantic version of cast or type conversion.</li>
+<li><strong>Phenotype vs. Genotype</strong>, or as programmers would say: class/type/prototype vs. instance.</li>
+<li><strong>Coherence contexts:</strong> beyond namespaces.</li>
+<li><strong>Protocols as live, pluggable code</strong> rather than as specifications for coding.</li>
+<li>Signaling between receptors: <strong>Carrier/Signal/Protocol</strong> i.e. our version of <a href="https://en.wikipedia.org/wiki/Multi-agent_system">mulit-agent systems</a> or <a href="https://en.wikipedia.org/wiki/Actor_model">actor model</a> computation</li>
+<li><strong>Scaffolding systems into existence</strong>, or, as a Alan Perlis put it in his <a href="http://cpsc.yale.edu/epigrams-programming">epigrams</a>: "Everything should be built top-down, except the first time."  and how this applies to Ceptr.</li><br />
+</ul><br />
+So if any of these sounds particularly interesting tell me in the comments, and I'll push that higher in my priority list.</p>
