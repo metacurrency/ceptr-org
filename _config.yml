@@ -16,11 +16,11 @@
 title: Ceptr.org
 email: ceptr@metacurrency.org
 description: > # this means to ignore newlines until "baseurl:"
-   Ceptr is a platform for next-gen networking, providing a protocol for pluggable protocols,
-   distributed data integrity on HoloChains, and truly distributed application hosting
+  Ceptr is a platform for next-gen networking, providing a protocol for pluggable protocols,
+  distributed data integrity on HoloChains, and truly distributed application hosting
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ceptr.metacurrency.org" # the base hostname & protocol for your site
-twitter_username: @metacurrency
+twitter_username: metacurrency
 github_username:  metacurrency
 
 # Build settings
