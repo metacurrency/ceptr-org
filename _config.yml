@@ -1,14 +1,13 @@
 # Site settings
-title: Ion
-email: your-email@domain.com
+title: Ceptr.org
+email: ceptr@metacurrency.org
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "/Ion-Jekyll-Theme" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+   Ceptr is a platform for next-gen networking, providing a protocol for pluggable protocols,
+   distributed data integrity on HoloChains, and truly distributed application hosting
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://ceptr.metacurrency.org" # the base hostname & protocol for your site
+twitter_username: @metacurrency
+github_username:  metacurrency
 
 # Build settings
 markdown: kramdown
