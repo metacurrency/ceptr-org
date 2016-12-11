@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ceptr.org
+title: Ceptr: Building a Semantic, Mashable, Fully Distributed Internet
 email: ceptr@metacurrency.org
 description: > # this means to ignore newlines until "baseurl:"
   Ceptr is a platform for next-gen networking, providing a protocol for pluggable protocols,
