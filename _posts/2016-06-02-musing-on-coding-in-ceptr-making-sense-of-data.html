@@ -25,13 +25,13 @@ comments: []
 
 <p>My implementation is heavily based on the code and theory provided by Russ Cox's  great article on regular <a href="https://swtch.com/~rsc/regexp/regexp1.html">expression matching.</a>   As he describes, regular expression implementations usually convert the regular expression to a state machine that then gets run against a string to see if it matches.  For example, from  Cox's article here's the state machine for the regex abab|abbb:</p>
 
-<p><a href="http://ceptr.org/wp-content/uploads/2016/09/cox_regex_fsa.png"><img class="aligncenter wp-image-169 size-medium" src="http://ceptr.org/wp-content/uploads/2016/09/cox_regex_fsa-300x65.png" alt="cox_regex_fsa" width="300" height="65" /></a></p>
+<p><img class="aligncenter" src="/images/cox_regex_fsa.png" alt="cox_regex_fsa" width="300" height="65" /></p>
 <p>In these state diagrams a labeled transition means: read a character and if it matches the label, move to the next state.  As he explains in the article, for any state that has two branches we can theoretically assume that the machine that magically chooses the correct branch for any given string.  Practically we implement this magic by trying both branches either sequentially with a backtracking algorithm, or by running both branches simultaneously.</p>
 
 <p>Now here's the thing about regular expressions for semantic trees: because trees are not linear (like strings) the transition from one state to the next also has to include some instructions about how move through the tree.</p>
 
 <p>Here's an example state diagram for the Semtrex:  /A/(B|C/D,E)</p>
-<p><a href="http://ceptr.org/wp-content/uploads/2016/07/semtrex_state_machine.png"><img class="alignnone wp-image-165 size-medium" src="http://ceptr.org/wp-content/uploads/2016/07/semtrex_state_machine-300x101.png" alt="Semtrex State Machine" width="300" height="101" /></a></p>
+<p><img class="aligncenter" src="/images/semtrex_state_machine.png" alt="Semtrex State Machine" width="300" height="101" /></p>
 
 <p>(Note that any up arrows which pop up the number of levels indicated do also have an implied next child as well.)</p>
 
