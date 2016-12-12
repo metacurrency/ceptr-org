@@ -13,6 +13,9 @@ div.dev-callout {
     margin-right: auto;
 }
 
+.alignright {
+    float: right;
+}
 img.alignright {
     margin: 7px 0 7px 24px;
 }
