@@ -28,3 +28,35 @@ The role of validation rules.... forking of reality.
 
 
 Distributed PKI & Identity Services makes verifying signatures and sources that much better. So that's the first big thing we're building on Holochains.
+
+
+------
+Okay... restarting with a structure akin to the original Satoshi paper.
+------
+# Title
+**ABSTRACT:** blah blah blah good summary here ...
+
+
+## 1. Introduction
+a few paragraphs framing the context/state of current tech
+
+## 2. Transactions/Interactions
+define how blockchain transactions currently work, diagram of how blockchain data is structured, identify problem(s) (forces need for consensus on what should otherwise be a simple/local transaction/interactions between two parties). Foundation of ontology is tokens.
+
+### 2.5 Mutual Credit Crytpocurrencies
+If the social computing application you'd like to run is, for example, a completely distributed cryptocurrency without global consensus, this is easy to accomplish by setting it up
+
+## 3. Independent Countersigned Chains
+Solution for challenge of universal time, isn't a timestamp server which burns tons of electricity doing busy work which gets thrown away, but is the trivial problem of sequencing events from a relativist vantage point instead of an absolute sequence / global ledger.
+
+Counter audit each others chains...
+
+Diagram of distinct countersigned chains.
+
+## 4. DHT for Publication and Randomized Validation
+After validating each others chains and both parties generating signatures for the transaction, each party adds it (with sigs) to the head of their chain. Then each party also "puts" it to the DHT.
+
+The DHT we're proposing has some noteworthy characteristics, a couple of those are new. When setting up the DHT, some parameters must be set regarding redundancy/availability requirements, then a nearness algorithm (probably with XOR) determines which nodes are nearest and need to store the transaction. When those nodes receive the put request, they must validate the transaction per the shared validation rules (auditing both parties chains, ensuring valid states for the transaction). 
+
+The unpredictable nature of hashing and nearness by XOR against DHT node addresses, makes it virtually impossible to control
+Collusion would mean violation of validation rules, basically leading to irreconcilable forking in the same way it does on blockchain currencies.
