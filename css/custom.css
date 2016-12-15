@@ -1,0 +1,21 @@
+div.dev-callout {
+    float: right;
+    background-color: #eee;
+    display: block;
+    width: 259px;
+    padding: 12px;
+    font-size: 83%;
+}
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignright {
+    float: right;
+}
+img.alignright {
+    margin: 7px 0 7px 24px;
+}
