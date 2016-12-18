@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+{% include /head.html %}
+
+<body id="top" class="whitepaper">
+
+{% include /header.html %}
+
+<!-- Main -->
+<section id="main" class="wrapper style1">
+    <header class="major">
+        <h1>{{page.title}}: Holographic data storage for distributed applications</h1>
+        <div class="authors">{{page.author}}<br/>{{page.author_url}}</div>
+        <div class="abstract"><b>ABSTRACT: </b>{{page.excerpt}}</div>
+    </header>
+    <div class="container">
+        <section>
+
+          {{ content }}
+
+        </section>
+        <hr class="major" />
+    </div>
+</section>
+
+{% include /footer.html %}
+
+</body>
+
+</html>

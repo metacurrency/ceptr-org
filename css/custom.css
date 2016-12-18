@@ -19,3 +19,13 @@ div.dev-callout {
 img.alignright {
     margin: 7px 0 7px 24px;
 }
+
+body.whitepaper div.authors {
+  font-weight: bold;
+  text-align: center;
+}
+
+body.whitepaper div.abstract {
+  margin: 3em 12em;
+  text-align: left;
+}
