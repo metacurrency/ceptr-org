@@ -2,8 +2,7 @@
 layout: whitepaper
 status: publish
 published: true
-title: "Holochains: Holographic data storage for distributed applications"
-link: Holochains
+title: Holochains
 author: Arthur Brock // artbrock.com
 author_login: artbrock
 author_email: artbrock@geekgene.com
@@ -19,6 +18,7 @@ tags:
 - Data Engine
 comments: []
 ---
+# Holochains: Holographic data storage for distributed applications
 
 ## 1. Introduction
 a few paragraphs framing the context/state of current tech

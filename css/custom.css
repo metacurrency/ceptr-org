@@ -20,12 +20,17 @@ img.alignright {
     margin: 7px 0 7px 24px;
 }
 
+/* WHITEPAPER STYLES */
 body.whitepaper div.authors {
   font-weight: bold;
   text-align: center;
 }
-
 body.whitepaper div.abstract {
   margin: 3em 12em;
   text-align: left;
+}
+body.whitepaper h1 {
+  font-size: 150%;
+  font-weight: bold;
+  color: 111;
 }
