@@ -23,11 +23,16 @@ comments: []
 - [Holochains: Holographic data storage for distributed computing](#holochains-holographic-data-storage-for-distributed-computing)
   - [ABSTRACT](#abstract)
   - [Introduction (Background Situation/Problem and brief mention of Solution)](#introduction-background-situationproblem-and-brief-mention-of-solution)
-  - [Solution: Clearly define scope/model/approach/parameters/limitations](#solution-clearly-define-scopemodelapproachparameterslimitations)
+  - [Solution: Clearly define scope / model / approach / parameters / limitations](#solution-clearly-define-scope--model--approach--parameters--limitations)
   - [Small Shift in Assumptions Yield Massive Effect](#small-shift-in-assumptions-yield-massive-effect)
+    - [Logical Atomism](#logical-atomism)
+    - [Absolute frame](#absolute-frame)
+    - [Universal time and Sequence](#universal-time-and-sequence)
+  - [The Byzantine Whiteboard](#the-byzantine-whiteboard)
   - [Audit Points and Rollbacks](#audit-points-and-rollbacks)
   - [Composing with Holochains](#composing-with-holochains)
   - [Scaling of Social Agreement](#scaling-of-social-agreement)
+  - [Using Other Holochains as Oracles](#using-other-holochains-as-oracles)
   - [Countersigned Chains](#countersigned-chains)
     - [Agreements at Human Scale](#agreements-at-human-scale)
   - [Extending Further](#extending-further)
@@ -37,8 +42,6 @@ comments: []
   - [Appendices](#appendices)
 - [Previous Draft](#previous-draft)
   - [Holochains: A resilient data layer for distributed social computing.](#holochains-a-resilient-data-layer-for-distributed-social-computing)
-  - [Absolute frame](#absolute-frame)
-  - [Universal Sequence](#universal-sequence)
   - [Validation](#validation)
   - [Initial Applications](#initial-applications)
     - [Distributed PKI](#distributed-pki)
@@ -74,10 +77,14 @@ DHT "backed" by many parallel signed chains for data provenance.
 Signed chains provide non-repudiable versioning and accountability for local vantage point
 Sharding into neighborhoods. Unpredictability of hash provides honest/uncoordinated defense with extremely high probability (much higher than 51%)
 
+Two logically monotonic subsystems bound by shared validation rules. Divergence in production or validation.
+
+Lets break the problem into two practical cases. 1) Weak - distributed computing: enabling autonomous computation by HUMAN agents, and 2) Strong - enforcing identical computation by programs.
+
 Benefit of solving this problem
 Pain points it would alleviate.
 
-## Solution: Clearly define scope/model/approach/parameters/limitations
+## Solution: Clearly define scope / model / approach / parameters / limitations
 
 Detail each part of the solution. Step by Step... take them all the way through
 Include visuals/diagrams throughout.
@@ -86,13 +93,27 @@ Include visuals/diagrams throughout.
 Impossibility proof of distributed computing with one errant process[footnote] to proof of probability 1.[footnote] Impossibility and Triviality. Many proofs of certain things being impossible[footnote], but with a slight change of model become almost trivial.
 
 Normal Assumptions of (distributed) computing. Data positivism/objectivity. Absolute frame/ether.
-Logical Atomism
+### Logical Atomism
 
 Fallacy of absolute perspective on any data anyway
 
 Consistency Model - Local -> Expanding --> Possible Eventual (sometimes requiring reconciliation)
+### Absolute frame
+It seems the real world doesn't work that way, why should the computing world. General Relativity published 100 years ago. We understand that the sequence and perception of events are relative to the vantage point of the viewer.
 
-Composability of Concurrency Systems - STM (Software Transactional Memory)
+### Universal time and Sequence
+A universal sequence of events for a global  is somewhere between impossible and extremely difficult to implement, but recording a sequence of events from a particular vantage point is rather trivial. Blockchain addresses this sequencing by the having people do busy work which takes a fairly predictable amount of time to produce. But if you don't untether information from it's source, your don't need a universal sequence of events, you just need universal access to data which can be tracked back to non-repudiable, verifiable sources.
+
+the Alternative, data strongly correlated to its source/originating vantage point. signed cryptographic data origination, on individualized chains, published to a DHT, with shared validation rules.
+
+## The Byzantine Whiteboard
+The story of different Generals coordinating an attack on the city of Byzantium has become such a common framing of the problem of distributed computing, that BFT (Byzantine Fault Tolerance) is the acronym used for difficult, failure tolerant distributed systems. Given ground already covered in networking and cryptography, lets look at this problem in a new way.
+
+Message integrity - hashing
+Message source - signing
+Message reliability - DHT saturation
+
+
 Byzantine Whiteboard - Distributed Shared Memory / Distributed Globally Addressable Space
 Commit / Saturation confirmation
 Modified BFT? Threats to consistency. Message corruption. Counterfeiting. Time failures.
@@ -103,6 +124,8 @@ Saturation failure in a DHT neighborhood
 Lowering processing overhead
 Enabling versioning and forking
 Restoring compliance with validation rules
+
+Composability of Concurrency Systems - STM (Software Transactional Memory)
 
 ## Composing with Holochains
 Referencing Identity in another chain,
@@ -131,6 +154,9 @@ Do we actually need an interplanetary file system or a global computer if we can
 The social problem is actually bigger than the technical problem
 
 Membranes, Agreements and Social Spaces ^^
+
+## Using Other Holochains as Oracles
+a great way to compose
 
 ## Countersigned Chains
 Most data we push around, comes from a particular person or data source, But if we seek to build better social coherence, we also need to cover cases of data which represents an interaction / transaction / mutual agreement. Luckily, this is still rather easy.
@@ -197,13 +223,6 @@ Many of the core challenges of distributed computing follow from root assumption
 
 (Give a concrete example)
 
-## Absolute frame
-It seems the real world doesn't work that way, why should the computing world. General Relativity published 100 years ago. We understand that the sequence and perception of events are relative to the vantage point of the viewer.
-
-## Universal Sequence
-A universal sequence of events for a global  is somewhere between impossible and extremely difficult to implement, but recording a sequence of events from a particular vantage point is rather trivial. Blockchain addresses this sequencing by the having people do busy work which takes a fairly predictable amount of time to produce. But if you don't untether information from it's source, your don't need a universal sequence of events, you just need universal access to data which can be tracked back to non-repudiable, verifiable sources.
-
-the Alternative, data strongly correlated to its source/originating vantage point. signed cryptographic data origination, on individualized chains, published to a DHT, with shared validation rules.
 
 Let's check this...
 If you want to retrieve a chunk of data from this DHT, what assurance do you have of the accuracy and veracity of the data.
