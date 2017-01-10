@@ -18,7 +18,201 @@ tags:
 - Data Engine
 comments: []
 ---
-# Holochains: Holographic data storage for distributed applications
+
+<!-- TOC START min:1 max:3 link:true update:true -->
+- [Holochains: Holographic data storage for distributed computing](#holochains-holographic-data-storage-for-distributed-computing)
+  - [ABSTRACT](#abstract)
+  - [Introduction (Background Situation/Problem and brief mention of Solution)](#introduction-background-situationproblem-and-brief-mention-of-solution)
+  - [Solution: Clearly define scope/model/approach/parameters/limitations](#solution-clearly-define-scopemodelapproachparameterslimitations)
+  - [Small Shift in Assumptions Yield Massive Effect](#small-shift-in-assumptions-yield-massive-effect)
+  - [Audit Points and Rollbacks](#audit-points-and-rollbacks)
+  - [Composing with Holochains](#composing-with-holochains)
+  - [Countersigned Chains](#countersigned-chains)
+    - [Agreements at Human Scale](#agreements-at-human-scale)
+  - [Extending Further](#extending-further)
+  - [Conclusions](#conclusions)
+  - [Footnotes / References](#footnotes--references)
+  - [Additional resources](#additional-resources)
+  - [Appendices](#appendices)
+- [Previous Draft](#previous-draft)
+  - [Holochains: A resilient data layer for distributed social computing.](#holochains-a-resilient-data-layer-for-distributed-social-computing)
+  - [Absolute frame](#absolute-frame)
+  - [Universal Sequence](#universal-sequence)
+  - [Validation](#validation)
+  - [Initial Applications](#initial-applications)
+    - [Distributed PKI](#distributed-pki)
+- [Satoshi format -- Not doing it this way](#satoshi-format----not-doing-it-this-way)
+  - [1. Introduction](#1-introduction)
+  - [2. Transactions/Interactions](#2-transactionsinteractions)
+    - [2.5 Mutual Credit Crytpocurrencies](#25-mutual-credit-crytpocurrencies)
+  - [3. Independent Countersigned Chains](#3-independent-countersigned-chains)
+  - [4. DHT for Publication and Randomized Validation](#4-dht-for-publication-and-randomized-validation)
+  - [5. Network](#5-network)
+  - [6. Incentives](#6-incentives)
+  - [7. Minimal System Requirements](#7-minimal-system-requirements)
+  - [8. Privacy](#8-privacy)
+  - [9. Calculations](#9-calculations)
+  - [10. Conclusions](#10-conclusions)
+  - [References](#references)
+
+<!-- TOC END -->
+
+
+
+# Holochains: Holographic data storage for distributed computing
+
+## ABSTRACT
+
+
+## Introduction (Background Situation/Problem and brief mention of Solution)
+Innovation in components needed for more widespread and effective decentralized computing and coordination. Yet there are fundamental processing bottlenecks in the global consensus needed  for blockchain ledgers, Proof of Work is not scalable and is wasteful of electricity and computing resources. Proof of Stake embodies the same Pareto Effects that skew wealth imbalances in national currencies concentrating power and wealth over time.
+
+Distributed computing capacities have certainly expanded with virtualizion in cloud services and other clusters of computers. Yet generalized, large-scale distributed computing still seems to be out reach. Although Ethereum has made solid headway in reaching some scale, there is much farther to go for ...
+
+Benefit of solving this problem
+Pain points it would alleviate.
+
+## Solution: Clearly define scope/model/approach/parameters/limitations
+
+Detail each part of the solution. Step by Step... take them all the way through
+Include visuals/diagrams throughout.
+
+## Small Shift in Assumptions Yield Massive Effect
+Impossibility proof of distributed computing with one errant process[footnote] to proof of probability 1[footnote]
+
+
+Logical Atomism
+Byzantine Whiteboard
+
+Cutting a Hologram
+
+Holographic: cutting of a hologram. Storage of English language.
+Normal Assumptions of (distributed) computing. Data positivism. Absolute frame/ether.
+Impossibility and Triviality. Many proofs of certain things being impossible, but with a slight change of model become almost trivial
+Composability of Concurrency Systems - STM (Software Transactional Memory)
+Distributed Shared Memory / Distributed Globally Addressable Space
+Consistency Model - Local -> Expanding --> Possible Eventual (sometimes requiring reconciliation)
+Modified BFT? Threats to consistency. Message corruption. Counterfeiting. Time failures.
+Fallacy of absolute perspective on any data anyway
+DHT "backed" by many parallel signed chains for data provenance. Signed chains provide the versioning and accountability for local vantage point
+Sharding into neighborhoods. Unpredictability of hash provides honest/uncoordinated defense with extremely high probability (much higher than 51%)
+Commit / Saturation failure in a DHT neighborhood
+
+## Audit Points and Rollbacks
+Lowering processing overhead
+Enabling versioning and forking
+Restoring compliance with validation rules
+
+## Composing with Holochains
+Referencing Identity in another chain, Distributed PKI in another. Smart contracts on another.
+
+
+Why different chains instead of one universal chain? Because it is super easy to refer to information across chains... Just like we link to web content today.  But computational integrity is much more effective on reasonably scales, and most of our agreements actually operate on reasonable scale. If you keep a holochain focused on the main agreements and interactions within a specific social/group context, these agreements can be modeled and play nice with each other. As soon as you try to put all agreements into one pool, you'll start to find out that people don't agree about as much as you think.
+
+There is certainly a pattern of trying to build one universal platform to meet all needs, but if we step back for a moment, from any desire to build "one ring to rule them all," maybe everyone doesn't need to be in the same system for everything. Especially, when it involves holding each other's information, verifying each other are following agreements, and hopefully and ability to update those agreements as needed.
+
+Do we actually need an interplanetary file system or a global computer if we can reliably link across subsystems? Social agreement happens on human scale and builds upward from the common ground that has been established. Our shared computational systems follow that pattern too. 
+
+ The social problem is actually bigger than the technical problem
+
+Membranes, Agreements and Social Spaces ^^
+
+## Countersigned Chains
+Most data we push around, comes from a particular person or data source, But if we seek to build better social coherence, we also need to cover cases of data which represents an interaction / transaction / mutual agreement. Luckily, this is still rather easy.
+
+### Agreements at Human Scale
+Whether it's between counterparties to a contract, or a financial transaction, or a handful of nodes I would like to be synchronizing my data on (e.g. laptop, phone, desktop, cloud server, and plug computer). We can extend...
+
+One obvious option is to have different chains, and have me accountable for all of them, and share information with myself freely between them. However, if the rules of some group don't allow me multiple accounts/nodes, then for that holochain I have to have ONE definitive source chain.
+
+Synchronizing a source chain between devices
+Queue of transactions "in process", monitors and wait conditions... Worst case we can use semaphores and mutual exclusions.  Treat these nodes as sharing DHT with no hash masking to smaller neighborhoods, Each node gets all content.
+
+
+
+
+
+## Extending Further
+Extension of Holochains with Merkle proofs, Rholang & zk-SNARKs
+
+Protection from re-entrant code by marking chain point as source of execution data
+
+<!--  -->
+
+## Conclusions
+Summarize objectives demonstrated herein
+
+Review the problem statement(s) and that we solved them
+
+Highlight value of solution and its natural extensions.
+
+Strong statement of conclusion and what the solution enables you to go build.
+
+## Footnotes / References
+Blockchain bottlenecks
+Proof of work not scalable
+Pareto Effect and Proof of Stake
+Ethereum's limitations in scale
+FLP Impossibility
+Probabily 1
+
+
+## Additional resources
+
+## Appendices
+
+.
+.
+.
+.
+.
+
+
+
+# Previous Draft
+
+<hr />
+
+## Holochains: A resilient data layer for distributed social computing.
+
+Many are excited about Blockchain as an architecture for decentralized social computing applications, but the starting assumptions built into its design carry forward fundamental inefficiencies and limitations. In this paper we describe a holographic data storage architecture which combines the data integrity assurance of Hash-Chains with the efficiency of Distributed Hash Tables while eliminating consensus bottlenecks typical of Blockchain and typical approaches to distributed computing.
+
+Many of the core challenges of distributed computing follow from root assumptions about the veracity of data existing independent from the source or origin of that data. In other words, we want the data to be "true" from a an absolute perspective, and then we want all the nodes in a distributed computing network to operate from the same truths.
+
+(Give a concrete example)
+
+## Absolute frame
+It seems the real world doesn't work that way, why should the computing world. General Relativity published 100 years ago. We understand that the sequence and perception of events are relative to the vantage point of the viewer.
+
+## Universal Sequence
+A universal sequence of events for a global  is somewhere between impossible and extremely difficult to implement, but recording a sequence of events from a particular vantage point is rather trivial. Blockchain addresses this sequencing by the having people do busy work which takes a fairly predictable amount of time to produce. But if you don't untether information from it's source, your don't need a universal sequence of events, you just need universal access to data which can be tracked back to non-repudiable, verifiable sources.
+
+the Alternative, data strongly correlated to its source/originating vantage point. signed cryptographic data origination, on individualized chains, published to a DHT, with shared validation rules.
+
+Let's check this...
+If you want to retrieve a chunk of data from this DHT, what assurance do you have of the accuracy and veracity of the data.
+
+First, if you have the hash/key... that is virtually impossible to substitute other valid looking data for the data you intended to retrieve. This is true of all reasonably good hashing algorithms and DHTs, not particular to Holochains.
+
+Second, if you use m of n techniques for puts and gets on the DHT, you can guard against malicious or erroneous behavior of individuals. You are also protected from malicious behavior of groups which are a subset of the network by the randomization of which nodes host each data element via hashes as addresses. To reliably skew behavior or data, most of the network would need to be compromised, depending on the size of your neighborhoods and m.
+
+Third, that the node(s) serving you the data has validated the origin of the data on a strong crytpographic data source (hash-chain or Merkle Tree), and validated the signature(s) on that data, and depending on the validation rules, they may have validated the whole chain/tree which precedes the data.
+
+Fourth, for even higher levels of assurance, you could validate the retrieved data against the original signed cryptographic structures yourself, and trace back all the preceding entries in the hash-chain or merkle tree.
+
+## Validation
+The role of validation rules.... forking of reality.
+
+## Initial Applications
+### Distributed PKI
+
+Distributed PKI & Identity Services makes verifying signatures and sources that much better. So that's the first big thing we're building on Holochains.
+
+
+
+
+
+# Satoshi format -- Not doing it this way
 
 ## 1. Introduction
 a few paragraphs framing the context/state of current tech
@@ -67,40 +261,3 @@ Honest nodes won't publish dishonest transactions in the DHT, nor be party to a 
 ## 10. Conclusions
 
 ## References
-
-<hr />
-
-**Original stuff I drafted before restructuring like Satoshi doc.**
-
-<hr />
-
-# Holochains: A resilient data layer for distributed social computing.
-
-Many are excited about Blockchain as an architecture for decentralized social computing applications, but the starting assumptions built into its design carry forward fundamental inefficiencies and limitations. In this paper we describe a holographic data storage architecture which combines the data integrity assurance of Hash-Chains with the efficiency of Distributed Hash Tables while eliminating consensus bottlenecks typical of Blockchain and typical approaches to distributed computing.
-
-Many of the core challenges of distributed computing follow from root assumptions about the veracity of data existing independent from the source or origin of that data. In other words, we want the data to be "true" from a an absolute perspective, and then we want all the nodes in a distributed computing network to operate from the same truths.
-
-(Give a concrete example)
-
-**Absolute frame** It seems the real world doesn't work that way, why should the computing world. General Relativity published 100 years ago. We understand that the sequence and perception of events are relative to the vantage point of the viewer.
-
-A universal sequence of events for a global  is somewhere between impossible and extremely difficult to implement, but recording a sequence of events from a particular vantage point is rather trivial. Blockchain addresses this sequencing by the having people do busy work which takes a fairly predictable amount of time to produce. But if you don't untether information from it's source, your don't need a universal sequence of events, you just need universal access to data which can be tracked back to non-repudiable, verifiable sources.
-
-the Alternative, data strongly correlated to its source/originating vantage point. signed cryptographic data origination, on individualized chains, published to a DHT, with shared validation rules.
-
-Let's check this...
-If you want to retrieve a chunk of data from this DHT, what assurance do you have of the accuracy and veracity of the data.
-
-First, if you have the hash/key... that is virtually impossible to substitute other valid looking data for the data you intended to retrieve. This is true of all reasonably good hashing algorithms and DHTs, not particular to Holochains.
-
-Second, if you use m of n techniques for puts and gets on the DHT, you can guard against malicious or erroneous behavior of individuals. You are also protected from malicious behavior of groups which are a subset of the network by the randomization of which nodes host each data element via hashes as addresses. To reliably skew behavior or data, most of the network would need to be compromised, depending on the size of your neighborhoods and m.
-
-Third, that the node(s) serving you the data has validated the origin of the data on a strong crytpographic data source (hash-chain or Merkle Tree), and validated the signature(s) on that data, and depending on the validation rules, they may have validated the whole chain/tree which precedes the data.
-
-Fourth, for even higher levels of assurance, you could validate the retrieved data against the original signed cryptographic structures yourself, and trace back all the preceding entries in the hash-chain or merkle tree.
-
-
-The role of validation rules.... forking of reality.
-
-
-Distributed PKI & Identity Services makes verifying signatures and sources that much better. So that's the first big thing we're building on Holochains.
