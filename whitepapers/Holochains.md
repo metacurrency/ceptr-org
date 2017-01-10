@@ -27,6 +27,7 @@ comments: []
   - [Small Shift in Assumptions Yield Massive Effect](#small-shift-in-assumptions-yield-massive-effect)
   - [Audit Points and Rollbacks](#audit-points-and-rollbacks)
   - [Composing with Holochains](#composing-with-holochains)
+  - [Scaling of Social Agreement](#scaling-of-social-agreement)
   - [Countersigned Chains](#countersigned-chains)
     - [Agreements at Human Scale](#agreements-at-human-scale)
   - [Extending Further](#extending-further)
@@ -69,6 +70,10 @@ Innovation in components needed for more widespread and effective decentralized 
 
 Distributed computing capacities have certainly expanded with virtualizion in cloud services and other clusters of computers. Yet generalized, large-scale distributed computing still seems to be out reach. Although Ethereum has made solid headway in reaching some scale, there is much farther to go for ...
 
+DHT "backed" by many parallel signed chains for data provenance.
+Signed chains provide non-repudiable versioning and accountability for local vantage point
+Sharding into neighborhoods. Unpredictability of hash provides honest/uncoordinated defense with extremely high probability (much higher than 51%)
+
 Benefit of solving this problem
 Pain points it would alleviate.
 
@@ -78,25 +83,21 @@ Detail each part of the solution. Step by Step... take them all the way through
 Include visuals/diagrams throughout.
 
 ## Small Shift in Assumptions Yield Massive Effect
-Impossibility proof of distributed computing with one errant process[footnote] to proof of probability 1[footnote]
+Impossibility proof of distributed computing with one errant process[footnote] to proof of probability 1.[footnote] Impossibility and Triviality. Many proofs of certain things being impossible[footnote], but with a slight change of model become almost trivial.
 
-
+Normal Assumptions of (distributed) computing. Data positivism/objectivity. Absolute frame/ether.
 Logical Atomism
-Byzantine Whiteboard
 
-Cutting a Hologram
-
-Holographic: cutting of a hologram. Storage of English language.
-Normal Assumptions of (distributed) computing. Data positivism. Absolute frame/ether.
-Impossibility and Triviality. Many proofs of certain things being impossible, but with a slight change of model become almost trivial
-Composability of Concurrency Systems - STM (Software Transactional Memory)
-Distributed Shared Memory / Distributed Globally Addressable Space
-Consistency Model - Local -> Expanding --> Possible Eventual (sometimes requiring reconciliation)
-Modified BFT? Threats to consistency. Message corruption. Counterfeiting. Time failures.
 Fallacy of absolute perspective on any data anyway
-DHT "backed" by many parallel signed chains for data provenance. Signed chains provide the versioning and accountability for local vantage point
-Sharding into neighborhoods. Unpredictability of hash provides honest/uncoordinated defense with extremely high probability (much higher than 51%)
-Commit / Saturation failure in a DHT neighborhood
+
+Consistency Model - Local -> Expanding --> Possible Eventual (sometimes requiring reconciliation)
+
+Composability of Concurrency Systems - STM (Software Transactional Memory)
+Byzantine Whiteboard - Distributed Shared Memory / Distributed Globally Addressable Space
+Commit / Saturation confirmation
+Modified BFT? Threats to consistency. Message corruption. Counterfeiting. Time failures.
+
+Saturation failure in a DHT neighborhood
 
 ## Audit Points and Rollbacks
 Lowering processing overhead
@@ -104,16 +105,30 @@ Enabling versioning and forking
 Restoring compliance with validation rules
 
 ## Composing with Holochains
-Referencing Identity in another chain, Distributed PKI in another. Smart contracts on another.
+Referencing Identity in another chain,
+Distributed PKI in another.
+Smart contracts on another.
 
+Why different chains instead of one universal chain? Because it is easy to refer to information across chains, just like we link to other web content today.  However, universal social agreement is virtually impossible. Computational integrity of the holochain approach relies on agreement about not just something is calculated (we all know how to add and subtract numbers on an account balance), but how strenuously we need to enforce validation and verification constraints for data integrity and resilience.
 
-Why different chains instead of one universal chain? Because it is super easy to refer to information across chains... Just like we link to web content today.  But computational integrity is much more effective on reasonably scales, and most of our agreements actually operate on reasonable scale. If you keep a holochain focused on the main agreements and interactions within a specific social/group context, these agreements can be modeled and play nice with each other. As soon as you try to put all agreements into one pool, you'll start to find out that people don't agree about as much as you think.
+The more strenuous the constraints, the more "expensive" the computing and bandwidth is for each node. Thinking that there is ONE optimal configuration to balance the data integrity needs with the data integrity costs is simply naive.
+
+Now add the complexity of the additional layer of the ability to evolve the social agreements. Technologically speaking, Holochains can support versioning of their data schema, validation rules, DHT resiliency, and neighborhood structures. Socially and politically, navigating changing agreements can be much more complex. How many people protest every time Facebook makes a change to the UI.
+
+For holochains that are doing distributed hosting of blog posts, or of weather data reported from tiny rooftop weather stations, validation may just be confirmation of the sender's signature and the presence of the post on their chain. A system managing land titles or digital stock certificates, should have much stronger verification constraints which may require validating signatures of counterparties, maybe auditing the chains of multiple parties back to genesis, and having DHT nodes publish verifiable program execution receipts.[footnote]
+
+Still other holochains may want to publish mixtures of public/private data where the validation process performs a merkle proof[footnote] on the bit of public data that is published to the DHT to confirm it is signed into a chain, yet not have to expose the entire contents of the posts on the chain.
+
+Bitcoin blockchain is not just 100% visible, but every full node needs to have the full chain and validate every transaction, and a holochain could operate at this level of verification constraint. However, for most cases randomized validation by sharding the network with hashing algorithms are adequate and reduce the costs of node maintenance by many orders of magnitude. Not to mention eliminating the need for either Proof of Work or Proof of stake
+
+## Scaling of Social Agreement
+Social agreement is much more effectively managed on reasonably scales, and most of our agreements actually operate on reasonable scale. If you keep a holochain focused on the main agreements and interactions within a specific social/group context, these agreements can be modeled and play nice with each other. As soon as you try to put all agreements into one pool, you'll start to find out that people don't agree about as much as you think.
 
 There is certainly a pattern of trying to build one universal platform to meet all needs, but if we step back for a moment, from any desire to build "one ring to rule them all," maybe everyone doesn't need to be in the same system for everything. Especially, when it involves holding each other's information, verifying each other are following agreements, and hopefully and ability to update those agreements as needed.
 
-Do we actually need an interplanetary file system or a global computer if we can reliably link across subsystems? Social agreement happens on human scale and builds upward from the common ground that has been established. Our shared computational systems follow that pattern too. 
+Do we actually need an interplanetary file system or a global computer if we can reliably link across subsystems? Social agreement happens on human scale and builds upward from the common ground that has been established. Our shared computational systems follow that pattern too.
 
- The social problem is actually bigger than the technical problem
+The social problem is actually bigger than the technical problem
 
 Membranes, Agreements and Social Spaces ^^
 
@@ -127,8 +142,6 @@ One obvious option is to have different chains, and have me accountable for all 
 
 Synchronizing a source chain between devices
 Queue of transactions "in process", monitors and wait conditions... Worst case we can use semaphores and mutual exclusions.  Treat these nodes as sharing DHT with no hash masking to smaller neighborhoods, Each node gets all content.
-
-
 
 
 
@@ -146,6 +159,8 @@ Review the problem statement(s) and that we solved them
 
 Highlight value of solution and its natural extensions.
 
+Holographic: cutting of a hologram. Storage of English language.
+
 Strong statement of conclusion and what the solution enables you to go build.
 
 ## Footnotes / References
@@ -155,6 +170,7 @@ Pareto Effect and Proof of Stake
 Ethereum's limitations in scale
 FLP Impossibility
 Probabily 1
+Hundred impossibility proofs
 
 
 ## Additional resources
