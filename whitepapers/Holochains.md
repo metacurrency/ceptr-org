@@ -22,22 +22,26 @@ comments: []
 <!-- TOC START min:1 max:3 link:true update:true -->
 - [Holochains: Holographic data storage for distributed computing](#holochains-holographic-data-storage-for-distributed-computing)
   - [ABSTRACT](#abstract)
-  - [Introduction (Background Situation/Problem and brief mention of Solution)](#introduction-background-situationproblem-and-brief-mention-of-solution)
+- [Introduction (Background Situation/Problem and brief mention of Solution)](#introduction-background-situationproblem-and-brief-mention-of-solution)
   - [Solution: Clearly define scope / model / approach / parameters / limitations](#solution-clearly-define-scope--model--approach--parameters--limitations)
   - [Small Shift in Assumptions Yield Massive Effect](#small-shift-in-assumptions-yield-massive-effect)
-    - [Logical Atomism](#logical-atomism)
     - [Absolute frame](#absolute-frame)
-    - [Universal time and Sequence](#universal-time-and-sequence)
+    - [Logical Atomism](#logical-atomism)
+    - [Universal Time and Sequence](#universal-time-and-sequence)
+  - [CALM & Logical Monotonicity](#calm--logical-monotonicity)
   - [The Byzantine Whiteboard](#the-byzantine-whiteboard)
+  - [Accountability vs. Anonymity](#accountability-vs-anonymity)
   - [Audit Points and Rollbacks](#audit-points-and-rollbacks)
   - [Composing with Holochains](#composing-with-holochains)
   - [Scaling of Social Agreement](#scaling-of-social-agreement)
+  - [Different Groups Using the Same Agreements](#different-groups-using-the-same-agreements)
   - [Using Other Holochains as Oracles](#using-other-holochains-as-oracles)
-  - [Countersigned Chains](#countersigned-chains)
     - [Agreements at Human Scale](#agreements-at-human-scale)
+  - [Countersigned Chains](#countersigned-chains)
+  - [Reduction from Byzantine](#reduction-from-byzantine)
   - [Extending Further](#extending-further)
   - [Conclusions](#conclusions)
-  - [Footnotes / References](#footnotes--references)
+  - [ENDNOTES / REFERENCES](#endnotes--references)
   - [Additional resources](#additional-resources)
   - [Appendices](#appendices)
 - [Previous Draft](#previous-draft)
@@ -68,10 +72,36 @@ comments: []
 ## ABSTRACT
 
 
-## Introduction (Background Situation/Problem and brief mention of Solution)
-Innovation in components needed for more widespread and effective decentralized computing and coordination. Yet there are fundamental processing bottlenecks in the global consensus needed  for blockchain ledgers, Proof of Work is not scalable and is wasteful of electricity and computing resources. Proof of Stake embodies the same Pareto Effects that skew wealth imbalances in national currencies concentrating power and wealth over time.
+# Introduction (Background Situation/Problem and brief mention of Solution)
+The pervasive presence of networks provides a substrate rapidly enabling forms of computers and computing
+An increasing amount of computing is done from lightweight devices like smartphones and Chromebooks which expect to keep much of their data "in the cloud."
+So far this has largely kept to old assumption of centralized ownership and control by means parking your data with a centralized provider like Google, or X, or Y.
+However, with the advent of Bitcoin, a new ecosystem of decentralized cryptographic computing has rapidly emerged transforming data and computing such that it can be "held" by the network itself, without centralized authority.
 
-Distributed computing capacities have certainly expanded with virtualizion in cloud services and other clusters of computers. Yet generalized, large-scale distributed computing still seems to be out reach. Although Ethereum has made solid headway in reaching some scale, there is much farther to go for ...
+Monolithic
+Distributed computing
+Holochains model identity, autonomy, data integrity, consensus, byzantine fault tolerance as closely as possible to what we observe in the real world (outside of computers)
+Optimized for autonomy, ecosystem diversity, evolution, niche functions
+Rules for engagement (encoded validators of agreements) are constructed and operate at scales that correspond with real world social agreeement
+
+We seek to build distributed computing that is flexible and effiecient enough for distributed applications to outperform centralized ones
+Exciting growth, collaboration, interoperability in the blockchain community and ecosystem - bitcoin, Ethereum, Tendermint, ErisDB, IPFS, etc.
+But the blockchain ecosystem has largely been built on some starting assumptions which may have made sense for creating digital anonymous cash, but can be crippling for scalability and creating social coherence.
+
+Some dicey assumptions behind (distributed) computing and blockchain
+Data objectivity - Treating information as if it is exists. Like a physical object sitting there. Like it has an "is-ness" rather than that it is simply informaiton from a particular vantage point
+Absolute Frame - As if there IS a correct truth about data and/or time sequence, and consensus should converge on this truth
+Blockchain's don't record a universal ordering of events -- they manufacture a single authoritative ordering of events, by stringing together local vantage points into a global record that has passed validation rules. Loss of resolution. Computing global consensus on interactions which could be structured to only require local consensus.
+Using this approach to build shared data which has reliable data integrity and provenance,
+
+
+
+Distributed computing has been advancing rapidly with innovation and collaboration around the blockchain ecosystem.
+
+Amidst the components of
+Rapid innovation and widespread collaboration is happening in components needed for more widespread and effective decentralized computing and coordination. Yet there are fundamental processing bottlenecks in the global consensus needed  for blockchain ledgers, Proof of Work is not scalable and is wasteful of electricity and computing resources. Proof of Stake embodies the same Pareto Effects that skew wealth imbalances in national currencies concentrating power and wealth over time.
+
+Distributed computing capacities have certainly expanded with virtualization in cloud services and other clusters of computers. Yet generalized, large-scale distributed computing still seems to be out reach. Although Ethereum has made solid headway in reaching some scale, there is much farther to go for ...
 
 DHT "backed" by many parallel signed chains for data provenance.
 Signed chains provide non-repudiable versioning and accountability for local vantage point
@@ -81,30 +111,37 @@ Two logically monotonic subsystems bound by shared validation rules. Divergence 
 
 Lets break the problem into two practical cases. 1) Weak - distributed computing: enabling autonomous computation by HUMAN agents, and 2) Strong - enforcing identical computation by programs.
 
-Benefit of solving this problem
-Pain points it would alleviate.
+*Benefit of solving this problem*
+*Pain points it would alleviate.*
 
 ## Solution: Clearly define scope / model / approach / parameters / limitations
+*Detail each part of the solution. Step by Step... take them all the way throug.  Include visuals/diagrams throughout.*
 
-Detail each part of the solution. Step by Step... take them all the way through
-Include visuals/diagrams throughout.
 
 ## Small Shift in Assumptions Yield Massive Effect
 Impossibility proof of distributed computing with one errant process[footnote] to proof of probability 1.[footnote] Impossibility and Triviality. Many proofs of certain things being impossible[footnote], but with a slight change of model become almost trivial.
-
+Breaking down the problem of multi-agent distributed computing in a slightly different way, enables solutions that don't have the same kinds of bottlenecks.
 Normal Assumptions of (distributed) computing. Data positivism/objectivity. Absolute frame/ether.
-### Logical Atomism
 
-Fallacy of absolute perspective on any data anyway
-
-Consistency Model - Local -> Expanding --> Possible Eventual (sometimes requiring reconciliation)
 ### Absolute frame
 It seems the real world doesn't work that way, why should the computing world. General Relativity published 100 years ago. We understand that the sequence and perception of events are relative to the vantage point of the viewer.
 
-### Universal time and Sequence
+### Logical Atomism
+Fallacy of absolute perspective on any data anyway
+Consistency Model - Local -> Expanding --> Possible Eventual (sometimes requiring reconciliation)
+
+### Universal Time and Sequence
 A universal sequence of events for a global  is somewhere between impossible and extremely difficult to implement, but recording a sequence of events from a particular vantage point is rather trivial. Blockchain addresses this sequencing by the having people do busy work which takes a fairly predictable amount of time to produce. But if you don't untether information from it's source, your don't need a universal sequence of events, you just need universal access to data which can be tracked back to non-repudiable, verifiable sources.
 
 the Alternative, data strongly correlated to its source/originating vantage point. signed cryptographic data origination, on individualized chains, published to a DHT, with shared validation rules.
+
+## CALM & Logical Monotonicity
+Hashchains are obviously monotonic. You can only add new data which keeps old data linked in as history. How do we enforce this and keep someone from editing their chain? If they've been offline and haven't sent any updates to the network, we can't really stop them from altering their chain. But as far as the rest of the network is concerned, they haven't changed anything because it never had any external effect. How should I know if you changed your mind about what to say before saying it? Why should I know? It only matters if you've said it, and someone now acts on that information that you shared.
+
+So if a node has published information, the DHT (also being monotic) now has a record of you saying it. If you alter your chain, as information propagates in the DHT, that data will fail validation tests by not showing up in your chain. Depending on the agreements in a community, that behavior could get you blacklisted as a compromised node.
+
+The DHT data model is also monotonic. You can send put requests (which validates the data BEFORE adding it to the published )
+
 
 ## The Byzantine Whiteboard
 The story of different Generals coordinating an attack on the city of Byzantium has become such a common framing of the problem of distributed computing, that BFT (Byzantine Fault Tolerance) is the acronym used for difficult, failure tolerant distributed systems. Given ground already covered in networking and cryptography, lets look at this problem in a new way.
@@ -120,6 +157,12 @@ Modified BFT? Threats to consistency. Message corruption. Counterfeiting. Time f
 
 Saturation failure in a DHT neighborhood
 
+## Accountability vs. Anonymity
+Holochains are optimized for accountability. Anything published to the DHT is published from a source chain that is now permanently accountable for that action.
+
+Continuity of source chain identity ... Not optimized for anonymity (which doesn't me)
+
+
 ## Audit Points and Rollbacks
 Lowering processing overhead
 Enabling versioning and forking
@@ -134,7 +177,7 @@ Smart contracts on another.
 
 Why different chains instead of one universal chain? Because it is easy to refer to information across chains, just like we link to other web content today.  However, universal social agreement is virtually impossible. Computational integrity of the holochain approach relies on agreement about not just something is calculated (we all know how to add and subtract numbers on an account balance), but how strenuously we need to enforce validation and verification constraints for data integrity and resilience.
 
-The more strenuous the constraints, the more "expensive" the computing and bandwidth is for each node. Thinking that there is ONE optimal configuration to balance the data integrity needs with the data integrity costs is simply naive.
+The more strenuous the constraints, the more "expensive" the computing and bandwidth is for each node. Thinking that there is ONE optimal configuration to balance the data integrity needs with the data integrity costs is simply naive. You might want to run a group scheduling holochain on your cell phone but not host a distributed Wikipedia for the world on your phone.
 
 Now add the complexity of the additional layer of the ability to evolve the social agreements. Technologically speaking, Holochains can support versioning of their data schema, validation rules, DHT resiliency, and neighborhood structures. Socially and politically, navigating changing agreements can be much more complex. How many people protest every time Facebook makes a change to the UI.
 
@@ -155,20 +198,28 @@ The social problem is actually bigger than the technical problem
 
 Membranes, Agreements and Social Spaces ^^
 
+## Different Groups Using the Same Agreements
+Each holochain is a distinct DHT with its own address space.
+
 ## Using Other Holochains as Oracles
 a great way to compose
-
-## Countersigned Chains
-Most data we push around, comes from a particular person or data source, But if we seek to build better social coherence, we also need to cover cases of data which represents an interaction / transaction / mutual agreement. Luckily, this is still rather easy.
 
 ### Agreements at Human Scale
 Whether it's between counterparties to a contract, or a financial transaction, or a handful of nodes I would like to be synchronizing my data on (e.g. laptop, phone, desktop, cloud server, and plug computer). We can extend...
 
+
+## Countersigned Chains
+Most data we push around, comes from a particular person or data source, But if we seek to build better social coherence, we also need to cover cases of data which represents an interaction / transaction / mutual agreement. Luckily, this is still rather easy.
+
+## Reduction from Byzantine
+Once the problem is broken down to appropriate social scale for a holochain, and a transaction only needs to be countersigned between participating parties (including the possibility of notaries, witnesses, or auditors), and you have a reliable decentralized data store, you can design your application to require very few synchronous interactions.
+What if I want to be able to participate in a single holochain from multiple devices?  
 One obvious option is to have different chains, and have me accountable for all of them, and share information with myself freely between them. However, if the rules of some group don't allow me multiple accounts/nodes, then for that holochain I have to have ONE definitive source chain.
+Then I need to synchronize a source chain between devices, so that my identity in that group only has one chain as MY record of actions with that group.
+One solution would be to wrte my local chain to a fault tolerant KVstore like: TiKV, Zookeper, etcd, consul, or such, and have my chain be synchronizing between devices that way.
+Or I could use composibility of holochains. I could create my own holochain for synchronization in a standard quorum manner (requiring majority saturation between devices for an action to be considered finalized). This chain would function as an oracle for an application listening for the commits to make in the my chain for the group that only lets me have one.
 
-Synchronizing a source chain between devices
 Queue of transactions "in process", monitors and wait conditions... Worst case we can use semaphores and mutual exclusions.  Treat these nodes as sharing DHT with no hash masking to smaller neighborhoods, Each node gets all content.
-
 
 
 ## Extending Further
@@ -189,14 +240,21 @@ Holographic: cutting of a hologram. Storage of English language.
 
 Strong statement of conclusion and what the solution enables you to go build.
 
-## Footnotes / References
-Blockchain bottlenecks
-Proof of work not scalable
-Pareto Effect and Proof of Stake
-Ethereum's limitations in scale
-FLP Impossibility
-Probabily 1
-Hundred impossibility proofs
+
+Protection from re-entrant code by marking chain point as source of execution data
+
+
+## ENDNOTES / REFERENCES
+
+chain of blocks with busywork for 10 minute delay and randomized commit of next block
+Structure of Ethereum Blocks
+generalized blockchain optimized for "smart contract" execution
+Solidity for turing complete contract execution
+Mention of "Account" based chain instead of box/token based
+
+Showing why distributing computing is impossible (in the ways most think of it)
+
+Secure node identifier assignment in a P2P DHT (threat to our triangulation approach?)
 
 
 ## Additional resources
