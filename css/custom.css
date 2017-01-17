@@ -34,3 +34,21 @@ body.whitepaper h1 {
   font-weight: bold;
   color: 111;
 }
+
+.blog-video {
+  float:left;
+  margin-right:20px;
+}
+
+.blog-pic-right {
+  float:right;
+  margin-left:20px;
+  margin-bottom:20px;
+}
+.blog-list .wrapper section.container {
+  overflow:hidden;
+}
+
+section.post-content {
+  overflow:hidden;
+}

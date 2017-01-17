@@ -17,7 +17,6 @@ tags: []
 comments: []
 ---
 <p>This is the first in a <a href="/categories#Dev">series of posts</a> I want to write about both building Ceptr and coding in Ceptr.  In many of them I jump right into the middle of deep tech, so hold on to your horses, and enjoy!</p>
-
 <p>I want to start out with a few key points of what Ceptr might look like to you from a programmer's perspective:</p>
 <ol>
 <li>In Ceptr you should not think of yourself as programming a computer, but rather <strong>a network of simple computers some of which are embedded inside each-other</strong>. We call these simple computers receptors.</li>
@@ -26,7 +25,8 @@ comments: []
 <li>Ceptr uses an expanded version of Regular Expressions for pattern matching, that we call SemTrex (<strong>SEMantic Tree Regular Expressions</strong>).  Regular Expressions are designed to scan a linear sequence of characters, but SemTrex expressions operate on trees and can match on semantics as well as value.</li>
 <li>Ceptr provides a native signaling system for you to send messages between these receptors.  Much of Ceptr programming is about <strong>expectations which trigger code</strong> when signals arrive, based both on explicit pattern matching on the content of the arriving signal (using SemTrex), and based on the entry path of the signal (kind of like known port numbers in TCP/IP). Thus, the Ceptr "instruction set" includes support for rich inter-receptor communication, including single message sending, request-response patterns, and persistent connection based "conversations," and most importantly patterns for defining multi-receptor protocols.</li>
 <li>These protocols can be defined as abstractions, kind of like template classes.  Thus, lots of Ceptr programming involves thinking about what agents are doing in a given protocol, and what the interactions of that protocol are, and finally <strong>building more complicated protocols out of simpler ones</strong>.</li><br />
-</ol><br />
+</ol>
+
 I know this is all abstract.  In future posts I'll get into the nitty gritty with actual code examples.  Here's a list of some the topics I hope to cover in more depth:</p>
 <ul>
 <li><strong>Semantic trees,</strong> semantic alternation and, especially, what it feels like to code when you can't use data without thinking about what's the semantic use of that data</li>

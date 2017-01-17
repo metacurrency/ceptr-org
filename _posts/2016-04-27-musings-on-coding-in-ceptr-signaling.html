@@ -17,7 +17,6 @@ tags: []
 comments: []
 ---
 <div class="dev-callout">This is #2 in a series of <a href="/categories#Dev">dev posts</a>, which just jump right into deep end of the techie pool.</div>At the core of Ceptr you will find agent-like receptors which send each-other messages.  We've provided a simple yet sufficient instruction set for rich message programming, taking into account both synchronous and asynchronous programming needs.</p>
-
 <p>The overall signaling model looks like this: <img class="alignright" src="/images/signal_aspect_receptor.png" alt="Signal_Aspect_Receptor" width="300" height="157" />
   <img class="alignright" src="/images/membrane_processing.png" alt="Membrane_Processing" width="300" height="218" /></p>
 <ol>
@@ -28,6 +27,7 @@ comments: []
 <li >by being matched against expectations associated with the aspect/carrier/conversation</li>
 <li >each of which trigger an action which either sends more signals or transforms the receptor's state</li>
 </ol>
+
 <b>Requests:</b>  Some signals are requests, which, when received create a stateful condition of expecting a response to the requesting signal identifier.  Additionally requests have end conditions, i.e. timeouts, response counts (there can be more than one), etc..</p>
 <p><b>Listening:</b> The LISTEN instruction allows you to add expectations (with their patterns and actions) on the flux (the receptor's membrane).</p>
 <p><b>Conversations:</b> Some signals are identified as being part of a conversation.  Conversations are created with the CONVERSE scoping instruction.  You can think of this instruction kind of like the "block" or "scope" construct that exists in most programming languages which creates a lexical scope for variables.  CONVERSE creates a scope for sending and listening to signals.  CONVERSE instructions can be nested, such that the system recognizes one conversation as a sub-part of another.  The system also allows having multiple SAY/REQUEST instructions inside of a conversation to different destinations.  This provides underlying support for various multi-party protocols.</p>

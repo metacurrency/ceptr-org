@@ -18,7 +18,9 @@ comments: []
 ---
 <div class="dev-callout">This is #4 in a series of <a href="/categories#Dev">dev posts</a>.</div><br />
 This past month I've made little coding progress. I'm still sorting through some Semtrex bugs in the few time windows I've had. So this month I want to share a higher level pattern and perhaps a bit more philosophical view on Ceptr coding.</p>
-<p>As we've been developing Ceptr, we've recognized two different approaches to solving programming problems. The first is what we might call the linear or algorithmic approach, and the second we might think of as a simultaneous or pattern matching approach.  </p>
+<p>As we've been developing Ceptr, we've recognized two different approaches to solving programming problems. The first is what we might call the linear or algorithmic approach, and the second we might think of as a simultaneous or pattern matching approach.
+</p>
+
 <p>Most coders are very familiar with the first approach because most programs are built that way--constructing a sequence of instructions to solve a given problem.  However, you might also be familiar with the pattern matching approach if you've coded in a 4th gen language like Prolog or Mathematica. In this scenario, a program is built out of a set of expectations that match against incoming signals or data which trigger actions that send more signals which trigger other actions and so on.  </p>
 <p>If you've coded in any event driven environment, (which you have if you do pretty much any web coding in JavaScript) you are actually relying on the pattern matching approach. It's just more hidden from view because the pattern matching gets translated to an event to which your code is attached as a handler.  So you can just attach your actions to events like onClick, onMouseOver, etc.</p>
 <p>Ceptr embodies both these approaches in an interesting dialectic.  Pattern matching happens in Ceptr at two very distinct loci: in the <b>membranes</b>, and in the <b>scapes</b>.  <br />
