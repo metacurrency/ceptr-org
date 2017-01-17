@@ -1,24 +1,27 @@
 ---
-layout: page
+layout: default
 permalink: /categories/
 title: Categories
 ---
 
-
-<div id="archives">
+<section id="banner">
+    <div class="inner">
+        <h2>Categories</h2>
+    </div>
+</section>
+<section id="main" class="wrapper style1">
 {% for category in site.categories %}
-  <div class="archive-group">
+  <div class="wrapper">
     {% capture category_name %}{{ category | first }}{% endcapture %}
     <div id="#{{ category_name | slugize }}"></div>
-    <p></p>
 
-    <h3 class="category-head">{{ category_name }}</h3>
+    <header class="major"><h2>{{ category_name }}</h2></header>
     <a name="{{ category_name | slugize }}"></a>
     {% for post in site.categories[category_name] %}
-    <article class="archive-item">
+    <section class="container">
       <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
-    </article>
+    </section>
     {% endfor %}
   </div>
 {% endfor %}
-</div>
+</section>
