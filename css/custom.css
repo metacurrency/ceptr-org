@@ -6,18 +6,28 @@ div.dev-callout {
     padding: 12px;
     font-size: 83%;
 }
-
 .aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
-
 .alignright {
     float: right;
 }
 img.alignright {
     margin: 7px 0 7px 24px;
+}
+
+/* Home Page Header */
+section#banner p {
+  text-shadow: 3px 2px #CCC;
+  font-size: 250%;
+  line-height: 1.5;
+  color: #2E3736;
+  font-weight: bold;
+}
+section#one .box a {
+  text-decoration: none;
 }
 
 /* WHITEPAPER STYLES */
@@ -35,11 +45,11 @@ body.whitepaper h1 {
   color: 111;
 }
 
+/* Blog Styles */
 .blog-video {
   float:left;
   margin-right:20px;
 }
-
 .blog-pic-right {
   float:right;
   margin-left:20px;
@@ -48,7 +58,6 @@ body.whitepaper h1 {
 .blog-list .wrapper section.container {
   overflow:hidden;
 }
-
 section.post-content {
   overflow:hidden;
 }
