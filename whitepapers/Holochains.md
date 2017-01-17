@@ -22,7 +22,7 @@ comments: []
 <!-- TOC START min:1 max:3 link:true update:true -->
 - [Holochains: Holographic data storage for distributed computing](#holochains-holographic-data-storage-for-distributed-computing)
   - [ABSTRACT](#abstract)
-- [Introduction (Background Situation/Problem and brief mention of Solution)](#introduction-background-situationproblem-and-brief-mention-of-solution)
+- [Introduction (Background Situation/Problem and hint of Solution)](#introduction-background-situationproblem-and-hint-of-solution)
   - [Solution: Clearly define scope / model / approach / parameters / limitations](#solution-clearly-define-scope--model--approach--parameters--limitations)
   - [Small Shift in Assumptions Yield Massive Effect](#small-shift-in-assumptions-yield-massive-effect)
     - [Absolute frame](#absolute-frame)
@@ -72,7 +72,7 @@ comments: []
 ## ABSTRACT
 
 
-# Introduction (Background Situation/Problem and brief mention of Solution)
+# Introduction (Background Situation/Problem and hint of Solution)
 The pervasive presence of networks provides a substrate rapidly enabling forms of computers and computing
 An increasing amount of computing is done from lightweight devices like smartphones and Chromebooks which expect to keep much of their data "in the cloud."
 So far this has largely kept to old assumption of centralized ownership and control by means parking your data with a centralized provider like Google, or X, or Y.
