@@ -31,3 +31,10 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+collections:
+  posts:
+    output: true
+    permalink: /blog/:path
+  whitepapers:
+    output: true
+    permalink: /whitepapers/:slug

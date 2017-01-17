@@ -3,6 +3,7 @@ layout: whitepaper
 status: publish
 published: true
 title: Holochains
+slug: holochain
 author: Arthur Brock // artbrock.com
 author_login: artbrock
 author_email: artbrock@geekgene.com
@@ -213,7 +214,7 @@ Most data we push around, comes from a particular person or data source, But if 
 
 ## Reduction from Byzantine
 Once the problem is broken down to appropriate social scale for a holochain, and a transaction only needs to be countersigned between participating parties (including the possibility of notaries, witnesses, or auditors), and you have a reliable decentralized data store, you can design your application to require very few synchronous interactions.
-What if I want to be able to participate in a single holochain from multiple devices?  
+What if I want to be able to participate in a single holochain from multiple devices?
 One obvious option is to have different chains, and have me accountable for all of them, and share information with myself freely between them. However, if the rules of some group don't allow me multiple accounts/nodes, then for that holochain I have to have ONE definitive source chain.
 Then I need to synchronize a source chain between devices, so that my identity in that group only has one chain as MY record of actions with that group.
 One solution would be to wrte my local chain to a fault tolerant KVstore like: TiKV, Zookeper, etcd, consul, or such, and have my chain be synchronizing between devices that way.

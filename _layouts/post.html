@@ -5,7 +5,7 @@ layout: default
     <article class="container">
         <header class="major">
             <h2 class="post-title">{{ page.title }}</h2>
-            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
+            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • <a href="{{page.author_url}}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
             {% if 1 %}
             <div class="post-categories">
   {% if post %}

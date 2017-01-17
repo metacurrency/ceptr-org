@@ -9,9 +9,9 @@ author_email: eric@harris-braun.com
 author_url: http://eric.harris-braun.com
 date: '2017-01-17 03:29:38 -0400'
 date_gmt: '2017-01-17 03:29:38 -0400'
-categories:
-- Dev
-tags: []
+categories: []
+tags:
+- dev
 comments: []
 ---
 There’s been quite a bit of movement in Ceptr development over the  last few weeks, so I wanted to just give brief overview of what’s going on.  The big news is that we’ve broken the Ceptr development effort into some smaller sub-projects that are each independently valuable .  Not only does this make the effort more manageable, but, we hope, will increase surface area for participation.

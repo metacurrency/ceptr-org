@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /tags/
+title: Tags
+---
+
+<section id="banner">
+    <div class="inner">
+        <h2>Tags</h2>
+    </div>
+</section>
+<section id="main" class="wrapper style1">
+{% assign sorted_tags = site.tags | sort %}
+{% for tag in sorted_tags %}
+  <div class="wrapper">
+    {% capture tag_name %}{{ tag | first }}{% endcapture %}
+    <div id="#{{ tag_name | slugize }}"></div>
+
+    <header class="major"><h2>{{ tag_name }}</h2></header>
+    <a name="{{ tag_name | slugize }}"></a>
+    {% for post in site.tags[tag_name] %}
+    <section class="container">
+      <h4><a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a></h4>
+    </section>
+    {% endfor %}
+  </div>
+{% endfor %}
+</section>
