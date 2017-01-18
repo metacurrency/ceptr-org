@@ -20,14 +20,13 @@ img.alignright {
 
 /* Home Page Header */
 section#banner p {
-  text-shadow: 3px 2px #CCC;
+  text-shadow: 2px 2px #CCC;
   font-size: 250%;
   line-height: 1.5;
-  color: #2E3736;
-  font-weight: bold;
+  color: #555;
 }
 section#one .box {
-  height: 445px;
+  min-height: 445px;
 }
 section#one .box a {
   text-decoration: none;
