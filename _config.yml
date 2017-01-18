@@ -39,3 +39,5 @@ collections:
   whitepapers:
     output: true
     permalink: /whitepapers/:slug
+  redirects:
+    output: true
