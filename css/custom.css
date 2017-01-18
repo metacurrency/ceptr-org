@@ -26,6 +26,9 @@ section#banner p {
   color: #2E3736;
   font-weight: bold;
 }
+section#one .box {
+  height: 445px;
+}
 section#one .box a {
   text-decoration: none;
 }
