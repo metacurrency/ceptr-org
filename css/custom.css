@@ -26,7 +26,6 @@ section#banner p {
   color: #555;
 }
 section#one .box {
-  min-height: 445px;
 }
 section#one .box a {
   text-decoration: none;
