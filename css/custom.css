@@ -30,6 +30,18 @@ section#one .box {
 section#one .box a {
   text-decoration: none;
 }
+/* General Color Theme shift from light blues toward dark green */
+a {color: #4B6F34
+}
+.icon.major {
+  background-color: #4B6F34 !important;
+}
+input[type="submit"].special,
+input[type="reset"].special,
+input[type="button"].special,
+.button.special {
+  background-color: #4B6F34 !important;
+}
 
 /* WHITEPAPER STYLES */
 body.whitepaper div.authors {
