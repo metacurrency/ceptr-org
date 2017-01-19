@@ -47,3 +47,6 @@
 <script src="{{ site.baseurl }}/js/skel.min.js"></script>
 <script src="{{ site.baseurl }}/js/skel-layers.min.js"></script>
 <script src="{{ site.baseurl }}/js/init.js"></script>
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
