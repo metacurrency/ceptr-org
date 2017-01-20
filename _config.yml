@@ -20,6 +20,7 @@ description: > # this means to ignore newlines until "baseurl:"
   distributed data integrity on HoloChains, and truly distributed application hosting
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://ceptr.metacurrency.org" # the base hostname & protocol for your site
+contact_url: "https://gitter.im/metacurrency/holochain"
 twitter_username: metacurrency
 github_username:  metacurrency
 
