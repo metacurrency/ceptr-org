@@ -6,29 +6,15 @@ nav .container-fluid {
 .std-page {
   color: #fff;
   background-image: url(/images/banner.jpg);
-  background-position: center;
 }
 
-/* Home Page Header text-shadow: 2px 2px #CCC;
-
-
-.fisshy {
-    background: rgba(76, 76, 76, .3);
-    display: inline-block;
-    padding: .2em .3em;
-    border-radius: 12px;
-}*/
-
+/* Home Page Header */
 header .header-content .header-content-inner p.header-text {
+  text-shadow: 2px 2px #CCC;
   font-size: 250%;
   line-height: 1.5;
-  font-weight: bold;
-  background: rgba(220, 220, 220, .3);
-  color: #222;
-  padding: .5em 0;
-  border-radius: 22px;
+  color: #555;
 }
-
 
 /* WHITEPAPER STYLES */
 .whitepaper div.authors {
@@ -56,11 +42,10 @@ section#blog .aligncenter {
   margin-right: auto;
 }
 section#blog h2.section-heading {
-  padding-bottom: 1.5em;
+  margin: 1.5em 0;
 }
 section#blog post-meta.tags {
   display: block;
-  text-align: left;
   margin-bottom: 1.5em;
 }
 section#blog span.tag {
@@ -71,10 +56,11 @@ section#blog span.tag {
   padding: 0 6px 0 6px;
 }
 section#blog post-meta.post-date, section#blog post-meta.read-time {
-  color: grey;
-  bottom-margin: 20px;
-  text-transform: capitalize;
+  color: #222;
   font-size: 130%;
+}
+div#disqus_thread {
+  margin-top: 5em;
 }
 /* section#blog post-meta.tags::before {
   content: "Tags:";
