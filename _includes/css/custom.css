@@ -5,6 +5,13 @@ nav .container-fluid {
 .hidden {
   display: none;
 }
+.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  text-align: center;
+}
 
 /* standard page header */
 section.std-page {
@@ -53,11 +60,6 @@ section.blog div.dev-callout {
   padding: 12px;
   margin: 5px;
   font-size: 83%;
-}
-section.blog .aligncenter {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 section.blog h2.section-heading {
   padding: 1.5em 0 .25em;
