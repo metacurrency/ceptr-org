@@ -7,12 +7,20 @@ nav .container-fluid {
 }
 
 /* standard page header */
-.std-page {
+section.std-page {
   color: #fff;
   background-image: url(/images/road_to_light.jpg);
   background-position: center;
 }
-
+/* Make redirects pretty */
+body#redirect {
+  text-align: center;
+  display: block;
+  margin: 5em;
+  font-family: sans-serif;
+  font-size: xx-large;
+  color: #666;
+}
 /* Home Page Header */
 header .header-content .header-content-inner p.header-text {
   /* text-shadow: 2px 2px #CCC; */
