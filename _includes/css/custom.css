@@ -18,6 +18,9 @@ nav .container-fluid {
   margin: 3em 12em;
   text-align: left;
 }
+.whitepaper h1 {
+  font-size: 22px;
+}
 
 /* Image */
 
