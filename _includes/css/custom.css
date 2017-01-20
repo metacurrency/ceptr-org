@@ -6,15 +6,29 @@ nav .container-fluid {
 .std-page {
   color: #fff;
   background-image: url(/images/banner.jpg);
+  background-position: center;
 }
 
-/* Home Page Header */
+/* Home Page Header text-shadow: 2px 2px #CCC;
+
+
+.fisshy {
+    background: rgba(76, 76, 76, .3);
+    display: inline-block;
+    padding: .2em .3em;
+    border-radius: 12px;
+}*/
+
 header .header-content .header-content-inner p.header-text {
-  text-shadow: 2px 2px #CCC;
   font-size: 250%;
   line-height: 1.5;
-  color: #555;
+  font-weight: bold;
+  background: rgba(220, 220, 220, .3);
+  color: #222;
+  padding: .5em 0;
+  border-radius: 22px;
 }
+
 
 /* WHITEPAPER STYLES */
 .whitepaper div.authors {
