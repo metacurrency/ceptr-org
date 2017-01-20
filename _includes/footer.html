@@ -1,52 +1,47 @@
 <!-- Footer -->
 <footer id="footer">
-    <div class="container">
-        <div class="row double">
-            <div class="6u">
-                <div class="row collapse-at-2">
-                    <div class="6u">
-                        <h3>Github Repos</h3>
-                        <ul class="alt">
-                            <li><a href="https://github.com/metacurrency/holochain">holochain</a></li>
-                            <li><a href="https://github.com/metacurrency/Pcubed">Pcubed</a></li>
-                            <li><a href="https://github.com/metacurrency/ceptr">ceptr-core</a></li>
-                            <li><a href="https://github.com/metacurrency/ceptr-web">this website</a></li>
-                        </ul>
-                    </div>
-                    <div class="6u">
-                        <h3>Whitepapers</h3>
-                        <ul class="alt">
-                            <li><a href="/whitepapers/holochain">Holochains--draft</a></li>
-                            <li><a href="https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit">Revelation</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="6u">
-                <h2>MetaCurrency Project</h2>
-                <p>Ceptr is brought to you by the <a href="http://metacurrency.org">MetaCurrency</a> project. For further information check out these social media sources:</p>
-                <ul class="icons">
-                    <li><a href="https://twitter.com/holochain" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-                    <li><a href="https://www.facebook.com/metacurrency" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCZtYPbxd78Mz-YA_c99R3Tg" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
-                    <li><a href="https://www.youtube.com/channel/UCZtYPbxd78Mz-YA_c99R3Tg" class="icon fa-medium"><span class="label">YouTube</span></a></li>
-                </ul>
-            </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="row">
+          <div class="col-lg-6">
+            <h3>Github Repos</h3>
+            <ul class="alt">
+              <li><a href="https://github.com/metacurrency/holochain">holochain</a></li>
+              <li><a href="https://github.com/metacurrency/Pcubed">Pcubed</a></li>
+              <li><a href="https://github.com/metacurrency/ceptr">ceptr-core</a></li>
+              <li><a href="https://github.com/metacurrency/ceptr-web">this website</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <h3>Whitepapers</h3>
+            <ul class="alt">
+              <li><a href="/whitepapers/holochain">Holochains--draft</a></li>
+              <li><a href="https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit">Revelation</a></li>
+            </ul>
+          </div>
         </div>
-        <ul class="copyright">
-            <li>&copy; 2017. All rights reserved.</li>
-            <li><a href="http://metacurrency.org/contact/">Contact</a></li>
-            <li><a href="http://metacurrency.org/team/">Team</a></li>
+      </div>
+      <div class="col-log-6">
+        <h2>MetaCurrency Project</h2>
+        <p>Ceptr is brought to you by the <a href="http://metacurrency.org">MetaCurrency</a> project. For further information check out these social media sources:</p>
+        <ul class="icons">
+          <li><a href="https://twitter.com/holochain" class="fa fa-2x fa-twitter"><span class="label">Twitter</span></a></li>
+          <li><a href="https://www.facebook.com/metacurrency" class="fa fa-2x fa-facebook"><span class="label">Facebook</span></a></li>
+          <li><a href="https://www.youtube.com/channel/UCZtYPbxd78Mz-YA_c99R3Tg" class="fa fa-2x fa-youtube"><span class="label">YouTube</span></a></li>
+          <li><a href="https://www.youtube.com/channel/UCZtYPbxd78Mz-YA_c99R3Tg" class="fa fa-2x fa-medium"><span class="label">YouTube</span></a></li>
         </ul>
+      </div>
     </div>
+    <ul class="copyright">
+      <li>&copy; 2017. All rights reserved.</li>
+      <li><a href="http://metacurrency.org/contact/">Contact</a></li>
+      <li><a href="http://metacurrency.org/team/">Team</a></li>
+    </ul>
+  </div>
 </footer>
-<!-- ACB Moved Javascript loading to Footer to increase pageload times and reduce "Flash of Unstyled Content" -->
 
 <!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
-<script src="{{ site.baseurl }}/js/jquery.min.js"></script>
-<script src="{{ site.baseurl }}/js/skel.min.js"></script>
-<script src="{{ site.baseurl }}/js/skel-layers.min.js"></script>
-<script src="{{ site.baseurl }}/js/init.js"></script>
 {% if jekyll.environment == 'production' %}
 {% include analytics.html %}
 {% endif %}

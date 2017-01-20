@@ -1,38 +1,37 @@
 ---
-layout: default
+layout: page
 ---
-<div class="wrapper style1">
-    <article class="container">
-        <header class="major">
-            <h2 class="post-title">{{ page.title }}</h2>
-            <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • <a href="{{page.author_url}}">{{ page.author }}</a>{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
-            {% if 1 %}
-            <div class="post-categories">
-  {% if post %}
-    {% assign tags = post.tags %}
-  {% else %}
-    {% assign tags = page.tags %}
-  {% endif %}
-  Tags:
-  {% for tag in tags %}
-  <a href="{{site.baseurl}}/tags/#{{tag|slugize}}">{{tag}}</a>
-  {% unless forloop.last %}&nbsp;{% endunless %}
-  {% endfor %}
-            </div>
-            {% endif %}
-        </header>
-
-        <section class="post-content">
-            {{ content }}
-        </section>
-
-        <footer>
-            {% if page.previous %}
-            <a href="{{ page.previous.url }}" class="float-left">&larr; Previous post</a> {% endif %}
-            {% if page.next %}
-            <a href="{{ page.next.url }}" class="float-right">Next post &rarr;</a> {% endif %}
-        </footer>
-
-    </article>
-
-</div>
+<section id="blog">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 col-md-offset-2">
+	<div class="row">
+	  <div class="col-md-6">
+	    <p class="pull-left">
+	      Tags:
+              {% for tag in page.tags %}
+                <span class="tag">{{tag}}</span>
+              {% endfor %}
+              <br>
+	      Read time:
+	      {% assign words = content | number_of_words %}
+	      {% if words < 360 %}
+			    1 min
+			    {% else %}
+			    {{ words | divided_by: 180 }} mins
+			    {% endif %}
+			    read
+			    </p>
+	  </div>
+	  <div class="col-md-6">
+	    <p class="pull-right">
+	      Date: {{ page.date | date: "%d %B %Y" }}
+	    </p>
+	  </div>
+	</div>
+	{{ content }}
+	{% include disqus.html %}
+      </div>
+    </div>
+  </div>
+</section>
