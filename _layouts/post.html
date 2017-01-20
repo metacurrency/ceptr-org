@@ -7,12 +7,16 @@ comments: true
     <h1>Ceptr Blog</h1>
   </div>
 </section>
-
 <section id="blog">
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-	<h2 class="section-heading">{{page.title}}</h2>
+          <post-meta class="tags">
+            {% for tag in page.tags %}
+              <span class="tag">{{tag}}</span>
+            {% endfor %}
+          </post-meta>
+	      <h2 class="section-heading">{{page.title}}</h2>
       </div>
     </div>
   </div>
@@ -22,12 +26,12 @@ comments: true
 	<div class="row">
 	  <div class="col-md-6">
 	    <p class="pull-left">
-	      <post-meta class="tags">
-              {% for tag in page.tags %}
-                <span class="tag">{{tag}}</span>
-              {% endfor %}
+<!--	      <post-meta class="tags">
+          {% for tag in page.tags %}
+            <span class="tag">{{tag}}</span>
+          {% endfor %}
         </post-meta>
-              <br>
+              <br> -->
 	      <post-meta class="read-time">
 	      {% assign words = content | number_of_words %}
 	      {% if words < 360 %}

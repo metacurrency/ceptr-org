@@ -55,20 +55,28 @@ section#blog .aligncenter {
   margin-left: auto;
   margin-right: auto;
 }
+section#blog h2.section-heading {
+  padding: 0 0 1em 0;
+}
+section#blog post-meta.tags {
+  display: block;
+  text-align: left;
+  width: 100%;
+}
 section#blog span.tag {
   background: #f05f40;
   color: white;
   border-radius: 3px;
-  font-size: 80%;
+  font-size: 100%;
   padding: 0 6px 0 6px;
 }
-section#blog post-meta.tags::before {
+/* section#blog post-meta.tags::before {
   content: "Tags:";
 }
 section#blog post-meta.read-time::before {
   content: "Read Time:";
 }
-/* section#blog post-meta.post-date::before {
+section#blog post-meta.post-date::before {
   content: "Date:";
 } */
 section#blog post-meta.post-date {
