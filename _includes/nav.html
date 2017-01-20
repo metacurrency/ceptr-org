@@ -16,7 +16,8 @@
 	{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
 	{% for p in navigation_pages %}
 	{% if p.navigation_weight %}
-	<li {% if p.url == page.url %}class="active"{% endif %}>
+          {% assign s = page.url | slice: 0, 6 %}
+	<li {% if p.url == page.url or (p.url == "/blog/" and s == "/blog/")  %}class="active"{% endif %}>
 	  <a href="{{ site.baseurl }}{{ p.url }}">
 	    {% if p.nav_title %} {{ p.nav_title}} {% else %} {{ p.title }} {% endif %}
 	  </a>
