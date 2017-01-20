@@ -14,7 +14,7 @@ description: Ceptr News, Resources, and Reflections
          <div  id="tag-results-container" class="hidden">
 	    <div class="row no-gutters" style="margin-top:0px;">
 	      <div class="col-md-12">
-		<h3 style="font-size: 25px;">Posts tagged as: <span id="searched-tag"></span></h3>
+		<h2>Posts tagged as: <span id="searched-tag"></span></h2>
 	      </div>
 	    </div>
             <div class="row">
@@ -66,7 +66,7 @@ description: Ceptr News, Resources, and Reflections
 	  <div class="col-md-11 col-md-offset-1" style="border: 1px dashed #ccc;">
 	    <div class="row no-gutters" style="margin-top:0px;">
 	      <div class="col-md-12">
-		<h3 style="font-size: 25px;">Search blog posts</h3>
+		<h3>Search blog posts</h3>
 	      </div>
 	    </div>
 	    <form action="{{ site.baseurl }}/blog/" method="get" class="search-form">
@@ -94,7 +94,7 @@ description: Ceptr News, Resources, and Reflections
 	      "{{ post.url | slugify }}": {
 	      "title": "{{ post.title | xml_escape }}",
 	      "author": "{{ post.author | xml_escape }}",
-	      "tags": "{{ post.tags | join:',' | xml_escape }}",
+	      "tags": {{ post.tags | jsonify }},
 	      "content": {{ post.content | strip_html | strip_newlines | jsonify }},
 	      "url": "{{ post.url | xml_escape }}"
 	      }
@@ -103,6 +103,15 @@ description: Ceptr News, Resources, and Reflections
 	      };
 	    </script>
 	  </div>
+          <div class="col-md-11 col-md-offset-1">
+            <h3>Tags:</h3>
+            <post-meta class="tags">
+              {% for tag in site.tags %}
+              {% assign t = tag | first %}
+              <a href="{{ site.baseurl }}/blog?tag={{t|url_escape}}" class="tag">{{t}}</a>
+            {% endfor %}
+          </post-meta>
+          </div>
 	</div>
       </div>
     </div>

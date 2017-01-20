@@ -69,7 +69,6 @@
       var idx = lunr(function () {
               this.field('tags');
       });
-      console.log("fish")
 
     for (var key in window.store) { // Add the data to lunr
       idx.add({
