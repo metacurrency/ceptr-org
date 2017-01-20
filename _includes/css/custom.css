@@ -56,12 +56,12 @@ section#blog .aligncenter {
   margin-right: auto;
 }
 section#blog h2.section-heading {
-  padding: 0 0 1em 0;
+  padding-bottom: 1.5em;
 }
 section#blog post-meta.tags {
   display: block;
   text-align: left;
-  width: 100%;
+  margin-bottom: 1.5em;
 }
 section#blog span.tag {
   background: #f05f40;
@@ -69,6 +69,12 @@ section#blog span.tag {
   border-radius: 3px;
   font-size: 100%;
   padding: 0 6px 0 6px;
+}
+section#blog post-meta.post-date, section#blog post-meta.read-time {
+  color: grey;
+  bottom-margin: 20px;
+  text-transform: capitalize;
+  font-size: 130%;
 }
 /* section#blog post-meta.tags::before {
   content: "Tags:";
@@ -79,12 +85,7 @@ section#blog post-meta.read-time::before {
 section#blog post-meta.post-date::before {
   content: "Date:";
 } */
-section#blog post-meta.post-date {
-  color: grey;
-  bottom-margin: 20px;
-  text-transform: capitalize;
-  font-size: 130%;
-}
+
 /* Image */
 
 .image {

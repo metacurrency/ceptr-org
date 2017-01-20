@@ -10,46 +10,38 @@ comments: true
 <section id="blog">
   <div class="container">
     <div class="row">
-      <div class="col-lg-12 text-center">
+      <div class="col-lg-8 col-md-8 col-md-offset-2">
           <post-meta class="tags">
             {% for tag in page.tags %}
               <span class="tag">{{tag}}</span>
             {% endfor %}
           </post-meta>
-	      <h2 class="section-heading">{{page.title}}</h2>
+            <div class="pull-left">
+              <post-meta class="read-time">
+              {% assign words = content | number_of_words %}
+              {% if words < 360 %}
+                1 min
+                {% else %}
+                {{ words | divided_by: 180 }} mins
+                {% endif %}
+                read
+               </post-meta>
+             </div>
+            <div class="pull-right">
+                <post-meta class="post-date">
+                   {{ page.date | date: "%d %B %Y" }}
+                </post-meta>
+            </div>
+        </div>
+      </div>
+      <div class="row">
+	      <h2 class="section-heading col-lg-8 col-md-8 col-md-offset-2">{{page.title}}</h2>
       </div>
     </div>
-  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
 	<div class="row">
-	  <div class="col-md-6">
-	    <p class="pull-left">
-<!--	      <post-meta class="tags">
-          {% for tag in page.tags %}
-            <span class="tag">{{tag}}</span>
-          {% endfor %}
-        </post-meta>
-              <br> -->
-	      <post-meta class="read-time">
-	      {% assign words = content | number_of_words %}
-	      {% if words < 360 %}
-			    1 min
-			    {% else %}
-			    {{ words | divided_by: 180 }} mins
-			    {% endif %}
-			    read
-			    </p>
-        </post-meta>
-	  </div>
-	  <div class="col-md-6">
-	    <p class="pull-right">
-          <post-meta class="post-date">
-	           {{ page.date | date: "%d %B %Y" }}
-          </post-meta>
-	    </p>
-	  </div>
 	</div>
 	{{ content }}
 	{% include disqus.html %}
