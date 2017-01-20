@@ -43,13 +43,14 @@ section#blog .aligncenter {
 }
 section#blog h2.section-heading {
   margin: 1.5em 0;
+  color: #537122;
 }
 section#blog post-meta.tags {
   display: block;
   margin-bottom: 1.5em;
 }
 section#blog span.tag {
-  background: #f05f40;
+  background: #537122;
   color: white;
   border-radius: 3px;
   font-size: 100%;

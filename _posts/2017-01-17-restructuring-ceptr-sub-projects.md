@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Latest Ceptr Dev Work
+title: Restructuring Ceptr Into Sub-Projects
 author: Eric Harris-Braun
 author_login: Eric Harris-Braun
 author_email: eric@harris-braun.com
