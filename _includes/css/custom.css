@@ -28,6 +28,47 @@ body#redirect {
   font-size: xx-large;
   color: #666;
 }
+
+/*HOME PAGE */
+
+/* About section */
+#about #net-image {
+  border-radius: 6px;
+  background-image: url(/images/neural_net.jpg);
+  background-position: center;
+  width: 100%;
+  height: 100px;
+  margin-bottom:10px;
+}
+#about p, #about li{
+      font-size: 20px;
+}
+#about ul{
+    margin: 0 0 1em 0;
+    padding: 0 0 0 1em; /* make space for li's :before */
+    list-style: none;
+}
+#about li {
+    position: relative;
+    padding-left: 0.4em; /* text distance to icon */
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+#about li:before {
+  font-family: FontAwesome;
+  position: absolute;
+  left: -1em; /* same as ul padding-left */
+  /*  .... more styling, maybe set width etc ... */
+  content: "\f00c";
+}
+
+/*
+if you want to have different bullets per li use this
+#about li.class-name-goes-here:before {
+  /*top: 0.1em; /* depends on character, maybe use padding-top instead */
+}*/
+
 /* Home Page Header */
 header .header-content .header-content-inner p.header-text {
   /* text-shadow: 2px 2px #CCC; */
