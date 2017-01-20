@@ -33,9 +33,10 @@ description: Latest updates on the Ceptr project
 		<p class="pull-right" style="margin-bottom: 0px;">Date: {{ post.date | date: "%d %B %Y" }}</p>
 	      </div>
 	    </div>
-	    <p>
-	      {{ post.content }}
-	    </p>
+            <p>
+                {{ post.excerpt }}
+            </p>
+            <p class="text-right"><a href="{{ site.baseurl }}{{ post.url }}" class="btn btn-primary btn-xl">Read More</a></p>
 	  </li>
 	  {% endfor %}
 	</ul>
