@@ -10,3 +10,8 @@
 <script src="{{ site.baseurl }}/js/wow.min.js"></script>
 <!-- Custom Theme JavaScript -->
 <script src="{{ site.baseurl }}/js/creative.js"></script>
+
+<!--[if lte IE 8]><script src="js/html5shiv.js"></script><![endif]-->
+{% if jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
