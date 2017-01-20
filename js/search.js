@@ -2,8 +2,8 @@
 
 ---
 (function() {
-  function displaySearchResults(results, store) {
-    var searchResults = document.getElementById('search-results');
+    function displaySearchResults(results, store, elem) {
+        var searchResults = document.getElementById(elem);
 
     if (results.length) { // Are there any results?
       var appendString = '';
@@ -33,32 +33,59 @@
     }
   }
 
-  var searchTerm = getQueryVariable('query');
+    var searchTerm = getQueryVariable('query');
+    var tagTerm =  getQueryVariable('tag');
 
   if (searchTerm) {
     document.getElementById('search-box').setAttribute("value", searchTerm);
 
     // Initalize lunr with the fields it will be searching on. I've given title
     // a boost of 10 to indicate matches on this field are more important.
-    var idx = lunr(function () {
-      this.field('id');
-      this.field('title', { boost: 10 });
-      this.field('author');
-      this.field('category');
-      this.field('content');
-    });
+      var idx = lunr(function () {
+              this.field('id');
+              this.field('title', { boost: 10 });
+              this.field('author');
+              this.field('tags');
+              this.field('content');
+          });
+
 
     for (var key in window.store) { // Add the data to lunr
       idx.add({
         'id': key,
         'title': window.store[key].title,
         'author': window.store[key].author,
-        'category': window.store[key].category,
+        'tags': window.store[key].tags,
         'content': window.store[key].content
       });
 
-      var results = idx.search(searchTerm); // Get lunr to perform a search
-      displaySearchResults(results, window.store); // We'll write this in the next section
+        var results = idx.search(tagTerm ? tagTerm : searchTerm); // Get lunr to perform a search
+        displaySearchResults(results, window.store,'search-results'); // We'll write this in the next section
     }
   }
+    if (tagTerm) {
+        document.getElementById('searched-tag').innerHTML = tagTerm;
+    // Initalize lunr with the fields it will be searching on.
+      var idx = lunr(function () {
+              this.field('tags');
+      });
+      console.log("fish")
+
+    for (var key in window.store) { // Add the data to lunr
+      idx.add({
+        'id': key,
+        'title': window.store[key].title,
+        'author': window.store[key].author,
+        'tags': window.store[key].tags,
+        'content': window.store[key].content
+      });
+
+        var results = idx.search(tagTerm); // Get lunr to perform a search
+        displaySearchResults(results, window.store,'tag-results'); // We'll write this in the next section
+        document.getElementById('blog-posts').className = "hidden";
+        document.getElementById('tag-results-container').className = "row";
+
+    }
+  }
+
 })();

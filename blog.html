@@ -8,13 +8,28 @@ description: Ceptr News, Resources, and Reflections
 ---
 <section class="blog">
   <div class="container">
+
     <div class="row">
-	<ul style="list-style-type: none;padding: 0px;" class="blog-posts">
+      <div  class="col-md-8">
+         <div  id="tag-results-container" class="hidden">
+	    <div class="row no-gutters" style="margin-top:0px;">
+	      <div class="col-md-12">
+		<h3 style="font-size: 25px;">Posts tagged as: <span id="searched-tag"></span></h3>
+	      </div>
+	    </div>
+            <div class="row">
+	      <div class="col-md-11">
+		<ul id="tag-results" style="list-style-type: none;padding:0 0 0 5px;"></ul>
+	      </div>
+	    </div>
+         </div>
+
+	<ul id="blog-posts" style="list-style-type: none;padding: 0px;" class="blog-posts">
 	  {% for post in site.posts %}
 	  <li>
       <post-meta class="tags">
         {% for tag in post.tags %}
-          <span class="tag">{{tag}}</span>
+          <a href="{{ site.baseurl }}/blog?tag={{tag|url_escape}}" class="tag">{{tag}}</a>
         {% endfor %}
       </post-meta>
       <div class="pull-left">
@@ -45,6 +60,7 @@ description: Ceptr News, Resources, and Reflections
 	  </li>
 	  {% endfor %}
 	</ul>
+      </div>
       <div class="col-md-4">
 	<div class="row">
 	  <div class="col-md-11 col-md-offset-1" style="border: 1px dashed #ccc;">
@@ -78,7 +94,7 @@ description: Ceptr News, Resources, and Reflections
 	      "{{ post.url | slugify }}": {
 	      "title": "{{ post.title | xml_escape }}",
 	      "author": "{{ post.author | xml_escape }}",
-	      "category": "{{ post.category | xml_escape }}",
+	      "tags": "{{ post.tags | join:',' | xml_escape }}",
 	      "content": {{ post.content | strip_html | strip_newlines | jsonify }},
 	      "url": "{{ post.url | xml_escape }}"
 	      }

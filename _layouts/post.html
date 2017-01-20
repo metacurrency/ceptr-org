@@ -13,7 +13,7 @@ comments: true
       <div class="col-lg-8 col-md-8 col-md-offset-2">
           <post-meta class="tags">
             {% for tag in page.tags %}
-              <span class="tag">{{tag}}</span>
+              <a href="{{ site.baseurl }}/blog?tag={{tag|url_escape}}" class="tag">{{tag}}</a>
             {% endfor %}
           </post-meta>
             <div class="pull-left">

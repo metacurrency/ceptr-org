@@ -2,6 +2,10 @@ nav .container-fluid {
   background: rgba(76, 76, 76, .3);
 }
 
+.hidden {
+  display: none;
+}
+
 /* standard page header */
 .std-page {
   color: #fff;
@@ -58,7 +62,7 @@ section.blog post-meta.tags {
   margin-bottom: 1.5em;
   width: 100%;
 }
-section.blog span.tag  {
+section.blog a.tag  {
   background: #537122;
   color: white;
   border-radius: 3px;
