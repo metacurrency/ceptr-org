@@ -32,16 +32,19 @@ body#redirect {
 /*HOME PAGE */
 
 /* About section */
-#about #net-image {
-  border-radius: 6px;
+#about .net-image {
+  border-radius: 8px;
   background-image: url(/images/neural_net.jpg);
   background-position: center;
   width: 100%;
-  height: 100px;
+  height: 120px;
   margin-bottom:10px;
+  opacity: .5;
 }
 #about p, #about li{
-      font-size: 20px;
+      font-size: 130%;
+      line-height: normal;
+      margin: 10px 10px 20px;
 }
 #about ul{
     margin: 0 0 1em 0;
@@ -53,6 +56,7 @@ body#redirect {
     padding-left: 0.4em; /* text distance to icon */
     margin-bottom: 20px;
     margin-left: 40px;
+    font-size: 140%;
 }
 
 #about li:before {
@@ -63,11 +67,10 @@ body#redirect {
   content: "\f00c";
 }
 
-/*
-if you want to have different bullets per li use this
+/* if you want to have different bullets per li use this
 #about li.class-name-goes-here:before {
-  /*top: 0.1em; /* depends on character, maybe use padding-top instead */
-}*/
+  /*top: 0.1em; /* depends on character, maybe use padding-top instead
+} */
 
 /* Home Page Header */
 header .header-content .header-content-inner p.header-text {
