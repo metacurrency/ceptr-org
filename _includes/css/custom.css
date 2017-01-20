@@ -2,6 +2,13 @@ nav .container-fluid {
   background: rgba(76, 76, 76, .3);
 }
 
+/* Home Page Header */
+header .header-content .header-content-inner p.header-text {
+  text-shadow: 2px 2px #CCC;
+  font-size: 250%;
+  line-height: 1.5;
+  color: #555;
+}
 /* standard page header */
 .std-page {
   color: #fff;
@@ -144,4 +151,18 @@ span.tag {
   border-radius: 3px;
   font-size: 80%;
   padding: 0 6px 0 6px;
+}
+div.dev-callout {
+    float: right;
+    background-color: #eee;
+    display: block;
+    width: 259px;
+    padding: 12px;
+    margin: 5px;
+    font-size: 83%;
+}
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

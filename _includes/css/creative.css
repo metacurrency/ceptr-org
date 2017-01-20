@@ -476,7 +476,7 @@ body {
   webkit-tap-highlight-color: #222;
 }
 
-.blogs ul li {
+.blog ul li {
   margin-bottom: 35px;
 }
 
@@ -538,9 +538,9 @@ input[type="submit"] {
   padding: 9px 10px;
 }
 
-.blog-posts p {
+/*.blog-posts p {
   text-align: justify;
-}
+}*/
 
 #search-results h3 {
   margin-top: 0px;
