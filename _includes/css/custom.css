@@ -8,6 +8,13 @@ nav .container-fluid {
   background-image: url(/images/banner.jpg);
 }
 
+/* Home Page Header */
+header .header-content .header-content-inner p.header-text {
+  text-shadow: 2px 2px #CCC;
+  font-size: 250%;
+  line-height: 1.5;
+  color: #555;
+}
 
 /* WHITEPAPER STYLES */
 .whitepaper div.authors {
@@ -18,7 +25,22 @@ nav .container-fluid {
   margin: 3em 12em;
   text-align: left;
 }
+
 /* BLOG POSTS & POST META TAGS */
+section#blog div.dev-callout {
+  float: right;
+  background-color: #eee;
+  display: block;
+  width: 259px;
+  padding: 12px;
+  margin: 5px;
+  font-size: 83%;
+}
+section#blog .aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 section#blog span.tag {
   background: #f05f40;
   color: white;
