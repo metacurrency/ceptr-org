@@ -6,14 +6,20 @@ nav .container-fluid {
 .std-page {
   color: #fff;
   background-image: url(/images/banner.jpg);
+  background-position: center;
 }
 
 /* Home Page Header */
 header .header-content .header-content-inner p.header-text {
-  text-shadow: 2px 2px #CCC;
+  /* text-shadow: 2px 2px #CCC; */
   font-size: 250%;
   line-height: 1.5;
   color: #555;
+  font-weight: bold;
+  background: rgba(220, 220, 220, .3);
+  color: #222;
+  padding: .5em 0;
+  border-radius: 22px;
 }
 
 /* WHITEPAPER STYLES */
@@ -27,7 +33,7 @@ header .header-content .header-content-inner p.header-text {
 }
 
 /* BLOG POSTS & POST META TAGS */
-section#blog div.dev-callout {
+section.blog div.dev-callout {
   float: right;
   background-color: #eee;
   display: block;
@@ -36,42 +42,42 @@ section#blog div.dev-callout {
   margin: 5px;
   font-size: 83%;
 }
-section#blog .aligncenter {
+section.blog .aligncenter {
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
-section#blog h2.section-heading {
-  margin: 1.5em 0;
+section.blog h2.section-heading {
+  padding: 1.5em 0 .25em;
   color: #537122;
+  display: block;
+  width: 100%;
 }
-section#blog post-meta.tags {
+section.blog post-meta.tags {
   display: block;
   margin-bottom: 1.5em;
+  width: 100%;
 }
-section#blog span.tag {
+section.blog span.tag  {
   background: #537122;
   color: white;
   border-radius: 3px;
   font-size: 100%;
   padding: 0 6px 0 6px;
 }
-section#blog post-meta.post-date, section#blog post-meta.read-time {
-  color: #222;
+section.blog post-meta.post-date,
+section.blog post-meta.read-time {
+  color: #444;
   font-size: 130%;
+}
+section.blog p.read-more {
+  border-bottom: 2px solid #537122;
+  padding-bottom: 1.5em;
 }
 div#disqus_thread {
   margin-top: 5em;
 }
-/* section#blog post-meta.tags::before {
-  content: "Tags:";
-}
-section#blog post-meta.read-time::before {
-  content: "Read Time:";
-}
-section#blog post-meta.post-date::before {
-  content: "Date:";
-} */
+
 
 /* Image */
 

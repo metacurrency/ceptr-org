@@ -7,7 +7,7 @@ comments: true
     <h1>Ceptr Blog</h1>
   </div>
 </section>
-<section id="blog">
+<section id="blog" class="blog">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-8 col-md-offset-2">
@@ -17,14 +17,13 @@ comments: true
             {% endfor %}
           </post-meta>
             <div class="pull-left">
-              <post-meta class="read-time">
+              <post-meta class="read-time">Read Time:
               {% assign words = content | number_of_words %}
               {% if words < 360 %}
                 1 min
                 {% else %}
                 {{ words | divided_by: 180 }} mins
                 {% endif %}
-                read
                </post-meta>
              </div>
             <div class="pull-right">
