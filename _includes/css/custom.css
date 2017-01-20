@@ -2,13 +2,6 @@ nav .container-fluid {
   background: rgba(76, 76, 76, .3);
 }
 
-/* Home Page Header */
-header .header-content .header-content-inner p.header-text {
-  text-shadow: 2px 2px #CCC;
-  font-size: 250%;
-  line-height: 1.5;
-  color: #555;
-}
 /* standard page header */
 .std-page {
   color: #fff;
@@ -25,10 +18,29 @@ header .header-content .header-content-inner p.header-text {
   margin: 3em 12em;
   text-align: left;
 }
-.whitepaper h1 {
-  font-size: 22px;
+/* BLOG POSTS & POST META TAGS */
+section#blog span.tag {
+  background: #f05f40;
+  color: white;
+  border-radius: 3px;
+  font-size: 80%;
+  padding: 0 6px 0 6px;
 }
-
+section#blog post-meta.tags::before {
+  content: "Tags:";
+}
+section#blog post-meta.read-time::before {
+  content: "Read Time:";
+}
+/* section#blog post-meta.post-date::before {
+  content: "Date:";
+} */
+section#blog post-meta.post-date {
+  color: grey;
+  bottom-margin: 20px;
+  text-transform: capitalize;
+  font-size: 130%;
+}
 /* Image */
 
 .image {
@@ -142,27 +154,4 @@ ul.alt li:first-child {
 
 .label {
   color: #bbb;
-}
-
-/* BLOG */
-span.tag {
-  background: #f05f40;
-  color: white;
-  border-radius: 3px;
-  font-size: 80%;
-  padding: 0 6px 0 6px;
-}
-div.dev-callout {
-    float: right;
-    background-color: #eee;
-    display: block;
-    width: 259px;
-    padding: 12px;
-    margin: 5px;
-    font-size: 83%;
-}
-.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }

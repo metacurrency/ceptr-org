@@ -1,5 +1,6 @@
 ---
 layout: default
+comments: true
 ---
 <section id="header" class="std-page">
   <div class="text-center">
@@ -21,12 +22,13 @@ layout: default
 	<div class="row">
 	  <div class="col-md-6">
 	    <p class="pull-left">
-	      Tags:
+	      <post-meta class="tags">
               {% for tag in page.tags %}
                 <span class="tag">{{tag}}</span>
               {% endfor %}
+        </post-meta>
               <br>
-	      Read time:
+	      <post-meta class="read-time">
 	      {% assign words = content | number_of_words %}
 	      {% if words < 360 %}
 			    1 min
@@ -35,10 +37,13 @@ layout: default
 			    {% endif %}
 			    read
 			    </p>
+        </post-meta>
 	  </div>
 	  <div class="col-md-6">
 	    <p class="pull-right">
-	      Date: {{ page.date | date: "%d %B %Y" }}
+          <post-meta class="post-date">
+	           {{ page.date | date: "%d %B %Y" }}
+          </post-meta>
 	    </p>
 	  </div>
 	</div>
