@@ -123,11 +123,19 @@ section.blog a.tag  {
   font-size: 100%;
   padding: 0 6px 0 6px;
 }
+
+section.blog post-meta.author,
+section.blog post-meta.post-date,
+section.blog post-meta.read-time {
+  font-size: 130%;
+}
+
 section.blog post-meta.post-date,
 section.blog post-meta.read-time {
   color: #444;
-  font-size: 130%;
 }
+
+
 section.blog p.read-more {
   border-bottom: 2px solid #537122;
   padding-bottom: 1.5em;

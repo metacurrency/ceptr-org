@@ -27,6 +27,8 @@ comments: true
                </post-meta>
              </div>
             <div class="pull-right">
+              <post-meta class="author">
+                {% if page.author %} <a href="{{page.author_url}}">{{ page.author }}</a>  • {% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</post-meta>
                 <post-meta class="post-date">
                    {{ page.date | date: "%d %B %Y" }}
                 </post-meta>
