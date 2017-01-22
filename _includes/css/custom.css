@@ -19,6 +19,24 @@ section.std-page {
   background-image: url(/images/road_to_light.jpg);
   background-position: center;
 }
+
+/* project page */
+#header.project-page {
+  color: #fff;
+  background-image: url(/images/road_to_light.jpg);
+  background-position: center;
+}
+
+.project-links ul {
+  list-style: none;
+}
+
+ul.project-repos {
+  display: inline-block;
+  list-style: none;
+}
+
+
 /* Make redirects pretty */
 body#redirect {
   text-align: center;

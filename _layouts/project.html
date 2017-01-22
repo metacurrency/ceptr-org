@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<section id="header" class="project-page">
+  <div class="text-center">
+    <h1>Project: {{ page.title }}</h1>
+  </div>
+</section>
+<section id="main" class="project-page">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="pull-right project-links">
+          <ul>
+            {% if page.repos %}
+            <li><i class="fa fa-2x fa-github"></i>Repo:
+            <ul class="project-repos">
+              {% for repo in page.repos %}
+              <li><a href="{{page.repos}}" class="">{{page.repos}}</a></li>
+              {% endfor %}
+            </ul>
+            </li>
+            {% endif %}
+            {% if page.dev_docs %}
+            <li><i class="fa fa-2x fa-book"></i>Docs: <a href="{{page.dev_docs}}" class="">{{page.dev_docs}}</a></li>
+            {% endif %}
+            {% if page.whitepaper %}
+            <li><i class="fa fa-2x fa-file-text"></i>Whitepaper: <a href="{{page.whitepaper}}" class="">{{page.whitepaper}}</a></li>
+            {% endif %}
+          </ul>
+        </div>
+        {{ content }}
+      </div>
+    </div>
+  </div>
+</section>

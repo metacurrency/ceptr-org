@@ -44,3 +44,6 @@ collections:
     permalink: /whitepapers/:slug
   redirects:
     output: true
+  projects:
+    output: true
+    permalink: /projects/:slug
