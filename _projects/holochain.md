@@ -1,6 +1,7 @@
 ---
 layout: project
 slug: holochain
+title: Holochains
 repos:
 - https://github.com/metacurrency/holochain
 dev_docs: https://github.com/metacurrency/holochain/tree/master/docs
