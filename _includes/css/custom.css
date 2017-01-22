@@ -31,6 +31,19 @@ body#redirect {
 
 /*HOME PAGE */
 
+/* Home Page Header */
+header .header-content .header-content-inner p.header-text {
+  /* text-shadow: 2px 2px #CCC; */
+  font-size: 250%;
+  line-height: 1.5;
+  color: #555;
+  font-weight: bold;
+  background: rgba(220, 220, 220, .3);
+  color: #222;
+  padding: .5em 0;
+  border-radius: 22px;
+}
+
 /* About section */
 #about .net-image {
   border-radius: 8px;
@@ -73,18 +86,12 @@ body#redirect {
   /*top: 0.1em; /* depends on character, maybe use padding-top instead
 } */
 
-/* Home Page Header */
-header .header-content .header-content-inner p.header-text {
-  /* text-shadow: 2px 2px #CCC; */
-  font-size: 250%;
-  line-height: 1.5;
-  color: #555;
-  font-weight: bold;
-  background: rgba(220, 220, 220, .3);
-  color: #222;
-  padding: .5em 0;
-  border-radius: 22px;
+/* SUB-PROJECTS SECTION */
+section#projects a:hover {
+  text-decoration: none;
+  color: #92AD17;
 }
+
 
 /* WHITEPAPER STYLES */
 .whitepaper div.authors {
