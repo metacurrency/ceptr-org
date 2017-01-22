@@ -16,7 +16,7 @@ layout: default
             <li><i class="fa fa-2x fa-github"></i>Repo:
             <ul class="project-repos">
               {% for repo in page.repos %}
-              <li><a href="{{page.repos}}" class="">{{page.repos}}</a></li>
+              <li><a href="{{repo}}" class="">{{repo}}</a></li>
               {% endfor %}
             </ul>
             </li>
@@ -26,6 +26,15 @@ layout: default
             {% endif %}
             {% if page.whitepaper %}
             <li><i class="fa fa-2x fa-file-text"></i>Whitepaper: <a href="{{page.whitepaper}}" class="">{{page.whitepaper}}</a></li>
+            {% endif %}
+            {% if page.articles %}
+            <li><i class="fa fa-2x fa-file"></i>Articles:
+              <ul class="project-articles">
+                {% for a in page.articles %}
+                <li><a href="{{ a[1] }}" class="">{{ a[0] }}</a></li>
+                {% endfor %}
+            </ul>
+            </li>
             {% endif %}
           </ul>
         </div>

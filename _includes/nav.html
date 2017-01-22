@@ -24,6 +24,16 @@
 	</li>
 	{% endif %}
 	{% endfor %}
+
+        <li class="dropdown"><a href="#" data-toggle="dropdown">Projects</a>
+          <ul class="dropdown-menu">
+	    {% assign project_pages = site.projects | sort: 'navigation_weight' %}
+	    {% for p in project_pages %}
+            <li><a tabindex="-1" href="/projects/{{p.slug}}">{{p.nav_title}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+
 	<li>
 	  <a href="{{site.contact_url}}"> Contact </a>
 	</li>
