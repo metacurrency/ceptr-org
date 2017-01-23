@@ -109,7 +109,21 @@ section#projects a:hover {
   text-decoration: none;
   color: #92AD17;
 }
-
+/* PROJECTS PAGES */
+section.project-page .project-links i {
+  float: left;
+}
+section.project-page .project-links .btn {
+  text-align: left;
+  line-height: 3em;
+  border-radius: 0;
+  width: 300px;
+}
+section.project-page .project-links .btn .caret {
+  float:right;
+  font-size: 300%;
+  line-height: 3em;
+}
 
 /* WHITEPAPER STYLES */
 .whitepaper div.authors {

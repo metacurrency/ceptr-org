@@ -2,12 +2,13 @@
 layout: project
 slug: holochain
 title: Holochains
+permalink: /projects/holochain/
 nav_title: Holochains
 navigation_weight: 1
 repos:
-- https://github.com/metacurrency/holochain
+ "Holochain": https://github.com/metacurrency/holochain
 dev_docs: https://github.com/metacurrency/holochain/tree/master/docs
-whitepaper: /whitepaper/holochain
+whitepaper: /whitepapers/holochain
 articles:
     "Scalable Cryptocurrencies": https://medium.com/metacurrency-project/beyond-blockchain-simple-scalable-cryptocurrencies-1eb7aebac6ae#.javpl89rt
 ---
