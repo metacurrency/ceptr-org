@@ -37,10 +37,9 @@ layout: default
             <a href="{{wp[0].url}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-file-text-o"></i>&nbsp;White Paper</a>
           {% endif %}
         {% endif %}
-
         {% if page.repos %}<div class="btn-group">
           <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-3x fa-github"></i>&nbsp;Code Repos:<span class="caret"></span>
+            <i class="fa fa-3x fa-github"></i>&nbsp;Code Repositories<span class="fa fa-2x fa-caret-down"></span>
           </button>
           <ul class="dropdown-menu">
             {% for repo in page.repos %}
@@ -50,7 +49,7 @@ layout: default
         {% endif %}
         {% if page.articles %}<div class="btn-group">
           <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-3x fa-newspaper-o"></i>&nbsp;Articles:<span class="caret"></span>
+            <i class="fa fa-3x fa-newspaper-o"></i>&nbsp;Articles<span class="fa fa-2x fa-caret-down"></span>
           </button>
           <ul class="dropdown-menu">
             {% for a in page.articles %}

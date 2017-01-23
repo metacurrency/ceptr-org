@@ -129,10 +129,15 @@ section.project-page .project-links .btn {
   border-radius: 0;
   width: 300px;
 }
-section.project-page .project-links .btn .caret {
-  float:right;
-  font-size: 300%;
-  line-height: 3em;
+section.project-page .project-links .fa-caret-down:before {
+  display: inline-block;
+  position: absolute;
+  right: 10px;
+  top: .5em;
+}
+section.project-page .project-links .dropdown-menu>li>a {
+  line-height: 2.5em;
+  font-size: 130%;
 }
 
 /* WHITEPAPER STYLES */
