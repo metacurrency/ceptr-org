@@ -9,40 +9,43 @@ layout: default
 <section id="main" class="project-page">
   <div class="container">
     <div class="row">
-        <div class="col-lg-4 col-md-4 pull-right project-links">
+      <div class="col-lg-8 col-md-8 page-summary pull-left">
+        <h1><i class="fa fa-3x {{page.icon}} project-icon"></i>{{page.title}}</h1>
+        <div class="purpose"><b>Purpose: </b>{{page.purpose}}</div>
+      </div>
+      <div class="col-lg-4 col-md-4 pull-right project-links">
 <!--          <div class="btn-group"> -->
 {% if page.dev_docs %}
-            <a href="{{page.dev_docs}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-book"></i>&nbsp;Tech Documentation</a>
-            {% endif %}
+        <a href="{{page.dev_docs}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-book"></i>&nbsp;Tech Documentation</a>
+        {% endif %}
 {% if page.whitepaper %}
-            <a href="{{page.whitepaper}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-file-text-o"></i>&nbsp;White Paper</a>
-            {% endif %}
+        <a href="{{page.whitepaper}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-file-text-o"></i>&nbsp;White Paper</a>
+        {% endif %}
 {% if page.repos %}<div class="btn-group">
-            <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa fa-3x fa-github"></i>&nbsp;Code Repos:<span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              {% for repo in page.repos %}
-                <li><a href="{{ repo[1] }}" target="_blank">{{ repo[0] }}</a></li>
-              {% endfor %}
-            </ul></div>
-          {% endif %}
+        <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-3x fa-github"></i>&nbsp;Code Repos:<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          {% for repo in page.repos %}
+            <li><a href="{{ repo[1] }}" target="_blank">{{ repo[0] }}</a></li>
+          {% endfor %}
+        </ul></div>
+      {% endif %}
 {% if page.articles %}<div class="btn-group">
-            <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa fa-3x fa-newspaper-o"></i>&nbsp;Articles:<span class="caret"></span>
-            </button>
-            <ul class="dropdown-menu">
-              {% for a in page.articles %}
-                <li><a href="{{ a[1] }}" target="_blank">{{ a[0] }}</a></li>
-              {% endfor %}
-            </ul></div>
-          {% endif %}
-<!--      </div> -->
+        <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="fa fa-3x fa-newspaper-o"></i>&nbsp;Articles:<span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+          {% for a in page.articles %}
+            <li><a href="{{ a[1] }}" target="_blank">{{ a[0] }}</a></li>
+          {% endfor %}
+        </ul></div>
+      {% endif %}
       </div>
-      <div class="col-lg-8 col-md-8 main-content">
-        <h1><i class="fa fa-3x {{page.icon}} project-icon"></i>{{page.title}}</h1>
-        <div class="summary"><b>Purpose: </b>{{page.summary}}</div>
-        {{ content }}
+    </div>
+    <div class="row">
+      <div class="col-lg-8 col-md-8">
+          {{ content }}
       </div>
     </div>
   </div>

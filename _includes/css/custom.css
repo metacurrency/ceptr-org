@@ -98,16 +98,20 @@ section#projects a:hover {
   background-image: url(/images/road_to_light.jpg);
   background-position: center;
 }
+section.project-page .project-links {
+  z-index: 1;
+  margin-bottom: 15px;
+}
 section.project-page .project-icon {
   float: left;
   color: #537122;
   padding: 20px;
 }
-section.project-page .main-content h1 {
+section#main.project-page .page-summary h1 {
     color: #537122;
     line-height: 1.6;
 }
-section.project-page  .summary {
+section#main.project-page .purpose {
   clear: left;
   font-style: italic;
   display: block;

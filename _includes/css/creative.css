@@ -122,6 +122,10 @@ aside {
 /*  color: #FADE6A; */
 }
 
+.navbar-default .nav > li.dropdown.open ul.dropdown-menu li a {
+  line-height: 2.5;
+}
+
 @media(min-width:768px) {
   .navbar-default {
     border-color: rgba(255,255,255,.3);
