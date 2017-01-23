@@ -3,6 +3,7 @@ layout: whitepaper
 status: pre-release draft
 title: Holochains
 sub-title: Holographic Storage for Distributed Applications
+navigation_weight: 1
 slug: holochain
 project: holochain
 authors:

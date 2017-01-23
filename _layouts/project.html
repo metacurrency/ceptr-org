@@ -3,7 +3,7 @@ layout: default
 ---
 <section id="header" class="project-page">
   <div class="text-center">
-    <h1>Project: {{ page.title }}</h1>
+    <h1>Projects</h1>
   </div>
 </section>
 <section id="main" class="project-page">
@@ -14,38 +14,55 @@ layout: default
         <div class="purpose"><b>Purpose: </b>{{page.purpose}}</div>
       </div>
       <div class="col-lg-4 col-md-4 pull-right project-links">
-<!--          <div class="btn-group"> -->
-{% if page.dev_docs %}
+        <!--          <div class="btn-group"> -->
+        {% if page.dev_docs %}
         <a href="{{page.dev_docs}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-book"></i>&nbsp;Tech Documentation</a>
         {% endif %}
-{% if page.whitepaper %}
-        <a href="{{page.whitepaper}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-file-text-o"></i>&nbsp;White Paper</a>
+
+        {% assign wp = site.whitepapers | where:"project",page.slug %}
+        {% if wp[0] %}
+          {% if wp[1] %}
+          {% assign wp = wp | sort: 'navigation_weight' %}
+          <div class="btn-group">
+            <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-3x fa-file-text-o"></i>&nbsp;White Papers:<span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+              {% for w in wp %}
+              <li><a href="{{w.url}}">{% if w.nav_title %}{{w.nav_title}}{% else %}{{w.title}}{% endif %}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% else %}
+            <a href="{{wp[0].url}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-file-text-o"></i>&nbsp;White Paper</a>
+          {% endif %}
         {% endif %}
-{% if page.repos %}<div class="btn-group">
-        <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-3x fa-github"></i>&nbsp;Code Repos:<span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          {% for repo in page.repos %}
+
+        {% if page.repos %}<div class="btn-group">
+          <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-3x fa-github"></i>&nbsp;Code Repos:<span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            {% for repo in page.repos %}
             <li><a href="{{ repo[1] }}" target="_blank">{{ repo[0] }}</a></li>
-          {% endfor %}
+            {% endfor %}
         </ul></div>
-      {% endif %}
-{% if page.articles %}<div class="btn-group">
-        <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <i class="fa fa-3x fa-newspaper-o"></i>&nbsp;Articles:<span class="caret"></span>
-        </button>
-        <ul class="dropdown-menu">
-          {% for a in page.articles %}
+        {% endif %}
+        {% if page.articles %}<div class="btn-group">
+          <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fa fa-3x fa-newspaper-o"></i>&nbsp;Articles:<span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            {% for a in page.articles %}
             <li><a href="{{ a[1] }}" target="_blank">{{ a[0] }}</a></li>
-          {% endfor %}
+            {% endfor %}
         </ul></div>
-      {% endif %}
+        {% endif %}
       </div>
     </div>
     <div class="row">
       <div class="col-lg-8 col-md-8">
-          {{ content }}
+        {{ content }}
       </div>
     </div>
   </div>

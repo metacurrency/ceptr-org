@@ -1,7 +1,6 @@
 ---
 layout: whitepaper
-status: published
-published: true
+status: concept
 title: "Plugable Protocol for Protocols: Pcubed"
 sub-title: Fundamental Interoperability through Self-Describing Protocols
 slug: protocols

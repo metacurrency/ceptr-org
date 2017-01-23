@@ -1,6 +1,6 @@
 ---
 layout: page
-navigation_weight: 4
+navigation_weight: 3
 status: publish
 published: true
 title: Whitepapers
@@ -11,11 +11,16 @@ categories: []
 tags: []
 comments: []
 ---
+{% assign projects = site.whitepapers | group_by:"project" %}
+{% for p in projects %}
+{% assign proj = site.projects | where:"slug",p.name | first %}
+<h2><a href="{{proj.url}}">{{proj.nav_title}}</a></h2>
 <ul>
-{% assign pages = site.whitepapers %}
-{% for p in pages %}
-<li>
-  Title: <a href="/whitepapers/{{p.slug}}">{{p.title}}</a>{% if p.sub-title%}--{{p.sub-title}}{% endif %} Status:{{p.status}}
-</li>
-{% endfor %}
+  {% assign whitepapers = p.items |sort : 'navigation_weight' %}
+  {% for h in whitepapers %}
+  <li>
+    <a href="{{h.url}}">{{h.title}}</a>{% if h.sub-title%}--{{h.sub-title}}{% endif %} (Status:{{h.status}})
+  </li>
+  {% endfor %}
 </ul>
+{% endfor %}

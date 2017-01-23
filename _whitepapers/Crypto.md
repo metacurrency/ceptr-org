@@ -1,6 +1,8 @@
 ---
 layout: whitepaper
 status: outline
+nav_title: Mutual Credit Cryptocurrencies
+navigation_weight: 2
 title: "Mutual Credit Cryptocurrencies: Beyond Blockchain Bottlenecks"
 slug: mccrypto
 project: holochain
