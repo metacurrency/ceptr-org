@@ -141,6 +141,10 @@ section.project-page .project-links .dropdown-menu>li>a {
 }
 
 /* WHITEPAPER STYLES */
+section.whitepaper.draft {
+  background: url(/images/prerelease-draft.png) center center no-repeat fixed;
+  background-size: 80%;
+}
 .whitepaper div.authors {
   font-weight: bold;
   text-align: center;
