@@ -1,11 +1,11 @@
 ---
 layout: whitepaper
 status: concept
-title:  Fallacy of Individualism
-sub-title: Hacking Social Compulsion for Commonwealth
-navigation_weight: 2
-slug: falacy
-project: sovereign
+nav_title: Co-Creative Grammars
+title:  Complex Adaptive Systems and the Co-Creative Grammars
+navigation_weight: 3
+slug: grammatics
+project: pcubed
 authors:
     "Arthur Brock": artbrock.com
     "Eric Harris-Braun": eric.harris-braun.com
