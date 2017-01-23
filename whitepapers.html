@@ -13,14 +13,18 @@ comments: []
 ---
 {% assign projects = site.whitepapers | group_by:"project" %}
 {% for p in projects %}
-{% assign proj = site.projects | where:"slug",p.name | first %}
-<h2><a href="{{proj.url}}">{{proj.nav_title}}</a></h2>
-<ul>
-  {% assign whitepapers = p.items |sort : 'navigation_weight' %}
-  {% for h in whitepapers %}
-  <li>
-    <a href="{{h.url}}">{{h.title}}</a>{% if h.sub-title%}--{{h.sub-title}}{% endif %} (Status:{{h.status}})
-  </li>
-  {% endfor %}
-</ul>
+  {% assign proj = site.projects | where:"slug",p.name | first %}
+  <h2>
+    <i class="fa fa-1x {{proj.icon}} text-primary"></i>
+    <a href="{{proj.url}}">{{proj.nav_title}}</a>
+  </h2>
+  <ul class="whitepapers">
+    {% assign whitepapers = p.items |sort : 'navigation_weight' %}
+    {% for h in whitepapers %}
+      <li>
+        <a href="{{h.url}}">{{h.title}}</a>{% if h.sub-title%}--{{h.sub-title}}{% endif %}
+        ({% if page.status != 'Published' %}Status:{{h.status}}{% else %}Published: {{page.date | date: "%B %Y" }}{% endif %})
+      </li>
+    {% endfor %}
+  </ul>
 {% endfor %}

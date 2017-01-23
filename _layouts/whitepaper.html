@@ -5,22 +5,29 @@ layout: default
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-	<h2 class="section-heading">{{page.title}}</h2>
+        <h2 class="section-heading">{{page.title}}</h2>
         {% if page.sub-title %}<p class="text-center">{{page.sub-title}}</p>{% endif %}
-        <div class="authors">
+        <ul class="authors">
           {% for a in page.authors %}
-          <li><a href="{{ a[1] }}" class="">{{ a[0] }} | {{ a[1]}}</a></li>
+          <li><a href="{{ a[1] }}">{{ a[0] }} | {{ a[1]}}</a></li>
           {% endfor %}
-        </div>
-        <div class="abstract"><b>ABSTRACT: </b>{{page.excerpt}}</div>
+        </ul>
+        {% if page.status != 'Published' %}
+          <div class="status"><strong>Status:</strong> {{page.status}}</div>
+        {% else %}
+          <div class="whitepaper-date"><strong>Published:</strong>
+            {{page.date | date: "%B %Y" }}
+          </div>
+        {% endif %}
+        {% if page.excerpt != "" %}
+          <div class="abstract"><b>ABSTRACT: </b>{{page.excerpt}}</div>
+        {% endif %}
       </div>
     </div>
   </div>
   <div class="container">
     <section>
-
       {{ content }}
-
     </section>
   </div>
 </section>

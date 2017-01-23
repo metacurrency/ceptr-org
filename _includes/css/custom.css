@@ -141,13 +141,24 @@ section.project-page .project-links .dropdown-menu>li>a {
 }
 
 /* WHITEPAPER STYLES */
+ul.whitepapers {
+    list-style: none;
+}
+ul.whitepapers li {
+  margin-left: 30px;
+  margin-bottom: 10px;
+  font-size: 120%;
+}
+
 section.whitepaper.draft {
   background: url(/images/prerelease-draft.png) center center no-repeat fixed;
   background-size: 80%;
 }
-.whitepaper div.authors {
+.whitepaper ul.authors {
   font-weight: bold;
   text-align: center;
+  list-style: none;
+
 }
 .whitepaper div.abstract {
   margin: 3em 12em;
