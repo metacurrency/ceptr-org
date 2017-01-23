@@ -39,7 +39,9 @@ layout: default
           {% endif %}
 <!--      </div> -->
       </div>
-      <div class="col-lg-8 col-md-8">
+      <div class="col-lg-8 col-md-8 main-content">
+        <h1><i class="fa fa-3x {{page.icon}} project-icon"></i>{{page.title}}</h1>
+        <div class="summary"><b>Purpose: </b>{{page.summary}}</div>
         {{ content }}
       </div>
     </div>

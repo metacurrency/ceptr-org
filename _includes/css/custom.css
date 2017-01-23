@@ -20,23 +20,6 @@ section.std-page {
   background-position: center;
 }
 
-/* project page */
-#header.project-page {
-  color: #fff;
-  background-image: url(/images/road_to_light.jpg);
-  background-position: center;
-}
-
-.project-links ul {
-  list-style: none;
-}
-
-ul.project-repos {
-  display: inline-block;
-  list-style: none;
-}
-
-
 /* Make redirects pretty */
 body#redirect {
   text-align: center;
@@ -47,7 +30,7 @@ body#redirect {
   color: #666;
 }
 
-/*HOME PAGE */
+/* HOME PAGE */
 
 /* Home Page Header */
 header .header-content .header-content-inner p.header-text {
@@ -110,6 +93,29 @@ section#projects a:hover {
   color: #92AD17;
 }
 /* PROJECTS PAGES */
+#header.project-page {
+  color: #fff;
+  background-image: url(/images/road_to_light.jpg);
+  background-position: center;
+}
+section.project-page .project-icon {
+  float: left;
+  color: #537122;
+  padding: 20px;
+}
+section.project-page .main-content h1 {
+    color: #537122;
+    line-height: 1.6;
+}
+section.project-page  .summary {
+  clear: left;
+  font-style: italic;
+  display: block;
+  background-color: #EEE;
+  padding: 20px;
+  font-size: 140%;
+  margin-bottom: 1.5em;
+}
 section.project-page .project-links i {
   float: left;
 }

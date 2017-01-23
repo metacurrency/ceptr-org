@@ -1,14 +1,16 @@
 ---
 layout: project
 slug: holochain
-title: Holochains
-permalink: /projects/holochain/
+title: "Holochains for <br />Distributed Storage"
 nav_title: Holochains
 navigation_weight: 1
-repos:
- "Holochain": https://github.com/metacurrency/holochain
+icon: fa-link
+summary: "Go beyond Blockchain bottlenecks and global consensus ledgers
+          for scalability which ensures data integrity and distributed sharing."
 dev_docs: https://github.com/metacurrency/holochain/tree/master/docs
 whitepaper: /whitepapers/holochain
+repos:
+ "Holochain": https://github.com/metacurrency/holochain
 articles:
     "Scalable Cryptocurrencies": https://medium.com/metacurrency-project/beyond-blockchain-simple-scalable-cryptocurrencies-1eb7aebac6ae#.javpl89rt
 ---
