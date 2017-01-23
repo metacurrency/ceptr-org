@@ -22,17 +22,17 @@ description: ""
     <div class="row text-center">
       <h2 class="section-heading">Building a Global Nervous System</h2>
       <hr class="light"
-          </div>
+    </div>
     <div class="row text-left">
       <div class="col-lg-6 col-md-6">
-	<p>Ceptr is one of those audacious, world-changing projects which
+        <p>Ceptr is one of those audacious, world-changing projects which
           can't be summarized into a shiny catch-phrase, but here are some anyway.</p>
         <p style="font-weight:bold; font-size:180%;">Ceptr is a:<ul>
-            <li class="text-faded">Cooperative framework for distributed applications</li>
-            <li>Quantum leap in large-scale collective social intelligence</li>
-            <li class="text-faded">Peer-to-Peer platform for building new Commons</li>
-            <li>Pluggable protocols that let everything talk to everything</li>
-            <li class="text-faded">Organically organized computing architecture of fractal <b>receptors</b></li>
+          <li class="text-faded">Cooperative framework for distributed applications</li>
+          <li>Quantum leap in large-scale collective social intelligence</li>
+          <li class="text-faded">Peer-to-Peer platform for building new Commons</li>
+          <li>Pluggable protocols that let everything talk to everything</li>
+          <li class="text-faded">Organically organized computing architecture of fractal <b>receptors</b></li>
         </ul></p>
       </div>
       <div class="col-lg-6 col-md-6">
@@ -50,7 +50,7 @@ description: ""
       <p class="aligncenter"><br /><a href="#projects" class="btn btn-default btn-xl page-scroll sr-button">Go Deeper</a></p>
     </div>
   </div>
-</div>
+  </div>
 </section>
 
 <!-- Projects -->
@@ -58,58 +58,25 @@ description: ""
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-	<h2 class="section-heading">Ceptr Sub-Projects</h2>
+        <h2 class="section-heading">Ceptr Sub-Projects</h2>
         <!--  <p>Dig into some sub-projects to grasp Ceptr's capacities:</p> -->
-	<hr class="primary">
+        <hr class="primary">
       </div>
     </div>
   </div>
   <div class="container">
     <div class="row">
-      <div class="col-lg-4 col-md-6 text-center">
-	<a href="/projects/pcubed">
-	  <div class="project-box">
-	    <i class="fa fa-4x fa-puzzle-piece text-primary sr-icons"></i>
-	    <h3>Protocol for <br /> Pluggable Protocols</h3>
-	    <p class="text-muted">Complete interoperability: No more silos and brittle APIs. Self-Describing protocols and a universal parsing system allows anything to talk to anything.</p>
-	  </div></a>
-      </div>
-      <div class="col-lg-4 col-md-6 text-center">
-	<a href="/projects/holochain">
-          <div class="project-box">
-	    <i class="fa fa-4x fa-link text-primary sr-icons"></i>
-	    <h3>Holochains for <br />Distributed Storage</h3>
-	    <p class="text-muted">Go beyond Blockchain bottlenecks and global consensus ledgers for scalability which ensures data integrity and distributed sharing.</p>
-	</div></a>
-      </div>
-      <div class="col-lg-4 col-md-6 text-center">
-	<div class="project-box">
-	  <i class="fa fa-4x fa-cloud text-primary sr-icons"></i>
-	  <h3>Truly <br />Distributed Apps</h3>
-	  <p class="text-muted">Take cloud computing to a whole new level by enabling truly distributed applications and hosting: on laptops, phones, routers, devices, and servers.</p>
-	</div>
-      </div>
-      <div class="col-lg-4 col-md-6 text-center">
-	<div class="project-box">
-	  <i class="fa fa-4x fa-code-fork text-primary sr-icons"></i>
-	  <h3>Sovereign<br />Accountable Commons</h3>
-	  <p class="text-muted">Organizations incorporated in distributed app code instead of legal codes enabling new patterns of self-governance and mutual sovereignty.</p>
-	</div>
-      </div>
-      <div class="col-lg-4 col-md-6 text-center">
-	<div class="project-box">
-	  <i class="fa fa-4x fa-share-alt text-primary sr-icons"></i>
-	  <h3>Neural Internetworking</h3>
-	  <p class="text-muted">By supporting sticky requests which send data whenever conditions are matched, we enable neural-like behavior across all applications.</p>
-	</div>
-      </div>
-      <div class="col-lg-4 col-md-6 text-center">
-	<div class="project-box">
-	  <i class="fa fa-4x fa-gears text-primary sr-icons"></i>
-	  <h3>Ceptr Core</h3>
-	  <p class="text-muted">The fabric which binds all these capacities into an integrated framework, plus: Virtual Machine Host, Fractal Receptors, Parallel Tree Processing, and more.</p>
-	</div>
-      </div>
+      {% assign projects =  site.projects | sort: 'navigation_weight'%}
+      {% for p in projects %}
+        <div class="col-lg-4 col-md-6 text-center">
+          <a href="{{p.url}}">
+            <div class="project-box">
+              <i class="fa fa-4x {{p.icon}} text-primary sr-icons"></i>
+              <h3>{{p.title}}</h3>
+              <p class="text-muted">{% if p.home_page_description %}{{p.home_page_description}}{% else %}{{p.purpose}}{% endif %}</p>
+            </div></a>
+        </div>
+      {% endfor %}
       <p class="aligncenter"><a href="#videos" class="btn btn-primary btn-xl page-scroll sr-button">Dive In</a></p>
     </div>
   </div>
@@ -120,20 +87,20 @@ description: ""
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-	<h2 class="section-heading">Walk Through the Ceptr Technology</h2>
-	<hr class="primary">
+        <h2 class="section-heading">Walk Through the Ceptr Technology</h2>
+        <hr class="primary">
       </div>
     </div>
     <div class="row">
       <div class="col-lg-6 col-md-6">
-  <a href="/blog/2015-09-24-mitkit-ceptr-webinar" class="image fit"><img src="images/Ceptr_MIT_KIT_Video.png" alt="" /></a>
-  <h3>MIT/KIT Webinar</h3>
-  <p>DIP YOUR TOES: Good overview of the various parts of Ceptr.</p>
+        <a href="/blog/2015-09-24-mitkit-ceptr-webinar" class="image fit"><img src="images/Ceptr_MIT_KIT_Video.png" alt="" /></a>
+        <h3>MIT/KIT Webinar</h3>
+        <p>DIP YOUR TOES: Good overview of the various parts of Ceptr.</p>
       </div>
       <div class="col-lg-6 col-md-6">
-	<a href="/blog/2016-05-04-ceptr-under-the-hood" class="image fit"><img src="images/Ceptr_Under_the_Hood.png" alt="" /></a>
-	<h3>Ceptr Under the Hood</h3>
-	<p>DEEP DIVE: A three hour tour of the entire Ceptr Architecture.</p>
+        <a href="/blog/2016-05-04-ceptr-under-the-hood" class="image fit"><img src="images/Ceptr_Under_the_Hood.png" alt="" /></a>
+        <h3>Ceptr Under the Hood</h3>
+        <p>DEEP DIVE: A three hour tour of the entire Ceptr Architecture.</p>
       </div>
     </div>
   </div>
@@ -145,21 +112,21 @@ description: ""
   <div class="container">
     <div class="row">
       <div class="col-lg-8">
-	<h2 class="section-heading">Get Involved!</h2>
-	<p>We have developers actively coding in many of the sub-projects. <a href="https://slackin-mkmbtdlhdx.now.sh">Join our Slack Team</a> to jump into the right channels to support tech documentation, back-end development, or front-end UI (We need a lot of UI/UX help!). Back-end systems are built mostly in Go, while front-end application UI is browser-based JavaScript.</p>
-	<p><!--<a class="btn btn-primary btn-xl" href="https://slackin-mkmbtdlhdx.now.sh">Join Our Slack</a>-->
+        <h2 class="section-heading">Get Involved!</h2>
+        <p>We have developers actively coding in many of the sub-projects. <a href="https://slackin-mkmbtdlhdx.now.sh">Join our Slack Team</a> to jump into the right channels to support tech documentation, back-end development, or front-end UI (We need a lot of UI/UX help!). Back-end systems are built mostly in Go, while front-end application UI is browser-based JavaScript.</p>
+        <p><!--<a class="btn btn-primary btn-xl" href="https://slackin-mkmbtdlhdx.now.sh">Join Our Slack</a>-->
           <a class="btn btn-primary btn-xl" href="{{ site.contact_url }}">Chat with us on Gitter</a></p>
-	<a href="#" class="image fit"><img src="/images/road_to_light.jpg" alt="" /></a>
-	<h3>Other Ways to Participate</h3>
-	<p>Ceptr is open source and funded only by the sweat of our team (as of January 2017 -- this could change soon).
-	  If you like what you see, but <b>are not so technical</b>, visit the <a href="http://metacurrency.org">MetaCurrency Project</a>
-	  for other ways to participate.</p>
+        <a href="#" class="image fit"><img src="/images/road_to_light.jpg" alt="" /></a>
+        <h3>Other Ways to Participate</h3>
+        <p>Ceptr is open source and funded only by the sweat of our team (as of January 2017 -- this could change soon).
+          If you like what you see, but <b>are not so technical</b>, visit the <a href="http://metacurrency.org">MetaCurrency Project</a>
+          for other ways to participate.</p>
 
-	<p><a class="btn btn-primary btn-xl" href="http://MetaCurrency.org">Participate & Explore</a></p>
+        <p><a class="btn btn-primary btn-xl" href="http://MetaCurrency.org">Participate & Explore</a></p>
       </div>
       <div class="col-lg-4">
-	<iframe src="https://calendar.google.com/calendar/embed?title=Ceptr%20Activities%20%26%20Meetings&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=lub4m2tj4osqq82jqog6kv46cs%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FSan_Francisco"
-		style="border-width:0" width="350" height="650" frameborder="0" scrolling="no"></iframe>
+        <iframe src="https://calendar.google.com/calendar/embed?title=Ceptr%20Activities%20%26%20Meetings&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=350&amp;wkst=2&amp;bgcolor=%23ffffff&amp;src=lub4m2tj4osqq82jqog6kv46cs%40group.calendar.google.com&amp;color=%23865A5A&amp;ctz=America%2FSan_Francisco"
+                style="border-width:0" width="350" height="650" frameborder="0" scrolling="no"></iframe>
       </div>
     </div>
   </div>

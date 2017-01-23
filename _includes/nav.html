@@ -3,10 +3,10 @@
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	<span class="sr-only">Toggle navigation</span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
-	<span class="icon-bar"></span>
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand page-scroll" href="{{ site.baseurl }}/">Ceptr</a>
     </div>
@@ -16,31 +16,31 @@
         {% assign p = page.url | split: "/" %}
         <li class="dropdown{% if p[1] == 'projects' %} active{% endif %}"><a href="#" data-toggle="dropdown">Projects</a>
           <ul class="dropdown-menu">
-	    {% assign project_pages = site.projects | sort: 'navigation_weight' %}
-	    {% for p in project_pages %}
-            <li><a tabindex="-1" href="{{p.url}}">{{p.nav_title}}</a></li>
+            {% assign project_pages = site.projects | sort: 'navigation_weight' %}
+            {% for p in project_pages %}
+              <li><a tabindex="-1" href="{{p.url}}">{{p.nav_title}}</a></li>
             {% endfor %}
           </ul>
         </li>
 
-	{% assign navigation_pages = site.html_pages | where_exp:"item","item.title != 'Home'" | where_exp:"item","item.title != 'Revelation'" | sort: 'navigation_weight' %}
-	{% for p in navigation_pages %}
-	{% if p.navigation_weight %}
-        {% assign s = page.url | split: "/" %}
-        {% assign s1 = s[1] %}
-        {% assign pp = p.url | split: "/" %}
-        {% assign p1 = pp[1] %}
-	<li {% if p.url == page.url or (s1 == p1)  %}class="active"{% endif %}>
-	  <a href="{{ site.baseurl }}{{ p.url }}">
-	    {% if p.nav_title %} {{ p.nav_title}} {% else %} {{ p.title }} {% endif %}
-	  </a>
-	</li>
-	{% endif %}
-	{% endfor %}
+        {% assign navigation_pages = site.html_pages | where_exp:"item","item.title != 'Home'" | where_exp:"item","item.title != 'Revelation'" | sort: 'navigation_weight' %}
+        {% for p in navigation_pages %}
+          {% if p.navigation_weight %}
+            {% assign s = page.url | split: "/" %}
+            {% assign s1 = s[1] %}
+            {% assign pp = p.url | split: "/" %}
+            {% assign p1 = pp[1] %}
+            <li {% if p.url == page.url or (s1 == p1)  %}class="active"{% endif %}>
+              <a href="{{ site.baseurl }}{{ p.url }}">
+                {% if p.nav_title %} {{ p.nav_title}} {% else %} {{ p.title }} {% endif %}
+              </a>
+            </li>
+          {% endif %}
+        {% endfor %}
 
-	<li>
-	  <a href="{{site.contact_url}}"> Contact </a>
-	</li>
+        <li>
+          <a href="{{site.contact_url}}"> Contact </a>
+        </li>
       </ul>
     </div>
     <!-- /.navbar-collapse -->
