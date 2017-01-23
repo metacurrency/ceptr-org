@@ -105,11 +105,11 @@ section.project-page .project-links {
 section.project-page .project-icon {
   float: left;
   color: #537122;
-  padding: 20px;
+  padding: 0 20px;
 }
 section#main.project-page .page-summary h1 {
     color: #537122;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 section#main.project-page .purpose {
   clear: left;
