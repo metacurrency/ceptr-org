@@ -1,17 +1,15 @@
 ---
 layout: whitepaper
-status: publish
+status: concept
 published: true
-title: "Distributed Apps"
-author: Arthur Brock // artbrock.com
-author_login: artbrock
-author_email: artbrock@geekgene.com
-author_url: Eric Harris-Braun // eric.harris-braun.com
-excerpt: "We describe a holographic data storage architecture which combines the data integrity assurance of Hash-Chains with the efficiency of Distributed Hash Tables while eliminating consensus bottlenecks typical of Blockchain and typical approaches to distributed computing."
-date: '2016-12-05 04:58:14 -0400'
-date_gmt: '2016-12-05 04:58:14 -0400'
-categories:
-- Whitepaper
+title: Distributed Apps
+sub-title: Fueling Collaborative Infrastructure for a New Digital Commons
+slug: distapps
+project: distapps
+authors:
+    "Arthur Brock": artbrock.com
+    "Eric Harris-Braun": eric.harris-braun.com
+excerpt: ""
 tags:
 - Whitepaper
 - Distributed Applications
@@ -19,3 +17,4 @@ tags:
 - Cloud Apps
 comments: []
 ---
+blah

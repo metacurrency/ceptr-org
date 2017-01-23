@@ -6,7 +6,12 @@ layout: default
     <div class="row">
       <div class="col-lg-12 text-center">
 	<h2 class="section-heading">{{page.title}}</h2>
-        <div class="authors">{{page.author}}<br/>{{page.author_url}}</div>
+        {% if page.sub-title %}<p class="text-center">{{page.sub-title}}</p>{% endif %}
+        <div class="authors">
+          {% for a in page.authors %}
+          <li><a href="{{ a[1] }}" class="">{{ a[0] }} | {{ a[1]}}</a></li>
+          {% endfor %}
+        </div>
         <div class="abstract"><b>ABSTRACT: </b>{{page.excerpt}}</div>
       </div>
     </div>

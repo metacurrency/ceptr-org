@@ -1,0 +1,21 @@
+---
+layout: page
+navigation_weight: 4
+status: publish
+published: true
+title: Whitepapers
+permalink: /whitepapers/
+date: '2017-01-22 21:18:10 -0500'
+date_gmt: '2017-01-22 21:18:10 -0500'
+categories: []
+tags: []
+comments: []
+---
+<ul>
+{% assign pages = site.whitepapers %}
+{% for p in pages %}
+<li>
+  Title: <a href="/whitepapers/{{p.slug}}">{{p.title}}</a>{% if p.sub-title%}--{{p.sub-title}}{% endif %} Status:{{p.status}}
+</li>
+{% endfor %}
+</ul>
