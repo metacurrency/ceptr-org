@@ -3,12 +3,13 @@ layout: whitepaper
 status: pre-release draft
 nav_title: Grammatic Capacities
 title:  Grammatic Capacities and the Evolution of Complex Adaptive Systems
-navigation_weight: 3
+navigation_weight: 1
 slug: grammatics
-project: pcubed
+project: core
+googledoc: https://docs.google.com/document/d/12Jd7ZeUzT-k6h2Qxw9jmOhNVlkYD1RnO4t2_mp6g4kg
 authors:
-    "Arthur Brock": artbrock.com
     "Eric Harris-Braun": eric.harris-braun.com
+    "Arthur Brock": artbrock.com
 excerpt: "We provide a framework for understanding the evolution of complex adaptive systems.  The fundamental insight comes from the observation that new complex adaptive systems, as well as fundamental changes within those systems always appear concomitant with the emergence of a special type of informational infrastructure.  We call such an infrastructure a Grammatic Capacity and propose a formalism to describe them abstractly, as well as offer a proof-of-concept new Grammatic Capacity for catalyzing change in the complex adaptive system we call human society. "
 tags:
 - Whitepaper

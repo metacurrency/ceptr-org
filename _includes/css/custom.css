@@ -163,7 +163,7 @@ section.whitepaper.draft {
   font-weight: bold;
   text-align: center;
   list-style: none;
-
+  padding: 0;
 }
 .whitepaper div.abstract {
   margin: 3em 12em;

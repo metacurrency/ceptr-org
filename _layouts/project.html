@@ -37,15 +37,23 @@ layout: default
             <a href="{{wp[0].url}}" class="btn btn-default btn-lg"><i class="fa fa-3x fa-file-text-o"></i>&nbsp;White Paper</a>
           {% endif %}
         {% endif %}
-        {% if page.repos %}<div class="btn-group">
-          <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fa fa-3x fa-github"></i>&nbsp;Code Repositories<span class="fa fa-2x fa-caret-down"></span>
-          </button>
-          <ul class="dropdown-menu">
-            {% for repo in page.repos %}
-            <li><a href="{{ repo[1] }}" target="_blank">{{ repo[0] }}</a></li>
-            {% endfor %}
-        </ul></div>
+        {% if page.repos %}
+          {% if page.repos[1] %}
+          <div class="btn-group">
+            <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa fa-3x fa-github"></i>&nbsp;Code Repositories<span class="fa fa-2x fa-caret-down"></span>
+            </button>
+            <ul class="dropdown-menu">
+              {% for repo in page.repos %}
+                <li><a href="{{ repo[1] }}" target="_blank">{{ repo[0] }}</a></li>
+              {% endfor %}
+            </ul>
+          </div>
+          {% else %}
+          {% assign repo = page.repos | first %}
+          <a href="{{repo[1]}}" target="_blank" class="btn btn-default btn-lg"><i class="fa fa-3x fa-github"></i>&nbsp;Code Repository</a>
+          {% endif %}
+
         {% endif %}
         {% if page.articles %}<div class="btn-group">
           <button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

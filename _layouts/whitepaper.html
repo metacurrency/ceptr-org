@@ -13,7 +13,12 @@ layout: default
           {% endfor %}
         </ul>
         {% if page.status != 'Published' %}
-          <div class="status"><strong>Status:</strong> {{page.status}}</div>
+          <div class="status">
+            <strong>Status:</strong> {{page.status}}
+            {% if page.googledoc %}
+              <p>If you would like to comment on this draft, feel free to do so on the <a href="{{page.googledoc}}"> google doc version</a></p>
+            {% endif %}
+          </div>
         {% else %}
           <div class="whitepaper-date"><strong>Published:</strong>
             {{page.date | date: "%B %Y" }}
