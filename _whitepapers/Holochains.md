@@ -41,7 +41,7 @@ comments: []
   - [Reduction from Byzantine](#reduction-from-byzantine)
   - [Extending Further](#extending-further)
   - [Conclusions](#conclusions)
-  - [ENDNOTES / REFERENCES](#endnotes--references)
+  - [Footnotes](#footnotes)
   - [Additional resources](#additional-resources)
   - [Appendices](#appendices)
 - [Previous Draft](#previous-draft)
@@ -119,7 +119,7 @@ Lets break the problem into two practical cases. 1) Weak - distributed computing
 
 
 ## Small Shift in Assumptions Yield Massive Effect
-Impossibility proof of distributed computing with one errant process[footnote] to proof of probability 1.[footnote] Impossibility and Triviality. Many proofs of certain things being impossible[footnote], but with a slight change of model become almost trivial.
+Impossibility proof of distributed computing with one errant process[^FLP] to proof of probability 1.[^Prob1] Impossibility and Triviality. Many proofs of certain things being impossible[^Imp], but with a slight change of model become almost trivial.
 Breaking down the problem of multi-agent distributed computing in a slightly different way, enables solutions that don't have the same kinds of bottlenecks.
 Normal Assumptions of (distributed) computing. Data positivism/objectivity. Absolute frame/ether.
 
@@ -243,8 +243,17 @@ Strong statement of conclusion and what the solution enables you to go build.
 
 Protection from re-entrant code by marking chain point as source of execution data
 
+<!-- FOOTNOTE INSTRUCTIONS
+Footnote definitions have the following structure:
+  Footnote identifier in square brackets
+  Colon (and optional spaces)
+  Text of the footnote (and optionally more lines of text  -->
 
-## ENDNOTES / REFERENCES
+## Footnotes
+[^FLP]: Impossibility proof
+[^Prob1]: Probability 1
+[^Imp]: One Hundred impossibility proofs
+
 
 chain of blocks with busywork for 10 minute delay and randomized commit of next block
 Structure of Ethereum Blocks

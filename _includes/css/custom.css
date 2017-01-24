@@ -144,7 +144,14 @@ section.project-page h2 {
   padding: 25px 0;
   border-top: 2px solid #537122;
 }
-
+@media(min-width:768px) {
+  section.project-page .toc {
+    position: fixed;
+    right: 10px;
+    width: 300px;
+    top: 50%;
+  }
+}
 /* WHITEPAPER STYLES */
 ul.whitepapers {
     list-style: none;
