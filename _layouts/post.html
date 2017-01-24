@@ -11,41 +11,41 @@ comments: true
   <div class="container">
     <div class="row">
       <div class="col-lg-8 col-md-8 col-md-offset-2">
-          <post-meta class="tags">
-            {% for tag in page.tags %}
-              <a href="{{ site.baseurl }}/blog?tag={{tag|url_escape}}" class="tag">{{tag}}</a>
-            {% endfor %}
+        <post-meta class="tags">
+          {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/blog?tag={{tag|url_escape}}" class="tag">{{tag}}</a>
+          {% endfor %}
+        </post-meta>
+        <div class="pull-left">
+          <post-meta class="read-time">Read Time:
+            {% assign words = content | number_of_words %}
+            {% if words < 360 %}
+              1 min
+            {% else %}
+              {{ words | divided_by: 180 }} mins
+            {% endif %}
           </post-meta>
-            <div class="pull-left">
-              <post-meta class="read-time">Read Time:
-              {% assign words = content | number_of_words %}
-              {% if words < 360 %}
-                1 min
-                {% else %}
-                {{ words | divided_by: 180 }} mins
-                {% endif %}
-               </post-meta>
-             </div>
-            <div class="pull-right">
-              <post-meta class="author">
-                {% if page.author %} <a href="{{page.author_url}}">{{ page.author }}</a>  • {% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</post-meta>
-                <post-meta class="post-date">
-                   {{ page.date | date: "%d %B %Y" }}
-                </post-meta>
-            </div>
+        </div>
+        <div class="pull-right">
+          <post-meta class="author">
+            {% if page.author %} <a href="{{page.author_url}}">{{ page.author }}</a>  • {% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</post-meta>
+          <post-meta class="post-date">
+            {{ page.date | date: "%d %B %Y" }}
+          </post-meta>
         </div>
       </div>
-      <div class="row">
-	      <h2 class="section-heading col-lg-8 col-md-8 col-md-offset-2">{{page.title}}</h2>
-      </div>
     </div>
+    <div class="row">
+      <h2 class="section-heading col-lg-8 col-md-8 col-md-offset-2">{{page.title}}</h2>
+    </div>
+  </div>
   <div class="container">
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-	<div class="row">
-	</div>
-	{{ content }}
-	{% include disqus.html %}
+        <div class="row">
+        </div>
+        {{ content }}
+        {% include disqus.html %}
       </div>
     </div>
   </div>

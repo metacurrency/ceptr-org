@@ -20,7 +20,7 @@
     $('body').scrollspy({
         target: '.navbar-fixed-top',
         offset: 51
-    })
+    });
 
     // Closes the Responsive Menu on Menu Item Click
     $('.navbar-collapse ul li a').click(function() {
@@ -57,7 +57,7 @@
         offset: {
             top: 100
         }
-    })
+    });
 
     // Move toc
     var toc = document.getElementById('toc');
