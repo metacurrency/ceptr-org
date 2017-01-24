@@ -7,6 +7,8 @@ navigation_weight: 3
 icon: fa-cloud
 purpose: "Brings cloud computing out to the edges by enabling truly distributed applications and hosting: on laptops, phones, routers, devices, as well as servers."
 ---
+* TOC
+{:toc}
 
 ## Overview
 <em>**Stage of Development:** Waiting for [Holochain](/projects/holochain) development to reach Alpha 0.1 </em>
