@@ -8,20 +8,43 @@ icon: fa-share-alt
 purpose: "By supporting sticky requests which send data whenever conditions are matched, we enable neural-like behavior across all applications."
 
 ---
+<!-- TOC START min:1 max:3 link:true update:true -->
+  - [Overview](#overview)
+  - [Scapes](#scapes)
+    - [Two types of Scapes](#two-types-of-scapes)
+  - [Listeners](#listeners)
+  - [Distributed Indexing and Search](#distributed-indexing-and-search)
+
+<!-- TOC END -->
 
 ## Overview
+The generalized ability to plant persistent listeners for specific state changes in other's applications, enables the weaving of synaptic like connections across a whole network. These patterns are exactly the kinds of synaptic patterns of learning neural networks.
 
+In the case of Ceptr, humans may be doing the learning and consciously trying out new connections. Or machines and algorithms could be tuning connections and patterns. In any case, this feature combined with the fundamental interoperability of self-describing protocols makes for exciting prospects of true Synthetic Intelligence -- not Artificial Intelligence separate from people, but scaling collective intelligence with humans integrated in the heart of it.
+
+For example (assuming P3 enabled nodes) if your arthritis acts up with barometric pressure drops, you can have a pretty simple app which checks a nearby weather station for direction of prevailing winds, then finds a weather station a couple hours away in that direction. It can plant a listener for drops of 2.5 millibars of pressure in a span of 2 hours. You can receive advance warning of low-pressure zone headed your way and take an aspirin before the pain hits. You don't have to watch the weather, you'll get a message automatically.
+
+That's a fairly simple example, but imagine being able to plant listeners for all kinds of data changes: stock prices, doors opening, or closing, volumes of traffic flows on roads, who knows? The beauty of it is that you don't know what they're using the data for, they're building new patterns of interconnected intelligence.
 
 ## Scapes
-Collections of atomic data
+Instances of symbol data are stored as semantic trees in Receptors. This ends up being very similar to objects stored in an object database. So to manage queries, lookups, and other data operations on these atomic data units, Ceptr uses Scapes.
 
-Relational geometry
+The word "scape" (as in landscape, dreamscape, moonscape, seascape, cityscape) means to shape or condition. Scapes organize data by defining the relational geometry between the elements.
 
-Two types of Scapes
+**Relational Geometry:** Do they have a natural order (like numerical, alphabetical, chronological)? Are values continuous or stepped? Is there multi-dimensionality (like x,y or latitude,longitude)? What functions are used for comparison or measuring proximity (like XOR on hash addresses in a network to determine nearness)?
 
-Indexed - Internal Property
+### Two types of Scapes
+**Indexed on Internal Property:** It's easy to think of these scapes as database indexes. You might have a collection of people who have registered for a conference. Each one is in their own instance of the semantic tree providing the structure for data for attendees. You might want to look up instances by last name, or payment status, without having to crawl through each one.
 
-Assertion - External Relationship
+Defining a scape which orders attendees by last name basically creates an index of last names (or "Lastname, Firstname"), where entries point to the root node of their attendee record for easy retrieval. This part is pretty straightforward. The cool stuff comes with the topological scape algebra that can be performed on scape geometries when their properly defined.
+
+These types of scapes don't need to synchronize new entries across instances of a receptor because each receptor can build an index of its own data. So only the data needs to sync. Scapes update asynchronously after data changes (not as an atomic transaction).
+
+**Asserted  External Relationship:** You can think of these scapes as more like Resource Description Framework (RDF) elements. These are not just an index where an entry connects a node to its parent node, but rather where an assertion is made about two data structures and that assertion is not stored in either of them.
+
+For example, both of our social media user profiles contain our first name, but the fact that we are friends, is an assertion about a relationship between those two profiles, that doesn't properly belong in either one of them.
+
+Assertion scapes support unidirectional or multi-directional assertions (I say you are my friend is unidirectional. We both acknowledge friend status is bi-directional.).
 
 ## Listeners
 Scapes have an asynchronous which follows data instance updates.
@@ -35,4 +58,4 @@ It allows people and their devices to be connected in ways which completely mimi
 ## Distributed Indexing and Search
 Listeners on a scape on a single node is one cool thing, and its not too complex once the structures exist to enable it. However, indexing distributed data and making it easily searchable and queriable is an issue on another scale.
 
-Segmentation and Map / Reduce processes
+**Data Segmentation and Map / Reduce Functions**
