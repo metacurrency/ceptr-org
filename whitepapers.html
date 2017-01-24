@@ -23,7 +23,7 @@ comments: []
     {% for h in whitepapers %}
       <li>
         <a href="{{h.url}}">{{h.title}}</a>{% if h.sub-title%}--{{h.sub-title}}{% endif %}
-        ({% if page.status != 'Published' %}Status:{{h.status}}{% else %}Published: {{page.date | date: "%B %Y" }}{% endif %})
+        ({% if page.status != 'Published' %}Status: {{h.status}}{% else %}Published: {{page.date | date: "%B %Y" }}{% endif %})
       </li>
     {% endfor %}
   </ul>

@@ -3,9 +3,9 @@ layout: whitepaper
 status: pre-release draft
 nav_title: Grammatic Capacities
 title:  Grammatic Capacities and the Evolution of Complex Adaptive Systems
-navigation_weight: 3
+navigation_weight: 1
 slug: grammatics
-project: pcubed
+project: core
 googledoc: https://docs.google.com/document/d/12Jd7ZeUzT-k6h2Qxw9jmOhNVlkYD1RnO4t2_mp6g4kg
 authors:
     "Arthur Brock": artbrock.com
