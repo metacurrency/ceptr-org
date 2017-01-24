@@ -59,4 +59,54 @@
         }
     })
 
+    // Move toc
+    var toc = document.getElementById('toc');
+    if (toc) {
+        var hook = document.getElementById('toc-hook');
+        if (hook) {
+            hook.appendChild(toc);
+            $(toc).show();
+        }
+    }
+
+    moveScroller();
+
+
 })(jQuery); // End of use strict
+
+function moveScroller() {
+    var move = function() {
+        var st = $(window).scrollTop();
+        var sa = $(".scroller-anchor");
+        if (sa.length > 0) {
+            var purpose = $(".purpose");
+            var pl = $(".project-links");
+            if (purpose.length > 0 && pl.length > 0) {
+                var pl_rect = pl.offset();
+                var p_rect = purpose.offset();
+                console.log(pl.length);
+
+                var ot = sa.offset().top;
+
+                var s = $(".scroller");
+                if(st > ot && (pl_rect.left> purpose.width()+p_rect.left)) {
+                    s.css({
+                        position: "fixed",
+                        top: "70px",
+                        left: pl_rect.left+"px"
+                    });
+                } else {
+                    if(st <= ot) {
+                        s.css({
+                            position: "relative",
+                            top: "",
+                                left: ""
+                        });
+                    }
+                }
+            }
+        }
+    };
+    $(window).scroll(move);
+    move();
+}

@@ -8,7 +8,7 @@ layout: default
 </section>
 <section id="main" class="project-page">
   <div class="container">
-    <div class="row">
+    <div "class="row">
       <div class="col-lg-8 col-md-8 page-summary pull-left">
         <h1><i class="fa fa-3x {{page.icon}} project-icon"></i>{{page.title}}</h1>
         <div class="purpose"><b>Purpose: </b>{{page.purpose}}</div>
@@ -65,6 +65,9 @@ layout: default
             {% endfor %}
           </ul></div>
         {% endif %}
+      </div>
+      <div class="scroller-anchor"></div>
+      <div id="toc-hook" class="scroller" >
       </div>
     </div>
     <div class="row">
