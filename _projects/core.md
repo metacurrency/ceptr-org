@@ -7,10 +7,9 @@ navigation_weight: 6
 icon: fa-gears
 purpose: "To be the fabric which binds all the sub-projects into an integrated framework via Virtual Machine Hosts, Fractal Receptors, Parallel Tree Processing, a Ceptr Network and a Compository for managing shared code & data reuse."
 home_page_description: "The fabric which binds all these capacities into an integrated framework. Plus: Virtual Machine Hosts, Fractal Receptors, Parallel Tree Processing, and more..."
-whitepaper: "https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit"
 repos:
   "Ceptr Archive": https://github.com/zippy/ceptr
-
+dev_docs: http://zippy.github.io/ceptr/
 ---
 <!-- TOC START min:2 max:4 link:true update:true -->
   - [Why Build Ceptr?](#why-build-ceptr)
@@ -28,6 +27,8 @@ repos:
     - [Compository](#compository)
 
 <!-- TOC END -->
+
+<em>**Stage of Development:** Many elements of the Ceptr Core were built and prototyped in our C implementation of Ceptr. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects, and will be rebuilt in Go starting in Q2 2017 after the completion of [Holochain](/projects/holochain) prototype. </em>
 
 ## Why Build Ceptr?
 
@@ -118,9 +119,6 @@ CeptrNet addresses are huge UUIDs. They’re in a big sparse address space with 
 #### Routing
 Efficient routing of non-topological addresses can be a tricky challenging problem and requires an overlay layer similar to those used in DHTs. This overlay tracks information about physical topology and routing of the network and paths to “sibling” nodes.  CeptrNet uses this “internal” peer management system to accomplish the delivery to “external” addresses.
 
-Via the back-end “I’m talking to myself” protocol
-(Bookmark explaining: the problem we’re solving that others find difficult to solve.)
-
 There’s a protocol for inter-receptor communication on a single VMHost [link to message format?]. To communicate between receptors on different VMHosts there are a few additions to the local Ceptr protocol which require CeptrNet source and destination addresses and for messages to be signed (for authentication, validation, data-integrity purposes).
 
 When a receptor sends a message to a remote receptor it actually sends the message to its local CeptrNet receptor to provide a destination address. The CeptrNet receptor handles the network communication.
@@ -129,10 +127,6 @@ When a receptor sends a message to a remote receptor it actually sends the messa
 CeptrNet addresses are not managed by a central authority or even delegated to Internet Service Providers, they are structured as a UUID so that unique addresses can be generated with no central authority.  However, you can’t exactly create a new address all by yourself either. It actually takes two friends to “triangulate” you onto the CeptrNet.
 
 Here’s how it works. You, Carl, would like to create an identity/address that can use CeptrNet. You have your friend Alice generate a new UUID address for you via her CeptrNet receptor,  and your friend Bob,  register your address with its associated public signing key, authorized identity service, and key revocation process into his CeptrNet receptor.  This begins your ability to start to communicate via CeptrNet.
-
-Routing strategies and algorithms for non-topological UUID space
-Probabilistic algorithm… Not a guaranteed route, but a high-probability method for discovering routes.
-Examples of what info is kept and tracked about physical network topology, bandwidth, throughput, reliability, latency, etc.
 
 ### Compository
 Imagine if the Internet came with a built-in, fully-distributed github. There would be a neutral ground for sharing code and referencing the symbols, structures, protocols, and components in use. Essentially that's the Compository which is built into the Ceptr Network.

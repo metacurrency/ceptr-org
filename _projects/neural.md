@@ -6,7 +6,6 @@ nav_title: Neural Internetworking
 navigation_weight: 5
 icon: fa-share-alt
 purpose: "By supporting sticky requests which send data whenever conditions are matched, we enable neural-like behavior across all applications."
-
 ---
 <!-- TOC START min:1 max:3 link:true update:true -->
   - [Overview](#overview)
