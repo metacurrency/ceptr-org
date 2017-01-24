@@ -3,7 +3,7 @@
 
 ## Contribution
 
-Please feel free to [make suggestions and report bugs](https://github.com/metacurrency/ceptr-web/issues) in our website.
+Please feel free to [make suggestions and report bugs](https://github.com/metacurrency/ceptr-web/issues).
 
 ## Acknowledgements
 
