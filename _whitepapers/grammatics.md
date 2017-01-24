@@ -1,6 +1,6 @@
 ---
 layout: whitepaper
-status: pre-release draft
+status: Pre-release Draft
 nav_title: Grammatic Capacities
 title:  Grammatic Capacities and the Evolution of Complex Adaptive Systems
 navigation_weight: 1

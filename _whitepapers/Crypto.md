@@ -1,6 +1,6 @@
 ---
 layout: whitepaper
-status: draft pre-release
+status: Pre-release Draft
 nav_title: Mutual Credit Cryptocurrencies
 navigation_weight: 2
 title: "Mutual Credit Cryptocurrencies: Beyond Blockchain Bottlenecks"

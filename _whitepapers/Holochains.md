@@ -1,6 +1,6 @@
 ---
 layout: whitepaper
-status: pre-release draft
+status: Pre-release Draft
 title: Holochains
 sub-title: Holographic Storage for Distributed Applications
 navigation_weight: 1
