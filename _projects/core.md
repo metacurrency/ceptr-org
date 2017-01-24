@@ -12,6 +12,7 @@ repos:
 dev_docs: http://zippy.github.io/ceptr/
 ---
 <!-- TOC START min:2 max:4 link:true update:true -->
+  - [Overview](#overview)
   - [Why Build Ceptr?](#why-build-ceptr)
   - [How Receptors Work](#how-receptors-work)
   - [Ceptr CORE Components](#ceptr-core-components)
@@ -28,7 +29,12 @@ dev_docs: http://zippy.github.io/ceptr/
 
 <!-- TOC END -->
 
+## Overview
 <em>**Stage of Development:** Many elements of the Ceptr Core were built and prototyped in our C implementation of Ceptr. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects, and will be rebuilt in Go starting in Q2 2017 after the completion of [Holochain](/projects/holochain) prototype. </em>
+
+Ceptr implements a [Grammatic Capacity](/whitepapers/grammatics) robust enough to be a "language" for expressing new forms of social organizations at scale.  Other projects in the smart-contracts space ([Ethereum](https://www.ethereum.org/), etc.) have similar goals, however we believe that because our approach builds from a core DNA of social coherence it will yield fundamentally different results.
+
+The Ceptr-core sub-project weaves together the holochain distributed data engine and Pcubed semantic protocol engine in to a fabric that allows for the creation of the fractally composable computing units we call Receptors.  This fabric follows the framework of Agent/Carrier/Signal/Protocol as described out in our [Grammatics whitepaper](/whitepapers/grammatics).
 
 ## Why Build Ceptr?
 
