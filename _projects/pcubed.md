@@ -21,11 +21,10 @@ articles:
   - [Protocol Framework](#protocol-framework)
   - [Protocol Composability](#protocol-composability)
   - [Optimized for Evolution](#optimized-for-evolution)
-
 <!-- TOC END -->
 
 ## Overview
-<em>**Stage of Development:** *Our Protocol for Pluggable Protocols was built and prototyped in our C implementation of the Ceptr codebase [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects (like this one) and being [reimplemented in Go](http://github.com/metacurrency/pcubed). Which means although this has been built once already, we're in the process of building it again.*</em>
+<em>**Stage of Development:** *Our Protocol for Pluggable Protocols was built and prototyped in our C implementation of the Ceptr codebase. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects (like this one) and is being [reimplemented in Go](http://github.com/metacurrency/pcubed). Which means although this has been built once already, we're in the process of building it again.*</em>
 
 ## Semantic Trees
 The basic data structure for messages in self-describing protocols are semantic trees. These are tree structures where the shape of the tree matches the data hierarchy and each node contains a symbol identifier for the type of content at that node in addition to whatever values may be stored there.

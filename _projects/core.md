@@ -5,7 +5,7 @@ title: "Ceptr Core"
 nav_title: Ceptr Core
 navigation_weight: 6
 icon: fa-gears
-purpose: "To be the fabric which binds all the sub-projects into an integrated framework via Virtual Machine Hosts, Fractal Receptors, Parallel Tree Processing, and more..."
+purpose: "To be the fabric which binds all the sub-projects into an integrated framework via Virtual Machine Hosts, Fractal Receptors, Parallel Tree Processing, a Ceptr Network and a Compository for managing shared code & data reuse."
 home_page_description: "The fabric which binds all these capacities into an integrated framework. Plus: Virtual Machine Hosts, Fractal Receptors, Parallel Tree Processing, and more..."
 whitepaper: "https://docs.google.com/document/d/1Line362Wm0zMOZcEZMqPYfHqNS4XIVyVsP7SS_4jE2o/edit"
 repos:
@@ -93,12 +93,12 @@ We use semantic trees not only to represent data, and code, but they also to hol
 #### Hardware optimized for Parallel Processing of Trees
 Just like a market emerged for GPU accelerators for mining and such, we see using similar devices to turbo charge Ceptr processing concurrent self-reducing trees.
 
-Imagine flashing your WiFi router with some Ceptr firmware. and pluging in a USB hub with slots for a couple GPU devices and a hard hard drive or two for storage. We'd like for that lightweight box to be able to handle a significant computing load for distributed edge computing apps.
+Imagine flashing your WiFi router with some Ceptr firmware and pluging in a USB hub with slots for a couple GPU devices and a hard hard drive or two for storage. We'd like for that lightweight box to be able to handle a significant computing load for distributed edge computing apps.
 
 While we're at it, we'd like for that router to support mesh networking protocols so you can break free of hardwire connections if/when someone pulls an "Internet Kill Switch."
 
 ### CeptrNet
-We mentioned the strange loop section phenomenon above, there’s an unusual logical inversion in the way the network communication in Ceptr is implemented. Each VMHost (that needs to communicate with any other VMHosts) must get a CeptrNet address. You could say that each VMHost instance *exists* in the address space of CeptrNet.
+We mentioned the strange loop phenomenon above, there’s an unusual logical inversion in the way the network communication in Ceptr is implemented. Each VMHost (that needs to communicate with any other VMHosts) must get a CeptrNet address. You could say that each VMHost instance *exists* in the address space of CeptrNet.
 
 Yet CeptrNet is itself implemented as a receptor. All the code for managing routing, communications, filtering, address and key management, etc. are implemented in a CeptrNet receptor which is installed in any VMHost that wants to communicate via the network.
 
@@ -113,7 +113,7 @@ Normally, network protocols are all thought of as these front-end things… and 
 
 But when a receptor mirrors or synchronizes with instances of itself, it uses special internal maintenance protocols “within” the receptor, even though the data synchronization is happening over the network. This is exactly what the CeptrNet receptor does to send messages.  It synchronizes, routes, and manages other instances of itself to have the message pop out of a CeptrNet receptor on the VMHost on the network to reach a local receptor there.
 
-Ceptrnet addresses are huge UUIDs. They’re in a big sparse address space with gaps in it. Addresses are based on agency (as in who created or manages the receptor) NOT based on the physical topology of the network. You could have different instances of a single receptor in a close address space with regard to agency, but they could physically scattered across the globe.
+CeptrNet addresses are huge UUIDs. They’re in a big sparse address space with gaps in it. Addresses are based on agency (as in who created or manages the receptor) NOT based on the physical topology of the network. You could have different instances of a single receptor in a close address space with regard to agency, but they could physically scattered across the globe.
 
 #### Routing
 Efficient routing of non-topological addresses can be a tricky challenging problem and requires an overlay layer similar to those used in DHTs. This overlay tracks information about physical topology and routing of the network and paths to “sibling” nodes.  CeptrNet uses this “internal” peer management system to accomplish the delivery to “external” addresses.
@@ -123,7 +123,7 @@ Via the back-end “I’m talking to myself” protocol
 
 There’s a protocol for inter-receptor communication on a single VMHost [link to message format?]. To communicate between receptors on different VMHosts there are a few additions to the local Ceptr protocol which require CeptrNet source and destination addresses and for messages to be signed (for authentication, validation, data-integrity purposes).
 
-When a receptor sends a message to a remote receptor it actually sends the message to its local CeptrNet receptor to provide a destination address. The CeptrNet receptor handles the network communication.  
+When a receptor sends a message to a remote receptor it actually sends the message to its local CeptrNet receptor to provide a destination address. The CeptrNet receptor handles the network communication.
 
 #### Triangulation for joining/registering
 CeptrNet addresses are not managed by a central authority or even delegated to Internet Service Providers, they are structured as a UUID so that unique addresses can be generated with no central authority.  However, you can’t exactly create a new address all by yourself either. It actually takes two friends to “triangulate” you onto the CeptrNet.
