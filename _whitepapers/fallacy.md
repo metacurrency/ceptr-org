@@ -1,6 +1,6 @@
 ---
 layout: whitepaper
-status: concept
+status: Concept
 title:  Fallacy of Individualism
 sub-title: Hacking Social Compulsion for Commonwealth
 navigation_weight: 2
@@ -9,7 +9,7 @@ project: sovereign
 authors:
     "Arthur Brock": artbrock.com
     "Eric Harris-Braun": eric.harris-braun.com
-excerpt: "...abstract goes here..."
+excerpt: ""
 tags:
 - Whitepaper
 comments: []

@@ -1,6 +1,6 @@
 ---
 layout: whitepaper
-status: concept
+status: Concept
 title: Network Intelligence
 sub-title: From Shared Network Storage to Distributed Associative Memory
 navigation_weight: 1
@@ -9,7 +9,7 @@ project: neural
 authors:
     "Arthur Brock": artbrock.com
     "Eric Harris-Braun": eric.harris-braun.com
-excerpt: "... abstract goes here ..."
+excerpt: ""
 tags:
 - Whitepaper
 comments: []

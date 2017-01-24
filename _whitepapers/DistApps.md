@@ -1,6 +1,6 @@
 ---
 layout: whitepaper
-status: concept
+status: Concept
 published: true
 title: Distributed Apps
 sub-title: Fueling Collaborative Infrastructure for a New Digital Commons

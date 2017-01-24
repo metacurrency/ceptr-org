@@ -1,6 +1,6 @@
 ---
 layout: whitepaper
-status: concept
+status: Concept
 title: Sovereign Accountable Commons
 sub-title: Surpassing Smart Contracts for Social Coherence
 navigation_weight: 1
@@ -9,7 +9,7 @@ project: sovereign
 authors:
     "Arthur Brock": artbrock.com
     "Eric Harris-Braun": eric.harris-braun.com
-excerpt: "...abstract goes here..."
+excerpt: ""
 tags:
 - Whitepaper
 comments: []
