@@ -6,6 +6,7 @@ title:  Grammatic Capacities and the Evolution of Complex Adaptive Systems
 navigation_weight: 3
 slug: grammatics
 project: pcubed
+googledoc: https://docs.google.com/document/d/12Jd7ZeUzT-k6h2Qxw9jmOhNVlkYD1RnO4t2_mp6g4kg
 authors:
     "Arthur Brock": artbrock.com
     "Eric Harris-Braun": eric.harris-braun.com
