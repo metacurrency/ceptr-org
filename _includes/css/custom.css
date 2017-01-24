@@ -139,6 +139,11 @@ section.project-page .project-links .dropdown-menu>li>a {
   line-height: 2.5em;
   font-size: 130%;
 }
+section.project-page h2 {
+  margin-top: 60px;
+  padding: 25px 0;
+  border-top: 2px solid #537122;
+}
 
 /* WHITEPAPER STYLES */
 section.whitepaper.draft {
