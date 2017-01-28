@@ -354,3 +354,14 @@ ul.alt li:first-child {
 .label {
   color: #bbb;
 }
+
+/* Accessibility styles */
+
+.text-for-screen-readers {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
