@@ -13,11 +13,16 @@ repos:
 articles:
   "Scalable Cryptocurrencies": https://medium.com/metacurrency-project/beyond-blockchain-simple-scalable-cryptocurrencies-1eb7aebac6ae#.javpl89rt
 ---
-<!-- TOC START min:1 max:3 link:true update:true -->
+<!-- TOC START min:1 max:4 link:true update:true -->
   - [Overview](#overview)
   - [Architecture](#architecture)
     - [Functional Domains](#functional-domains)
-    - [Two Distinct SubSystems](#two-distinct-subsystems)
+      - [Group DNA / Holochain configuration](#group-dna--holochain-configuration)
+      - [Individuals Authoring Content](#individuals-authoring-content)
+      - [Application API](#application-api)
+    - [Two Distinct Sub-Systems](#two-distinct-sub-systems)
+      - [1. Authoring on your Local Chain](#1-authoring-on-your-local-chain)
+      - [2. Running a DHT Node](#2-running-a-dht-node)
 
 <!-- TOC END -->
 
@@ -30,6 +35,7 @@ In other words, a holochain functions very much **like a blockchain without bott
 
 ## Architecture
 ### Functional Domains
+
 Holochains, by design, should be used in the context of a group operating by a shared set of agreements. Generally speaking, you don't need a holochain if you are just managing your own data.
 
 These agreements are encoded in the validation rules which are checked before authoring to one's local chain, and are also checked by every DHT node asked to publish the new data.
@@ -45,7 +51,7 @@ As an individual, you can join a holochain by installing its holochain configura
 #### Application API
 Holochains function like a database. They don't have much end-user interface, and are primarily used by an application or program to store data. Unless you're a developer building one of these applications, you're not likely interact directly with a holochains. Hopefully, you install an application that does all that for you and the holochain stays nice and invisible enabling the application to store its information in a decentralized manner.
 
-### Two Distinct SubSystems
+### Two Distinct Sub-Systems
 There are two modes to participate in a holochain: as a **chain author**, and as a **DHT node**. We expect most installations will be doing both things and acting as full peers in a P2P data system. However, each could be run in a separate
 container, communicating only by network interface.
 
