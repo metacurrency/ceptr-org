@@ -17,9 +17,10 @@ articles:
   - [Overview](#overview)
   - [Architecture](#architecture)
     - [Functional Domains](#functional-domains)
-      - [Group DNA / Holochain configuration](#group-dna--holochain-configuration)
-      - [Individuals Authoring Content](#individuals-authoring-content)
-      - [Application API](#application-api)
+      - [1. Group DNA / Holochain configuration](#1-group-dna--holochain-configuration)
+      - [2. Individuals Authoring Content](#2-individuals-authoring-content)
+      - [3. Application API](#3-application-api)
+      - [4. Browser-Based UI](#4-browser-based-ui)
     - [Two Distinct Sub-Systems](#two-distinct-sub-systems)
       - [1. Authoring on your Local Chain](#1-authoring-on-your-local-chain)
       - [2. Running a DHT Node](#2-running-a-dht-node)
@@ -35,6 +36,7 @@ In other words, a holochain functions very much **like a blockchain without bott
 
 ## Architecture
 Holochains have three main functional domains, plus whatever UI you provide to access your application. When you build a new holochain application, you need to code all of these systems.
+
 1. Shared data space setting (holochain identity, DHT settings, etc.)
 2. Data schema, chain entry types with associated application logic and validation rules for the authoring hashchain
 3. Application Layer: This is nucleus of the system which every other part interacts with. Author chains use the app logic and validation rules. DHT nodes use the validation rules to confirm data integrity and provenance before publishing, the UI interfaces with the methods provided here as well.
