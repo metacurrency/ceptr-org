@@ -7,7 +7,7 @@ navigation_weight: 2
 icon: fa-link
 purpose: "Go beyond Blockchain bottlenecks and global consensus ledgers
           for scalability which ensures data integrity and distributed sharing."
-dev_docs: https://github.com/metacurrency/holochain/tree/master/docs
+dev_docs: https://github.com/metacurrency/holochain/wiki
 repos:
   "Holochain": https://github.com/metacurrency/holochain
 articles:
