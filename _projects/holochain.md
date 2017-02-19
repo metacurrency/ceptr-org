@@ -35,6 +35,8 @@ articles:
 In other words, a holochain functions very much **like a blockchain without bottlenecks** when it comes to enforcing validation rules, but is designed to  be fully distributed with each node only needing to hold a small portion of the data instead of everything needing a full copy of a global ledger. This makes it feasible to run blockchain-like applications on devices as lightweight as mobile phones
 
 ## Architecture
+![Holochain Sub-Systems](/images/Holochain_Subsystems.png)
+
 Holochains have three main functional domains, plus whatever UI you provide to access your application. When you build a new holochain application, you need to code all of these systems.
 
 1. Shared data space setting (holochain identity, DHT settings, etc.)
