@@ -35,7 +35,7 @@ articles:
 In other words, a holochain functions very much **like a blockchain without bottlenecks** when it comes to enforcing validation rules, but is designed to  be fully distributed with each node only needing to hold a small portion of the data instead of everything needing a full copy of a global ledger. This makes it feasible to run blockchain-like applications on devices as lightweight as mobile phones
 
 ## Architecture
-![Holochain Sub-Systems](/images/Holochain_Subsystems.png)
+![Holochain_Sub-Systems](/images/Holochain_Subsystems.png){:class="img-responsive"}
 
 Holochains have three main functional domains, plus whatever UI you provide to access your application. When you build a new holochain application, you need to code all of these systems.
 
@@ -67,6 +67,7 @@ There are two modes to participate in a holochain: as a **chain author**, and as
 container, communicating only by network interface.
 
 #### 1. Authoring on your Local Chain
+![Holochain_Source](/images/Holochain_Source.png){:class="img-responsive"}
 Your chain is your signed, sequential record of the data you create to share on the holochain. Depending on the holochain's validation rules, this data may also be immutable and non-repudiable. Your local chain/data-store follows this pattern:
 
 1. Validates your new data
@@ -77,4 +78,6 @@ Your chain is your signed, sequential record of the data you create to share on 
 6. Responds to validation requests from DHT nodes
 
 #### 2. Running a DHT Node
+![Holochain_DHT](/images/Holochain_DHT.png){:class="col-xl-4 col-lg-4 col-md-4 col-sm-4 pull-right img-responsive"}
+
 For serving data shared across the network. When your node receives a request from another node to publish DHT data, it will first validate the signatures, chain links, and any other application specific data integrity in the entity's source chain who is publishing the data.
