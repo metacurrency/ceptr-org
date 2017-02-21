@@ -34,7 +34,7 @@ We should be able to build apps in Lisp or JavaScript by that time. So we'll be 
 <a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
 
 **Examples:**
- - _**Distributed Slack-alike:**_ Do you slack chat team conversations without a central server. Implement a different holochain instance for each team.
+ - _**Distributed Slack-alike:**_ Do your slack chat team conversations without a central server. Implement a different holochain instance for each team.
  - _**Distributed Twitter**:_ Micro-post broadcasting without central server infrastructure
  - _**Distributed PKI**_ (Public Key Infrastructure): Finally, reliable  but decentralized infrastructure to share, search, find, validate public keys against contact information of individuals.
  - _**Personal Sync Chain**_ which publishes to larger Group Holochains: What if you want to have a handful of your devices synchronize with each other on a holochain, but present themselves as a unified address in groups you participate in?
