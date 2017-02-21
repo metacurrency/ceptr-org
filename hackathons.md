@@ -23,7 +23,7 @@ comments: []
  **Where:** San Francisco, CA <br />
  **How Much:** Food is provided. Some housing is available. <br />
 
- You can contact [Matthew Schutte](http://matthewschutte.com/about/) to arrange for housing and see if there is still availability. Some people are joining us in San Francisco as early as March 3rd to help prepare.
+ You can contact [Matthew Schutte](http://matthewschutte.com/contact/) to arrange for housing and see if there is still availability. Some people are joining us in San Francisco as early as March 3rd to help prepare.
 
 ## What are we doing at the Hackathon?
 **Building distributed applications on Holochains!**
