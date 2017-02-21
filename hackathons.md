@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: Holochain Hackathons
+title: Hackathons
 author: Arthur Brock
 author_login: artbrock
 author_email: artbrock@geekgene.com
