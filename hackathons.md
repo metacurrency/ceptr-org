@@ -19,27 +19,53 @@ comments: []
 ---
 # Holochain Hackathon
 
- **When:** March 6 - 8, 2017 <br />
+> **When:** March 6 - 8, 2017 <br />
  **Where:** San Francisco, CA <br />
- **How Much:** Food is provided. Some housing is available. <br />
+ **How Much:** Free ~~ Food is provided. Housing is available. <br />
+ **Housing:** [Contact Matthew Schutte](http://matthewschutte.com/contact/) to arrange for housing and check availability.
 
- You can contact [Matthew Schutte](http://matthewschutte.com/contact/) to arrange for housing and see if there is still availability. Some people are joining us in San Francisco as early as March 3rd to help prepare.
+<br /><a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
+
 
 ## What are we doing at the Hackathon?
 **Building distributed applications on Holochains!**
 
-We should be able to build apps in Lisp or JavaScript by that time. So we'll be building and testing the first prototype applications on Holochains.
-<br />
+Holochains are a blockchain alternative for running fully distributed applications. This is the first event where people will be building on top of our Prototype release of Holochains. Please note: Our next phase is a security audit release. You should NOT consider this release to operate securely.
 
-<a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
+Our Lisp and JavaScript application engines are ready, so you can build your app in either of those languages.
 
-**Examples:**
+
+## Schedule / Events / Happenings
+(All times are Pacific during dates of March 6-9, 2017)
+
+**Dev Orientation -- Monday 10am:**. We will orient developers to the Holochain architecture, the functional components, and how to build an application from the ground up. If you want to follow along, we recommend INSTALLING go and holochain BEFORE the event.
+
+**Tech Dinner - Tuesday 7pm:** If you're not able to come and code with us, but are interested in the deeper tech aspects. Come to
+
+**Sharing Results -- Wednesday 7pm:** Over dinner on Wednesday, we will share the results of our building time together. Also, before people leave we will record a 5 minute presentation/summary of what they built to share online.
+
+**Showcase Dinner -- Thursday 7pm:** A gathering for more business-minded, less programming-oriented folks to see what has been made and explore future use cases.
+
+If you'd like to come to one of these events, please [contact Matthew Schutte](http://matthewschutte.com/contact/).
+
+## Satellite Hack-Groups
+There are some groups of people who want to participate remotely during the Hackathon and have their own mini-hackathons simultaneously. We will keep a channel open to these groups for tech support and discussion.
+
+ - Vancouver, BC at DCNTRL
+ - Ashland, OR at Circuit Youth
+ - Asheville, NC at ... TBD
+
+Let us know if you'd like to join one of these groups or if you have your own group of coders that would like to be connected during the event.
+
+## Some of the Apps Being Built
  - _**Distributed Slack-alike:**_ Do your slack chat team conversations without a central server. Implement a different holochain instance for each team.
  - _**Distributed Twitter**:_ Micro-post broadcasting without central server infrastructure
  - _**Distributed PKI**_ (Public Key Infrastructure): Finally, reliable  but decentralized infrastructure to share, search, find, validate public keys against contact information of individuals.
- - _**Personal Sync Chain**_ which publishes to larger Group Holochains: What if you want to have a handful of your devices synchronize with each other on a holochain, but present themselves as a unified address in groups you participate in?
+ -  _**Rating / Tagging / Feedback**_: Distributed way to assert metrics, semantics, and annotations on to any addressable / linkable item
+ - _**Fact Checking:**_ Distributed fact checking system
+ - _**Shares / Incentives / Rewards:**_
+ - _**Personal Syncro Chain**_ which publishes to larger Group Holochains: What if you want to have a handful of your devices synchronize with each other on a holochain, but present themselves as a unified address in groups you participate in?
  - _**Quantified Self Universal Logging**_ App: Log whatever you want to your personal data store.
- - _**Rating / Tagging / Feedback**_: Distributed way to assert metrics, semantics, and annotations on to any addressable / linkable item
 
 What do you want to work on?
 
