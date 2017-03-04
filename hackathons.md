@@ -17,7 +17,8 @@ tags:
 - San Francisco
 comments: []
 ---
-# Holochain Hackathon
+
+# Holochain Hackathon - SFO March, 2017
 
 > **When:** March 6 - 8, 2017 <br />
  **Where:** San Francisco, CA <br />
@@ -26,9 +27,10 @@ comments: []
 
 <br /><a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
 
+<img class="fit responsive" src="/images/hackathon-table.jpg">
 
-## What are we doing at the Hackathon?
-**Building distributed applications on Holochains!**
+## What's happening at our first Hackathon?
+**We're building distributed applications on Holochains!**
 
 Holochains are a blockchain alternative for running fully distributed applications. This is the first event where people will be building on top of our Prototype release of Holochains. Please note: Our next phase is a security audit release. You should NOT consider this release to operate securely.
 
@@ -69,7 +71,8 @@ Let us know if you'd like to join one of these groups or if you have your own gr
 
 What do you want to work on?
 
-<br />
-<hr>
+<br /><a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
+
+<br /><br />
 
 ![Holochain_Subsystems](/images/Holochain_Subsystems.png)
