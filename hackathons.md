@@ -42,11 +42,11 @@ Our Lisp and JavaScript application engines are ready, so you can build your app
 
 **Dev Orientation -- Monday 10am:**. We will orient developers to the Holochain architecture, the functional components, and how to build an application from the ground up. If you want to follow along, we recommend INSTALLING go and holochain BEFORE the event.
 
-**Tech Dinner - Tuesday 7pm:** If you're not able to come and code with us, but are interested in the deeper tech aspects. Come to
+**Tech Dinner - Tuesday 7pm:** If you're not able to come and code with us, but are interested in the deeper tech aspects, this is the event for you.  
 
 **Sharing Results -- Wednesday 7pm:** Over dinner on Wednesday, we will share the results of our building time together. Also, before people leave we will record a 5 minute presentation/summary of what they built to share online.
 
-**Showcase Dinner -- Thursday 7pm:** A gathering for more business-minded, less programming-oriented folks to see what has been made and explore future use cases.
+**Showcase Dinner -- Thursday 7pm:** A invite only gathering for more business-minded, less programming-oriented folks to see what has been made and explore future use cases.
 
 If you'd like to come to one of these events, please [contact Matthew Schutte](http://matthewschutte.com/contact/).
 
