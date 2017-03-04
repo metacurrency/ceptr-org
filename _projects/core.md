@@ -29,8 +29,9 @@ dev_docs: http://zippy.github.io/ceptr/
 
 <!-- TOC END -->
 
+<div class="alert alert-warning" role="alert"><em><b>Stage of Development:</b> Many elements of the Ceptr Core were built and prototyped in our C implementation of Ceptr. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects, and will be rebuilt in Go starting in Q2 2017 after the completion of [Holochain](/projects/holochain) prototype. </em></div>
+
 ## Overview
-<em>**Stage of Development:** Many elements of the Ceptr Core were built and prototyped in our C implementation of Ceptr. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects, and will be rebuilt in Go starting in Q2 2017 after the completion of [Holochain](/projects/holochain) prototype. </em>
 
 Ceptr implements a [Grammatic Capacity](/whitepapers/grammatics) robust enough to be a "language" for expressing new forms of social organizations at scale.  Other projects in the smart-contracts space ([Ethereum](https://www.ethereum.org/), etc.) have similar goals, however we believe that because our approach builds from a core DNA of social coherence it will yield fundamentally different results.
 

@@ -28,7 +28,7 @@ articles:
 <!-- TOC END -->
 
 ## Overview
-<em>**Stage of Development:** Active development for proof-of-concept stage.</em>
+<div class="alert alert-warning" role="alert"><em><b>Stage of Development:</b> Active development for proof-of-concept stage.</em></div>
 
 **Holographic storage for distributed applications.** A holochain is a monotonic distributed hash table (DHT) where every node enforces validation rules on data before publishing that data against the signed chains where the data originated.
 

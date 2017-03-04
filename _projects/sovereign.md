@@ -18,9 +18,9 @@ purpose: "Organizations incorporated in distributed app code instead of legal co
 
 <!-- TOC END -->
 
-## Overview
-<em>**Stage of Development:** Waiting for [Holochain](/projects/holochain) development to reach Alpha 0.1 </em>
+<div class="alert alert-warning"  role="alert"><em><b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochains](/projects/holochain) to begin development</em></div>
 
+## Overview
 We believe you can't claim to truly have a distributed technology solution, until the governance of the technology follows a distributed architecture.
 
 Whether a cryptocurrency, new commons, platform cooperative, or whatever, no matter how good the intentions of its original creators, if control of the evolution of the technology isn't tendered to the same community using the tech, the whole system is fundamentally subject to someone else's control.

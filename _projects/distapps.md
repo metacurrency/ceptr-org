@@ -18,7 +18,7 @@ purpose: "Brings cloud computing out to the edges by enabling truly distributed 
 </div>
 
 ## Overview
-<em>**Stage of Development:** Waiting for [Holochain](/projects/holochain) development to reach Alpha 0.1 </em>
+<div class="alert alert-danger" role="alert"><em><b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochains](/projects/holochain) to begin development</em></div>
 
 This sub-project is best understood as a development phase when we will be boot-strapping a number of applications using [Holochains](/projects/holochain) & [Pcubed](/projects/pcubed).  This will demonstrate composing with holochains and how that technology provides [edge computing](https://en.wikipedia.org/wiki/Edge_computing).
 
