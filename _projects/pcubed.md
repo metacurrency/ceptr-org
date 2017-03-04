@@ -24,7 +24,7 @@ articles:
 
 <!-- TOC END -->
 
-<div class="alert alert-warning" role="alert"><em><b>Stage of Development:</b> Our Protocol for Pluggable Protocols was built and prototyped in our C implementation of the Ceptr codebase. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects (like this one) and is being [reimplemented in Go](http://github.com/metacurrency/pcubed). Which means although this has been built once already, we're in the process of building it again.</em></div>
+<br /><div class="alert alert-warning" role="alert"><em><b>Stage of Development:</b> Our Protocol for Pluggable Protocols was built and prototyped in our C implementation of the Ceptr codebase. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects (like this one) and is being [reimplemented in Go](http://github.com/metacurrency/pcubed). Which means although this has been built once already, we're in the process of building it again.</em></div>
 
 ## Overview
 

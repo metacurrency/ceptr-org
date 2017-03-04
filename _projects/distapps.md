@@ -7,7 +7,8 @@ navigation_weight: 3
 icon: fa-cloud
 purpose: "Brings cloud computing out to the edges by enabling truly distributed applications and hosting: on laptops, phones, routers, devices, as well as servers."
 ---
-{::options parse_block_html="true" /}
+<!--{::options parse_block_html="true" /} -->
+
 <div id="toc" class="toc col-lg-2 col-md-2">
 
 <!-- TOC START min:1 max:3 link:true update:true -->
@@ -15,10 +16,14 @@ purpose: "Brings cloud computing out to the edges by enabling truly distributed 
   - [Apps Ecosystem](#apps-ecosystem)
 
 <!-- TOC END -->
+
+</div>
+
+<br /><div class="alert alert-danger" role="alert">
+<em><b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochains](/projects/holochain) to begin development</em>
 </div>
 
 ## Overview
-<div class="alert alert-danger" role="alert"><em><b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochains](/projects/holochain) to begin development</em></div>
 
 This sub-project is best understood as a development phase when we will be boot-strapping a number of applications using [Holochains](/projects/holochain) & [Pcubed](/projects/pcubed).  This will demonstrate composing with holochains and how that technology provides [edge computing](https://en.wikipedia.org/wiki/Edge_computing).
 
