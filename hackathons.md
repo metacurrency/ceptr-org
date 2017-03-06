@@ -25,7 +25,7 @@ comments: []
  **How Much:** Free ~~ Food is provided. Housing is available. <br />
  **Housing:** [Contact Matthew Schutte](http://matthewschutte.com/contact/) to arrange for housing and check availability.
 
-<br /><a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
+<br /><a class="btn btn-primary btn-xl" href="https://www.youtube.com/watch?v=-RyFJWK4mhI&feature=youtu.be">LIVE STREAM</a>
 
 <img class="fit responsive" src="/images/hackathon-table.jpg">
 
@@ -57,7 +57,7 @@ There are some groups of people who want to participate remotely during the Hack
  - **Ashland, OR** at [Circuit Youth](http://circuityouth.org/) (33 3rd St. Downstairs)
  - **Asheville, NC** at [Shiny Creek](http://www.shinycreek.com/) (45 N French Broad, Suite 175)
 
-Let us know if you'd like to join one of these groups or if you have your own group of coders that would like to be connected during the event.
+Let us know if you'd like to join one of these groups or if you have your own group of coders that would like to be connected during the event. Instructions for Remote Participation.
 
 ## Some of the Apps Being Built
  - _**Distributed Slack-alike:**_ Do your slack chat team conversations without a central server. Implement a different holochain instance for each team.
@@ -71,7 +71,7 @@ Let us know if you'd like to join one of these groups or if you have your own gr
 
 What do you want to work on?
 
-<br /><a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
+<br /><a class="btn btn-primary btn-xl" href="https://www.youtube.com/watch?v=-RyFJWK4mhI&feature=youtu.be">LIVE STREAM</a>
 
 <br /><br />
 
