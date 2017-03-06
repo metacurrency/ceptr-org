@@ -53,9 +53,9 @@ If you'd like to come to one of these events, please [contact Matthew Schutte](h
 ## Satellite Hack-Groups
 There are some groups of people who want to participate remotely during the Hackathon and have their own mini-hackathons simultaneously. We will keep a channel open to these groups for tech support and discussion.
 
- - Vancouver, BC at DCNTRL
- - Ashland, OR at Circuit Youth
- - Asheville, NC at ... TBD
+ - **Vancouver, BC** at [DCNTRL](https://www.meetup.com/dctrlvan/) (436 W. Pender St. Black door, Downstairs)
+ - **Ashland, OR** at [Circuit Youth](http://circuityouth.org/) (33 3rd St. Downstairs)
+ - **Asheville, NC** at [Shiny Creek](http://www.shinycreek.com/) (45 N French Broad, Suite 175)
 
 Let us know if you'd like to join one of these groups or if you have your own group of coders that would like to be connected during the event.
 
