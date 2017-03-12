@@ -20,9 +20,9 @@ articles:
 - [Shared Data Integrity](#shared-data-integrity)
 - [Beyond Blockchain Bottlenecks](#beyond-blockchain-bottlenecks)
 - [Summary of Holochain Architecture](#summary-of-holochain-architecture)
-	- [Application](#application)
-	- [Local Source Chain](#local-source-chain)
-	- [Shared Storage on Validating DHT](#shared-storage-on-validating-dht)
+ - [Application](#application)
+ - [Local Source Chain](#local-source-chain)
+ - [Shared Storage on Validating DHT](#shared-storage-on-validating-dht)
 - [When to Use Holochain](#when-to-use-holochain)
 - [When NOT to Use Holochain](#when-not-to-use-holochain)
 - [Why Ceptr? Where does this come from?](#why-ceptr-where-does-this-come-from)
@@ -81,7 +81,9 @@ Thankfully, if an app like this runs on a holochain, I can just write my tweet t
 ### Shared Storage on Validating DHT
 Distributed Hash Tables (DHTs) are already used for file sharing (bittorrent) and other widespread applications. In these systems, the data is content addressable by cryptographic hash, so you can confirm you receive unaltered data by hashing it yourself.
 
-![Holochain_DHT](/images/Holochain_DHT.png){:class="col-xl-4 col-lg-4 col-md-4 col-sm-4 pull-right img-responsive"} In our validating DHT, we confirm the provenance of every piece of data, validating the signature of its author, and that it has been committed to their local chain. Multi-party transactions create a "crossing" of chains which also assure that even if you try to alter your own chain, your transaction is published by others. Our DHT also has an unusual feature which allows meta-data to be put on data in the DHT which can be used to publish information about a person/node (such as their transactions, or top of their hashchain) or data element (such as tags, comments, or ratings).
+![Holochain_DHT](/images/Holochain_DHT.png){:class="col-xl-4 col-lg-4 col-md-4 col-sm-4 pull-right img-responsive"}
+
+In our validating DHT, we confirm the provenance of every piece of data, validating the signature of its author, and that it has been committed to their local chain. Multi-party transactions create a "crossing" of chains which also assure that even if you try to alter your own chain, your transaction is published by others. Our DHT also has an unusual feature which allows meta-data to be put on data in the DHT which can be used to publish information about a person/node (such as their transactions, or top of their hashchain) or data element (such as tags, comments, or ratings).
 
 Just like validation rules on blockchain nodes, if someone hacked their code to behave differently, even if they colluded with others, the rest of the nodes on the DHT would not validate their altered behavior and they will have essentially just forked themselves out of being able to participate on that holochain.
 
