@@ -87,7 +87,7 @@ In our validating DHT, we confirm the provenance of every piece of data, validat
 
 Just like validation rules on blockchain nodes, if someone hacked their code to behave differently, even if they colluded with others, the rest of the nodes on the DHT would not validate their altered behavior and they will have essentially just forked themselves out of being able to participate on that holochain.
 
-More details see [Architecture page](Architecture)
+More details see [Architecture page](https://github.com/metacurrency/holochain/wiki/Architecture)
 
 ## When to Use Holochain
 Holochain is designed to support and embody social coherence -- groups that want to collaborate or coordinate together according to a set of agreements which allows them to share data or other value in reliable ways.
