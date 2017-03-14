@@ -25,7 +25,7 @@ comments: []
  **How Much:** Free ~~ Food is provided. Housing is available. <br />
  **Housing:** [Contact Matthew Schutte](http://matthewschutte.com/contact/) to arrange for housing and check availability.
 
-<br /><a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
+<br /><a class="btn btn-primary btn-xl" href="https://www.youtube.com/watch?v=-RyFJWK4mhI&feature=youtu.be">LIVE STREAM</a>
 
 <img class="fit responsive" src="/images/hackathon-table.jpg">
 
@@ -46,18 +46,22 @@ Our Lisp and JavaScript application engines are ready, so you can build your app
 
 **Sharing Results -- Wednesday 7pm:** Over dinner on Wednesday, we will share the results of our building time together. Also, before people leave we will record a 5 minute presentation/summary of what they built to share online.
 
+<<<<<<< HEAD
 **Showcase Dinner -- Thursday 7pm:** A invite only gathering for more business-minded, less programming-oriented folks to see what has been made and explore future use cases.
+=======
+**Showcase Dinner -- Thursday 7pm:** An invite-only gathering for more business-minded, less programming-oriented folks to see what has been made and explore future use cases.
+>>>>>>> 23a2a60ed583823f6fc8980cf66f2f9fa5d4556b
 
 If you'd like to come to one of these events, please [contact Matthew Schutte](http://matthewschutte.com/contact/).
 
 ## Satellite Hack-Groups
 There are some groups of people who want to participate remotely during the Hackathon and have their own mini-hackathons simultaneously. We will keep a channel open to these groups for tech support and discussion.
 
- - Vancouver, BC at DCNTRL
- - Ashland, OR at Circuit Youth
- - Asheville, NC at ... TBD
+ - **Vancouver, BC** at [DCNTRL](https://www.meetup.com/dctrlvan/) (436 W. Pender St. Black door, Downstairs)
+ - **Ashland, OR** at [Circuit Youth](http://circuityouth.org/) (33 3rd St. Downstairs)
+ - **Asheville, NC** at [Shiny Creek](http://www.shinycreek.com/) (45 N French Broad, Suite 175)
 
-Let us know if you'd like to join one of these groups or if you have your own group of coders that would like to be connected during the event.
+Let us know if you'd like to join one of these groups or if you have your own group of coders that would like to be connected during the event. Instructions for Remote Participation.
 
 ## Some of the Apps Being Built
  - _**Distributed Slack-alike:**_ Do your slack chat team conversations without a central server. Implement a different holochain instance for each team.
@@ -71,7 +75,7 @@ Let us know if you'd like to join one of these groups or if you have your own gr
 
 What do you want to work on?
 
-<br /><a class="btn btn-primary btn-xl" href="https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1">Apply to Attend Hackathon</a>
+<br /><a class="btn btn-primary btn-xl" href="https://www.youtube.com/watch?v=-RyFJWK4mhI&feature=youtu.be">LIVE STREAM</a>
 
 <br /><br />
 
