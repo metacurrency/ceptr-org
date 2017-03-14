@@ -20,9 +20,9 @@ articles:
 - [Shared Data Integrity](#shared-data-integrity)
 - [Beyond Blockchain Bottlenecks](#beyond-blockchain-bottlenecks)
 - [Summary of Holochain Architecture](#summary-of-holochain-architecture)
- - [Application](#application)
- - [Local Source Chain](#local-source-chain)
- - [Shared Storage on Validating DHT](#shared-storage-on-validating-dht)
+  - [Application](#application)
+  - [Local Source Chain](#local-source-chain)
+  - [Shared Storage on Validating DHT](#shared-storage-on-validating-dht)
 - [When to Use Holochain](#when-to-use-holochain)
 - [When NOT to Use Holochain](#when-not-to-use-holochain)
 - [Why Ceptr? Where does this come from?](#why-ceptr-where-does-this-come-from)
@@ -115,4 +115,4 @@ Holochain is a part of a much larger vision for distributed computing to enable 
 ## A Note to End Users
 Coming soon there will be applications built to make it easy to use holochains as your distributed database for all your daily needs. Hopefully, these applications will be as easy to find, install, and use as any other software you can think of. However, at the moment, these apps don't exist and holochain is largely for developers trying to build these things for you. Check back in Q2 of 2017 for some cool applications.
 
-For now, please [enjoy our FAQ](FAQ). :)
+For now, please [enjoy our FAQ](http://github.com/metacurrency/holochain/wiki/FAQ). :)
