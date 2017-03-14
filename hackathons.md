@@ -27,8 +27,8 @@ comments: []
 - [Holochain Hackathon - SFO March 6 - 8, 2017](#holochain-hackathon-sfo-march-6-8-2017)
 	- [Acknowledgements](#acknowledgements)
 	- [Remote Participants](#remote-participants)
-	- [Apps Built (but not fully stable yet)](#apps-built-but-not-fully-stable-yet)
-	- [Other Applications in Progress or On Deck](#other-applications-in-progress-or-on-deck)
+	- [Applications Built (but not fully stable yet)](#applications-built-but-not-fully-stable-yet)
+	- [Other Apps in Progress or On Deck](#other-apps-in-progress-or-on-deck)
 	- [Other Lurking Ideas for Holochain Apps](#other-lurking-ideas-for-holochain-apps)
 	- [Important Takeaway](#important-takeaway)
 
@@ -45,43 +45,44 @@ Our first hackathon was a fantastic success! It was the unveiling of our Holocha
 Some people participated remotely during our live stream and at other times. We had some great events, meals, and gatherings that people came to who couldn't make it during the hackathon.
 
 ### Acknowledgements
-[Zachary Larson](http://github.com/hierophantos) - Development of Lisp Clutter (twitter-alike)
-[Anders Aamodt](http://github.com/andersaamodt) - Clutter UI (Cats!), Windows Installation Docs, and code commenting
-[Nicolas Luck](http://github.com/lucksus) - Development of Test Rig and Holochat (slack-alike)
-[Christopher "Day Zee"](http://github.com/christophererreay) - Docker Development and Bootstrap Server
-[Chris Larcombe](http://github.com/chrislarcombe) - Sharing Visionary Applications of Holochain
-[Duke Jones](http://github.com/dukejones) - Docker Scripting and Development
-[Christian Crawford](http://github.com/xenocom) - Sample App Development
-[Haiz Oppenheimer](http://github.com/haizop) - Holochat UI Development
-[Jack Senechal](http://github.com/jacksenechal) - Trust Exchange on Holochain, JS Docs, and Bug Fixes
-[Noah Thorp](http://github.com/aquabu) - Trust Exchange on Holochain and Bug Fixes
-[Harlan Wood](http://github.com/harlantwood) - Trust Exchange on Holochain, Bug Fixes, and First Docker App (TEH)
-[Jarod Holtz](http://github.com/jarodholtz) - Meals, Video Documentation, Live Feed Production, Love, and Care
-[Celestial Hanley](http://twitter.com/han_cee) - Meals, Love, and Care
-[Ferananda Ibarra](http://twitter.com/fer_ananda) - Facilitation, Social Media, Live Feed Production
-[Matthew Schutte](http://github.com/matthewjosef) - Housing, Hosting, Hackathon Production
-[Arthur Brock](http://github.com/artbrock) - Documentation and Training
-[Eric Harris-Braun](http://github.com/zippy) - Making it all work (software), keeping up with bug fixes and developer needs
-[Alex Voto](https://twitter.com/AVotoFuture) - Writings in Progress
-[Vienna Looi](http://twitter.com/viennalooi) - Holochain for Windows Documentation
-[Jeff Clearwater](http://github.com/clrwater) - Bridge Building
-[Trent Lapinski](@trentlapinski) - Writings in Progress
-[Twain Liu](http://twitter.com/twainus) - Meme Breakthroughs for Communication
+ - [Zachary Larson](http://github.com/hierophantos) - Development of Lisp Clutter (twitter-alike)
+ - [Anders Aamodt](http://github.com/andersaamodt) - Clutter UI (Cats!), Windows Installation Docs, and code commenting
+ - [Nicolas Luck](http://github.com/lucksus) - Development of Test Rig and Holochat (slack-alike)
+ - [Christopher "Day Zee"](http://github.com/christophererreay) - Docker Development and Bootstrap Server
+ - [Chris Larcombe](http://github.com/chrislarcombe) - Sharing Visionary Applications of Holochain
+ - [Duke Jones](http://github.com/dukejones) - Docker Scripting and Development
+ - [Christian Crawford](http://github.com/xenocom) - Sample App Development
+ - [Haiz Oppenheimer](http://github.com/haizop) - Holochat UI Development
+ - [Jack Senechal](http://github.com/jacksenechal) - Trust Exchange on Holochain, JS Docs, and Bug Fixes
+ - [Noah Thorp](http://github.com/aquabu) - Trust Exchange on Holochain and Bug Fixes
+ - [Harlan Wood](http://github.com/harlantwood) - Trust Exchange on Holochain, Bug Fixes, and First Docker App (TEH)
+ - [Jarod Holtz](http://github.com/jarodholtz) - Meals, Video Documentation, Live Feed Production, Love, and Care
+ - [Celestial Hanley](http://twitter.com/han_cee) - Meals, Love, and Care
+ - [Ferananda Ibarra](http://twitter.com/fer_ananda) - Facilitation, Social Media, Live Feed Production
+ - [Matthew Schutte](http://github.com/matthewjosef) - Housing, Hosting, Hackathon Production
+ - [Arthur Brock](http://github.com/artbrock) - Documentation and Training
+ - [Eric Harris-Braun](http://github.com/zippy) - Making it all work (software), keeping up with bug fixes and developer needs
+ - [Alex Voto](https://twitter.com/AVotoFuture) - Writings in Progress
+ - [Vienna Looi](http://twitter.com/viennalooi) - Holochain for Windows Documentation
+ - [Jeff Clearwater](http://github.com/clrwater) - Bridge Building & Strategic Relationships
+ - [Trent Lapinski](@trentlapinski) - Writings in Progress
+ - [Twain Liu](http://twitter.com/twainus) - Meme Breakthroughs for Communication
 
 ### Remote Participants
-[Nicholas Perrin](http://github.com/nwperrin) - Co-organized Vancouver group at [DCNTRL](https://www.meetup.com/dctrlvan/)
-[Chelsea Palmer](http://github.com/chiselinc) - Co-organized Vancouver group at [DCNTRL](https://www.meetup.com/dctrlvan/)
-[Haiz Oppenheimer](http://github.com/haizop) - Hosted Asheville gathering at [Shiny Creek](http://www.shinycreek.com/)
-[Robert Best](http://github.com/bortseb) - Livestream & Slack Participation
-[Judd Maltin](http://github.com/newgoliath) - Livestream & Slack Participation
+ - [Nicholas Perrin](http://github.com/nwperrin) - Co-organized Vancouver group at [DCNTRL](https://www.meetup.com/dctrlvan/)
+ - [Chelsea Palmer](http://github.com/chiselinc) - Co-organized Vancouver group at [DCNTRL](https://www.meetup.com/dctrlvan/)
+ - [Haiz Oppenheimer](http://github.com/haizop) - Hosted Asheville gathering at [Shiny Creek](http://www.shinycreek.com/)
+ - [Robert Best](http://github.com/bortseb) - Livestream & Slack Participation
+ - [Judd Maltin](http://github.com/newgoliath) - Livestream & Slack Participation
+ - [Timothy Carlin-Burns](http://github.com/timotree3) - Bug fixes and Go optimizations
 
 
-### Apps Built (but not fully stable yet)
+### Applications Built (but not fully stable yet)
  - _**Distributed Slack-alike:**_ Do your slack chat team conversations without a central server. Implement a different holochain instance for each team.
  - _**Distributed Twitter**:_ Micro-post broadcasting without central server infrastructure
  - _**Trust Exchange**_ - Making signed claims, information, ratings.
 
-### Other Applications in Progress or On Deck
+### Other Apps in Progress or On Deck
  - _**Distributed PKI**_ (Public Key Infrastructure): Reliable decentralized infrastructure to share, search, find, validate public keys against contact information of individuals.
  -  _**Rating / Tagging / Feedback**_: Distributed way to assert metrics, semantics, and annotations on to any addressable / linkable item
  - _**Fact Checking:**_ Distributed fact checking system
@@ -97,7 +98,7 @@ What do you want to work on?
 ### Important Takeaway
 
 Do not participate in a hackathon from your car -- bad things can happen: <br />
-![Car in Ditch](/images/car_ditch.jpg)
+![Car in Ditch](/images/car_ditch.jpg){:class="img-responsive"}
 
 <br /><br />
 
