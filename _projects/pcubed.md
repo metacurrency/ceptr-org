@@ -11,22 +11,30 @@ repos:
 articles:
   "Introducing Semtrex": https://www.codeproject.com/Articles/894188/Introducing-Semtrex
 ---
-<!-- TOC START min:1 max:3 link:true update:true -->
-  - [Overview](#overview)
-  - [Semantic Trees](#semantic-trees)
-  - [Semantic Alternation](#semantic-alternation)
-  - [Semtrex](#semtrex)
-  - [Match Triggers](#match-triggers)
-  - [Protocol Framework](#protocol-framework)
-  - [Protocol Composability](#protocol-composability)
-  - [Transformational Maps](#transformational-maps)
-  - [Optimized for Evolution](#optimized-for-evolution)
 
-<!-- TOC END -->
+<div id="toc" class="toc col-lg-4 col-md-4 col-sm-4" markdown="1">
 
-<br /><div class="alert alert-warning" role="alert"><em><b>Stage of Development:</b> Our Protocol for Pluggable Protocols was built and prototyped in our C implementation of the Ceptr codebase. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects (like this one) and is being [reimplemented in Go](http://github.com/metacurrency/pcubed). Which means although this has been built once already, we're in the process of building it again.</em></div>
+<!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-## Overview
+- [Semantic Trees](#semantic-trees)
+- [Semantic Alternation](#semantic-alternation)
+- [Semtrex](#semtrex)
+- [Match Triggers](#match-triggers)
+- [Protocol Framework](#protocol-framework)
+- [Protocol Composability](#protocol-composability)
+- [Transformational Maps](#transformational-maps)
+- [Optimized for Evolution](#optimized-for-evolution)
+
+<!-- /TOC -->
+
+</div>
+
+<br />
+<div class="alert alert-warning" role="alert" markdown="1">
+**Stage of Development:** Our Protocol for Pluggable Protocols was built and prototyped in our [C implementation of the Ceptr codebase](http://github.com/zippy/ceptr). That codebase is being retired in favor of breaking Ceptr down into more understandable sub-projects (like this one) and is being [reimplemented in Go](http://github.com/metacurrency/pcubed). Which means, although this has been built once already, we're in the process of building it again.
+</div>
+
+# Overview
 
 ## Semantic Trees
 The basic data structure for messages in self-describing protocols are semantic trees. These are tree structures where the shape of the tree matches the data hierarchy and each node contains a symbol identifier for the type of content at that node in addition to whatever values may be stored there.

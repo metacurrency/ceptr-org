@@ -9,7 +9,7 @@ purpose: "Brings cloud computing out to the edges by enabling truly distributed 
 ---
 <!--{::options parse_block_html="true" /} -->
 
-<div id="toc" class="toc col-lg-2 col-md-2">
+<div id="toc" class="toc" markdown="1">
 
 <!-- TOC START min:1 max:3 link:true update:true -->
   - [Overview](#overview)
@@ -19,8 +19,9 @@ purpose: "Brings cloud computing out to the edges by enabling truly distributed 
 
 </div>
 
-<br /><div class="alert alert-danger" role="alert">
-<em><b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochains](/projects/holochain) to begin development</em>
+<br />
+<div class="alert alert-danger" role="alert" markdown="1">
+   <b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochains](/projects/holochain) to begin development
 </div>
 
 ## Overview

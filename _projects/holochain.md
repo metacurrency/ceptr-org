@@ -14,6 +14,8 @@ articles:
   "Scalable Cryptocurrencies": https://medium.com/metacurrency-project/beyond-blockchain-simple-scalable-cryptocurrencies-1eb7aebac6ae#.javpl89rt
 ---
 
+<div id="toc" class="toc" markdown="1">
+
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Overview](#overview)
@@ -30,8 +32,10 @@ articles:
 
 <!-- /TOC -->
 
+</div>
+
 <br />
-<div class="alert alert-warning" role="alert">
+<div class="alert alert-warning" role="alert" markdown="1">
    <b>Stage of Development:</b> Active development for proof-of-concept stage.
 </div>
 
