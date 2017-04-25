@@ -20,9 +20,11 @@ comments: []
 <img class="fit responsive" src="/images/distributed-except-distributed.jpg">
 
 *When:* Friday, April 28 at 12 PM - 2 PM PDT
+
 *Where:* Online - [Link to Zoom Room](https://zoom.us/j/2094718416) - [Link to Facebook Event](https://www.facebook.com/events/1883517225263014/)
 
 *Further Details:*
+
 Holochain is a next-gen technology platform that addresses many needs for secure communication and building peer-to-peer applications.Holochain goes far beyond the blockchain architecture, removing bottlenecks by creating independent, parallel chains, addressing social coherence, accountability and governance, and the ability to more rapidly evolve protocols. Billions of dollars are being thrown at blockchain right now, even for projects that would be much better served by Holochain.
 
 World of Distributed Applications and Decentralized Currencies
