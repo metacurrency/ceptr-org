@@ -17,7 +17,7 @@ tags:
 comments: []
 ---
 # Holochain Presentation
-<img class="fit responsive" src="/images/distributed-except-distributed.jpg">
+<img class="fit responsive" src="/images/distributed-except-distributed.png">
 
 *When:* Friday, April 28 at 12 PM - 2 PM PDT
 
