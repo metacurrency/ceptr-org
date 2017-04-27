@@ -19,13 +19,37 @@ comments: []
 # Holochain Presentation
 <img class="fit responsive" src="/images/distributed-except-distributed.png">
 
-*When:* Friday, April 28 at 12 PM - 2 PM PDT
+**When:** Friday, April 28. Noon - 2PM PDT
 
-*Where:* Online - [Link to Zoom Room](https://zoom.us/j/2094718416) - [Link to Facebook Event](https://www.facebook.com/events/1883517225263014/)
+**Where:** Online - [Link to Zoom Room](https://zoom.us/j/2094718416) - [Link to Facebook Event](https://www.facebook.com/events/1883517225263014/)
 
-*Further Details:*
+**What:** The purpose of this presentation is to provide an introduction to Holochain and detail its role within the larger Metacurrency Project.
 
-Holochain is a next-gen technology platform that addresses many needs for secure communication and building peer-to-peer applications.Holochain goes far beyond the blockchain architecture, removing bottlenecks by creating independent, parallel chains, addressing social coherence, accountability and governance, and the ability to more rapidly evolve protocols. Billions of dollars are being thrown at blockchain right now, even for projects that would be much better served by Holochain.
+Content of the presentation:
+- Historical context of the Metacurrency Project
+- The project's guiding purpose and vision, including why Holochain is needed
+- Influences and inspirations contributing to Holochain’s design
+- Examples of things that will be possible with Holochain
+- Details about the current state of the technology
+- Examples of what is already being made using Holochain.
+
+There will also be room for questions from the audience during the later portions of the presentation.
+
+**Presenters:**  
+
+|----
+| | |
+|-|-|-
+| ![Ferananda Ibarra](https://2.gravatar.com/avatar/5c6837364bbd336134a9922739365b6e?s=180&r=g){:height="120px" width="120px" padding="20px"} |  |**Ferananda Ibarra** - Culture crafting, collective intelligence and new paradigm economics geek in love with experience design and facilitation. Currency designer in the making.
+| ![Eric Harris-Braun](https://0.gravatar.com/avatar/944fd287e806faa3cf79519f6242c07d?s=180&r=g){:height="120px" width="120px"} |  |**Eric Harris-Braun** - Code monkey, lover of all things meta, grammars, expressions, receptors, current-sees and more.  
+| ![Arthur Brock](https://1.gravatar.com/avatar/428b76e441cff57668fbbc2d9d20a38f?s=180&r=g){:height="120px" width="120px"} |  |**Arthur Brock** - Culture hacker, software architect, and alt.Currency geek who spends too much time on working on things that don't yet exist.
+|---  
+
+  ***  
+
+  **Some details about Holochain:**
+
+Holochain is a next-gen technology platform that addresses many needs for secure communication and building peer-to-peer applications. Holochain goes far beyond the blockchain architecture, removing bottlenecks by creating independent, parallel chains, addressing social coherence, accountability and governance, and the ability to more rapidly evolve protocols. Billions of dollars are being thrown at blockchain right now, even for projects that would be much better served by Holochain.
 
 World of Distributed Applications and Decentralized Currencies
 
