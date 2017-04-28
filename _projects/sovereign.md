@@ -18,7 +18,7 @@ purpose: "Organizations incorporated in distributed app code instead of legal co
 
 <!-- TOC END -->
 
-<br /><div class="alert alert-warning"  role="alert"><em><b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochains](/projects/holochain) to begin development</em></div>
+<br /><div class="alert alert-warning"  role="alert"><em><b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochain](/projects/holochain) to begin development</em></div>
 
 ## Overview
 We believe you can't claim to truly have a distributed technology solution, until the governance of the technology follows a distributed architecture.
@@ -28,7 +28,7 @@ Whether a cryptocurrency, new commons, platform cooperative, or whatever, no mat
 The controversial Ethereum hard fork in response to DAOhub is an example of this issue. The behind the scene battles in the Bitcoin community about block size and scaling strategies is another. No matter how fair it seems you've made the rules of a game, if some select group gets to change those rules at their pleasure, then fairness is not actually guaranteed.
 
 ## Core Concepts
-A Sovereign Accountable Commons (SAC) is akin to idea of a Decentralized Autonomous Organizations (DAO) on Ethereum but the underlying technology is fundamentally different, as SACs are built on [Ceptr](/projects/core) and [Holochains](/projects/holochains).
+A Sovereign Accountable Commons (SAC) is akin to idea of a Decentralized Autonomous Organizations (DAO) on Ethereum but the underlying technology is fundamentally different, as SACs are built on [Ceptr](/projects/core) and [Holochain](/projects/holochains).
 
 ## Sovereign:
 An SAC runs as a collectively distributed application. As long as at least one person wants to run it, it can't be shut down. Two or more nodes running it make it a collective. It's algorithms set availability and redundancy based on size and scale of the network.
