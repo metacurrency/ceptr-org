@@ -21,7 +21,7 @@ purpose: "Brings cloud computing out to the edges by enabling truly distributed 
 
 <br />
 <div class="alert alert-danger" role="alert" markdown="1">
-   <b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochains](/projects/holochain) to begin development
+   <b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochain](/projects/holochain) to begin development
 </div>
 
 ## Overview
