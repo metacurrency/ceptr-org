@@ -23,10 +23,10 @@ comments: []
 
 **Where:** Online - [Link to Zoom Room](https://zoom.us/j/2094718416) - [Link to Facebook Event](https://www.facebook.com/events/1883517225263014/)
 
-**What:** The purpose of this presentation is to provide an introduction to Holochain and detail its role within the larger Metacurrency Project.
+**What:** The purpose of this presentation is to provide an introduction to Holochain and detail its role within the larger MetaCurrency Project.
 
 Content of the presentation:
-- Historical context of the Metacurrency Project
+- Historical context of the MetaCurrency Project
 - The project's guiding purpose and vision, including why Holochain is needed
 - Influences and inspirations contributing to Holochain’s design
 - Examples of things that will be possible with Holochain
@@ -55,8 +55,6 @@ World of Distributed Applications and Decentralized Currencies
 
 - Holochain is a platform for building, launching, and distributing applications which run as a peer-to-peer system without central servers or hosting.
 
-- The Holochain Network runs in parallel with the Internet but is designed for secure, encrypted communications with rapidly evolving protocols.
-
 - As an underlying communication and development infrastructure, the Holochain protocols must be open source and not privately owned.
 
 - There is a huge demand for decentralized architectures for communications, applications and currencies evidenced by the most successful crowd-equity sales in history.
@@ -67,6 +65,6 @@ World of Distributed Applications and Decentralized Currencies
 
 - Holochain removes the bottleneck of consensus on a shared ledger with human-centric design instead of coin or token-centric design.
 
-- Once Holochain is ready for fuel it will also be ready for others to create Mutual-credit cryptocurrencies and ecosystems of interoperable current-sees (monetary and non-monetary)
+- Holochain is designed to enable a new breed of agent-centric cryptocurrencies (instead of token-centric ones) enabling mutual credit issuance and whole ecosystems of interoperable current-sees (monetary and non-monetary).
 
 More information at: [http://ceptr.org/projects/holochain](http://ceptr.org/projects/holochain)
