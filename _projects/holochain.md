@@ -36,7 +36,7 @@ articles:
 
 <br />
 <div class="alert alert-warning" role="alert" markdown="1">
-   <b>Stage of Development:</b> Pre-Alpha. Proof-of-concept was completed and unveiled at our first [Hackathon](/hackathons). We expect to do an **Alpha release in June 2017** when we complete our Security Milestone.
+   <b>Stage of Development:</b> Pre-Alpha. Proof-of-concept was completed and unveiled at our first <a href="/hackathons">Hackathon</a>. We expect to do an <b>Alpha release in June 2017</b> when we complete our Security Milestone.
 </div>
 
 ## Overview
