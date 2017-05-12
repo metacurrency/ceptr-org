@@ -36,7 +36,7 @@ articles:
 
 <br />
 <div class="alert alert-warning" role="alert" markdown="1">
-   <b>Stage of Development:</b> Active development for proof-of-concept stage.
+   <b>Stage of Development:</b> Pre-Alpha. Proof-of-concept was completed and unveiled at our first [Hackathon](/hackathons). We expect to do an **Alpha release in June 2017** when we complete our Security Milestone.
 </div>
 
 ## Overview
@@ -109,8 +109,8 @@ Holochains are ideal for:
 ## When NOT to Use Holochain
 You probably SHOULD NOT use holochain for:
  * **Just for yourself:** You generally don't need distributed tools to just run something for yourself. The exception would be if you want to run a holochain to synchronize certain data across a bunch of your devices (phone, laptop, desktop, cloud server, etc.)
- * **Anonymous / Secret / Private data:** Not only do we need to do a security audit of our encryption and permissions, but you're publishing to a shared DHT space, so unless you really know what you're doing, you should not assume data is private. Some time in the future, I'm sure some applications will add an anonymization layer (like TOR), but that is not native.
- * **Large files:** Think of holochains more like a database than a file system. Nobody wants to be forced to load and host your big files on their devices just because their in the neighborhood of its hash. Use something like [IFPS](http://ipfs.io) if you want a decentralized file system.
+ * **Anonymous / Secret / Private data:** Not only do we need to do a security audit of our encryption and permissions, but you're publishing to a shared DHT space, so unless you really know what you're doing, you should not assume data is private. Some time in the future, people will certainly add some applications to provide anonymization layers (similar to TOR), but that is not native to holochain.
+ * **Large files:** Think of holochains more like a database for structured data storage than a file system for storing music and videos. Nobody wants to be forced to load and host your big files on their devices just because they're in the neighborhood of its hash. Use something like [IFPS](http://ipfs.io) if you're looking for a decentralized file system.
  * **Data positivist-oriented apps:** If you have built all of your application logic around the idea that data exists as an absolute truth, not as an assertion by an agent at a time, then you would need to rethink your whole approach before putting it in a Holochain app. This is why _most existing cryptocurrencies would need significant refactoring_ to move from blockchain to holochain, since they are organized around managing the existence of cryptographic tokens.
 
 ## Why Ceptr? Where does this come from?
