@@ -65,51 +65,51 @@ In any case, this is no typical 9 to 5 grind. Many flexible arrangements are ava
 Software Development
 : Skills/Interests in Go, JavaScript, protocols,  blockchain, or distributed computing.
 
-
+ </br>
 Writing, Blogging, & Editing
  : Good writing skills. Actually enjoy writing and editing.
 
-
+ </br>
 Executive Assistant, Admin & Organization
  : Competent and detail oriented.
 
-
+ </br>
 Marketing, Social Media & PR
  : Good communication skills, facility with many social media tools.  Support for the social media strategy. Listen to conversations, analyze data, engage with audience, track questions,monitor influencers and hashtags, identify opportunities
 
-
+ </br>
 Crowdfunding, Communications & Outreach
   : Experience running a crowdfunding campaign.
 
-
+</br>
 Graphic Design
   : Skills in visual communication and graphic design software.
 
-
+</br>
 Web Site Development
  : HTML, JavaScript, Jekyll, and basic layout & design.
 
-
+</br>
 UX Design
  : Usability, workflow & human-computer interface design.
 
-
+</br>
 Infrastructure and Deployment Engineering
  : Automating cloud and metal infrastructures with tools like Docker, Kubernetes, Linux, Storage, Networking, Security.
 
-
+</br>
  Test Engineering
   : Creating automated test suites for node and network based workloads.
 
-
+</br>
 Videographer, Video Editor
  : Natural storyteller with video filming and editing experience. Skills with Adobe Premier (preferred), Final Cut Pro or similar tools. Create videos for social media, online education and community onboarding to help build understanding of - and nurture participation in - our work to re-design internet communication, collaboration, and work itself.
 
-
+</br>
 Animation & Illustration
  : Experience creating 2d animations or motion graphics with After Effects or similar software. Illustration chops and experience with Illustrator/Photoshop/InDesign a plus. Create video and web animations that help communicate world changing ideas and engage audiences.
 
-
+</br>
 Community Development, Event Organizing
  : Good communication skills & eagerness create value for newcomers. Contribute to event organizing and production online and offline. Learn to produce e-learning materials in Learning Management Systems (LMS), be in service to the needs of people in the community. If proficient in the content then contribute to forum moderation. Contribute to activities related to community development like potlucks, be-ops and others.
 
