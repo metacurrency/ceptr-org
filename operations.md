@@ -22,6 +22,8 @@ tags:
 comments: []
 ---
 
+<div class="col-md-8" markdown="1">
+
 ## Operations in the Ceptr Ecosystem
 
 
@@ -61,3 +63,5 @@ Once we can run our own community on the tools we're building, we'd like to turn
 
 ### Establishing a Commons
 We work toward building the tools which will enable us to operate at as a decentralized autonomous organization, specifically a Sovereign Accountable Commons running on Ceptr. This will include structures for community self-organizing and self-governance.
+
+</div>
