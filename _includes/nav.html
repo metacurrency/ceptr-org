@@ -23,6 +23,16 @@
           </ul>
         </li>
 
+        {% assign pt = page.url | split: "/" %}
+        <li class="dropdown{% if pt[1] == 'participate' %} active{% endif %}"><a href="#" data-toggle="dropdown">Participate</a>
+          <ul class="dropdown-menu">
+            {% assign participate_pages = site.participate | sort: 'navigation_weight' %}
+            {% for pt in participate_pages %}
+              <li><a tabindex="-1" href="{{pt.url}}">{{pt.nav_title}}</a></li>
+            {% endfor %}
+          </ul>
+        </li>
+
         {% assign navigation_pages = site.html_pages | where_exp:"item","item.title != 'Home'" | where_exp:"item","item.title != 'Sorry...'" | where_exp:"item","item.title != 'Revelation'" | sort: 'navigation_weight' %}
         {% for p in navigation_pages %}
           {% if p.navigation_weight %}
