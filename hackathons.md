@@ -2,6 +2,7 @@
 layout: page
 status: publish
 published: true
+image: /images/hackathon-table.jpg
 title: Hackathons
 author: Arthur Brock
 author_login: artbrock
@@ -18,12 +19,13 @@ tags:
 - Applications
 comments: []
 ---
+
 # Hackathons
 <img class="fit responsive" src="/images/hackathon-table.jpg">
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
-- [Next Event?](#next-event)
+- [Next Events?](#next-events)
 - [Holochain Hackathon - SFO March 6 - 8, 2017](#holochain-hackathon-sfo-march-6-8-2017)
 	- [Acknowledgements](#acknowledgements)
 	- [Remote Participants](#remote-participants)
