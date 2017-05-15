@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: participate
 status: publish
 published: true
 title: Operations
