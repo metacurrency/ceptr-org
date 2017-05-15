@@ -48,3 +48,6 @@ collections:
   projects:
     output: true
     permalink: /projects/:slug
+  participate:
+    output: true
+    permalink: /participate/:slug
