@@ -2,7 +2,7 @@
 layout: page
 status: publish
 published: true
-title: Organizational Structure
+title: Operations
 author: Arthur Brock
 author_login: artbrock
 author_email: artbrock@geekgene.com
@@ -12,6 +12,7 @@ date_gmt: '2017-05-14 04:58:14 -0400'
 categories: []
 tags:
 - Organization
+- Operations
 - Governance
 - Do-ocracy
 - Value Accounting
