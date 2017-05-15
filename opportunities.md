@@ -99,7 +99,10 @@ Infrastructure and Deployment Engineering
  : Automating cloud and metal infrastructures with tools like Docker, Kubernetes, Linux, Storage, Networking, Security.
 
  Test Engineering
-  : Creating automated test suites for node and network based workloads.
+  : Creating test suites for automated distributed app test-driven development processes. Holochain application development includes a testing-harness to automate tests across many automatically instantiated instances of the application. This work includes developing and enhancing that testing-harness and it’s Docker integration.
+
+  : Expertise in Test-driven/Behavior-driven development, Docker, go, unix system scripting all helpful.
+
 
 Videographer, Video Editor
  : Natural storyteller with video filming and editing experience. Skills with Adobe Premier (preferred), Final Cut Pro or similar tools. Create videos for social media, online education and community onboarding to help build understanding of - and nurture participation in - our work to re-design internet communication, collaboration, and work itself.
