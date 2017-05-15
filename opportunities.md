@@ -25,7 +25,7 @@ comments: []
 
 <div class="col-md-8" markdown="1">
 
-<img class="fit responsive" src="/images/OceanView.jpg">
+![Residency House](/images/OceanView.jpg)
 
 Join our rapidly growing team and community of contributors. If you like our project and know you want to change the world with the kind of impact this work will have, then this page is for you.
 
