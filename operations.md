@@ -37,7 +37,7 @@ comments: []
 
 <!-- tocstop -->
 
-![Human Organization](/images/human-tower.jpg)
+![Human Organization](/images/human-tower.jpg){:class="col-xl-8 col-lg-8 col-md-8 col-sm-12 img-responsive"}
 
 ### Organizational Structure
 The MetaCurrency Project operates as a non-profit association. We don't have bosses and employees but function open community building tools for the next economy. That means we have to practice using those tools on ourselves to make sure the stuff we're building to empower others actually works.
