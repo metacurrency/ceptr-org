@@ -78,45 +78,43 @@ Software Development
 : Skills/Interests in Go, JavaScript, protocols,  blockchain, or distributed computing.
 
 Writing, Blogging, & Editing
- : Good writing skills. Actually enjoy writing and editing.
+ : Good writing skills. Actually enjoy writing and editing. Research, develop, and write engaging blog posts, website content, video scripts, crowdfuding copy. Edit new and previously written documents and prepare them for public distribution. Find supporting images and/or work with photographer to capture useful visual content.
 
 Executive Assistant, Admin & Organization
- : Competent and detail oriented.
+ : Competent, detail oriented, and excited to learn. Support founders and team leaders on a wide range of tasks including training, calendar management, travel logistics, email communication, editing, and report writing.
 
 Marketing, Social Media & PR
- : Good communication skills, facility with many social media tools.  Support for the social media strategy. Listen to conversations, analyze data, engage with audience, track questions,monitor influencers and hashtags, identify opportunities
+ : Good communication skills, facility with many social media tools. Support for the social media strategy. Listen to conversations, analyze data, engage with audience, track questions, monitor influencers and hashtags, identify opportunities. Help design strategic vision and lay groundwork for broadcasting that vision.
 
 Crowdfunding, Communications & Outreach
-  : Experience running a crowdfunding campaign.
+  : Experience running a crowdfunding campaign. Coherency holder for one or two of our crowdfunding campaigns. Ability to communicate effectively with a team of broadly skilled individuals including writers, videographers, and marketing strategists to engineer a brilliant campaign in a short amount of time.
 
 Graphic Design
-  : Skills in visual communication and graphic design software.
+  : Skills in visual communication and graphic design software such as Adobe Illustrator, Photoshop, etc. Work with our UX, Web, and Marketing teams to create style guides, branding, and online experiences that are compelling, yet intuitive. Your work will be critical for both our products and community relations.
 
 Web Site Development
- : HTML, JavaScript, Jekyll, and basic layout & design.
+ : HTML, JavaScript, Jekyll, and basic layout & design. Create websites for Ceptr and for specific projects and applications that are engaging and delightful. We are building new ways of computing, but many of these need to interface with or be marketed on the world wide web. Work with our graphic design and backend software development teams to drive engagement and adoption.
 
 UX Design
- : Usability, workflow & human-computer interface design.
+ : Design and iterate on user-centered experiences. Expertise in UX software such as InVision, UXPin, Balsamiq, Framer.js, Quartz Composer, and the like is a must. Basic HTML5, CSS3, and JavaScript skills are a plus. Design and deliver wireframes, user stories, user journeys, and mockups that lead to intuitive user experiences. Make strategic design and user-experience decisions related to core, and new, functions and features. Collaborate with Graphic Designers, User Interface Designers, Web Developers and Software Engineers.
 
 Infrastructure and Deployment Engineering
  : Automating cloud and metal infrastructures with tools like Docker, Kubernetes, Linux, Storage, Networking, Security.
 
  Test Engineering
-  : Creating test suites for automated distributed app test-driven development processes. Holochain application development includes a testing-harness to automate tests across many automatically instantiated instances of the application. This work includes developing and enhancing that testing-harness and it’s Docker integration.
-
-  : Expertise in Test-driven/Behavior-driven development, Docker, go, unix system scripting all helpful.
+  : Creating test suites for automated distributed app test-driven development processes. Holochain application development includes a testing-harness to automate tests across many automatically instantiated instances of the application. This work includes developing and enhancing that testing-harness and it’s Docker integration. Expertise in Test-driven/Behavior-driven development, Docker, go, unix system scripting all helpful.
 
 
 Videographer, Video Editor
- : Natural storyteller with video filming and editing experience. Skills with Adobe Premier (preferred), Final Cut Pro or similar tools. Create videos for social media, online education and community onboarding to help build understanding of - and nurture participation in - our work to re-design internet communication, collaboration, and work itself.
+ : Natural storyteller with video filming and editing experience. Experience editing with Adobe Premier (preferred), Final Cut Pro or similar software. Create videos for social media, online education and community onboarding to help build understanding of - and nurture participation in - our work to re-design internet communication, collaboration, and work itself.
 
 Animation & Illustration
- : Experience creating 2d animations or motion graphics with After Effects or similar software. Illustration chops and experience with Illustrator/Photoshop/InDesign a plus. Create video and web animations that help communicate world changing ideas and engage audiences.
+ : Natural storyteller with experience in graphic illustration and/or digital animation. Experience creating 2d animations or motion graphics with After Effects or similar software. Illustration chops and experience with Illustrator/Photoshop/InDesign a plus. Create video and web animations that help communicate world changing ideas and engage audiences..
 
 Community Development, Event Organizing
- : Good communication skills & eagerness create value for newcomers. Contribute to event organizing and production online and offline. Learn to produce e-learning materials in Learning Management Systems (LMS), be in service to the needs of people in the community. If proficient in the content then contribute to forum moderation. Contribute to activities related to community development like potlucks, be-ops and others.
+ : Good communication skills, eagerness to learn and create value. Contribute to event organizing and production online and offline. Learn to produce e-learning materials in Learning Management Systems (LMS), be in service to the needs of people in the community. If proficient in the content, then contribute to forum moderation. Contribute to activities related to community development like potlucks, be-ops and others.
 
-
+---
 Do-op Leaders, please list and describe needs and opportunities here.
 
 </div>
