@@ -4,6 +4,7 @@ status: publish
 published: true
 title: Operations
 image: /images/human-tower.jpg
+nav_title: Operations
 navigation_weight: 3
 author: Arthur Brock
 author_login: artbrock

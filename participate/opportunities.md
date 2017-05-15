@@ -4,6 +4,7 @@ status: publish
 published: true
 title: Opportunities
 image: /images/OceanView.jpg
+nav_title: Opportunities
 navigation_weight: 1
 author: Arthur Brock
 author_login: artbrock
