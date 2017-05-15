@@ -22,7 +22,7 @@
             {% endfor %}
           </ul>
         </li>
-
+        {% assign p = page.url | split: "/" %}
         <li class="dropdown{% if p[1] == 'participate' %} active{% endif %}"><a href="#" data-toggle="dropdown">Participate</a>
           <ul class="dropdown-menu">
             {% assign participate_pages = site.participate | sort: 'navigation_weight' %}
