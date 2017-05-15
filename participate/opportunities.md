@@ -4,6 +4,7 @@ status: publish
 published: true
 title: Opportunities
 image: /images/OceanView.jpg
+navigation_weight: 1
 author: Arthur Brock
 author_login: artbrock
 author_email: artbrock@geekgene.com
@@ -25,7 +26,7 @@ comments: []
 
 <div class="col-md-8" markdown="1">
 
-![Residency House](/images/OceanView.jpg){:class="col-xl-8 col-lg-8 col-md-8 col-sm-12 img-responsive"}
+![Residency House](/images/OceanView.jpg){:class="img-responsive"}
 
 Join our rapidly growing team and community of contributors. If you like our project and know you want to change the world with the kind of impact this work will have, then this page is for you.
 
@@ -60,7 +61,7 @@ More important than specific job skills or experience is communication, competen
 
 If selected, this could easily become a career path as most will advance toward positions of leadership or take their training out into the world to start their own entrepreneurial ventures.
 
-[Apply online here](https://docs.google.com/forms/d/e/1FAIpQLScRsdhzd1Wkfe0GA0_gfyJiuZ6bVUust5uLkZqDNeeO8G2wNg/viewform?usp=sf_link).
+[Apply Now](https://docs.google.com/forms/d/e/1FAIpQLScRsdhzd1Wkfe0GA0_gfyJiuZ6bVUust5uLkZqDNeeO8G2wNg/viewform?usp=sf_link){:class="btn btn-default btn-xl page-scroll sr-button"}.
 
 If you know of people that are good candidates for a residency, please let them know about the opportunity.
 

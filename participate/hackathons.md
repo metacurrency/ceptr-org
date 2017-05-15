@@ -4,6 +4,7 @@ status: publish
 published: true
 image: /images/hackathon-table.jpg
 title: Hackathons
+navigation_weight: 2
 author: Arthur Brock
 author_login: artbrock
 author_email: artbrock@geekgene.com
