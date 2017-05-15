@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Opportunities
+image: /images/OceanView.jpg
 author: Arthur Brock
 author_login: artbrock
 author_email: artbrock@geekgene.com
@@ -24,24 +25,26 @@ comments: []
 
 <div class="col-md-8" markdown="1">
 
-Join a rapidly growing team and community of contributors. If you like our project and know you want to change the world with the kind of impact this work will have, then this page is for you.
+<img class="fit responsive" src="/images/OceanView.jpg">
 
-## Current Opportunities
+Join our rapidly growing team and community of contributors. If you like our project and know you want to change the world with the kind of impact this work will have, then this page is for you.
 
 **Important Context:** This is an Open Source project building significantly disruptive tools. As such, it is not a profit-driven model and has no short-term revenue. Most people participate as volunteers.
 
-However, we are putting in place value accounting for all types of participation, and there are many ways contributors can be rewarded. Also, we have received some financial support that we are carefully leveraging. [Learn about our operations](/operations).
+As we implement better accounting for the value of people participation and contributions we are implementing multiple systems of rewards. Also, we have received some financial support that we are carefully leveraging. [Learn more about our operations](/operations).
 
+# Current Opportunities
 
-<!-- toc orderedList:0 depthFrom:3 depthTo:6 -->
+<!-- toc orderedList:0 depthFrom:2 depthTo:6 -->
 
 * [Summer 2017 Residencies](#summer-2017-residencies)
 * [Ongoing Participation](#ongoing-participation)
 
 <!-- tocstop -->
 
+---
 
-### Summer 2017 Residencies
+## Summer 2017 Residencies
 
 *San Francisco CA ~ Ashland OR ~ Upstate NY*
 
@@ -59,13 +62,13 @@ If selected, this could easily become a career path as most will advance toward 
 
 [Apply online here](https://docs.google.com/forms/d/e/1FAIpQLScRsdhzd1Wkfe0GA0_gfyJiuZ6bVUust5uLkZqDNeeO8G2wNg/viewform?usp=sf_link).
 
-Please pass this invitation along to other good candidates.
+If you know of people that are good candidates for a residency, please let them know about the opportunity.
 
-### Ongoing Participation
+## Ongoing Participation
 
 There are many ways to participate and contribute. Below are some that our teams have identified, maybe you can bring some of the skills, talents, and interests we need.
 
-In any case, this is no typical 9 to 5 grind. Many flexible arrangements are available, including telecommuting, part-time, full-time, residencies, internships, and travel opportunities.
+In any case, this is no typical 9 to 5 grind. Many flexible arrangements are available, including telecommuting, part-time, full-time, residencies, internships, and travel opportunities.  [Learn about our operations and compensation structures](/operations).
 
 
 Software Development

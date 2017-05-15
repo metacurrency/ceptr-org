@@ -3,6 +3,7 @@ layout: page
 status: publish
 published: true
 title: Operations
+image: /images/human-tower.jpg
 author: Arthur Brock
 author_login: artbrock
 author_email: artbrock@geekgene.com
@@ -36,6 +37,7 @@ comments: []
 
 <!-- tocstop -->
 
+<img class="fit responsive" src="/images/human-tower.jpg">
 
 ### Organizational Structure
 The MetaCurrency Project operates as a non-profit association. We don't have bosses and employees but function open community building tools for the next economy. That means we have to practice using those tools on ourselves to make sure the stuff we're building to empower others actually works.
