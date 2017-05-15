@@ -32,8 +32,14 @@ Join a rapidly growing team and community of contributors. If you like our proje
 
 However, we are putting in place value accounting for all types of participation, and there are many ways contributors can be rewarded. Also, we have received some financial support that we are carefully leveraging. [Learn about our operations](/operations).
 
- * [Summer 2017 Residencies](#)
- * [Ongoing Participation](#)
+
+<!-- toc orderedList:0 depthFrom:3 depthTo:6 -->
+
+* [Summer 2017 Residencies](#summer-2017-residencies)
+* [Ongoing Participation](#ongoing-participation)
+
+<!-- tocstop -->
+
 
 ### Summer 2017 Residencies
 
