@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: participate
 status: publish
 published: true
 title: Opportunities
 image: /images/OceanView.jpg
 nav_title: Opportunities
 navigation_weight: 1
+slug: opportunities
 author: Arthur Brock
 author_login: artbrock
 author_email: artbrock@geekgene.com
@@ -62,7 +63,7 @@ More important than specific job skills or experience is communication, competen
 
 If selected, this could easily become a career path as most will advance toward positions of leadership or take their training out into the world to start their own entrepreneurial ventures.
 
-[Apply Now](https://docs.google.com/forms/d/e/1FAIpQLScRsdhzd1Wkfe0GA0_gfyJiuZ6bVUust5uLkZqDNeeO8G2wNg/viewform?usp=sf_link){:class="btn btn-default btn-xl page-scroll sr-button"}.
+[Apply Now](https://docs.google.com/forms/d/e/1FAIpQLScRsdhzd1Wkfe0GA0_gfyJiuZ6bVUust5uLkZqDNeeO8G2wNg/viewform?usp=sf_link){:class="btn btn-primary btn-xl page-scroll"}.
 
 If you know of people that are good candidates for a residency, please let them know about the opportunity.
 

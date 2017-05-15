@@ -1,11 +1,12 @@
 ---
-layout: page
+layout: participate
 status: publish
 published: true
 title: Operations
 image: /images/human-tower.jpg
 nav_title: Operations
 navigation_weight: 3
+slug: operations
 author: Arthur Brock
 author_login: artbrock
 author_email: artbrock@geekgene.com
