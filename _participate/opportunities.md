@@ -2,7 +2,7 @@
 layout: participate
 status: publish
 published: true
-title: Opportunities
+title: Live at the Beach. Change the World!
 image: /images/OceanView.jpg
 nav_title: Opportunities
 navigation_weight: 1
