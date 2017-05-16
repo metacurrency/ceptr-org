@@ -76,7 +76,7 @@ Most importantly, it provides the validation rules which everyone runs to make s
 ### Local Source Chain
 Instead a shared global ledger like blockchains, every person has their own local chain that they sign things to before publishing them to the shared DHT. Interactions involving multiple parties (such as a currency transfer between two people) are signed by EACH party and committed to their own chains, and then shared to DHT by each party.
 
-![Holochain_Source](/images/chain.svg)
+![Holochain_Source](/images/Holochain_Source.png)
 
 Many of the applications people dream of running in shared decentralized manner (like a distributed Facebook, Twitter, Slack, Uber, or AirBnB) shouldn't need any kind of consensus from a large group of people. Why should I need consensus for a tweet or a social network update? Why should we need consensus for me to reserve your spare room? What do these things have to do with anybody else's agreement?
 
