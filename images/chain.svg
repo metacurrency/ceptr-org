@@ -36,15 +36,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1916"
-     inkscape:window-height="1035"
+     inkscape:window-width="956"
+     inkscape:window-height="786"
      id="namedview6478"
      showgrid="false"
-     inkscape:zoom="1.07"
-     inkscape:cx="410.23044"
+     inkscape:zoom="0.61869061"
+     inkscape:cx="390.24454"
      inkscape:cy="316.6054"
-     inkscape:window-x="1920"
-     inkscape:window-y="22"
+     inkscape:window-x="2400"
+     inkscape:window-y="146"
      inkscape:window-maximized="0"
      inkscape:current-layer="graph0" />
   <g
@@ -57,11 +57,15 @@
        fill="#ffffff"
        stroke="transparent"
        points="-4,4 -4,-509.8 735.2462,-509.8 735.2462,4 -4,4"
-       id="polygon6159" />
+       id="polygon6159"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505" />
     <!-- Header0 -->
     <g
        id="node1"
-       class="node">
+       class="node"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6162">Header0</title>
       <polygon
@@ -203,7 +207,9 @@
     <!-- Header1 -->
     <g
        id="node2"
-       class="node">
+       class="node"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6211">Header1</title>
       <polygon
@@ -329,7 +335,9 @@
     <g
        id="edge2"
        class="edge"
-       transform="matrix(-1,0,0,-1,1074.5628,-427.2721)">
+       transform="matrix(-1,0,0,-1,1074.5628,-427.2721)"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6248">Header0-&gt;Header1</title>
       <path
@@ -345,7 +353,9 @@
     <!-- Header2 -->
     <g
        id="node3"
-       class="node">
+       class="node"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6255">Header2</title>
       <polygon
@@ -471,7 +481,9 @@
     <g
        id="edge3"
        class="edge"
-       transform="matrix(-1,0,0,-1,830.78624,-634.0624)">
+       transform="matrix(-1,0,0,-1,830.78624,-634.0624)"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6292">Header1-&gt;Header2</title>
       <path
@@ -487,7 +499,9 @@
     <!-- Header3 -->
     <g
        id="node4"
-       class="node">
+       class="node"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6299">Header3</title>
       <polygon
@@ -613,7 +627,9 @@
     <g
        id="edge4"
        class="edge"
-       transform="matrix(-1,0,0,-1,596.78624,-840.8624)">
+       transform="matrix(-1,0,0,-1,596.78624,-840.8624)"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6336">Header2-&gt;Header3</title>
       <path
@@ -629,7 +645,9 @@
     <!-- DNA -->
     <g
        id="node5"
-       class="node">
+       class="node"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6343">DNA</title>
       <polygon
@@ -752,7 +770,9 @@
     <g
        id="edge1"
        class="edge"
-       transform="matrix(-1,0,0,-1,1127.8217,-170.784)">
+       transform="matrix(-1,0,0,-1,1127.8217,-170.784)"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6380">DNA-&gt;Header0</title>
       <path
@@ -768,7 +788,9 @@
     <!-- Keys -->
     <g
        id="node6"
-       class="node">
+       class="node"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6387">Keys</title>
       <polygon
@@ -852,7 +874,9 @@
     <g
        id="edge5"
        class="edge"
-       transform="matrix(-1,0,0,-1,741.9275,-414.8753)">
+       transform="matrix(-1,0,0,-1,741.9275,-414.8753)"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6412">Keys-&gt;Header1</title>
       <path
@@ -868,7 +892,9 @@
     <!-- Entry1 -->
     <g
        id="node7"
-       class="node">
+       class="node"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6419">Entry1</title>
       <polygon
@@ -941,7 +967,9 @@
     <g
        id="edge6"
        class="edge"
-       transform="matrix(-1,0,0,-1,523.368,-625.6333)">
+       transform="matrix(-1,0,0,-1,523.368,-625.6333)"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6442">Entry1-&gt;Header2</title>
       <path
@@ -957,7 +985,9 @@
     <!-- Entry2 -->
     <g
        id="node8"
-       class="node">
+       class="node"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6449">Entry2</title>
       <polygon
@@ -1030,7 +1060,9 @@
     <g
        id="edge7"
        class="edge"
-       transform="matrix(-1,0,0,-1,289.368,-832.4333)">
+       transform="matrix(-1,0,0,-1,289.368,-832.4333)"
+       inkscape:export-xdpi="89.71505"
+       inkscape:export-ydpi="89.71505">
       <title
          id="title6472">Entry2-&gt;Header3</title>
       <path
