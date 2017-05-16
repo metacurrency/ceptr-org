@@ -34,7 +34,7 @@ Join our rapidly growing team and community of contributors. If you like our pro
 
 **Important Context:** This is an Open Source project building significantly disruptive tools. As such, it is not a profit-driven model and has no short-term revenue. Most people participate as volunteers.
 
-As we implement better accounting for the value of people participation and contributions we are implementing multiple systems of rewards. Also, we have received some financial support that we are carefully leveraging. [Learn more about our operations](/_participate/operations).
+As we implement better accounting for the value of people participation and contributions we are implementing multiple systems of rewards. Also, we have received some financial support that we are carefully leveraging. [Learn more about our operations](/participate/operations).
 
 # Current Opportunities
 
