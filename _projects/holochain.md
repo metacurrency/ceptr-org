@@ -67,7 +67,7 @@ You can think of a holochain as a shared DHT in which each piece of data is root
 
 Each holochain has these THREE MAIN SUB-SYSTEMS.
 
-![Holochain_Sub-Systems](http://ceptr.org/images/Holochain_Subsystems.png)
+![Holochain_Sub-Systems](/images/Holochain_Subsystems.png)
 ### Application
 The application is the glue that holds all the parts together into a unified whole. You connect to it with a web browser for a user interface. This application can read and write on your own local signed hash chain, and it can also get data from the Shared DHT, and put data you author out on that shared DHT.
 

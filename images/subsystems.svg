@@ -1,0 +1,2423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg6732"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="886"
+   height="522"
+   viewBox="0 0 886 522"
+   sodipodi:docname="subsystems.svg">
+  <metadata
+     id="metadata6738">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6736">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;"
+       inkscape:isstock="true">
+      <path
+         id="path8024"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path8021"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker11598"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path11600" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker11516"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path11518"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.8) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible;"
+       id="marker9151"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path9153" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9093"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:collect="always">
+      <path
+         transform="scale(0.8) translate(12.5,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path9095" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="marker8303"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path8305"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path8027"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1;fill:#000000;fill-opacity:1"
+         transform="scale(0.4) translate(10,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9093-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path9095-7" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9151-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path9153-2" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9093-2"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:collect="always">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path9095-3" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker9151-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 Z"
+         id="path9153-5" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="956"
+     inkscape:window-height="1035"
+     id="namedview6734"
+     showgrid="false"
+     inkscape:object-paths="true"
+     inkscape:snap-nodes="true"
+     inkscape:snap-bbox="true"
+     inkscape:snap-global="true"
+     inkscape:zoom="0.50383782"
+     inkscape:cx="447.87942"
+     inkscape:cy="155.15033"
+     inkscape:window-x="2880"
+     inkscape:window-y="22"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg6732" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="-138.66667"
+     y="-270"
+     id="text7286"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7288"
+       x="-138.66667"
+       y="-270"></tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="134.46092"
+     y="185.28787"
+     id="text7282-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7284-5"
+       x="134.46092"
+       y="185.28787"
+       style="font-size:31.25px;text-align:center;text-anchor:middle">Shared</tspan><tspan
+       sodipodi:role="line"
+       x="134.46092"
+       y="224.35037"
+       style="font-size:31.25px;text-align:center;text-anchor:middle"
+       id="tspan7308">Storage (DHT)</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="752.52167"
+     y="177.28789"
+     id="text7282-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7284-56"
+       x="752.52167"
+       y="177.28789"
+       style="font-size:31.25px;text-align:center;text-anchor:middle">Source</tspan><tspan
+       sodipodi:role="line"
+       x="752.52167"
+       y="216.35039"
+       style="font-size:31.25px;text-align:center;text-anchor:middle"
+       id="tspan7318">Hash Chain</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="284.66669"
+     y="116"
+     id="text7282"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7284"
+       x="284.66669"
+       y="116"
+       style="font-size:31.25px">Application (Nucleus)</tspan></text>
+  <path
+     style="opacity:1;fill:#e2e2e2;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30714703;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path7395"
+     sodipodi:type="arc"
+     sodipodi:cx="761.89746"
+     sodipodi:cy="269.50421"
+     sodipodi:rx="122.60245"
+     sodipodi:ry="34.109119"
+     sodipodi:start="4.2637889"
+     sodipodi:end="4.2621773"
+     d="m 708.72422,238.77001 a 122.60245,34.109119 0 0 1 163.62337,15.92854 122.60245,34.109119 0 0 1 -57.18789,45.52793 122.60245,34.109119 0 0 1 -163.66945,-15.89185 122.60245,34.109119 0 0 1 57.056,-45.54074"
+     sodipodi:open="true" />
+  <path
+     style="opacity:1;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30714703;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path7395-0"
+     sodipodi:type="arc"
+     sodipodi:cx="761.96698"
+     sodipodi:cy="461.49515"
+     sodipodi:rx="122.60245"
+     sodipodi:ry="34.109119"
+     sodipodi:start="0.047089449"
+     sodipodi:end="3.1362815"
+     d="M 884.43352,463.10073 A 122.60245,34.109119 0 0 1 759.40611,495.59683 122.60245,34.109119 0 0 1 639.36626,461.67631"
+     sodipodi:open="true" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.30714703;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 884.42364,268.30116 c -0.0755,195.24255 -0.10746,195.38531 -0.10746,195.38531"
+     id="path7953"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:1.30714703;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 639.39488,267.59467 c -0.0755,195.24255 -0.10747,195.38531 -0.10747,195.38531"
+     id="path7953-6"
+     inkscape:connector-curvature="0" />
+  <path
+     style="opacity:1;fill:#e2e2e2;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.48422277;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="path7395-2"
+     sodipodi:type="arc"
+     sodipodi:cx="451.99994"
+     sodipodi:cy="178"
+     sodipodi:rx="122.51149"
+     sodipodi:ry="44.009068"
+     sodipodi:start="4.2637889"
+     sodipodi:end="4.2621773"
+     d="m 398.86615,138.3454 a 122.51149,44.009068 0 0 1 163.50198,20.55169 122.51149,44.009068 0 0 1 -57.14547,58.74211 122.51149,44.009068 0 0 1 -163.54802,-20.50435 122.51149,44.009068 0 0 1 57.01367,-58.75863"
+     sodipodi:open="true" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="403.5108"
+     y="171.62122"
+     id="text7282-6"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan7284-1"
+       x="403.5108"
+       y="171.62122"
+       style="font-size:25px">Zomes</tspan></text>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker9093);marker-end:url(#marker9151)"
+     d="M 385,232.33333 292,353"
+     id="path9085"
+     inkscape:connector-curvature="0" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker11516);marker-end:url(#marker11598)"
+     d="m 288,407 331,0"
+     id="path11508"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#marker9093-2);marker-end:url(#marker9151-7)"
+     d="m 529.5,232.33333 93,120.66666"
+     id="path9085-9"
+     inkscape:connector-curvature="0" />
+  <g
+     transform="matrix(0.46410562,0,0,0.46410566,11.806878,502.02929)"
+     class="graph"
+     id="graph0">
+    <title
+       id="title13646">DHT</title>
+    <polygon
+       id="polygon13648"
+       points="571.8162,4 -4,4 -4,4 -4,-557.5901 571.8162,-557.5901 "
+       stroke="transparent"
+       style="fill:#ffffff" />
+    <!-- n0 -->
+    <g
+       class="node"
+       id="node1">
+      <title
+         id="title13651">n0</title>
+      <ellipse
+         id="ellipse13653"
+         ry="18"
+         rx="27"
+         cy="-155.64371"
+         cx="510.95511"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13655"
+         font-size="14.00"
+         y="-151.4437"
+         x="510.95511"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n0</text>
+    </g>
+    <!-- n1 -->
+    <g
+       class="node"
+       id="node2">
+      <title
+         id="title13658">n1</title>
+      <ellipse
+         id="ellipse13660"
+         ry="18"
+         rx="27"
+         cy="-276.79501"
+         cx="540.81622"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13662"
+         font-size="14.00"
+         y="-272.595"
+         x="540.81622"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n1</text>
+    </g>
+    <!-- n0&#45;&#45;n1 -->
+    <g
+       class="edge"
+       id="edge67">
+      <title
+         id="title13665">n0--n1</title>
+      <path
+         id="path13667"
+         d="m 515.3612,-173.52 c 5.6458,-22.9056 15.3764,-62.3844 21.0309,-85.3254"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2 -->
+    <g
+       class="node"
+       id="node3">
+      <title
+         id="title13670">n2</title>
+      <ellipse
+         id="ellipse13672"
+         ry="18"
+         rx="27"
+         cy="-18"
+         cx="311.54391"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13674"
+         font-size="14.00"
+         y="-13.8"
+         x="311.54391"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n2</text>
+    </g>
+    <!-- n0&#45;&#45;n2 -->
+    <g
+       class="edge"
+       id="edge68">
+      <title
+         id="title13677">n0--n2</title>
+      <path
+         id="path13679"
+         d="M 492.195,-142.6945 C 454.1888,-116.4607 368.4852,-57.3038 330.3994,-31.015"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3 -->
+    <g
+       class="node"
+       id="node4">
+      <title
+         id="title13682">n3</title>
+      <ellipse
+         id="ellipse13684"
+         ry="18"
+         rx="27"
+         cy="-33.040199"
+         cx="187.67641"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13686"
+         font-size="14.00"
+         y="-28.8402"
+         x="187.67641"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n3</text>
+    </g>
+    <!-- n0&#45;&#45;n3 -->
+    <g
+       class="edge"
+       id="edge69">
+      <title
+         id="title13689">n0--n3</title>
+      <path
+         id="path13691"
+         d="M 487.4453,-146.7276 C 427.8736,-124.135 271.4827,-64.8238 211.535,-42.0886"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4 -->
+    <g
+       class="node"
+       id="node5">
+      <title
+         id="title13694">n4</title>
+      <ellipse
+         id="ellipse13696"
+         ry="18"
+         rx="27"
+         cy="-103.9217"
+         cx="84.986801"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13698"
+         font-size="14.00"
+         y="-99.721703"
+         x="84.986801"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n4</text>
+    </g>
+    <!-- n0&#45;&#45;n4 -->
+    <g
+       class="edge"
+       id="edge70">
+      <title
+         id="title13701">n0--n4</title>
+      <path
+         id="path13703"
+         d="m 484.3089,-152.4082 c -76.4981,9.2885 -296.2004,35.9652 -372.6859,45.2522"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n5 -->
+    <g
+       class="node"
+       id="node6">
+      <title
+         id="title13706">n5</title>
+      <ellipse
+         id="ellipse13708"
+         ry="18"
+         rx="27"
+         cy="-214.4064"
+         cx="27"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13710"
+         font-size="14.00"
+         y="-210.20641"
+         x="27"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n5</text>
+    </g>
+    <!-- n0&#45;&#45;n5 -->
+    <g
+       class="edge"
+       id="edge71">
+      <title
+         id="title13713">n0--n5</title>
+      <path
+         id="path13715"
+         d="M 484.2462,-158.8867 C 399.6336,-169.1605 138.1238,-200.9136 53.6263,-211.1734"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n6 -->
+    <g
+       class="node"
+       id="node7">
+      <title
+         id="title13718">n6</title>
+      <ellipse
+         id="ellipse13720"
+         ry="18"
+         rx="27"
+         cy="-339.18359"
+         cx="27"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13722"
+         font-size="14.00"
+         y="-334.98361"
+         x="27"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n6</text>
+    </g>
+    <!-- n0&#45;&#45;n6 -->
+    <g
+       class="edge"
+       id="edge72">
+      <title
+         id="title13725">n0--n6</title>
+      <path
+         id="path13727"
+         d="M 487.2853,-164.6204 C 405.1139,-195.7839 132.7253,-299.0873 50.6242,-330.2241"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n7 -->
+    <g
+       class="node"
+       id="node8">
+      <title
+         id="title13730">n7</title>
+      <ellipse
+         id="ellipse13732"
+         ry="18"
+         rx="27"
+         cy="-449.6683"
+         cx="84.986801"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13734"
+         font-size="14.00"
+         y="-445.46829"
+         x="84.986801"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n7</text>
+    </g>
+    <!-- n0&#45;&#45;n7 -->
+    <g
+       class="edge"
+       id="edge73">
+      <title
+         id="title13737">n0--n7</title>
+      <path
+         id="path13739"
+         d="M 492.1022,-168.6569 C 421.7403,-217.2242 174.9093,-387.5993 104.1054,-436.4717"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n8 -->
+    <g
+       class="node"
+       id="node9">
+      <title
+         id="title13742">n8</title>
+      <ellipse
+         id="ellipse13744"
+         ry="18"
+         rx="27"
+         cy="-520.5498"
+         cx="187.67641"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13746"
+         font-size="14.00"
+         y="-516.34979"
+         x="187.67641"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n8</text>
+    </g>
+    <!-- n0&#45;&#45;n8 -->
+    <g
+       class="edge"
+       id="edge74">
+      <title
+         id="title13749">n0--n8</title>
+      <path
+         id="path13751"
+         d="M 497.0642,-171.3232 C 444.0091,-231.2101 254.4819,-445.1421 201.5156,-504.9287"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n9 -->
+    <g
+       class="node"
+       id="node10">
+      <title
+         id="title13754">n9</title>
+      <ellipse
+         id="ellipse13756"
+         ry="18"
+         rx="27"
+         cy="-535.59009"
+         cx="311.54391"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13758"
+         font-size="14.00"
+         y="-531.39008"
+         x="311.54391"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n9</text>
+    </g>
+    <!-- n0&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge75">
+      <title
+         id="title13761">n0--n9</title>
+      <path
+         id="path13763"
+         d="M 501.8687,-172.9565 C 468.6486,-236.2519 353.9908,-454.7142 320.6837,-518.1756"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n10 -->
+    <g
+       class="node"
+       id="node11">
+      <title
+         id="title13766">n10</title>
+      <ellipse
+         id="ellipse13768"
+         ry="18"
+         rx="27"
+         cy="-491.34351"
+         cx="428.21249"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13770"
+         font-size="14.00"
+         y="-487.14349"
+         x="428.21249"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n10</text>
+    </g>
+    <!-- n0&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge76">
+      <title
+         id="title13773">n0--n10</title>
+      <path
+         id="path13775"
+         d="m 506.5065,-173.6923 c -14.3668,-58.2885 -59.4253,-241.0979 -73.8234,-299.5132"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n11 -->
+    <g
+       class="node"
+       id="node12">
+      <title
+         id="title13778">n11</title>
+      <ellipse
+         id="ellipse13780"
+         ry="18"
+         rx="27"
+         cy="-397.94641"
+         cx="510.95511"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13782"
+         font-size="14.00"
+         y="-393.7464"
+         x="510.95511"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n11</text>
+    </g>
+    <!-- n0&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge77">
+      <title
+         id="title13785">n0--n11</title>
+      <path
+         id="path13787"
+         d="m 510.9551,-173.8557 c 0,-45.0142 0,-161.1094 0,-205.9978"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n12 -->
+    <g
+       class="node"
+       id="node13">
+      <title
+         id="title13790">n12</title>
+      <ellipse
+         id="ellipse13792"
+         ry="18"
+         rx="27"
+         cy="-62.246601"
+         cx="428.21249"
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text13794"
+         font-size="14.00"
+         y="-58.0466"
+         x="428.21249"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">n12</text>
+    </g>
+    <!-- n0&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge78">
+      <title
+         id="title13797">n0--n12</title>
+      <path
+         id="path13799"
+         d="m 496.919,-139.8001 c -15.3076,17.2786 -39.6522,44.7581 -54.8776,61.9439"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n2 -->
+    <g
+       class="edge"
+       id="edge56">
+      <title
+         id="title13802">n1--n2</title>
+      <path
+         id="path13804"
+         d="M 526.8194,-260.9958 C 485.7911,-214.6844 366.1508,-79.6385 325.3575,-33.5924"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n3 -->
+    <g
+       class="edge"
+       id="edge57">
+      <title
+         id="title13807">n1--n3</title>
+      <path
+         id="path13809"
+         d="M 521.8299,-263.6897 C 460.5133,-221.3659 268.2068,-88.6263 206.7567,-46.2103"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n4 -->
+    <g
+       class="edge"
+       id="edge58">
+      <title
+         id="title13812">n1--n4</title>
+      <path
+         id="path13814"
+         d="m 517.2687,-267.8646 c -78.3919,29.7301 -330.0145,125.158 -408.6016,154.9621"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n5 -->
+    <g
+       class="edge"
+       id="edge59">
+      <title
+         id="title13817">n1--n5</title>
+      <path
+         id="path13819"
+         d="m 513.9147,-273.5286 c -88.7896,10.781 -371.8796,45.1544 -460.2794,55.8881"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n6 -->
+    <g
+       class="edge"
+       id="edge60">
+      <title
+         id="title13822">n1--n6</title>
+      <path
+         id="path13824"
+         d="m 513.9147,-280.0615 c -88.7896,-10.781 -371.8796,-45.1543 -460.2794,-55.888"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n7 -->
+    <g
+       class="edge"
+       id="edge61">
+      <title
+         id="title13827">n1--n7</title>
+      <path
+         id="path13829"
+         d="M 517.2687,-285.7254 C 438.8768,-315.4556 187.2542,-410.8834 108.6671,-440.6876"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n8 -->
+    <g
+       class="edge"
+       id="edge62">
+      <title
+         id="title13832">n1--n8</title>
+      <path
+         id="path13834"
+         d="M 521.8299,-289.9003 C 460.5133,-332.2242 268.2068,-464.9638 206.7567,-507.3797"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge63">
+      <title
+         id="title13837">n1--n9</title>
+      <path
+         id="path13839"
+         d="M 526.8194,-292.5942 C 485.7911,-338.9056 366.1508,-473.9515 325.3575,-519.9976"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge64">
+      <title
+         id="title13842">n1--n10</title>
+      <path
+         id="path13844"
+         d="M 531.7918,-293.9898 C 510.7077,-334.1621 458.4065,-433.8138 437.28,-474.0669"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge65">
+      <title
+         id="title13847">n1--n11</title>
+      <path
+         id="path13849"
+         d="m 536.4101,-294.6713 c -5.6457,-22.9057 -15.3764,-62.3845 -21.0308,-85.3255"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n1&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge66">
+      <title
+         id="title13852">n1--n12</title>
+      <path
+         id="path13854"
+         d="m 531.7918,-259.6003 c -21.0841,40.1724 -73.3853,139.824 -94.5118,180.0771"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n3 -->
+    <g
+       class="edge"
+       id="edge46">
+      <title
+         id="title13857">n2--n3</title>
+      <path
+         id="path13859"
+         d="m 284.9712,-21.2265 c -20.7573,-2.5204 -49.484,-6.0085 -70.3386,-8.5407"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n4 -->
+    <g
+       class="edge"
+       id="edge47">
+      <title
+         id="title13862">n2--n4</title>
+      <path
+         id="path13864"
+         d="M 287.7265,-27.0327 C 244.1008,-43.5778 151.8726,-78.5553 108.4851,-95.01"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n5 -->
+    <g
+       class="edge"
+       id="edge48">
+      <title
+         id="title13867">n2--n5</title>
+      <path
+         id="path13869"
+         d="M 292.4323,-31.1918 C 240.5962,-66.9716 97.767,-165.5595 46.0284,-201.2721"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n6 -->
+    <g
+       class="edge"
+       id="edge49">
+      <title
+         id="title13872">n2--n6</title>
+      <path
+         id="path13874"
+         d="M 297.4333,-33.9275 C 248.8772,-88.7361 89.0316,-269.1645 40.8602,-323.5387"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n7 -->
+    <g
+       class="edge"
+       id="edge50">
+      <title
+         id="title13877">n2--n7</title>
+      <path
+         id="path13879"
+         d="M 302.5227,-35.1883 C 266.1468,-104.4969 130.4566,-363.033 94.0337,-432.4309"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n8 -->
+    <g
+       class="edge"
+       id="edge51">
+      <title
+         id="title13882">n2--n8</title>
+      <path
+         id="path13884"
+         d="M 307.1353,-35.886 C 287.8925,-113.9571 211.3626,-424.4513 192.0966,-502.6164"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge52">
+      <title
+         id="title13887">n2--n9</title>
+      <path
+         id="path13889"
+         d="m 311.5439,-36.1178 c 0,-79.9796 0,-401.0105 0,-481.2332"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge53">
+      <title
+         id="title13892">n2--n10</title>
+      <path
+         id="path13894"
+         d="m 315.9749,-35.9776 c 18.4806,-74.9787 89.3132,-362.3578 107.8021,-437.3703"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge54">
+      <title
+         id="title13897">n2--n11</title>
+      <path
+         id="path13899"
+         d="m 320.6303,-35.3128 c 33.22,-63.2955 147.8779,-281.7578 181.185,-345.2191"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n2&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge55">
+      <title
+         id="title13902">n2--n12</title>
+      <path
+         id="path13904"
+         d="m 335.1535,-26.954 c 20.2415,-7.6765 49.2532,-18.6792 69.4845,-26.352"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n4 -->
+    <g
+       class="edge"
+       id="edge37">
+      <title
+         id="title13907">n3--n4</title>
+      <path
+         id="path13909"
+         d="m 168.8416,-46.041 c -18.4127,-12.7094 -46.301,-31.9592 -64.7915,-44.7224"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n5 -->
+    <g
+       class="edge"
+       id="edge38">
+      <title
+         id="title13912">n3--n5</title>
+      <path
+         id="path13914"
+         d="M 173.6985,-48.818 C 143.2346,-83.2047 71.161,-164.559 40.8312,-198.7943"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n6 -->
+    <g
+       class="edge"
+       id="edge39">
+      <title
+         id="title13917">n3--n6</title>
+      <path
+         id="path13919"
+         d="M 178.5774,-50.377 C 150.2966,-104.2616 64.1434,-268.4127 35.9992,-322.037"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n7 -->
+    <g
+       class="edge"
+       id="edge40">
+      <title
+         id="title13922">n3--n7</title>
+      <path
+         id="path13924"
+         d="m 183.264,-50.9422 c -16.853,-68.3753 -77.0564,-312.63 -93.8812,-380.8908"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n8 -->
+    <g
+       class="edge"
+       id="edge41">
+      <title
+         id="title13927">n3--n8</title>
+      <path
+         id="path13929"
+         d="m 187.6764,-51.2614 c 0,-76.9215 0,-374.6348 0,-451.2348"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge42">
+      <title
+         id="title13932">n3--n9</title>
+      <path
+         id="path13934"
+         d="m 192.085,-50.9262 c 19.2428,-78.0712 95.7727,-388.5653 115.0387,-466.7304"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge43">
+      <title
+         id="title13937">n3--n10</title>
+      <path
+         id="path13939"
+         d="m 196.6667,-50.1698 c 37.8676,-72.1506 184.1843,-350.9339 222.3818,-423.713"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge44">
+      <title
+         id="title13942">n3--n11</title>
+      <path
+         id="path13944"
+         d="m 201.5673,-48.7198 c 53.0552,-59.8869 242.5824,-273.8188 295.5487,-333.6055"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n3&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge45">
+      <title
+         id="title13947">n3--n12</title>
+      <path
+         id="path13949"
+         d="m 214.3371,-36.2774 c 46.2359,-5.6141 140.7764,-17.0934 187.0954,-22.7175"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4&#45;&#45;n5 -->
+    <g
+       class="edge"
+       id="edge29">
+      <title
+         id="title13952">n4--n5</title>
+      <path
+         id="path13954"
+         d="M 75.9264,-121.185 C 65.0326,-141.9413 46.8622,-176.5622 35.9968,-197.2644"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4&#45;&#45;n6 -->
+    <g
+       class="edge"
+       id="edge30">
+      <title
+         id="title13957">n4--n6</title>
+      <path
+         id="path13959"
+         d="M 80.533,-121.9917 C 69.7128,-165.8911 42.1433,-277.7448 31.3896,-321.3741"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4&#45;&#45;n7 -->
+    <g
+       class="edge"
+       id="edge31">
+      <title
+         id="title13962">n4--n7</title>
+      <path
+         id="path13964"
+         d="m 84.9868,-122.0238 c 0,-59.6075 0,-249.3522 0,-309.3045"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4&#45;&#45;n8 -->
+    <g
+       class="edge"
+       id="edge32">
+      <title
+         id="title13967">n4--n8</title>
+      <path
+         id="path13969"
+         d="m 89.3993,-121.8237 c 16.853,-68.3753 77.0564,-312.63 93.8811,-380.8908"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge33">
+      <title
+         id="title13972">n4--n9</title>
+      <path
+         id="path13974"
+         d="m 94.008,-121.11 c 36.3759,-69.3087 172.0661,-327.8447 208.489,-397.2427"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge34">
+      <title
+         id="title13977">n4--n10</title>
+      <path
+         id="path13979"
+         d="m 98.8668,-119.589 c 55.3077,-62.4294 259.6763,-293.1139 315.2931,-355.8923"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge35">
+      <title
+         id="title13982">n4--n11</title>
+      <path
+         id="path13984"
+         d="m 103.8398,-116.935 c 70.3618,-48.5673 317.1928,-218.9424 387.9968,-267.8148"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n4&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge36">
+      <title
+         id="title13987">n4--n12</title>
+      <path
+         id="path13989"
+         d="m 111.6336,-100.6862 c 63.9469,7.7645 225.5427,27.3858 289.7125,35.1774"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n5&#45;&#45;n6 -->
+    <g
+       class="edge"
+       id="edge22">
+      <title
+         id="title13992">n5--n6</title>
+      <path
+         id="path13994"
+         d="m 27,-232.5501 c 0,-23.6569 0,-64.8003 0,-88.4679"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n5&#45;&#45;n7 -->
+    <g
+       class="edge"
+       id="edge23">
+      <title
+         id="title13997">n5--n7</title>
+      <path
+         id="path13999"
+         d="m 31.4538,-232.4764 c 10.8203,-43.8994 38.3897,-155.7531 49.1434,-199.3824"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n5&#45;&#45;n8 -->
+    <g
+       class="edge"
+       id="edge24">
+      <title
+         id="title14002">n5--n8</title>
+      <path
+         id="path14004"
+         d="m 36.099,-231.7432 c 28.2808,-53.8846 114.434,-218.0358 142.5782,-271.66"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n5&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge25">
+      <title
+         id="title14007">n5--n9</title>
+      <path
+         id="path14009"
+         d="m 41.1106,-230.334 c 48.5561,-54.8085 208.4017,-235.2369 256.5731,-289.6111"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n5&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge26">
+      <title
+         id="title14012">n5--n10</title>
+      <path
+         id="path14014"
+         d="m 45.8132,-227.3922 c 67.392,-46.5174 296.2999,-204.5211 363.6269,-250.9936"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n5&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge27">
+      <title
+         id="title14017">n5--n11</title>
+      <path
+         id="path14019"
+         d="m 50.6698,-223.3832 c 82.1714,-31.1635 354.56,-134.4669 436.6611,-165.6037"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n5&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge28">
+      <title
+         id="title14022">n5--n12</title>
+      <path
+         id="path14024"
+         d="m 50.5998,-205.4562 c 71.1367,26.9786 282.9452,107.3069 354.0427,134.2707"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n6&#45;&#45;n7 -->
+    <g
+       class="edge"
+       id="edge16">
+      <title
+         id="title14027">n6--n7</title>
+      <path
+         id="path14029"
+         d="m 36.0604,-356.4469 c 10.8938,-20.7563 29.0643,-55.3772 39.9296,-76.0794"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n6&#45;&#45;n8 -->
+    <g
+       class="edge"
+       id="edge17">
+      <title
+         id="title14032">n6--n8</title>
+      <path
+         id="path14034"
+         d="m 40.9779,-354.9614 c 30.464,-34.3867 102.5375,-115.741 132.8674,-149.9763"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n6&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge18">
+      <title
+         id="title14037">n6--n9</title>
+      <path
+         id="path14039"
+         d="m 46.1116,-352.3754 c 51.8361,-35.7798 194.6653,-134.3677 246.4039,-170.0803"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n6&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge19">
+      <title
+         id="title14042">n6--n10</title>
+      <path
+         id="path14044"
+         d="m 50.5998,-348.1338 c 71.1367,-26.9786 282.9452,-107.307 354.0427,-134.2707"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n6&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge20">
+      <title
+         id="title14047">n6--n11</title>
+      <path
+         id="path14049"
+         d="m 53.7089,-342.4267 c 84.6126,-10.2738 346.1225,-42.0268 430.6199,-52.2867"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n6&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge21">
+      <title
+         id="title14052">n6--n12</title>
+      <path
+         id="path14054"
+         d="m 45.8132,-326.1978 c 67.392,46.5174 296.2999,204.5211 363.6269,250.9935"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n7&#45;&#45;n8 -->
+    <g
+       class="edge"
+       id="edge11">
+      <title
+         id="title14057">n7--n8</title>
+      <path
+         id="path14059"
+         d="m 103.8217,-462.6691 c 18.4127,-12.7094 46.301,-31.9592 64.7915,-44.7224"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n7&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge12">
+      <title
+         id="title14062">n7--n9</title>
+      <path
+         id="path14064"
+         d="m 108.8042,-458.7011 c 43.6257,-16.545 135.8539,-51.5226 179.2414,-67.9773"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n7&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge13">
+      <title
+         id="title14067">n7--n10</title>
+      <path
+         id="path14069"
+         d="m 111.6336,-452.9038 c 63.9469,-7.7646 225.5427,-27.3859 289.7125,-35.1775"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n7&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge14">
+      <title
+         id="title14072">n7--n11</title>
+      <path
+         id="path14074"
+         d="m 111.6331,-446.4329 c 76.4981,9.2886 296.2003,35.9653 372.6859,45.2523"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n7&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge15">
+      <title
+         id="title14077">n7--n12</title>
+      <path
+         id="path14079"
+         d="m 98.8668,-434.0011 c 55.3077,62.4294 259.6763,293.1139 315.2931,355.8923"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n8&#45;&#45;n9 -->
+    <g
+       class="edge"
+       id="edge7">
+      <title
+         id="title14082">n8--n9</title>
+      <path
+         id="path14084"
+         d="m 214.2491,-523.7763 c 20.7573,-2.5204 49.484,-6.0085 70.3386,-8.5407"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n8&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge8">
+      <title
+         id="title14087">n8--n10</title>
+      <path
+         id="path14089"
+         d="m 214.3371,-517.3127 c 46.2359,5.6141 140.7764,17.0934 187.0954,22.7176"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n8&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge9">
+      <title
+         id="title14092">n8--n11</title>
+      <path
+         id="path14094"
+         d="m 211.1863,-511.6337 c 59.5717,22.5925 215.9625,81.9038 275.9102,104.6389"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n8&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge10">
+      <title
+         id="title14097">n8--n12</title>
+      <path
+         id="path14099"
+         d="m 196.6667,-503.4203 c 37.8676,72.1507 184.1843,350.9339 222.3818,423.713"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n9&#45;&#45;n10 -->
+    <g
+       class="edge"
+       id="edge4">
+      <title
+         id="title14102">n9--n10</title>
+      <path
+         id="path14104"
+         d="m 335.1535,-526.6361 c 20.2415,7.6766 49.2532,18.6793 69.4845,26.352"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n9&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge5">
+      <title
+         id="title14107">n9--n11</title>
+      <path
+         id="path14109"
+         d="m 330.304,-522.6409 c 38.0061,26.2338 123.7097,85.3907 161.7956,111.6794"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n9&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge6">
+      <title
+         id="title14112">n9--n12</title>
+      <path
+         id="path14114"
+         d="m 315.9749,-517.6124 c 18.4806,74.9786 89.3132,362.3577 107.8021,437.3702"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n10&#45;&#45;n11 -->
+    <g
+       class="edge"
+       id="edge2">
+      <title
+         id="title14117">n10--n11</title>
+      <path
+         id="path14119"
+         d="m 442.2487,-475.4999 c 15.3075,17.2786 39.6522,44.758 54.8776,61.9439"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n10&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge3">
+      <title
+         id="title14122">n10--n12</title>
+      <path
+         id="path14124"
+         d="m 428.2125,-473.1798 c 0,70.0275 0,322.0755 0,392.525"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+    <!-- n11&#45;&#45;n12 -->
+    <g
+       class="edge"
+       id="edge1">
+      <title
+         id="title14127">n11--n12</title>
+      <path
+         id="path14129"
+         d="m 506.5065,-379.8977 c -14.3668,58.2885 -59.4253,241.0978 -73.8234,299.5132"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000" />
+    </g>
+  </g>
+  <g
+     transform="matrix(0.31390406,0,0,0.31390406,645.72755,467.71886)"
+     class="graph"
+     id="graph0-2">
+    <title
+       id="title6157">tree</title>
+    <polygon
+       id="polygon6159"
+       points="-4,4 -4,4 -4,-509.8 735.2462,-509.8 735.2462,4 "
+       stroke="transparent"
+       style="fill:#ffffff" />
+    <!-- Header0 -->
+    <g
+       class="node"
+       id="node1-2">
+      <title
+         id="title6162">Header0</title>
+      <polygon
+         id="polygon6164"
+         points="438.177,-103.9 438.177,-103.9 438.177,-195.1 729.6582,-195.1 729.6582,-103.9 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6166"
+         font-size="14.00"
+         y="-178.5"
+         x="583.9176"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Header0:Genesis</text>
+      <polyline
+         id="polyline6168"
+         points="729.6582,-170.3 438.177,-170.3"
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6170"
+         font-size="14.00"
+         y="-141.3"
+         x="464.06619"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Time</text>
+      <text
+         id="text6172"
+         font-size="14.00"
+         y="-124.5"
+         x="464.06619"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Stamp</text>
+      <polyline
+         id="polyline6174"
+         points="489.9554,-103.9 489.9554,-170.3 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6176"
+         font-size="14.00"
+         y="-153.7"
+         x="538.9679">Entry</text>
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6178"
+         font-size="14.00"
+         y="-136.89999"
+         x="538.9679">Hash</text>
+      <polyline
+         style="fill:none;stroke:#0000ff"
+         transform="matrix(1.79444,0,0,1,-389.24017,0)"
+         id="polyline6180"
+         points="489.9554,-128.7 546.3664,-128.7 " />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6182"
+         font-size="14.00"
+         y="-112.1"
+         x="540.56824">HolochainID</text>
+      <polyline
+         style="fill:none;stroke:#0000ff"
+         transform="translate(43.214616,0)"
+         id="polyline6184"
+         points="546.3664,-103.9 546.3664,-170.3 " />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6186"
+         font-size="14.00"
+         y="-153.7"
+         x="613.13245">Entry</text>
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6188"
+         font-size="14.00"
+         y="-136.89999"
+         x="613.13245">Type</text>
+      <polyline
+         style="fill:none;stroke:#0000ff"
+         transform="translate(43.214609,0)"
+         id="polyline6190"
+         points="546.3664,-128.7 593.4702,-128.7 " />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6192"
+         font-size="14.00"
+         y="-112.1"
+         x="613.13245">DNA</text>
+      <polyline
+         style="fill:none;stroke:#0000ff"
+         transform="translate(43.214609,0)"
+         id="polyline6194"
+         points="593.4702,-103.9 593.4702,-170.3 " />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6196"
+         font-size="14.00"
+         y="-153.7"
+         x="657.21863">Entry</text>
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6198"
+         font-size="14.00"
+         y="-136.89999"
+         x="657.21863">Sig</text>
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6202"
+         font-size="14.00"
+         y="-112.1"
+         x="705.23438">0</text>
+      <polyline
+         id="polyline6204"
+         points="682.5544,-103.9 682.5544,-170.3 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6206"
+         font-size="14.00"
+         y="-152.50378"
+         x="706.10632">Prev</text>
+      <text
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff"
+         id="text6208"
+         font-size="14.00"
+         y="-135.70378"
+         x="706.10632">Header</text>
+      <polyline
+         id="polyline6190-6"
+         points="546.3664,-128.7 593.4702,-128.7 "
+         style="fill:none;stroke:#0000ff"
+         transform="translate(135.92172,0.84227424)" />
+    </g>
+    <!-- Header1 -->
+    <g
+       class="node"
+       id="node2-8">
+      <title
+         id="title6211">Header1</title>
+      <polygon
+         id="polygon6213"
+         points="317.1672,-232.1 317.1672,-232.1 317.1672,-298.5 566.668,-298.5 566.668,-232.1 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6215"
+         font-size="14.00"
+         y="-281.89999"
+         x="441.9176"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Header1</text>
+      <polyline
+         id="polyline6217"
+         points="317.1672,-273.7 566.668,-273.7 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6219"
+         font-size="14.00"
+         y="-257.10001"
+         x="343.0564"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Time</text>
+      <text
+         id="text6221"
+         font-size="14.00"
+         y="-240.3"
+         x="343.0564"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Stamp</text>
+      <polyline
+         id="polyline6223"
+         points="368.9456,-232.1 368.9456,-273.7 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6225"
+         font-size="14.00"
+         y="-257.10001"
+         x="397.15109"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6227"
+         font-size="14.00"
+         y="-240.3"
+         x="397.15109"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Hash</text>
+      <polyline
+         id="polyline6229"
+         points="425.3566,-232.1 425.3566,-273.7 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6231"
+         font-size="14.00"
+         y="-257.10001"
+         x="448.90851"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6233"
+         font-size="14.00"
+         y="-240.3"
+         x="448.90851"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Type</text>
+      <polyline
+         id="polyline6235"
+         points="472.4604,-232.1 472.4604,-273.7 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6237"
+         font-size="14.00"
+         y="-257.10001"
+         x="496.0123"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6239"
+         font-size="14.00"
+         y="-240.3"
+         x="496.0123"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Sig</text>
+      <polyline
+         id="polyline6241"
+         points="519.5642,-232.1 519.5642,-273.7 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6243"
+         font-size="14.00"
+         y="-257.10001"
+         x="543.11609"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Prev</text>
+      <text
+         id="text6245"
+         font-size="14.00"
+         y="-240.3"
+         x="543.11609"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Header</text>
+    </g>
+    <!-- Header0&#45;&gt;Header1 -->
+    <g
+       transform="matrix(-1,0,0,-1,1074.5628,-427.2721)"
+       class="edge"
+       id="edge2-9">
+      <title
+         id="title6248">Header0-&gt;Header1</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path6250"
+         d="m 527.7954,-195.2672 c -12.2194,-9.9649 -25.0545,-20.4318 -36.9679,-30.1471" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon6252"
+         points="492.7076,-228.3974 488.2837,-222.9725 488.2837,-222.9725 482.7458,-232.0049 " />
+    </g>
+    <!-- Header2 -->
+    <g
+       class="node"
+       id="node3-7">
+      <title
+         id="title6255">Header2</title>
+      <polygon
+         id="polygon6257"
+         points="200.1672,-335.5 200.1672,-335.5 200.1672,-401.9 449.668,-401.9 449.668,-335.5 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6259"
+         font-size="14.00"
+         y="-385.29999"
+         x="324.9176"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Header2</text>
+      <polyline
+         id="polyline6261"
+         points="200.1672,-377.1 449.668,-377.1 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6263"
+         font-size="14.00"
+         y="-360.5"
+         x="226.0564"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Time</text>
+      <text
+         id="text6265"
+         font-size="14.00"
+         y="-343.70001"
+         x="226.0564"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Stamp</text>
+      <polyline
+         id="polyline6267"
+         points="251.9456,-335.5 251.9456,-377.1 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6269"
+         font-size="14.00"
+         y="-360.5"
+         x="280.15109"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6271"
+         font-size="14.00"
+         y="-343.70001"
+         x="280.15109"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Hash</text>
+      <polyline
+         id="polyline6273"
+         points="308.3566,-335.5 308.3566,-377.1 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6275"
+         font-size="14.00"
+         y="-360.5"
+         x="331.90851"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6277"
+         font-size="14.00"
+         y="-343.70001"
+         x="331.90851"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Type</text>
+      <polyline
+         id="polyline6279"
+         points="355.4604,-335.5 355.4604,-377.1 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6281"
+         font-size="14.00"
+         y="-360.5"
+         x="379.0123"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6283"
+         font-size="14.00"
+         y="-343.70001"
+         x="379.0123"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Sig</text>
+      <polyline
+         id="polyline6285"
+         points="402.5642,-335.5 402.5642,-377.1 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6287"
+         font-size="14.00"
+         y="-360.5"
+         x="426.11609"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Prev</text>
+      <text
+         id="text6289"
+         font-size="14.00"
+         y="-343.70001"
+         x="426.11609"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Header</text>
+    </g>
+    <!-- Header1&#45;&gt;Header2 -->
+    <g
+       transform="matrix(-1,0,0,-1,830.78624,-634.0624)"
+       class="edge"
+       id="edge3-3">
+      <title
+         id="title6292">Header1-&gt;Header2</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path6294"
+         d="m 404.254,-298.5856 c -10.8553,-9.5935 -22.8118,-20.1602 -34.0769,-30.1159" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon6296"
+         points="372.3215,-331.4772 367.686,-326.232 367.686,-326.232 362.5106,-335.4768 " />
+    </g>
+    <!-- Header3 -->
+    <g
+       class="node"
+       id="node4-6">
+      <title
+         id="title6299">Header3</title>
+      <polygon
+         id="polygon6301"
+         points="83.1672,-438.9 83.1672,-438.9 83.1672,-505.3 332.668,-505.3 332.668,-438.9 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6303"
+         font-size="14.00"
+         y="-488.70001"
+         x="207.9176"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Header3</text>
+      <polyline
+         id="polyline6305"
+         points="83.1672,-480.5 332.668,-480.5 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6307"
+         font-size="14.00"
+         y="-463.89999"
+         x="109.0564"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Time</text>
+      <text
+         id="text6309"
+         font-size="14.00"
+         y="-447.10001"
+         x="109.0564"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Stamp</text>
+      <polyline
+         id="polyline6311"
+         points="134.9456,-438.9 134.9456,-480.5 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6313"
+         font-size="14.00"
+         y="-463.89999"
+         x="163.15109"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6315"
+         font-size="14.00"
+         y="-447.10001"
+         x="163.15109"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Hash</text>
+      <polyline
+         id="polyline6317"
+         points="191.3566,-438.9 191.3566,-480.5 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6319"
+         font-size="14.00"
+         y="-463.89999"
+         x="214.90849"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6321"
+         font-size="14.00"
+         y="-447.10001"
+         x="214.90849"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Type</text>
+      <polyline
+         id="polyline6323"
+         points="238.4604,-438.9 238.4604,-480.5 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6325"
+         font-size="14.00"
+         y="-463.89999"
+         x="262.0123"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Entry</text>
+      <text
+         id="text6327"
+         font-size="14.00"
+         y="-447.10001"
+         x="262.0123"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Sig</text>
+      <polyline
+         id="polyline6329"
+         points="285.5642,-438.9 285.5642,-480.5 "
+         style="fill:none;stroke:#0000ff" />
+      <text
+         id="text6331"
+         font-size="14.00"
+         y="-463.89999"
+         x="309.11609"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Prev</text>
+      <text
+         id="text6333"
+         font-size="14.00"
+         y="-447.10001"
+         x="309.11609"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#0000ff">Header</text>
+    </g>
+    <!-- Header2&#45;&gt;Header3 -->
+    <g
+       transform="matrix(-1,0,0,-1,596.78624,-840.8624)"
+       class="edge"
+       id="edge4-1">
+      <title
+         id="title6336">Header2-&gt;Header3</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path6338"
+         d="m 287.254,-401.9856 c -10.8553,-9.5935 -22.8118,-20.1602 -34.0769,-30.1159" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon6340"
+         points="255.3215,-434.8772 250.686,-429.632 250.686,-429.632 245.5106,-438.8768 " />
+    </g>
+    <!-- DNA -->
+    <g
+       class="node"
+       id="node5-2">
+      <title
+         id="title6343">DNA</title>
+      <polygon
+         id="polygon6345"
+         points="436.589,-0.5 436.589,-0.5 436.589,-66.9 731.2462,-66.9 731.2462,-0.5 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6347"
+         font-size="14.00"
+         y="-50.299999"
+         x="583.9176"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Holochain DNA</text>
+      <polyline
+         id="polyline6349"
+         points="436.589,-42.1 731.2462,-42.1 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6351"
+         font-size="14.00"
+         y="-17.1"
+         x="453.33899"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">v.x</text>
+      <polyline
+         id="polyline6353"
+         points="470.089,-.5 470.089,-42.1 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6355"
+         font-size="14.00"
+         y="-17.1"
+         x="495.57919"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">UUID</text>
+      <polyline
+         id="polyline6357"
+         points="521.0694,-.5 521.0694,-42.1 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6359"
+         font-size="14.00"
+         y="-17.1"
+         x="545.78259"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Name</text>
+      <polyline
+         id="polyline6361"
+         points="570.4958,-.5 570.4958,-42.1 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6363"
+         font-size="14.00"
+         y="-25.5"
+         x="603.37659"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Data</text>
+      <text
+         id="text6365"
+         font-size="14.00"
+         y="-8.6999998"
+         x="603.37659"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Schemas</text>
+      <polyline
+         id="polyline6367"
+         points="636.2574,-.5 636.2574,-42.1 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6369"
+         font-size="14.00"
+         y="-25.5"
+         x="659.03302"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">App</text>
+      <text
+         id="text6371"
+         font-size="14.00"
+         y="-8.6999998"
+         x="659.03302"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Code</text>
+      <polyline
+         id="polyline6373"
+         points="681.8086,-.5 681.8086,-42.1 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6375"
+         font-size="14.00"
+         y="-25.5"
+         x="706.5274"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Initial</text>
+      <text
+         id="text6377"
+         font-size="14.00"
+         y="-8.6999998"
+         x="706.5274"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">State</text>
+    </g>
+    <!-- DNA&#45;&gt;Header0 -->
+    <g
+       transform="matrix(-1,0,0,-1,1127.8217,-170.784)"
+       class="edge"
+       id="edge1-9">
+      <title
+         id="title6380">DNA-&gt;Header0</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path6382"
+         d="m 583.9176,-67.1942 c 0,-8.2505 0,-17.3102 0,-26.3086" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon6384"
+         points="587.4177,-93.5899 580.4177,-93.5898 580.4177,-93.5898 583.9176,-103.5898 " />
+    </g>
+    <!-- Keys -->
+    <g
+       class="node"
+       id="node6-3">
+      <title
+         id="title6387">Keys</title>
+      <polygon
+         id="polygon6389"
+         points="179.6893,-116.3 179.6893,-116.3 179.6893,-182.7 420.1459,-182.7 420.1459,-116.3 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6391"
+         font-size="14.00"
+         y="-166.10001"
+         x="299.9176"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">User_Key</text>
+      <polyline
+         id="polyline6393"
+         points="179.6893,-157.9 420.1459,-157.9 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6395"
+         font-size="14.00"
+         y="-141.3"
+         x="233.76469"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">ID in this Group</text>
+      <text
+         id="text6397"
+         font-size="14.00"
+         y="-124.5"
+         x="233.76469"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Context</text>
+      <polyline
+         id="polyline6399"
+         points="287.8401,-116.3 287.8401,-157.9 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6401"
+         font-size="14.00"
+         y="-141.3"
+         x="313.72931"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Public</text>
+      <text
+         id="text6403"
+         font-size="14.00"
+         y="-124.5"
+         x="313.72931"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Key</text>
+      <polyline
+         id="polyline6405"
+         points="339.6185,-116.3 339.6185,-157.9 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6407"
+         font-size="14.00"
+         y="-141.3"
+         x="379.8822"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">ID</text>
+      <text
+         id="text6409"
+         font-size="14.00"
+         y="-124.5"
+         x="379.8822"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Descriptors</text>
+    </g>
+    <!-- Keys&#45;&gt;Header1 -->
+    <g
+       transform="matrix(-1,0,0,-1,741.9275,-414.8753)"
+       class="edge"
+       id="edge5-1">
+      <title
+         id="title6412">Keys-&gt;Header1</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path6414"
+         d="m 340.9899,-182.9942 c 16.19,-13.2028 34.9214,-28.4781 51.819,-42.258" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon6416"
+         points="395.3998,-222.8488 390.9759,-228.2736 390.9759,-228.2736 400.9376,-231.8811 " />
+    </g>
+    <!-- Entry1 -->
+    <g
+       class="node"
+       id="node7-9">
+      <title
+         id="title6419">Entry1</title>
+      <polygon
+         id="polygon6421"
+         points="117,-240.5 117,-240.5 117,-290.1 298.8352,-290.1 298.8352,-240.5 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6423"
+         font-size="14.00"
+         y="-273.5"
+         x="207.9176"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Data Structured by Type</text>
+      <polyline
+         id="polyline6425"
+         points="117,-265.3 298.8352,-265.3 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6427"
+         font-size="14.00"
+         y="-248.7"
+         x="142.88921"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Field1</text>
+      <polyline
+         id="polyline6429"
+         points="168.7784,-240.5 168.7784,-265.3 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6431"
+         font-size="14.00"
+         y="-248.7"
+         x="194.6676"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Field2</text>
+      <polyline
+         id="polyline6433"
+         points="220.5568,-240.5 220.5568,-265.3 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6435"
+         font-size="14.00"
+         y="-248.7"
+         x="246.446"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Field3</text>
+      <polyline
+         id="polyline6437"
+         points="272.3352,-240.5 272.3352,-265.3 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6439"
+         font-size="14.00"
+         y="-248.7"
+         x="285.58521"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">...</text>
+    </g>
+    <!-- Entry1&#45;&gt;Header2 -->
+    <g
+       transform="matrix(-1,0,0,-1,523.368,-625.6333)"
+       class="edge"
+       id="edge6-4">
+      <title
+         id="title6442">Entry1-&gt;Header2</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path6444"
+         d="m 236.24,-290.3303 c 13.0156,-11.5026 28.7757,-25.4307 43.378,-38.3357" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon6446"
+         points="281.9525,-326.0582 277.317,-331.3034 277.317,-331.3034 287.128,-335.303 " />
+    </g>
+    <!-- Entry2 -->
+    <g
+       class="node"
+       id="node8-7">
+      <title
+         id="title6449">Entry2</title>
+      <polygon
+         id="polygon6451"
+         points="0,-343.9 0,-343.9 0,-393.5 181.8352,-393.5 181.8352,-343.9 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6453"
+         font-size="14.00"
+         y="-376.89999"
+         x="90.917603"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Data Structured by Type</text>
+      <polyline
+         id="polyline6455"
+         points="0,-368.7 181.8352,-368.7 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6457"
+         font-size="14.00"
+         y="-352.10001"
+         x="25.8892"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Field1</text>
+      <polyline
+         id="polyline6459"
+         points="51.7784,-343.9 51.7784,-368.7 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6461"
+         font-size="14.00"
+         y="-352.10001"
+         x="77.667603"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Field2</text>
+      <polyline
+         id="polyline6463"
+         points="103.5568,-343.9 103.5568,-368.7 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6465"
+         font-size="14.00"
+         y="-352.10001"
+         x="129.446"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">Field3</text>
+      <polyline
+         id="polyline6467"
+         points="155.3352,-343.9 155.3352,-368.7 "
+         style="fill:none;stroke:#000000" />
+      <text
+         id="text6469"
+         font-size="14.00"
+         y="-352.10001"
+         x="168.58521"
+         style="font-size:14px;font-family:Times, serif;text-anchor:middle;fill:#000000">...</text>
+    </g>
+    <!-- Entry2&#45;&gt;Header3 -->
+    <g
+       transform="matrix(-1,0,0,-1,289.368,-832.4333)"
+       class="edge"
+       id="edge7-8">
+      <title
+         id="title6472">Entry2-&gt;Header3</title>
+      <path
+         style="fill:none;stroke:#000000"
+         inkscape:connector-curvature="0"
+         id="path6474"
+         d="m 119.24,-393.7303 c 13.0156,-11.5026 28.7757,-25.4307 43.378,-38.3357" />
+      <polygon
+         style="fill:#000000;stroke:#000000"
+         id="polygon6476"
+         points="164.9525,-429.4582 160.317,-434.7034 160.317,-434.7034 170.128,-438.703 " />
+    </g>
+  </g>
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.36758518;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 476.63601,204.61522 c 9.69947,-10.10361 13.11888,-13.29917 18.55311,-14.70995 1.56001,-0.40501 3.28607,-0.66291 5.37441,-0.89496"
+     id="path15146"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="csc" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.36758518;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 472.70803,191.86664 c 31.72854,1.96327 25.9583,15.41789 28.08882,11.44359"
+     id="path15146-5"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.36758518;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 394.69984,202.3868 c 11.904,-9.75113 22.80591,-11.05157 30.16949,-17.68556"
+     id="path15146-0"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+  <path
+     style="fill:none;fill-rule:evenodd;stroke:#000000;stroke-width:5.36758518;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     d="m 408.2241,209.66909 c 2.96473,-13.97771 -3.25326,-12.5403 4.68147,-17.68557"
+     id="path15146-3"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cc" />
+</svg>
