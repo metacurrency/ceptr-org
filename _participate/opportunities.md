@@ -71,7 +71,7 @@ If you know of people that are good candidates for a residency, please let them 
 
 There are many ways to participate and contribute. Below are some that our teams have identified, maybe you can bring some of the skills, talents, and interests we need.
 
-In any case, this is no typical 9 to 5 grind. Many flexible arrangements are available, including telecommuting, part-time, full-time, residencies, internships, and travel opportunities.  [Learn about our operations and compensation structures](/operations).
+In any case, this is no typical 9 to 5 grind. Many flexible arrangements are available, including telecommuting, part-time, full-time, residencies, internships, and travel opportunities.  [Learn about our operations and compensation structures](/participate/operations).
 
 
 Software Development
