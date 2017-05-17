@@ -1,12 +1,15 @@
 ---
-layout: page
+layout: participate
 status: publish
 published: true
 title: "Holochain Presentation"
-author:
-author_login:
+nav_title: Presentations
+navigation_weight: 4
+slug: presentations
+author: Arthur Brock
+author_login: artbrock
 author_email:
-author_url:
+author_url: http://artbrock.com
 date: '2017-04-25 10:58:14 -0400'
 date_gmt: '2017-04-25 10:58:14 -0400'
 categories: []
@@ -41,7 +44,9 @@ There will also be room for questions from the audience during the later portion
 | | |
 |-|-|-
 | ![Ferananda Ibarra](https://2.gravatar.com/avatar/5c6837364bbd336134a9922739365b6e?s=180&r=g){:height="120px" width="120px" padding="20px"} |  |**Ferananda Ibarra** - Culture crafting, collective intelligence and new paradigm economics geek in love with experience design and facilitation. Currency designer in the making.
+
 | ![Eric Harris-Braun](https://0.gravatar.com/avatar/944fd287e806faa3cf79519f6242c07d?s=180&r=g){:height="120px" width="120px"} |  |**Eric Harris-Braun** - Code monkey, lover of all things meta, grammars, expressions, receptors, current-sees and more.  
+
 | ![Arthur Brock](https://1.gravatar.com/avatar/428b76e441cff57668fbbc2d9d20a38f?s=180&r=g){:height="120px" width="120px"} |  |**Arthur Brock** - Culture hacker, software architect, and alt.Currency geek who spends too much time on working on things that don't yet exist.
 |---  
 

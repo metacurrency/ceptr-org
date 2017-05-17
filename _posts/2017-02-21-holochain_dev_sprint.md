@@ -13,7 +13,7 @@ comments: []
 tags:
 - dev
 ---
-We've been on a quite a dev sprint on Holochain this last month in preparation for a [Holochain Hackathon in March in San Francisco](http://ceptr.org/hackathons), where we are inviting folks to come and build Holochain apps! If you are interested in participating, please [fill out this application](https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1).
+We've been on a quite a dev sprint on Holochain this last month in preparation for a [Holochain Hackathon in March in San Francisco](http://ceptr.org/participate/hackathons), where we are inviting folks to come and build Holochain apps! If you are interested in participating, please [fill out this application](https://docs.google.com/forms/d/e/1FAIpQLSfpI63MxUf0yxKHRlQr5k0TYG2woJvuwwBEzg3CYgZARqm7TQ/viewform?c=0&w=1).
 
 We've made substantial progress, both in the state of the code, and, for once, the documentation!
 
