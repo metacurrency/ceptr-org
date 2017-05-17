@@ -67,6 +67,6 @@ We operate in the context of a commons, "growing the share" of value available t
 Once we can run our own community on the tools we're building, we'd like to turn this strategizing and valuation over to a large self-governing model, but for now, we're just building in that direction.
 
 ### Establishing a Commons
-We work toward building the tools which will enable us to operate at as a decentralized autonomous organization, specifically a Sovereign Accountable Commons running on Ceptr. This will include structures for community self-organizing and self-governance.
+We work toward building the tools which will enable us to operate as a decentralized autonomous organization, specifically a Sovereign Accountable Commons running on Ceptr. This will include structures for community self-organizing and self-governance.
 
 </div>
