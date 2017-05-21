@@ -40,20 +40,23 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 ### The Future of Governance is not Governments
 Metacurrency co-founder Arthur Brock argues that our governmental institutions don't have the bandwidth to keep up with a world that is changing as rapidly as ours is and suggests that we need to create new governance mechanisms using bottom-up, digital social networks.  
 
-The article is a short read. Please bring comments or questions to the online salon so we can explore this terrain together.
+The [article is a short read](https://medium.com/metacurrency-project/the-future-of-governance-is-not-governments-9c894e17b1cd). Please bring comments or questions to the online salon so we can explore this terrain together.
 
-https://medium.com/metacurrency-project/the-future-of-governance-is-not-governments-9c894e17b1cd
+
 
 Sunday May 28th, 2017
+
 9:30 AM - 11:00 AM Pacific
+
 12:30 PM - 2:00 PM Eastern
+
 5:30 PM - 7:00 PM Central Europe
 
-To participate:
-https://zoom.us/j/2184944435
+[CLICK THIS LINK TO JOIN](https://zoom.us/j/2184944435) the conversation:
 
-Please DOWNLOAD ZOOM ahead of time
-https://zoom.us/download
+
+Please [DOWNLOAD ZOOM](https://zoom.us/download) ahead of time
+
 
 ----
 
@@ -61,10 +64,10 @@ https://zoom.us/download
 ### The Right to be Forgotten
 Sunday May 13th, 2017
 
-Inspired by Maciej Cegłowski’s recent suggestion that we “teach social software to forget, to give it predictable security properties, and to sever the financial connection between online advertising and extremism.” (http://idlewords.com/talks/build_a_better_monster.htm)
+Inspired by Maciej Cegłowski’s [recent suggestion](http://idlewords.com/talks/build_a_better_monster.htm) that we “teach social software to forget, to give it predictable security properties, and to sever the financial connection between online advertising and extremism.”
 
-(Video)[https://www.youtube.com/watch?v=VMVePTGb_u4&t=26s]
-(Audio Only)[https://soundcloud.com/metacurrency/ceptr-salon-may-14-2017-make-social-software-forget]
+[Video](https://www.youtube.com/watch?v=VMVePTGb_u4&t=26s)
+[Audio Only](https://soundcloud.com/metacurrency/ceptr-salon-may-14-2017-make-social-software-forget)
 
 ----
 
@@ -72,4 +75,4 @@ Inspired by Maciej Cegłowski’s recent suggestion that we “teach social soft
 Sunday, September 4th, 2016
 
 A conversation between Matthew Schutte and Francine Mancini
-(Video)[https://www.youtube.com/watch?v=BMzHM3VvY6I]
+[Video](https://www.youtube.com/watch?v=BMzHM3VvY6I)
