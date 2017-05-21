@@ -67,6 +67,7 @@ Sunday May 13th, 2017
 Inspired by Maciej Cegłowski’s [recent suggestion](http://idlewords.com/talks/build_a_better_monster.htm) that we “teach social software to forget, to give it predictable security properties, and to sever the financial connection between online advertising and extremism.”
 
 [Video](https://www.youtube.com/watch?v=VMVePTGb_u4&t=26s)
+
 [Audio Only](https://soundcloud.com/metacurrency/ceptr-salon-may-14-2017-make-social-software-forget)
 
 ----
@@ -75,4 +76,5 @@ Inspired by Maciej Cegłowski’s [recent suggestion](http://idlewords.com/talks
 Sunday, September 4th, 2016
 
 A conversation between Matthew Schutte and Francine Mancini
+
 [Video](https://www.youtube.com/watch?v=BMzHM3VvY6I)
