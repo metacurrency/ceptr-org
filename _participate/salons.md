@@ -40,7 +40,8 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 
 ![Can we Govern without Government?](/images/government.jpeg)
 ### The Future of Governance is not Governments
-Sunday May 28th, 2017 
+Sunday May 28th, 2017
+
 9:30 AM Pacific   |   12:30 PM Eastern   |   5:30 PM Central Europe
 
 Metacurrency co-founder Arthur Brock argues that our governmental institutions don't have the bandwidth to keep up with a world that is changing as rapidly as ours is and suggests that we need to create new governance mechanisms using bottom-up, digital social networks.  
