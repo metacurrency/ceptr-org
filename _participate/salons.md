@@ -37,20 +37,16 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 ----
 
 ## UPCOMING SALONS
+
+![Today governance might look like this, but in the future it might look more like facebook](https://github.com/metacurrency/ceptr-org/images/government.jpeg")
 ### The Future of Governance is not Governments
+Sunday May 28th, 2017 
+9:30 AM Pacific   |   12:30 PM Eastern   |   5:30 PM Central Europe
+
 Metacurrency co-founder Arthur Brock argues that our governmental institutions don't have the bandwidth to keep up with a world that is changing as rapidly as ours is and suggests that we need to create new governance mechanisms using bottom-up, digital social networks.  
 
-The [article is a short read](https://medium.com/metacurrency-project/the-future-of-governance-is-not-governments-9c894e17b1cd). Please bring comments or questions to the online salon so we can explore this terrain together.
+The [article is a short read](https://medium.com/metacurrency-project/the-future-of-governance-is-not-governments-9c894e17b1cd). Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
 
-
-
-Sunday May 28th, 2017
-
-9:30 AM - 11:00 AM Pacific
-
-12:30 PM - 2:00 PM Eastern
-
-5:30 PM - 7:00 PM Central Europe
 
 [CLICK THIS LINK TO JOIN](https://zoom.us/j/2184944435) the conversation:
 
