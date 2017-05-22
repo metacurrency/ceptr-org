@@ -37,7 +37,8 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 ----
 
 ## UPCOMING SALONS
-![Today governance might look like this, but in the future it might look more like facebook](/images/government.jpeg){:class="img-responsive"}
+
+![Can we Govern without Government?](/images/government.jpeg){:class="img-responsive"}
 
 ### The Future of Governance is not Governments
 Sunday May 28th, 2017 
