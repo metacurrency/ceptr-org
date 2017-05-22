@@ -38,7 +38,7 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 
 ## UPCOMING SALONS
 
-![Today governance might look like this, but in the future it might look more like facebook](https://github.com/metacurrency/ceptr-org/images/government.jpeg")
+![Today governance might look like this, but in the future it might look more like facebook](ceptr-org/images/government.jpeg")
 ### The Future of Governance is not Governments
 Sunday May 28th, 2017 
 9:30 AM Pacific   |   12:30 PM Eastern   |   5:30 PM Central Europe
