@@ -38,8 +38,7 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 
 ## UPCOMING SALONS
 
-![Can we Govern without Government?](/images/government.jpeg){:class="img-responsive"}
-
+![Can we Govern without Government?](/images/government.jpeg)
 ### The Future of Governance is not Governments
 Sunday May 28th, 2017 
 9:30 AM Pacific   |   12:30 PM Eastern   |   5:30 PM Central Europe
