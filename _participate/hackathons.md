@@ -5,7 +5,7 @@ published: true
 image: /images/hackathon-table.jpg
 title: Hackathons
 nav_title: Hackathons
-navigation_weight: 2
+navigation_weight: 3
 slug: hackathons
 author: Arthur Brock
 author_login: artbrock

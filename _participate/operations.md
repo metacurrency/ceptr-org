@@ -5,7 +5,7 @@ published: true
 title: Operations
 image: /images/human-tower.jpg
 nav_title: Operations
-navigation_weight: 3
+navigation_weight: 4
 slug: operations
 author: Arthur Brock
 author_login: artbrock

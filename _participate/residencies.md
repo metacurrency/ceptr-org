@@ -2,17 +2,17 @@
 layout: participate
 status: publish
 published: true
-title: Change the World!
+title: Live at the Beach. Change the World!
 image: /images/OceanView.jpg
-nav_title: Opportunities
-navigation_weight: 2
-slug: opportunities
-author: Arthur Brock
-author_login: artbrock
-author_email: artbrock@geekgene.com
-author_url: http://artbrock.com
-date: '2017-05-14 04:58:14 -0400'
-date_gmt: '2017-05-14 04:58:14 -0400'
+nav_title: Residencies
+navigation_weight: 1
+slug: residencies
+author: Mary Camacho
+author_login: marycamacho
+author_email: maryfcamacho@gmail.com
+author_url: http://marycamacho.com
+date: '2017-05-25 04:58:14 -0400'
+date_gmt: '2017-05-25 04:58:14 -0400'
 categories: []
 tags:
 - Opportunities
@@ -27,28 +27,40 @@ comments: []
 ---
 
 <div class="col-md-8" markdown="1">
-Join our rapidly growing team and community of contributors. If you like our project and know you want to change the world with the kind of impact this work will have, then this page is for you.
 
-**Important Context:** This is an Open Source project building significantly disruptive tools. As such, it is not a profit-driven model and has no short-term revenue. Most people participate as volunteers.
+![Residency House](/images/OceanView.jpg){:class="img-responsive"}
 
-As we implement better accounting for the value of people participation and contributions we are implementing multiple systems of rewards. Also, we have received some financial support that we are carefully leveraging. [Learn more about our operations](/participate/operations).
+## Summer 2017 Residencies
+*San Francisco CA ~ Ashland OR ~ Albuquerque NM*
 
-# Ways to Participate
+At Ceptr we're building a platform for distributed applications. We are working to power new forms of human collaboration and help the world successfully navigate the daunting challenges we face through truly distributed governance, new economic spaces and organizational patterns that are decentralized, equitable, and regenerative.
 
-<!-- toc orderedList:0 depthFrom:2 depthTo:6 -->
+You don't program? Cool! Because the project needs all sorts of skills; storytellers, marketeers, organizers, community developers and more.
 
-* [Summer 2017 Residencies](/participate/residencies)
-* [Ongoing Team Participation (see below)](#ongoing-participation)
-* Invest in Ceptr
+[Apply Here](https://docs.google.com/forms/d/e/1FAIpQLScRsdhzd1Wkfe0GA0_gfyJiuZ6bVUust5uLkZqDNeeO8G2wNg/viewform?usp=sf_link){:class="btn btn-primary btn-xl page-scroll"}
 
-<!-- tocstop -->
+We are looking for summer residents to join our team as we build and launch initial applications, share discoveries, and grow a movement that will change the planet.
 
-## Ongoing Participation
+As a Resident of the Ceptr team you will help awaken people's minds to possibilities that they've never imagined and create the tools that will make that future a reality.
+
+As an Open Source project, Ceptr is not a profit-driven organization and has no short-term revenue. Most people participate as volunteers. We operate as a "do-acracy," empowering people to participate in whatever ways they see fit within self-directed teams.
+
+We are implementing new ways of recognizing the contributions of our community members and supporting them and their growth.
+
+Residencies include room and board. There will be domain-specific teams located in San Francisco(CA), Albuquerque(NM), and Ashland(OR).
+
+More important than specific job skills or experience is communication, competence and commitment. We can provide training and development on particular skills, although it is also great if you’re already bringing some good ones.
+
+If selected, this could easily become a career path as most will advance toward positions of leadership or take their training out into the world to start their own entrepreneurial ventures.
+
+
+[Apply Now](https://docs.google.com/forms/d/e/1FAIpQLScRsdhzd1Wkfe0GA0_gfyJiuZ6bVUust5uLkZqDNeeO8G2wNg/viewform?usp=sf_link){:class="btn btn-primary btn-xl page-scroll"}
+
+*If you know of people that are good candidates for a residency, please let them know about the opportunity.*
+
+### Types of Residencies ~ Ways to Participate
 
 There are many ways to participate and contribute. Below are some that our teams have identified, maybe you can bring some of the skills, talents, and interests we need.
-
-In any case, this is no typical 9 to 5 grind. Many flexible arrangements are available, including telecommuting, part-time, full-time, residencies, internships, and travel opportunities.  [Learn about our operations and compensation structures](/participate/operations).
-
 
 Software Development
 : Skills/Interests in Go, JavaScript, protocols,  blockchain, or distributed computing.
@@ -90,10 +102,7 @@ Animation & Illustration
 Community Development, Event Organizing
  : Good communication skills, eagerness to learn and create value. Contribute to event organizing and production online and offline. Learn to produce e-learning materials in Learning Management Systems (LMS), be in service to the needs of people in the community. If proficient in the content, then contribute to forum moderation. Contribute to activities related to community development like potlucks, be-ops and others.
 
- [Apply Now to Join the Ceptr Team](https://docs.google.com/forms/d/e/1FAIpQLSfo_--g2B9vSi3T_gdPBZwyTFQOUXFcjjuNnb40lyJq5iYmnw/viewform?usp=sf_link){:class="btn btn-primary btn-xl page-scroll"}
-
----
-Do-op Leaders, please list and describe needs and opportunities here.
+ [Apply to our Summer 2017 Residency Program](https://docs.google.com/forms/d/e/1FAIpQLScRsdhzd1Wkfe0GA0_gfyJiuZ6bVUust5uLkZqDNeeO8G2wNg/viewform?usp=sf_link){:class="btn btn-primary btn-xl page-scroll"}
 
 </div>
 <style>

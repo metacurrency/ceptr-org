@@ -5,7 +5,7 @@ published: true
 title: Salons
 image:
 nav_title: Salons
-navigation_weight: 4
+navigation_weight: 5
 slug: Salons
 author: Matthew Schutte
 author_login: matthewjosef

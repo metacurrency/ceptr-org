@@ -1,3 +1,5 @@
 _site/
 .sass-cache/
 _templates/blog_template.md
+Gemfile.lock
+Gemfile
