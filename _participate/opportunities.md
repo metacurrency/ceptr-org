@@ -27,6 +27,9 @@ comments: []
 ---
 
 <div class="col-md-8" markdown="1">
+
+![Spreading](/images/dandelion-flight-tinted.jpg){:class="img-responsive"}
+
 Join our rapidly growing team and community of contributors. If you like our project and know you want to change the world with the kind of impact this work will have, then this page is for you.
 
 **Important Context:** This is an Open Source project building significantly disruptive tools. As such, it is not a profit-driven model and has no short-term revenue. Most people participate as volunteers.
