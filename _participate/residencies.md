@@ -2,7 +2,7 @@
 layout: participate
 status: publish
 published: true
-title: Live at the Beach. Change the World!
+title: This Summer, Build the Next Internet!
 image: /images/OceanView.jpg
 nav_title: Residencies
 navigation_weight: 1
@@ -29,11 +29,11 @@ comments: []
 <div class="col-md-8" markdown="1">
 
 ![Residency House](/images/OceanView.jpg){:class="img-responsive"}
-
+ceptr-org/images/
 ## Summer 2017 Residencies
 *San Francisco CA ~ Ashland OR ~ Albuquerque NM*
 
-At Ceptr we're building a platform for distributed applications. We are working to power new forms of human collaboration and help the world successfully navigate the daunting challenges we face through truly distributed governance, new economic spaces and organizational patterns that are decentralized, equitable, and regenerative.
+At Ceptr we're building a platform for distributed applications that will power new forms of human collaboration and help the world successfully navigate the daunting challenges we face. Designed using the organizational patterns found in nature, we're opening new possibilities for more more equitable and regenerative forms of governance and wealth creation.
 
 You don't program? Cool! Because the project needs all sorts of skills; storytellers, marketeers, organizers, community developers and more.
 
