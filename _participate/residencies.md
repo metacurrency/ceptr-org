@@ -3,7 +3,7 @@ layout: participate
 status: publish
 published: true
 title: This Summer, Build the Next Internet!
-image: /images/OceanView.jpg
+image: http://ceptr.org/images/Dark-in-Light.jpg
 nav_title: Residencies
 navigation_weight: 1
 slug: residencies
@@ -28,8 +28,8 @@ comments: []
 
 <div class="col-md-8" markdown="1">
 
-![Residency House](/images/OceanView.jpg){:class="img-responsive"}
-ceptr-org/images/
+![Dark-in-Light](/images/Dark-in-Light.jpg){:class="img-responsive"}
+
 ## Summer 2017 Residencies
 *San Francisco CA ~ Ashland OR ~ Albuquerque NM*
 
@@ -43,7 +43,7 @@ We are looking for summer residents to join our team as we build and launch init
 
 As a Resident of the Ceptr team you will help awaken people's minds to possibilities that they've never imagined and create the tools that will make that future a reality.
 
-As an Open Source project, Ceptr is not a profit-driven organization and has no short-term revenue. Most people participate as volunteers. We operate as a "do-acracy," empowering people to participate in whatever ways they see fit within self-directed teams.
+As an Open Source project, Ceptr is not a profit-driven organization and has no short-term revenue. Most people participate as volunteers. We operate as a "do-acracy," empowering people to participate in whatever ways they see fit within self-directed teams. ![Residency House](/images/OceanView.jpg){:class="col-lg-4 col-md-4"}
 
 We are implementing new ways of recognizing the contributions of our community members and supporting them and their growth.
 
