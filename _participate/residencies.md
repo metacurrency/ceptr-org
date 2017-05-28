@@ -3,7 +3,7 @@ layout: participate
 status: publish
 published: true
 title: This Summer, Build the Next Internet!
-image: http://ceptr.org/images/Dark-in-Light.jpg
+image: http://ceptr.org/images/Light-in-Darkjpg
 nav_title: Residencies
 navigation_weight: 1
 slug: residencies
@@ -28,7 +28,7 @@ comments: []
 
 <div class="col-md-8" markdown="1">
 
-![Dark-in-Light](/images/Dark-in-Light.jpg){:class="img-responsive"}
+![Dark-in-Light](/images/Light-in-Dark.jpg){:class="img-responsive"}
 
 ## Summer 2017 Residencies
 *San Francisco CA ~ Ashland OR ~ Albuquerque NM*
