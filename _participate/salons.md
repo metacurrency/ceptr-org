@@ -48,7 +48,7 @@ Please [DOWNLOAD ZOOM](https://zoom.us/download) ahead of time
 ----
 
 ## ARCHIVE
-![Can we Govern without Government?](/images/government.jpeg)
+
 ### The Future of Governance is not Governments
 Sunday May 28th, 2017
 
