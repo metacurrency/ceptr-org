@@ -43,9 +43,9 @@ We are looking for summer residents to join our team as we build and launch init
 
 As a Resident of the Ceptr team you will help awaken people's minds to possibilities that they've never imagined and create the tools that will make that future a reality.
 
-As an Open Source project, Ceptr is not a profit-driven organization and has no short-term revenue. Most people participate as volunteers. We operate as a "do-acracy," empowering people to participate in whatever ways they see fit within self-directed teams. ![Residency House](/images/OceanView.jpg){:class="col-lg-4 col-md-4"}
+As an Open Source project, Ceptr is not a profit-driven organization and has no short-term revenue. Most people participate as volunteers. We operate as a "do-acracy," empowering people to participate in whatever ways they see fit within self-directed teams.
 
-We are implementing new ways of recognizing the contributions of our community members and supporting them and their growth.
+![Residency House](/images/OceanView.jpg){:class="col-xl-6 col-lg-6 col-md-6"}We are implementing new ways of recognizing the contributions of our community members and supporting them and their growth.
 
 Residencies include room and board. There will be domain-specific teams located in San Francisco(CA), Albuquerque(NM), and Ashland(OR).
 
