@@ -3,6 +3,7 @@ layout: project
 slug: pcubed
 title: "Protocol for <br /> Pluggable Protocols"
 nav_title: Pluggable Protocols
+image: http://ceptr.org/images/profile_semtree_with_structures.png
 navigation_weight: 1
 icon: fa-puzzle-piece
 purpose: "Complete interoperability: No more silos and brittle APIs. Self-Describing protocols and a universal parsing system allows anything to talk to anything."

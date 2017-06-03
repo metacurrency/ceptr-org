@@ -3,6 +3,7 @@ layout: project
 slug: holochain
 title: "Holochains for <br />Distributed Data Integrity"
 nav_title: Holochains
+image: http://ceptr.org/images/Holochain_Subsystems.png
 navigation_weight: 2
 icon: fa-link
 purpose: "Go beyond Blockchain bottlenecks and global consensus ledgers
