@@ -37,13 +37,21 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 ----
 
 ## UPCOMING SALONS
-### Topic TBD
+### Broken Assumptions of Governance
 Sunday June 11th, 2017
 9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
 
-[CLICK THIS LINK TO JOIN](https://zoom.us/j/2184944435) the conversation:
+Join us for a dialogue with Metacurrency co-founder Arthur Brock about the Broken Assumptions of Governance. 
 
-Please [DOWNLOAD ZOOM](https://zoom.us/download) ahead of time
+"To meet the huge challenges confronting us, we need more than incremental digital tweaks, we need a breakthrough in large-scale collective wisdom." 
+
+https://medium.com/metacurrency-project/broken-assumptions-of-governance-63cc946ccc6c
+
+The article is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
+
+To join: https://zoom.us/j/2184944435
+
+Download Zoom: https://zoom.us/download
 
 ----
 
