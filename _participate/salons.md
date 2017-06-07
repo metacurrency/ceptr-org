@@ -85,7 +85,7 @@ Inspired by Maciej Cegłowski’s [recent suggestion](http://idlewords.com/talks
 
 ----
 
-![Voting](/images/love.jpeg){:class="img-responsive"}
+![Voting](/images/Love_What_is_It.JPG){:class="img-responsive"}
 ### What is Love? (baby don't hurt me) + a bit of introduction to Metacurrency / Ceptr
 Sunday, September 4th, 2016
 
