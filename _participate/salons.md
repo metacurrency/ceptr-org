@@ -57,6 +57,9 @@ When the time comes, [Join the Salon in Zoom](https://zoom.us/j/2184944435).
 
 ## ARCHIVE
 
+----
+
+![Voting](/images/government.jpeg){:class="img-responsive"}
 ### The Future of Governance is not Governments
 Sunday May 28th, 2017
 
@@ -70,6 +73,7 @@ The [article is a short read](https://medium.com/metacurrency-project/the-future
 
 ----
 
+![Voting](/images/computer-memory-chips.jpg){:class="img-responsive"}
 ### The Right to be Forgotten
 Sunday May 13th, 2017
 
@@ -81,6 +85,7 @@ Inspired by Maciej Cegłowski’s [recent suggestion](http://idlewords.com/talks
 
 ----
 
+![Voting](/images/love.jpeg){:class="img-responsive"}
 ### What is Love? (baby don't hurt me) + a bit of introduction to Metacurrency / Ceptr
 Sunday, September 4th, 2016
 
