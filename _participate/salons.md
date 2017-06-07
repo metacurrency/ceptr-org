@@ -47,7 +47,7 @@ Join us for a dialogue with Metacurrency co-founder Arthur Brock about the Broke
 
 [The article](https://medium.com/metacurrency-project/broken-assumptions-of-governance-63cc946ccc6c) is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
 
-When the time comes: [Participate in the Salon Here](https://zoom.us/j/2184944435)
+When the time comes, [Join the Salon in Zoom](https://zoom.us/j/2184944435).
 
 [Please Download Zoom Ahead of Time](https://zoom.us/download)
 
