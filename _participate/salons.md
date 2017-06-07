@@ -45,13 +45,11 @@ Join us for a dialogue with Metacurrency co-founder Arthur Brock about the Broke
 
 "To meet the huge challenges confronting us, we need more than incremental digital tweaks, we need a breakthrough in large-scale collective wisdom." 
 
-https://medium.com/metacurrency-project/broken-assumptions-of-governance-63cc946ccc6c
+[The article](https://medium.com/metacurrency-project/broken-assumptions-of-governance-63cc946ccc6c) is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
 
-The article is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
+When the time comes: [Participate in the Salon Here](https://zoom.us/j/2184944435)
 
-To join: https://zoom.us/j/2184944435
-
-Download Zoom: https://zoom.us/download
+[Please Download Zoom Ahead of Time](https://zoom.us/download)
 
 ----
 
