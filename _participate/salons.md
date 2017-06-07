@@ -40,6 +40,7 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 ![Voting](/images/vote.jpg){:class="img-responsive"}
 ### Broken Assumptions of Governance
 Sunday June 11th, 2017
+
 9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
 
 Join us for a dialogue with Metacurrency co-founder Arthur Brock about the Broken Assumptions of Governance. 
