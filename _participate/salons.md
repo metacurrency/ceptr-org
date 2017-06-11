@@ -37,6 +37,27 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 ----
 
 ## UPCOMING SALONS
+### Topic TBD
+Sunday June 25th, 2017
+
+9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
+
+[//]: # (Join us for a dialogue about ... )
+
+[//]: # ("ENTER QUOTE HERE")
+
+[//]: # ([The article]() is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.)
+
+When the time comes, [Join the Salon in Zoom](https://zoom.us/j/2184944435).
+
+[Please Download Zoom Ahead of Time](https://zoom.us/download)
+
+----
+
+## ARCHIVE
+
+----
+
 ![Voting](/images/vote.jpg){:class="img-responsive"}
 ### Broken Assumptions of Governance
 Sunday June 11th, 2017
@@ -49,13 +70,9 @@ Join us for a dialogue with Metacurrency co-founder Arthur Brock about the Broke
 
 [The article](https://medium.com/metacurrency-project/broken-assumptions-of-governance-63cc946ccc6c) is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
 
-When the time comes, [Join the Salon in Zoom](https://zoom.us/j/2184944435).
+[VIDEO RECORDING](https://youtu.be/TaQYJZzZ2gU)
 
-[Please Download Zoom Ahead of Time](https://zoom.us/download)
-
-----
-
-## ARCHIVE
+[AUDIO RECORDING](https://soundcloud.com/metacurrency/ceptr-salon-broken-assumptions-of-governance)
 
 ----
 
