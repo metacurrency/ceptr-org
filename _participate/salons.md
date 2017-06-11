@@ -46,7 +46,7 @@ Sunday June 25th, 2017
 
 [//]: # ("ENTER QUOTE HERE")
 
-[//]: # ([The article]() is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.)
+[//]: # (The article is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.)
 
 When the time comes, [Join the Salon in Zoom](https://zoom.us/j/2184944435).
 
