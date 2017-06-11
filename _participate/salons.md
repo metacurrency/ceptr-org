@@ -74,7 +74,8 @@ Join us for a dialogue with Metacurrency co-founder Arthur Brock about the Broke
 
 [AUDIO RECORDING](https://soundcloud.com/metacurrency/ceptr-salon-broken-assumptions-of-governance)
 
-[Conversation Sheet](https://docs.google.com/spreadsheets/d/1gUYfqf59ac4tcexQP1lO945OkoFUit0EnhW5NnQHZnw/edit#gid=0)
+[CONVERSATION SHEET](https://docs.google.com/spreadsheets/d/1gUYfqf59ac4tcexQP1lO945OkoFUit0EnhW5NnQHZnw/edit#gid=0)
+
 ----
 
 ![Voting](/images/government.jpeg){:class="img-responsive"}
