@@ -1,6 +1,20 @@
-# Revelation Doc Re-write
+---
+layout: whitepaper
+status: Concept
+title: "Ceptr Revelation"
+sub-title: Applying the patterns of living systems to upgrade social intelligence
+slug: revelation
+project: ceptr
+authors:
+    "Arthur Brock": artbrock.com
+    "Eric Harris-Braun": eric.harris-braun.com
+excerpt: ""
+tags:
+- Whitepaper
+comments: []
+---
 
-The Ceptr Revelation
+# The Ceptr Revelation
 This document is our first attempt to share Ceptr and its underlying design principles. Since Ceptr is so ambitious in scope with many unusual approaches, it is difficult to pack it all into one document which will make sense to everyone. We’re going to try to keep things in a non-academic/informal voice and we’ll be switching between high-level overviews, and low-level overviews and link to supporting articles for technical details. 
 This document is meant for builders and seekers of tools for enhancing collaboration on all scales -- people seeking to upgrade our collective intelligence. We hope it will help you find out whether these are the  right tools for your needs, and if they are, provide ways you can help improve the tools or implement your own solutions with them. 
 The first sections give context of why and how we built Ceptr. Feel free to jump straight to the what section if you want to dive straight into the nitty-gritty.
