@@ -31,7 +31,7 @@ comments: []
 ![Dark-in-Light](/images/Light-in-Dark.jpg){:class="img-responsive"}
 
 ## Summer 2017 Residencies
-*San Francisco CA ~ Ashland OR ~ Albuquerque NM*
+*San Francisco CA*
 
 At Ceptr we're building a platform for distributed applications that will power new forms of human collaboration and help the world successfully navigate the daunting challenges we face. Designed using the organizational patterns found in nature, we're opening new possibilities for more more equitable and regenerative forms of governance and wealth creation.
 
