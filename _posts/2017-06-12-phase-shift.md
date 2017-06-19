@@ -17,7 +17,7 @@ tags:
 - Ceptr
 ---
 
-![Transformation](http://ceptr.org/images/chrysalis_butterfly.jpg){:class="img-responsive"}
+![Transformation](/images/chrysalis_butterfly.jpg){:class="img-responsive"}
 You've probably seen a lot more activity around the MetaCurrency Project in recent months: a new Ceptr web site, Ceptr broken down into clearer sub-projects, blockchain alternatives, lots of code releases, Hackathons, virtual potlucks, online presentations, etc. I guess we ought to make it clearer what's going on.
 
 For a long time we've operated as one of those fringy open source projects like some mad scientists experimenting in their garage. But now we must navigate the transition from a tech hobby project to a scalable business, in part, because we've been approached by funders.
