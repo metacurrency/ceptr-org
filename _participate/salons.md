@@ -38,7 +38,7 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 
 ## UPCOMING SALONS
 ### Topic TBD
-Sunday June 25th, 2017
+Sunday July 2nd, 2017 (We had originally scheduled a Salon for June 25th. Instead we will have a Q&A.)
 
 9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
 
