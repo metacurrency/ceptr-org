@@ -37,10 +37,30 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 ----
 
 ## UPCOMING SALONS
-### Topic TBD
-NOTE: (We've cancelled the 6/2 salon due to Fourth of July Weekend)
 
+### 
 Sunday July 9th, 2017 
+9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
+
+Join us for an online conversation exploring new forms of digital commons with examples from the empowered humans over at Enspiral and other communities. 
+
+The super-dork-fun discussion prompt for this Salon is a short portion of a report by David Bollier called  "Transnational Republics of Commoning".  We'll focus on the section "Digital Commons as New Species of Production and Governance", which is on pdf pages 10-16. 
+
+This topic lands as a bit of a bridge between some of our recent more general conversations on governance and a more detailed exploration of the types of tools that Ceptr and others are creating to support new forms of relationship and organization. 
+
+The article is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
+
+Here is the article: https://www.foe.co.uk/sites/default/files/downloads/transnational-republics-commoning-reinventing-governance-through-emergent.pdf
+
+To participate:
+https://zoom.us/j/2184944435
+
+Please DOWNLOAD ZOOM ahead of time
+https://zoom.us/download
+
+
+### Topic TBD
+Sunday July 23rd, 2017 
 9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
 
 [//]: # (Join us for a dialogue about ... )
