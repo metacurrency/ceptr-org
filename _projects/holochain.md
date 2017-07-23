@@ -75,7 +75,7 @@ The application is the glue that holds all the parts together into a unified who
 Most importantly, it provides the validation rules which everyone runs to make sure the data being held in the shared DHT can't be tampered with, counterfeited, or lost. As of March 2017, you can write applications in JavaScript or Lisp.
 
 ### Local Source Chain
-Instead a shared global ledger like blockchains, every person has their own local chain that they sign things to before publishing them to the shared DHT. Interactions involving multiple parties (such as a currency transfer between two people) are signed by EACH party and committed to their own chains, and then shared to DHT by each party.
+Instead of a shared global ledger like blockchains, every person has their own local chain that they sign things to before publishing them to the shared DHT. Interactions involving multiple parties (such as a currency transfer between two people) are signed by EACH party and committed to their own chains, and then shared to DHT by each party.
 
 ![Holochain_Source](/images/Holochain_Source.png)
 
