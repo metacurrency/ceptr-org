@@ -38,15 +38,6 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 
 ## UPCOMING SALONS
 
-### 
-
-To participate:
-https://zoom.us/j/2184944435
-
-Please DOWNLOAD ZOOM ahead of time
-https://zoom.us/download
-
-
 ### Topic TBD
 Sunday August 6th, 2017 
 9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
