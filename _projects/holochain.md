@@ -37,7 +37,7 @@ articles:
 
 <br />
 <div class="alert alert-warning" role="alert" markdown="1">
-   <b>Stage of Development:</b> Pre-Alpha. Proof-of-concept was completed and unveiled at our first <a href="/participate/hackathons">Hackathon</a>. We expect to do an <b>Alpha release in June 2017</b> when we complete our Security Milestone.
+   <b>Stage of Development:</b> Pre-Alpha. Proof-of-concept was completed and unveiled at our first <a href="/participate/hackathons">Hackathon</a>. We expect to do an <b>Alpha release in August 2017</b> when we complete our Security Milestone.
 </div>
 
 ## Overview
@@ -118,6 +118,6 @@ You probably SHOULD NOT use holochain for:
 Holochain is a part of a much larger vision for distributed computing to enable quantum leaps in our collective intelligence and abilities for groups to organize themselves on all scales. You can find out more about [Ceptr here](http://ceptr.org).
 
 ## A Note to End Users
-Coming soon there will be applications built to make it easy to use holochains as your distributed database for all your daily needs. Hopefully, these applications will be as easy to find, install, and use as any other software you can think of. However, at the moment, these apps don't exist and holochain is largely for developers trying to build these things for you. Check back in Q2 of 2017 for some cool applications.
+Coming soon there will be applications built to make it easy to use holochains as your distributed database for all your daily needs. Hopefully, these applications will be as easy to find, install, and use as any other software you can think of. However, at the moment, these apps don't exist and holochain is largely for developers trying to build these things for you.
 
 For now, please [enjoy our FAQ](http://github.com/metacurrency/holochain/wiki/FAQ). :)
