@@ -40,13 +40,11 @@ comments: []
 <!-- /TOC -->
 
 ## Next Events?
-Contact us if you're interested in organizing one in your area. Projected Hackathon possibilities
- * June 2017 - Boston, MA
- * August 3-5 2017 - Ashland, OR (in partnership with Circuit Youth)
- * late August 2017 - San Francisco, CA
- * September 2017 - Upstate New York
- * November 2017 - Aix en Provence, France (Cryptocurrencies focused hackathon?)
- * February 2018 - Auroville, India
+Contact us if you're interested in organizing an event in your area. Projected Hackathon possibilities
+ * October 2017 - Porto, Portugal, and Barcelona Spain
+ * November 2017 - Aix en Provence France, and Ghent Belgium
+ * December 2017 - Berlin Germany, and Glasgow Scotland
+ * February 2018 - Auroville India
 
 ## Holochain Hackathon - SFO March 6 - 8, 2017
 <a class="btn btn-primary btn-xl pull-right" href="https://www.youtube.com/watch?v=-RyFJWK4mhI&feature=youtu.be">LIVE STREAM</a>
