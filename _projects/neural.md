@@ -15,7 +15,7 @@ purpose: "By supporting sticky requests which send data whenever conditions are 
 
 <!-- TOC END -->
 
-<br /><div class="alert alert-danger" role="alert"><em><b>Stage of Development:</b> Specs & design. Awaiting launch of Sovereign Accountable Commons before beginning active development..</em></div>
+<br /><div class="alert alert-danger" role="alert" markdown="1"><em><b>Stage of Development:</b> Specs & design. Awaiting launch of Sovereign Accountable Commons before beginning active development..</em></div>
 
 ## Overview
 The generalized ability to plant persistent listeners for specific state changes in other's applications, enables the weaving of synaptic like connections across a whole network. These patterns are exactly the kinds of synaptic patterns of learning neural networks.
