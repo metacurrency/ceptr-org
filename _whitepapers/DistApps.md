@@ -2,10 +2,10 @@
 layout: whitepaper
 status: Concept
 published: true
-title: Distributed Apps
+title: Holo
 sub-title: Fueling Collaborative Infrastructure for a New Digital Commons
-slug: distapps
-project: distapps
+slug: holo
+project: holo
 authors:
     "Arthur Brock": artbrock.com
     "Eric Harris-Braun": eric.harris-braun.com
