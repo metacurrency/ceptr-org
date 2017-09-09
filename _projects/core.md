@@ -29,7 +29,7 @@ dev_docs: http://zippy.github.io/ceptr/
 
 <!-- TOC END -->
 
-<br /><div class="alert alert-warning" role="alert"><em><b>Stage of Development:</b> Many elements of the Ceptr Core were built and prototyped in our C implementation of Ceptr. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects, and will be rebuilt in Go after the launch of [Holochain](/projects/holochain). </em></div>
+<br /><div class="alert alert-warning" role="alert" markdown="1"><em><b>Stage of Development:</b> Many elements of the Ceptr Core were built and prototyped in our C implementation of Ceptr. [That codebase](http://github.com/zippy/ceptr) is being retired in favor of breaking Ceptr down into more understandable sub-projects, and will be rebuilt in Go after the launch of [Holochain](/projects/holochain). </em></div>
 
 ## Overview
 
