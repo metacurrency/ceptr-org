@@ -22,39 +22,40 @@ comments: []
 
 <!-- toc orderedList:0 depthFrom:1 depthTo:6 -->
 
-* [Introduction](#h1-idsecintrointroductionh1)
-* [Prior Work](#h1-idprior-workprior-workh1)
-* [Distributed Systems](#h1-idsecdata-centric-systemsdistributed-systemsh1)
-  * [Formalism](#h2-idsecformalismformalismh2)
-  * [Data-Centric and Agent-Centric Systems](#h2-idsecdata-agentdata-centric-and-agent-centric-systemsh2)
-  * [Systemic Evolvability](#h2-idsystemic-evolvabilitysystemic-evolvabilityh2)
-* [Generalized Distributed Computation](#h1-idsecdist-compgeneralized-distributed-computationh1)
-  * [Ethereum](#h2-idethereumethereumh2)
-  * [Holochain](#h2-idholochainholochainh2)
-  * [Systemic Integrity Through Validation](#h2-idsecintegritysystemic-integrity-through-validationh2)
-  * [Absolute Requirements](#h2-idabsolute-requirementsabsolute-requirementsh2)
-  * [Considered Requirements](#h2-idconsidered-requirementsconsidered-requirementsh2)
-  * [Bridging](#h2-idsecbridgingbridgingh2)
-* [ Evolvability](#h1-idsecevo-evolvabilityh1)
-* [Complexity In Distributed Systems](#h1-idseccomplexitycomplexity-in-distributed-systemsh1)
-  * [Bitcoin](#h2-idbitcoinbitcoinh2)
-  * [Ethereum](#h2-idethereum-1ethereumh2)
-  * [Blockchain](#h2-idblockchainblockchainh2)
-  * [Holochain](#h2-idholochainholochainh2-1)
-* [Use Cases](#h1-idsecusecasesuse-casesh1)
-  * [Social Media](#h2-idsocial-mediasocial-mediah2)
-  * [Identity](#h2-ididentityidentityh2)
-  * [Money](#h2-idmoneymoneyh2)
-* [Implementation](#h1-idsecimplementationimplementationh1)
-* [Appendix I: DHT(hc)](#h1-idsecapdx1appendix-i-dhthch1)
-* [Appendix II: F(sys)](#h1-idsecapdx2appendix-ii-fsysh1)
-    * [Acknowledgements](#acknowledgements)
-* [Lumber](#h1-idlumberlumberh1)
+* [Introduction](#introduction)
+* [Prior Work](#prior-work)
+* [Distributed Systems](#distributed-systems)
+  * [Formalism](#formalism)
+  * [Data-Centric and Agent-Centric Systems](#data-centric-and-agent-centric-systems)
+  * [Systemic Evolvability](#systemic-evolvability)
+* [Generalized Distributed Computation](#generalized-distributed-computation)
+  * [Ethereum](#ethereum)
+  * [Holochain](#holochain)
+  * [Systemic Integrity Through Validation](#systemic-integrity-through-validation)
+  * [Absolute Requirements](#absolute-requirements)
+  * [Considered Requirements](#considered-requirements)
+  * [Bridging](#bridging)
+* [Evolvability](#evolvability)
+* [Complexity In Distributed Systems](#complexity-in-distributed-systems)
+  * [Bitcoin](#bitcoin)
+  * [Ethereum](#ethereum-1)
+  * [Blockchain](#blockchain)
+  * [Holochain](#holochain-1)
+* [Use Cases](#use-cases)
+  * [Social Media](#social-media)
+  * [Identity](#identity)
+  * [Money](#money)
+* [Implementation](#implementation)
+* [Appendix I: DHThc](#appendix-i-dhtsubhcsub)
+* [Appendix II: Fsys](#appendix-ii-fsubsyssub)
+* [Acknowledgements](#acknowledgements)
+    * [Lumber / Notes](#lumber-notes)
     * [Informal description](#h3-idinformal-descriptioninformal-descriptionh3)
+* [Bibliography](#bibliography)
 
 <!-- tocstop -->
 
-# <h1 id="sec:intro">Introduction</h1>
+# Introduction
 <p>Distributed computing platforms have achieved a new level of viability with the advent of two foundational cryptographic tools: secure hashing algorithms, and public-key encryption. These have provided solutions to key problems in distributed computing: verifiable, tamper-proof data for sharing state across nodes in the distributed system, and confirmation of data provenance via digital signature algorithms. The former is achieved by hash-chains, where monotonic data-stores are rendered intrinsically tamper-proof (and thus confidently sharable across nodes) by including hashes of previous entries in subsequent entries. The latter is achieved by combining cryptographic encryption of hashes of data and using the public keys themselves as the addresses of agents, thus allowing other agents in the system to mathematically verify the data’s source.</p>
 <p>Though hash-chains help solve the problem of independently acting agents reliably sharing state, we see two very different approaches in their use which have deep systemic consequences. These approaches are demonstrated by two of today’s canonical distributed systems:</p>
 <ol>
@@ -62,11 +63,11 @@ comments: []
 <li><p>Bitcoin<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a>: In Bitcoin (and blockchain in general), the “problem&quot; is understood to be that of figuring out how to choose one block of transactions among the many variants being experienced by the mining nodes (as they collect transactions from clients in different orders), and committing that single variant to the single globally shared chain. We call this approach <span><strong><em>data-centric</em></strong></span> because of its focus on creating a single shared data reality among all nodes.</p></li>
 </ol>
 <p>We claim that this fundamental original stance results directly in the two most significant limitations of the blockchain: scalability and evolvability. These limitations are widely known <a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a> and many solutions have been offered <a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>. Holochain offers a way forward by directly addressing the root data-centric assumptions of the blockchain approach.</p>
-# <h1 id="prior-work">Prior Work</h1>
+# Prior Work
 <p>This paper builds largely on recent work in cryptographic distributed systems and distributed hash tables and multi-agent systems.</p>
 <p>Ethereum: Wood <span class="citation"></span>, DHT: <span class="citation"></span> Benet <span class="citation"></span></p>
-# <h1 id="sec:data-centric-systems">Distributed Systems</h1>
-## <h2 id="sec:formalism">Formalism</h2>
+# Distributed Systems
+## Formalism
 <p>We define a simple generalized model of a distributed system <span class="math inline"><em>Ω</em></span> using hash-chains as follows:</p>
 <ol>
 <li><p>Let <span class="math inline"><em>N</em></span> be the set of elements <span class="math inline">{<em>n</em><sub>1</sub>, <em>n</em><sub>2</sub>, …<em>n</em><sub><em>n</em></sub>}</span> participating in the system. Call the elements of <span class="math inline"><em>N</em></span> <span><strong><em>nodes</em></strong></span> or <span><strong><em>agents</em></strong></span>.</p></li>
@@ -97,7 +98,7 @@ h &amp;= \{ H(e),H(x_a,\dots,x_b)  | a,b\leq i \}
 <li><p>Call a data element that is accessible by its hash <span><strong><em>content addressable</em></strong></span>.</p></li>
 </ol>
 <p>For the purposes of this paper we assume untrusted nodes, i.e. independently acting agents solely under their own control, and an insecure channel. We do this because the very <em>raison d’être</em> of the cryptographic tools mentioned above is to allow individual nodes to trust the whole system under this assumption. The cryptography immediately makes visible in the state data when any other node in the system uses a version of the functions different from itself. This property is often referred to as a <span><strong><em>trustless</em></strong></span> system. However, because it simply means that the locus of trust has been shifted to the state data, rather than other nodes, we refer to it as systemic reliance on <span><strong><em>intrinsic data integrity</em></strong></span>. See [sec:integrity] for a detailed discussion on trust in distributed systems.</p>
-## <h2 id="sec:data-agent">Data-Centric and Agent-Centric Systems</h2>
+## Data-Centric and Agent-Centric Systems
 <p>Using this definition, Bitcoin can be understood as that system <span><span class="math inline"><em>Ω</em><sub>bitcoin</sub></span></span>where:</p>
 <ol>
 <li><p><span class="math inline">$\forall n,m \in N: {\mathcal{X}}_n{\stackrel{!}{=}}{\mathcal{X}}_m$</span></p></li>
@@ -114,17 +115,17 @@ h &amp;= \{ H(e),H(x_a,\dots,x_b)  | a,b\leq i \}
 <p>The use of the word consensus seems at best dubious as a description of a systemic requirement that all nodes carry identical values of <span class="math inline">𝒳<sub><em>n</em></sub></span>. Especially when the algorithm for ensuring that sameness is essentially a digital lottery powered by expensive computation that’s primary design feature is to randomize which node gets to run <span class="math inline"><em>V</em><sub><em>n</em></sub></span> such that no node has preference to which <span class="math inline"><em>e</em></span> gets added to <span class="math inline">𝒳<sub><em>n</em></sub></span>.</p>
 <p>Consensus as normally used implies deliberation with regard to differences and work on crafting a perspective that holds for all parties, rather than simply selecting one party’s dataset at random.</p>
 <p>A more accurate term for the algorithm would be “proof-of-luck&quot; and for the process itself simply sameness, not consensus. If you start from a data-centric view point, which naturally throws out the “experience&quot; of all agents in favor of just one, it’s much harder to design them to engage in processes that actually have the real-world properties of consensus. If the constraint of keeping all nodes’ states the same were adopted consciously as a fit for a specific purpose, this would not be particularly problematic. Unfortunately the legacy of this data-centric view point has been held mostly unconsciously and is adopted by more generalized distributed computing systems, for which the intent doesn’t specifically include the need to model “digital matter&quot; with universally absolute location. While having the advantages of simplicity it also immediately transfers to them the scalability issues, but worse, it makes it hard to take advantages inherent in agent-centric approach.</p>
-## <h2 id="systemic-evolvability">Systemic Evolvability</h2>
+## Systemic Evolvability
 <p>Neither of the systems discussed so far address the question of evolvability directly in-system. The evolution function <span class="math inline"><em>E</em></span> is not formalized and left to humans operating the nodes. This has the very interesting side-effect of, in practice, obviating the very decentralization aimed for by the design of these systems and relegating it squarely back in traditional practices <span class="citation"></span>. For truly successful distributed systems, this cannot be left out of the system. We discuss evolvability more fully in Section [sec:evo]</p>
-# <h1 id="sec:dist-comp">Generalized Distributed Computation</h1>
+# Generalized Distributed Computation
 <p>The previous section described a general formalism for distributed systems, and compared git to Bitcoin as an example of an agent-centric vs. a data-centric distributed system. Neither of these systems, however provides generalized computation in the sense of being a framework for writing computer programs or creating applications. So, lets add the following constraints to formalism [sec:formalism] as follows:</p>
 <ol>
 <li><p>With respect to a machine <span class="math inline"><em>M</em></span> some values of <span class="math inline"><em>S</em><sub><em>n</em></sub></span> can be interpreted as: executable code, and the results of code execution, and may be accessible to <span class="math inline"><em>M</em></span> and the code. Call such values the <span><strong><em>machine state</em></strong></span>.</p></li>
 <li><p><span class="math inline">∃<em>t</em></span> and nodes <span class="math inline"><em>n</em></span> such that <span class="math inline"><em>I</em><sub><em>n</em></sub>(<em>t</em>)</span> will trigger execution of that code. Call such transaction values <span><strong><em>calls</em></strong></span>.</p></li>
 </ol>
-## <h2 id="ethereum">Ethereum</h2>
+## Ethereum
 <p>Ethereum<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a> provides the current premier example of generalized distributed computing using the blockchain model. It lives up to the constraints listed above as described by Wood <span class="citation"></span> where the bulk of the paper can be understood as a specification of a validation function <span class="math inline"><em>V</em><sub><em>n</em></sub>()</span> and the described state transition function <span class="math inline"><em>σ</em><sub>t+1</sub> ≡ <em>Υ</em>(<em>σ</em>, <em>T</em>)</span> as a specification of how constraints above are met. Unfortunately the data-centric legacy inherent in Ethereum is immediately observable in its high compute cost<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> and difficulty in scaling<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a>.</p>
-## <h2 id="holochain">Holochain</h2>
+## Holochain
 <p>We now proceed to describe an agent-centric distributed generalized computing system, where nodes can still confidently participate in the system as whole even though they are not constrained to maintaining the same chain state as all other nodes.</p>
 <p>In broad strokes: A Holochain is a unique source chain for every agent, paired with a validating, monotonic, sharded, distributed hash table (DHT) where every node enforces validation rules on data in the DHT as well as verifying provenance of data from the source chains where it originated.</p>
 <p>Using our formalism, a Holochain based application <span><span class="math inline"><em>Ω</em><sub>hc</sub></span></span>is defined as:</p>
@@ -179,7 +180,7 @@ d(A_n,A_{n_0})&amp; &gt; d(A_n,A_{n_i})\\
 <li><p>[private] Allow that the definition of entries in <span><span class="math inline">DNA</span></span> can mark entry types as <span><strong><em>private</em></strong></span>. Enforce that if an entry <span class="math inline"><em>σ</em><sub><em>x</em></sub></span> is of such a type then <span class="math inline"><em>σ</em><sub><em>x</em></sub> ∉ <em>Δ</em></span>. Note however that entries of such type can be sent as node-to-node messages.</p></li>
 <li><p>Let the system processing function <span class="math inline"><em>P</em>(<em>i</em>)</span></p></li>
 </ol>
-## <h2 id="sec:integrity">Systemic Integrity Through Validation</h2>
+## Systemic Integrity Through Validation
 <p>The appeal of the data-centric approach to distributed computing comes from the fact that if you can prove that all nodes reliably have the same data then that provides strong general basis from which to prove the integrity of the system as a whole. In the case of Bitcoin, the <span class="math inline">𝒳</span> holds the transactions and the unspent transaction outputs which allows nodes to verify future transactions against double-spend. In the case of Ethereum, <span class="math inline">𝒳</span> holds essentially pointers to machine state . Proving the consistency across all nodes of those data sets is fundamental to the integrity of those systems.</p>
 <p>However, because we have started with the assumption (see [sec:formalism]) of distributed systems of independently acting agents, any <em>proof</em> of <span class="math inline">$\forall n,m \in N: {\mathcal{X}}_n{\stackrel{!}{=}}{\mathcal{X}}_m$</span> in blockchain based system is better understood as a <em>choice</em> (hence our use of the <span class="math inline">${\stackrel{!}{=}}$</span>), in that nodes use their agency to decide when to stop interacting with other nodes based on detecting that the <span class="math inline">𝒳</span> state no longer matches. This might also be called “proof by enforcement,&quot; and is also appropriately known as a <span><strong><em>fork</em></strong></span> because essentially it results in partitioning of the network.</p>
 <p>The heart of the matter has to do with the trust any single agent has is in the system. In <span class="citation"></span> Section 1.1 (Driving Factors) we read:</p>
@@ -202,14 +203,14 @@ d(A_n,A_{n_0})&amp; &gt; d(A_n,A_{n_i})\\
 <li><p>commit of monetary transaction where we are trying to validate it against double-spend</p></li>
 </ol>
 <p>These contexts have different consequences that an agent may wish to evaluate differently and may be willing to attach more or less resources to in validating. One of the key design elements of Holochain was to allow such validation functions to be set contextually per application, and expose these contexts explicitly.</p>
-## <h2 id="absolute-requirements">Absolute Requirements</h2>
+## Absolute Requirements
 <ol>
 <li><p>Intrinsic Data Integrity</p></li>
 <li><p>CALM &amp; Logical Monotonicity</p></li>
 <li><p>Provenance</p></li>
 <li><p>...</p></li>
 </ol>
-## <h2 id="considered-requirements">Considered Requirements</h2>
+## Considered Requirements
 <p>Tools in Holochain available to app developers for use in Considered Requirements, some of which are also used at the system level an globally parameterized for an application.</p>
 <ol>
 <li><p>Countersigning</p></li>
@@ -219,26 +220,26 @@ d(A_n,A_{n_0})&amp; &gt; d(A_n,A_{n_i})\\
 <li><p>Blocked-lists.</p></li>
 <li><p>...</p></li>
 </ol>
-## <h2 id="sec:bridging">Bridging</h2>
-# <h1 id="sec:evo"> Evolvability</h1>
-# <h1 id="sec:complexity">Complexity In Distributed Systems</h1>
+## Bridging
+# Evolvability
+# Complexity In Distributed Systems
 <p>In this section we discuss the complexity of our proposed architecture for decentralised systems and compare it to the increasingly adopted Blockchain pattern.</p>
 <p>Formally describing the complexity of decentralized multi-agent systems is a non-trivial task for which more complex approaches have been suggested (<span class="citation"></span>). This might be the reason why there happens to be unclarity and misunderstandings within communities discussing complexity and scalability of Bitcoin for example <span><span class="citation"></span></span>.</p>
 <p>In order to be able to have a ball-park comparison between our approach and the current status quo in decentralized application architecture, we proceed by modeling the worst-case time complexity both for a single node <span class="math inline"><em>Ω</em><sub><em>S</em><em>y</em><em>s</em><em>t</em><em>e</em><em>m</em><em>N</em><em>o</em><em>d</em><em>e</em></sub></span> as well as for the whole system <span class="math inline"><em>Ω</em><sub><em>S</em><em>y</em><em>s</em><em>t</em><em>e</em><em>m</em></sub></span> and both as functions of the number of state transitions (i.e. transactions) <span class="math inline"><em>n</em></span> and the number of nodes in the system <span class="math inline"><em>m</em></span>.</p>
-## <h2 id="bitcoin">Bitcoin</h2>
+## Bitcoin
 <p>Let <span class="math inline"><em>Ω</em><sub><em>B</em><em>i</em><em>t</em><em>c</em><em>o</em><em>i</em><em>n</em></sub></span> be the Bitcoin network, <span class="math inline"><em>n</em></span> be the number of transactions and <span class="math inline"><em>m</em></span> be the number full validating nodes (i.e. <em>miners</em><a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a>) within <span class="math inline"><em>Ω</em><sub><em>B</em><em>i</em><em>t</em><em>c</em><em>o</em><em>i</em><em>n</em></sub></span>.</p>
 <p>For every new transaction being issued, any given node will have to check the transaction’s signature (among other checks, see. <span class="citation"></span>) and especially check if this transaction’s output is not used in any other transaction to reject double-spendings, resulting in a time complexity of <br /><span class="math display"><em>c</em> + <em>n</em></span><br /> per transaction. The time complexity in big-O notation per node as a function of the number of transactions is therefore <br /><span class="math display"><em>Ω</em><sub><em>B</em><em>i</em><em>t</em><em>c</em><em>o</em><em>i</em><em>n</em><em>N</em><em>o</em><em>d</em><em>e</em></sub> ∈ <em>O</em>(<em>n</em><sup>2</sup>).</span><br /> The complexity handled by one Bitcoin node does not <a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a> depend on <span class="math inline"><em>m</em></span> the number of total nodes of the system. But since every node has to validate exactly the same set of transactions, the system’s time complexity as a function of number of transactions and number of nodes results as <br /><span class="math display"><em>Ω</em><sub><em>B</em><em>i</em><em>t</em><em>c</em><em>o</em><em>i</em><em>n</em></sub> ∈ <em>O</em>(<em>n</em><sup>2</sup><em>m</em>).</span><br /></p>
 <p>Note that this quadratic time complexity of Bitcoin’s transaction validation process is what creates its main bottleneck as this reduces the network’s gossip bandwidth since every node has to validate every transaction before passing it along. In order to still have an average transaction at least flood through <span class="math inline">90%</span> of the network, block size and time can’t be pushed beyond 4MB and 12s respectively, according to <span class="citation"></span>.</p>
-## <h2 id="ethereum-1">Ethereum</h2>
+## Ethereum
 <p>Let <span class="math inline"><em>Ω</em><sub><em>E</em><em>t</em><em>h</em><em>e</em><em>r</em><em>e</em><em>u</em><em>m</em></sub></span> be the Ethereum main network, <span class="math inline"><em>n</em></span> be the number of transactions and <span class="math inline"><em>m</em></span> the number of full-clients within in the network.</p>
 <p>The time complexity of processing a single transaction on a single node is a function of the code which’s execution is being triggered by the given transaction plus a constant: <br /><span class="math display"><em>c</em> + <em>f</em><sub><em>t</em><em>x</em><sub><em>i</em></sub></sub>(<em>n</em>, <em>m</em>).</span><br /> Similarly to Bitcoin and as a result of the Blockchain design decision to maintain one single state (<span class="math inline">$\forall n,m \in N: {\mathcal{X}}_n{\stackrel{!}{=}}{\mathcal{X}}_m$</span>, <em>“This is to be avoided at all costs as the uncertainty that would ensue would likely kill all confidence in the entire system.&quot;</em> <span class="citation"></span>), every node has to process every transaction being sent resulting in a time complexity per node as <br /><span class="math display">$$c+\sum_{i=0}^n f_{tx_i}(n,m)$$</span><br /> resulting in <br /><span class="math display"><em>Ω</em><sub><em>E</em><em>t</em><em>h</em><em>e</em><em>r</em><em>e</em><em>u</em><em>m</em><em>N</em><em>o</em><em>d</em><em>e</em></sub> ∈ <em>O</em>(<em>n</em> ⋅ <em>f</em><sub><em>t</em><em>x</em><sub><em>i</em></sub></sub>(<em>n</em>, <em>m</em>))</span><br /> whereas the complexity <span class="math inline"><em>f</em><sub><em>t</em><em>x</em><sub><em>i</em></sub></sub>(<em>n</em>, <em>m</em>)</span> of the code being run by Ethereum is typically held simple since execution has to be payed for in gas and is due to other restrictions such as the <em>block gas limit</em>. In other words, because of the complexity <span class="math inline"><em>f</em><sub><em>t</em><em>x</em><sub><em>i</em></sub></sub>(<em>n</em>, <em>m</em>)</span> being burdened upon all nodes of the system, other systemic properties have to keep users from running complex code on Ethereum so as to not bump into the limits of the network.</p>
 <p>Again, since every node has to process the same set of all transactions, the time complexity of the whole system then is that of one node multiplied by <span class="math inline"><em>m</em></span>: <br /><span class="math display"><em>Ω</em><sub><em>E</em><em>t</em><em>h</em><em>e</em><em>r</em><em>e</em><em>u</em><em>m</em></sub> ∈ <em>O</em>(<em>n</em><em>m</em> ⋅ <em>f</em><sub><em>t</em><em>x</em><sub><em>i</em></sub></sub>(<em>n</em>, <em>m</em>)).</span><br /></p>
-## <h2 id="blockchain">Blockchain</h2>
+## Blockchain
 <p>Both examples of Blockchain systems above do need a non-trivial computational overhead to work at all: the proof-of-work, hash-crack process also called <em>mining</em>. Since this overhead is not a function of either the number of transactions nor directly of the number of nodes, it is often omitted in complexity analysis. With the total energy consumption of all Bitcoin miners today being greater than the country of Iceland <span class="citation"></span>, neglecting the complexity of Blockchain’s consensus algorithm seems like a silly mistake.</p>
 <p>Blockchains set the block time, the average time between two blocks, as a fixed parameter that the system keeps in homeostasis by adjusting the hash-crack’s difficulty according to the network’s total hash-rate. For a given network with a given set of mining nodes and a given total hash-rate, the complexity of the hash-crack is constant. But as the system grows and more miners come on-line, which increases the networks total hash-rate, the difficulty needs to increase in order to keep the average block time constant.</p>
 <p>With this approach, the benefit of a higher total hash-rate is an increased difficulty of an adversary to influence the system by creating biased blocks (which renders this party able to do double-spend attacks). This is the sole rational behind this wasteful endeavor.</p>
 <p>So, there is a direct relationship between the network’s total hash-rate and its level of security against mining power attacks. In order to formally discuss the complexity that needs to be added as an overhead to any Blockchain’s operation, we choose the free parameter to be the network’s total hash-rate <span class="math inline"><em>x</em><sub><em>H</em><em>R</em></sub></span> (in number of hashes per second) as an indicator for it’s level of security, i.e. the level of confidence any user can have in the integrity of the decentralized application implemented on-top of it and find that the complexity grows exponentially with the confidence of integrity. <br /><span class="math display"><em>Ω</em><sub><em>B</em><em>l</em><em>o</em><em>c</em><em>k</em><em>c</em><em>h</em><em>a</em><em>i</em><em>n</em></sub> ∈ <em>O</em>(2<sup><em>x</em><sub><em>H</em><em>R</em></sub></sup>)</span><br /></p>
-## <h2 id="holochain">Holochain</h2>
+## Holochain
 <p>Let <span class="math inline"><em>Ω</em><sub><em>H</em><em>C</em></sub></span> be a given Holochain system and let <span class="math inline"><em>n</em></span> be the sum of all public<a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> (i.e. <em>put</em> to the DHT) state transitions (<em>transactions</em>) all agents in <span class="math inline"><em>Ω</em><sub><em>H</em><em>C</em></sub></span> trigger in total and let <span class="math inline"><em>m</em></span> be the number of agents (= nodes) in the system.</p>
 <p>Putting a new entry to the DHT involves finding a node that is responsible for holding that specific entry, which in our case according to <span class="citation"></span> has a time complexity of <br /><span class="math display"><em>c</em> + ⌈<em>l</em><em>o</em><em>g</em>(<em>m</em>)⌉.</span><br /> After receiving the state transition data, this node will gossip with its <span class="math inline"><em>q</em></span> neighbors which will result in <span class="math inline"><em>r</em></span> copies of this state transition entry being stored throughout the system - on <span class="math inline"><em>r</em></span> different nodes. Each of these nodes has to validate this entry which is an application specific logic of which the complexity we shall call <span class="math inline"><em>v</em>(<em>n</em>, <em>m</em>)</span>.</p>
 <p>Combined, this results in a system-wide complexity per state transition as given with <br /><span class="math display">$$\underbrace{c+\lceil{log(m)}\rceil}_{DHT lookup}
@@ -249,18 +250,18 @@ O\left(\frac{n}{m}\cdot\left(log(m) + v(n,m)\right)\right).$$</span><br /> Note 
 <p>The only overhead that is added by the architecture of this decentralized system is the node look-up with its complexity of <span class="math inline"><em>l</em><em>o</em><em>g</em>(<em>m</em>)</span>.</p>
 <p>The unknown and also application specific complexity <span class="math inline"><em>v</em>(<em>n</em>, <em>m</em>)</span> of the validation routines is what could drive up the whole system’s complexity still. And indeed it is conceivable to think of Holochain applications with a lot of complexity within their validation routines. It is basically possible to mimic Blockchain’s consensus validation requirement by enforcing that a validating node communicates with all other nodes before adding an entry to the DHT. It could as well only be half of all nodes. And there surely is a host of applications with only little complexity - or specific state transitions within an application that involve only little complexity. <em>In a Holochain app one can put the complexity where it is needed and keep the rest of the system fast and scalable.</em></p>
 <p>In the next chapter we proceed by providing real-world use cases and showing how non-trivial Holochain applications can be built that get along with <span class="math inline"><em>O</em>(<em>v</em>(<em>n</em>, <em>m</em>)) = 1</span>, resulting in a total time complexity per node in <span class="math inline"><em>O</em>(<em>l</em><em>o</em><em>g</em>(<em>m</em>))</span> and a high enough confidence in integrity index without introducing proof-of-work and its exponential complexity at all.</p>
-# <h1 id="sec:usecases">Use Cases</h1>
+# Use Cases
 <p>Now we present a few use cases of applications built on Holochain, considering the context of the use case and how it affects both complexity and evaluation of integrity and thus validation design.</p>
-## <h2 id="social-media">Social Media</h2>
+## Social Media
 <p>Consider a simple implementation of micro-blogging using Holochain where:</p>
 <ol>
 <li><p><span class="math inline"><em>F</em><sub><em>I</em></sub> = {<em>f</em><sub><em>p</em><em>o</em><em>s</em><em>t</em></sub>(<em>t</em><em>e</em><em>x</em><em>t</em>, <em>n</em><em>o</em><em>d</em><em>e</em>),<em>f</em><sub><em>f</em><em>o</em><em>l</em><em>l</em><em>o</em><em>w</em></sub>(<em>n</em><em>o</em><em>d</em><em>e</em>),<em>f</em><sub><em>r</em><em>e</em><em>a</em><em>d</em></sub>(<em>t</em><em>e</em><em>x</em><em>t</em>)}</span> and</p></li>
 <li><p><span class="math inline"><em>F</em><sub><em>V</em></sub> = {<em>f</em><sub><em>i</em><em>s</em><em>O</em><em>r</em><em>i</em><em>g</em><em>i</em><em>n</em><em>a</em><em>t</em><em>o</em><em>r</em></sub>}</span></p></li>
 </ol>
-## <h2 id="identity">Identity</h2>
-## <h2 id="money">Money</h2>
+## Identity
+## Money
 <p>where the complexity of the transaction is higher, complexity may be <span class="math inline"><em>O</em>(<em>n</em><sup>2</sup>)</span> or <span class="math inline"><em>O</em>(<em>l</em><em>o</em><em>g</em>(<em>n</em>))</span> see holo currency white paper: <span class="citation"></span></p>
-# <h1 id="sec:implementation">Implementation</h1>
+# Implementation
 <p>At the time of this writing we have a fully operational implementation of system as described in this paper, that includes two separate virtual machines for writing <span><span class="math inline">DNA</span></span> functions in JavaScript, or Lisp, along with proof-of-concept implementations of a number of applications including a twitter clone, a slack-like chat system, DPKI, and a set mix-in libraries useful for building applications.</p>
 <ol>
 <li><p>30k+ lines of go code.</p></li>
@@ -271,7 +272,7 @@ O\left(\frac{n}{m}\cdot\left(log(m) + v(n,m)\right)\right).$$</span><br /> Note 
 <li><p>Lisp Virtual Machines: zygomys<br />
 <a href="https://github.com/glycerine/zygomys" class="uri">https://github.com/glycerine/zygomys</a></p></li>
 </ol>
-# <h1 id="sec:apdx1">Appendix I: DHT(hc)</h1>
+# Appendix I: DHT<sub>hc</sub>
 <ol>
 <li><p><span class="math inline"><em>d</em><em>h</em><em>t</em><sub>putLink</sub>(<em>b</em><em>a</em><em>s</em><em>e</em>, <em>l</em><em>i</em><em>n</em><em>k</em>, <em>t</em><em>a</em><em>g</em>)</span> where <span class="math inline"><em>b</em><em>a</em><em>s</em><em>e</em></span> and <span class="math inline"><em>l</em><em>i</em><em>n</em><em>k</em></span> are keys and where <span class="math inline"><em>t</em><em>a</em><em>g</em></span> is an arbitrary string, which associates the tuple {link,tag} with the key <span class="math inline"><em>b</em><em>a</em><em>s</em><em>e</em></span>.</p></li>
 <li><p><span class="math inline"><em>d</em><em>h</em><em>t</em><sub>getLinks</sub>(<em>b</em><em>a</em><em>s</em><em>e</em>, <em>t</em><em>a</em><em>g</em>)</span> where <span class="math inline"><em>b</em><em>a</em><em>s</em><em>e</em></span> is a key keys and where <span class="math inline"><em>t</em><em>a</em><em>g</em></span> is an arbitrary string, which returns the set of links on <span class="math inline"><em>b</em><em>a</em><em>s</em><em>e</em></span> identified by <span class="math inline"><em>t</em><em>a</em><em>g</em></span>.</p></li>
@@ -279,18 +280,20 @@ O\left(\frac{n}{m}\cdot\left(log(m) + v(n,m)\right)\right).$$</span><br /> Note 
 <li><p><span class="math inline"><em>d</em><em>h</em><em>t</em><sub>del</sub>(<em>k</em><em>e</em><em>y</em>)</span> where <span class="math inline"><em>k</em><em>e</em><em>y</em></span> is a key, and marks <span class="math inline"><em>σ</em><sub>key</sub> ∈ <em>Δ</em></span> as deleted.</p></li>
 <li></li>
 </ol>
-# <h1 id="sec:apdx2">Appendix II: F(sys)</h1>
+# Appendix II: F<sub>sys</sub>
 <ol>
-<li></li>
+<li> </li>
 </ol>
-### Acknowledgements
+# Acknowledgements
 <p>We thank Steve Sawin for his review of this paper, support and so much more...…</p>
-# <h1 id="lumber">Lumber</h1>
+### Lumber / Notes
 <p>This is stuff that may or may not get used</p>
 ### <h3 id="informal-description">Informal description</h3>
 <p>All Holochain installations segment the computing space by application. Each application should be thought of as single distributed computing instance operating on a separate network from other applications. For each application, Holochain installations maintain separate nodes and state and communicate over separate isolated channels. Holochain applications can be connected, but only by external agents connecting one to another. This will be explained further in [sec:bridging]. Each node participating in a Holochain application maintains a hash-chain. The first entry in the chain of all nodes is identical, and we call the DNA. The DNA consists in the entry type definitions, executable source code, and property definitions, and most importantly validation rules that define that application. Nodes also participate in operating a distributed hash table together.</p>
 <p>When external agents wish to initiate a transaction on a node they control, they call an “exposed function&quot; which is subset of the executable source code that’s been defined as part of the application’s “API.&quot; These functions calls will result in changing state of the nodes only through adding one of the defined entry types to that node’s local chain. Adding data to a source chain has the side-effect of doing a DHT <span><code>put</code></span>operation for that entry, where the key is the same hash of the entry used for building the hash-chain. Thus entries are accessible to all other nodes on the network via a DHT <span><code>get</code></span>of that hash. However, all nodes receiving a <span><code>put</code></span>must first validate it by verify it with the source node.</p>
 <p><span>9</span></p>
+
+# Bibliography
 <p>Quinn DuPont. <em>Experiments in Algorithmic Governance: A history and ethnography of “The DAO,” a failed Decentralized Autonomous Organization</em><br />
 <a href="http://www.iqdupont.com/assets/documents/DUPONT-2017-Preprint-Algorithmic-Governance.pdf" class="uri">http://www.iqdupont.com/assets/documents/DUPONT-2017-Preprint-Algorithmic-Governance.pdf</a></p>
 <p>Gavin Wood. <em>Ethereum: A Secure Decentralised Generalised Transaction Ledger</em>.<br />
