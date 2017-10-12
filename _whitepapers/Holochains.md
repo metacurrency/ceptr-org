@@ -10,7 +10,7 @@ authors:
     "Arthur Brock": artbrock.com
     "Eric Harris-Braun": eric.harris-braun.com
     "Nicolas Luck": "github.com/lucksus"
-excerpt: "ABSTRACT : We present a scalable, evolvable, agent-centric distributed computing platform.  We use a  formalism to characterize distributed systems, show how it applies to some existing distributed systems and demonstrate the benefits of shifting from a data-centric to an agent-centric model. We present the a detailed formal specification of the Holochain system, along with an analysis of its systemic integrity, capacity for evolution, total system computational complexity, implications for use-cases, and current implementation status."
+excerpt: "We present a scalable, evolvable, agent-centric distributed computing platform.  We use a  formalism to characterize distributed systems, show how it applies to some existing distributed systems and demonstrate the benefits of shifting from a data-centric to an agent-centric model. We present the a detailed formal specification of the Holochain system, along with an analysis of its systemic integrity, capacity for evolution, total system computational complexity, implications for use-cases, and current implementation status."
 date: '2016-12-05 04:58:14 -0400'
 date_gmt: '2016-12-05 04:58:14 -0400'
 tags:
