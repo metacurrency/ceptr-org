@@ -45,6 +45,7 @@ Contact us if you're interested in organizing an event in your area. Projected H
  * November 2017 - Aix en Provence France, and Ghent Belgium
  * December 2017 - Berlin Germany, and Glasgow Scotland
  * February 2018 - Auroville India
+ * A town near you!
 
 ## Holochain Hackathon - SFO March 6 - 8, 2017
 <a class="btn btn-primary btn-xl pull-right" href="https://www.youtube.com/watch?v=-RyFJWK4mhI&feature=youtu.be">LIVE STREAM</a>
