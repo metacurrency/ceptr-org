@@ -22,7 +22,7 @@ tags:
 - Applications
 comments: []
 ---
-<div class="col-lg-8"><img class="fit responsive img-responsive " src="/images/hackathon-table.jpg">
+<div class="col-lg-8" markdown="1"><img class="fit responsive img-responsive " src="/images/hackathon-table.jpg">
 
 # Hackathons
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
@@ -38,15 +38,17 @@ comments: []
 
 <!-- /TOC -->
 
-## Next Events?
+
+## Next Hackathon Locations?
 Contact us if you're interested in organizing an event in your area. Projected Hackathon possibilities
- * October 2017 - Porto, Portugal, and Barcelona Spain
- * November 2017 - Aix en Provence France, and Ghent Belgium
- * December 2017 - Berlin Germany, and Glasgow Scotland
+ * October 2017 - Porto, Portugal
+ * November 2017 - Barcelona Spain (Nov 18-19) and Riga Latvia (Nov 27-29)
+ * December 2017 - Berlin Germany, Glasgow Scotland, Ghent Belgium
  * February 2018 - Auroville India
  * A town near you!
 
 ## Holochain Hackathon - SFO March 6 - 8, 2017
+
 <a class="btn btn-primary btn-xl pull-right" href="https://www.youtube.com/watch?v=-RyFJWK4mhI&feature=youtu.be">LIVE STREAM</a>
 
 Our first hackathon was a fantastic success! It was the unveiling of our Holochain software which was barely ready for development, but people jumped into building apps and supplementing parts of the system by upgrading our testing framework and dockerizing our installation.
