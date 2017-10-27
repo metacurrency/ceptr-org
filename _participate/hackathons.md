@@ -22,10 +22,9 @@ tags:
 - Applications
 comments: []
 ---
+<img class="fit responsive img-responsive col-lg-8" src="/images/hackathon-table.jpg">
 
 # Hackathons
-<img class="fit responsive" src="/images/hackathon-table.jpg">
-
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
 - [Next Events?](#next-events)
@@ -39,6 +38,7 @@ comments: []
 
 <!-- /TOC -->
 
+<div class="col-lg-8">
 ## Next Events?
 Contact us if you're interested in organizing an event in your area. Projected Hackathon possibilities
  * October 2017 - Porto, Portugal, and Barcelona Spain
@@ -109,3 +109,5 @@ What do you want to work on?
 
 Do not participate in a hackathon from your car -- bad things can happen: <br />
 ![Car in Ditch](/images/car_ditch.jpg){:class="img-responsive"}
+
+</div>
