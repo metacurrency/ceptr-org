@@ -22,7 +22,7 @@ tags:
 - Applications
 comments: []
 ---
-<img class="fit responsive img-responsive col-lg-8" src="/images/hackathon-table.jpg">
+<div class="col-lg-8"><img class="fit responsive img-responsive " src="/images/hackathon-table.jpg">
 
 # Hackathons
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
@@ -38,7 +38,6 @@ comments: []
 
 <!-- /TOC -->
 
-<div class="col-lg-8">
 ## Next Events?
 Contact us if you're interested in organizing an event in your area. Projected Hackathon possibilities
  * October 2017 - Porto, Portugal, and Barcelona Spain
