@@ -37,7 +37,7 @@ articles:
 
 <br />
 <div class="alert alert-warning" role="alert" markdown="1">
-   <b>Stage of Development:</b> Pre-Alpha. Proof-of-concept was completed and unveiled at our first <a href="/participate/hackathons">Hackathon</a>. We expect to do an <b>Alpha release in September 2017</b> when we complete our Security Milestone.
+   <b>Stage of Development:</b> Alpha. Our first proof-of-concept was released in our March 2017 <a href="/participate/hackathons">Hackathon</a>, followed by Alpha 0 in November of 2017.  Please see our [Development Roadmap](https://github.com/metacurrency/holochain/wiki/Roadmap) for details on upcoming releases.
 </div>
 
 ## Overview
