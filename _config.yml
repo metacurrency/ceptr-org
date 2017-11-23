@@ -36,6 +36,7 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - vendor
 collections:
   posts:
     output: true

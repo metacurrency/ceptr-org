@@ -18,7 +18,7 @@ purpose: "Organizations incorporated in distributed app code instead of legal co
 
 <!-- TOC END -->
 
-<br /><div class="alert alert-warning"  role="alert"><em><b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochain](/projects/holochain) to begin development</em></div>
+<div  style="margin-top:50px" class="alert alert-warning" role="alert"><em><b>Stage of Development:</b> Spec & Design.</em></div>
 
 ## Overview
 We believe you can't claim to truly have a distributed technology solution, until the governance of the technology follows a distributed architecture.

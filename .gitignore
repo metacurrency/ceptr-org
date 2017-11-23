@@ -3,3 +3,5 @@ _site/
 _templates/blog_template.md
 Gemfile.lock
 Gemfile
+.bundle/
+vendor/

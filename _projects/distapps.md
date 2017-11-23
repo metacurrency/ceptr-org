@@ -19,9 +19,8 @@ purpose: "Brings cloud computing out to the edges by enabling truly distributed 
 
 </div>
 
-<br />
-<div class="alert alert-danger" role="alert" markdown="1">
-   <b>Stage of Development:</b> Spec & Design. Waiting for Alpha launch of [Holochain](/projects/holochain) to begin development
+<div  style="margin-top:50px" class="alert alert-danger" role="alert" markdown="1">
+   <b>Stage of Development:</b> Spec & Design.
 </div>
 
 ## Overview

@@ -30,8 +30,8 @@ articles:
 
 </div>
 
-<br />
-<div class="alert alert-warning" role="alert" markdown="1">
+<div style="margin-top:50px" class="alert alert-warning" role="alert" markdown="1">
+
 **Stage of Development:** Our Protocol for Pluggable Protocols was built and prototyped in our [C implementation of the Ceptr codebase](http://github.com/zippy/ceptr). That codebase is being retired in favor of breaking Ceptr down into more understandable sub-projects (like this one) and is being [reimplemented in Go](http://github.com/metacurrency/pcubed). Which means, although this has been built once already, we're in the process of building it again.
 </div>
 
