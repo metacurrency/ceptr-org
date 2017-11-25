@@ -37,7 +37,7 @@ dev_docs: http://zippy.github.io/ceptr/
 
 Ceptr implements a [Grammatic Capacity](/whitepapers/grammatics) robust enough to be a "language" for expressing new forms of social organizations at scale.  Other projects in the smart-contracts space ([Ethereum](https://www.ethereum.org/), etc.) have similar goals, however we believe that because our approach builds from a core DNA of social coherence it will yield fundamentally different results.
 
-The Ceptr-core sub-project weaves together the holochain distributed data engine and Pcubed semantic protocol engine in to a fabric that allows for the creation of the fractally composable computing units we call Receptors.  This fabric follows the framework of Agent/Carrier/Signal/Protocol as described out in our [Grammatics whitepaper](/whitepapers/grammatics).
+The Ceptr-core sub-project weaves together the holochain distributed data engine and Pcubed semantic protocol engine in to a fabric that allows for the creation of the fractally composable computing units we call Receptors.  This fabric follows the framework of Agent/Carrier/Signal/Protocol as described in our [Grammatics whitepaper](/whitepapers/grammatics).
 
 ## Why Build Ceptr?
 
