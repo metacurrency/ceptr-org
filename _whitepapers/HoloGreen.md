@@ -18,4 +18,4 @@ tags:
 - Cloud Apps
 comments: []
 ---
-<iframe src="https://files.holo.host/2017/11/Holo-Green-Paper_2017-11-28.pdf" width="100%" height="1000px"></iframe>
+<iframe src="https://holo.host/greenpaper" width="100%" height="1000px"></iframe>
