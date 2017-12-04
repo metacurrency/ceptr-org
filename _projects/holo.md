@@ -33,6 +33,8 @@ People who do install a Holochain node, or buy a dedicated device, can run Holo 
 
 We are currently [crowdfunding](https://www.indiegogo.com/projects/holo-the-peer-to-peer-internet-has-arrived-money-community) to be able to build out the Holo platform.
 
+Through this campaign we're offering the Holoport -- a device that makes it easy to join a community of hosters and earn Holo fuel, a mutual-credit cryptocurrency.  The crowdfunding also includes "perks" where our team will come and run a hackathon in your community, or even build a prototype Holochain application.
+
 ## Apps Ecosystem
 These are some of the applications that support an edge-hosted application ecosystem, and that we want for our own project, so we will be developing them in this phase of the project.
 
