@@ -7,6 +7,7 @@ navigation_weight: 4
 icon: fa-code-fork
 purpose: "Organizations incorporated in distributed app code instead of legal codes enabling new patterns of self-governance and mutual sovereignty."
 ---
+
 <!-- TOC START min:1 max:3 link:true update:true -->
   - [Overview](#overview)
   - [Core Concepts](#core-concepts)
@@ -18,7 +19,8 @@ purpose: "Organizations incorporated in distributed app code instead of legal co
 
 <!-- TOC END -->
 
-<div  style="margin-top:50px" class="alert alert-warning" role="alert"><em><b>Stage of Development:</b> Spec & Design.</em></div>
+<div  style="margin-top:50px" class="alert alert-danger" role="alert" markdown="1"><b>Stage of Development:</b> Spec &amp; Design.
+</div>
 
 ## Overview
 We believe you can't claim to truly have a distributed technology solution, until the governance of the technology follows a distributed architecture.

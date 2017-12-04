@@ -2,7 +2,7 @@
 layout: project
 slug: holochain
 title: "Holochains for <br />Distributed Data Integrity"
-nav_title: Holochains
+nav_title: Holochain
 image: http://ceptr.org/images/Holochain_Subsystems.png
 navigation_weight: 2
 icon: fa-link
@@ -15,7 +15,6 @@ articles:
   "Scalable Cryptocurrencies": https://medium.com/metacurrency-project/beyond-blockchain-simple-scalable-cryptocurrencies-1eb7aebac6ae#.javpl89rt
 ---
 
-<div id="toc" class="toc" markdown="1">
 
 <!-- TOC depthFrom:2 depthTo:6 withLinks:1 updateOnSave:1 orderedList:0 -->
 
@@ -32,8 +31,6 @@ articles:
 - [A Note to End Users](#a-note-to-end-users)
 
 <!-- /TOC -->
-
-</div>
 
 <div  style="margin-top:50px" class="alert alert-warning" role="alert" markdown="1">
    <b>Stage of Development:</b> Alpha. Our first proof-of-concept was released in our March 2017 <a href="/participate/hackathons">Hackathon</a>, followed by Alpha 0 in November of 2017.  Please see our [Development Roadmap](https://github.com/metacurrency/holochain/wiki/Roadmap) for details on upcoming releases.

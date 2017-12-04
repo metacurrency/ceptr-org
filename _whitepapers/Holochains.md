@@ -1,6 +1,6 @@
 ---
 layout: page
-status: Pre-release Draft
+status: Alpha 0 Draft
 title: Holochain
 sub-title: Scalable, agent-centric, distributed computing
 navigation_weight: 1

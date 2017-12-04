@@ -1,9 +1,9 @@
 ---
 layout: whitepaper
-status: Concept
+status: Draft
 published: true
-title: Holo
-sub-title: Fueling Collaborative Infrastructure for a New Digital Commons
+title: Holo Cryptocurrency
+sub-title: Infrastructure for Global Scale and Stable Value
 slug: holo
 project: holo
 authors:
@@ -12,9 +12,10 @@ authors:
 excerpt: ""
 tags:
 - Whitepaper
+- Holo
 - Distributed Applications
 - Distribute Processing
 - Cloud Apps
 comments: []
 ---
-blah
+<iframe src="https://files.holo.host/2017/11/Holo-Currency-White-Paper_2017-11-28.pdf" width="100%" height="1000px"></iframe>
