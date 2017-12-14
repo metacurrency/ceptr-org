@@ -7,8 +7,8 @@ navigation_weight: 2
 slug: fractalvm
 project: core
 authors:
-    "Arthur Brock": artbrock.com
-    "Eric Harris-Braun": eric.harris-braun.com
+    "Arthur Brock": http://artbrock.com
+    "Eric Harris-Braun": "http://github.com/zippy"
 excerpt: ""
 tags:
 - Whitepaper

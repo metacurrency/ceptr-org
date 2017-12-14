@@ -9,7 +9,13 @@ layout: default
         {% if page.sub-title %}<p class="text-center">{{page.sub-title}}</p>{% endif %}
         <ul class="authors">
           {% for a in page.authors %}
-            <li><a href="{{ a[1] }}">{{ a[0] }} | {{ a[1]}}</a></li>
+            <li>
+            {% if a[1]!=""%}
+              <a href="{{ a[1] }}">{{ a[0] }}</a>
+            {% else %}
+              {{a[0]}}
+            {% endif %}
+            </li>
           {% endfor %}
         </ul>
         {% if page.status != 'Published' %}

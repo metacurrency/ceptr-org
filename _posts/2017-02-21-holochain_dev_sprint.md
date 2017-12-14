@@ -7,7 +7,7 @@ status: publish
 published: true
 author: Eric Harris-Braun
 author_email: eric@harris-braun.com
-author_url: http://eric.harris-braun.com/
+author_url: https://github.com/zippy
 categories: []
 comments: []
 tags:

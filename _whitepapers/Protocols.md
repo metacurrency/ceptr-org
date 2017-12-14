@@ -6,8 +6,8 @@ sub-title: Fundamental Interoperability through Self-Describing Protocols
 slug: protocols
 project: pcubed
 authors:
-    "Arthur Brock": artbrock.com
-    "Eric Harris-Braun": eric.harris-braun.com
+    "Arthur Brock": http://artbrock.com
+    "Eric Harris-Braun": "http://github.com/zippy"
 excerpt: ""
 tags:
 - Whitepaper

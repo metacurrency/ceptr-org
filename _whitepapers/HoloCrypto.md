@@ -7,8 +7,8 @@ sub-title: Infrastructure for Global Scale and Stable Value
 slug: holo
 project: holo
 authors:
-    "Arthur Brock": artbrock.com
-    "Eric Harris-Braun": eric.harris-braun.com
+    "Arthur Brock": http://artbrock.com
+    "Eric Harris-Braun": "http://github.com/zippy"
 excerpt: ""
 tags:
 - Whitepaper

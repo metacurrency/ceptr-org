@@ -6,7 +6,7 @@ title: Restructuring Ceptr Into Sub-Projects
 author: Eric Harris-Braun
 author_login: Eric Harris-Braun
 author_email: eric@harris-braun.com
-author_url: http://eric.harris-braun.com
+author_url: https://github.com/zippy
 date: '2017-01-17 03:29:38 -0400'
 date_gmt: '2017-01-17 03:29:38 -0400'
 categories: []

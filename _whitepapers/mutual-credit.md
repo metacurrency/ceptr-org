@@ -9,8 +9,8 @@ project: holochain
 googledoc: https://docs.google.com/document/d/19mdR6Syv5Ch2A6yf_6vZFcpDz0WWCyiYliKXa-k8rkI/edit?usp=sharing
 excerpt: "We identify and clarify the core elements of cryptocurrency and describe a new approach to designing such currencies distinct from blockchains -- an approach rooted in biomimicry. We explore efficiencies for decentralized data and decision-making and distinguish consensus of distributed process, rather than data in ledgers, at the core. We then illustrate an implementation of a cryptocurrency using these principles and a use case which brings a centuries old practice into the digital era. We address the central vulnerability to this model working at scale, showing how the solution can be built with existing technologies. Finally, we also confront social challenges involved in governance of crypto systems."
 authors:
-    "Arthur Brock": artbrock.com
-    "Eric Harris-Braun": eric.harris-braun.com
+    "Arthur Brock": http://artbrock.com
+    "Eric Harris-Braun": "http://github.com/zippy"
 tags:
 - White Paper
 - Holochain
