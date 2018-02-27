@@ -252,4 +252,4 @@ One could design other solutions to prevent nodes from dropping the head of thei
 
 By leveraging Intrinsic Data Integrity to run numerous parallel tamper-proof chains you can enable nodes to do various P2P transactions which don’t actually require group consensus. It is not only possible, but far more scalable to build cryptocurrencies without a global ledger consensus approach or cryptographic tokens. This paper has provided a framework to build a tokenless cryptocurrency, and showed how mutual credit is an appropriate currency issuance method for operating such a cryptocurrency on completely peered chains. Basic PKI with a DHT addresses the obvious vulnerabilities.
 
-We have named this type of architecture holochain to distinguish it from blockchain. A prototype implementation is available at https://github.com/metacurrency/holochain
+We have named this type of architecture holochain to distinguish it from blockchain. A prototype implementation is available at https://github.com/Holochain/holochain-proto

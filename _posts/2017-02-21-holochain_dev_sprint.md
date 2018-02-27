@@ -21,4 +21,4 @@ We've made substantial progress, both in the state of the code, and, for once, t
 
 Of the three sub-systems in the image above, two are in substantially good working order: the Source Hash-Chain, and the Nucleus.  This week I'll be cranking out the Shared Storage (DHT) portion, using IPFS's [libp2p](https://github.com/libp2p/go-libp2p) as a network transport layer.
 
-Rather than go into further dev details in this post, I'll just point you to the [holochain dev wiki](https://github.com/metacurrency/holochain/wiki) over on github.
+Rather than go into further dev details in this post, I'll just point you to the [holochain dev wiki](https://github.com/Holochain/holochain-proto/wiki) over on github.
