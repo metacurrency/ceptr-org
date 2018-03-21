@@ -8,9 +8,9 @@ navigation_weight: 2
 icon: fa-link
 purpose: "Go beyond Blockchain bottlenecks and global consensus ledgers
           for scalability which ensures data integrity and distributed sharing."
-dev_docs: https://github.com/Holochain/holochain-proto/wiki
+dev_docs: https://github.com/holochain/holochain-proto/wiki
 repos:
-  "Holochain": https://github.com/Holochain/holochain-proto
+  "Holochain": https://github.com/holochain/holochain-proto
 articles:
   "Scalable Cryptocurrencies": https://medium.com/metacurrency-project/beyond-blockchain-simple-scalable-cryptocurrencies-1eb7aebac6ae#.javpl89rt
 ---
@@ -33,7 +33,7 @@ articles:
 <!-- /TOC -->
 
 <div  style="margin-top:50px" class="alert alert-warning" role="alert" markdown="1">
-   <b>Stage of Development:</b> Alpha. Our first proof-of-concept was released in our March 2017 <a href="/participate/hackathons">Hackathon</a>, followed by Alpha 0 in November of 2017.  Please see our [Development Roadmap](https://github.com/Holochain/holochain-proto/wiki/Roadmap) for details on upcoming releases.
+   <b>Stage of Development:</b> Alpha. Our first proof-of-concept was released in our March 2017 <a href="/participate/hackathons">Hackathon</a>, followed by Alpha 0 in November of 2017.  Please see our [Development Roadmap](https://github.com/holochain/holochain-proto/wiki/Roadmap) for details on upcoming releases.
 </div>
 
 ## Overview
@@ -88,7 +88,7 @@ In our validating DHT, we confirm the provenance of every piece of data, validat
 
 Just like validation rules on blockchain nodes, if someone hacked their code to behave differently, even if they colluded with others, the rest of the nodes on the DHT would not validate their altered behavior and they will have essentially just forked themselves out of being able to participate on that holochain.
 
-More details see [Architecture page](https://github.com/Holochain/holochain-proto/wiki/Architecture)
+More details see [Architecture page](https://github.com/holochain/holochain-proto/wiki/Architecture)
 
 ## When to Use Holochain
 Holochain is designed to support and embody social coherence -- groups that want to collaborate or coordinate together according to a set of agreements which allows them to share data or other value in reliable ways.
@@ -116,4 +116,4 @@ Holochain is a part of a much larger vision for distributed computing to enable 
 ## A Note to End Users
 Coming soon there will be applications built to make it easy to use holochains as your distributed database for all your daily needs. Hopefully, these applications will be as easy to find, install, and use as any other software you can think of. However, at the moment, these apps don't exist and holochain is largely for developers trying to build these things for you.
 
-For now, please [enjoy our FAQ](http://github.com/Holochain/holochain-proto/wiki/FAQ). :)
+For now, please [enjoy our FAQ](http://github.com/holochain/holochain-proto/wiki/FAQ). :)
