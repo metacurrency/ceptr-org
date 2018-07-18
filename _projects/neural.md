@@ -3,6 +3,8 @@ layout: project
 slug: neural
 title: "Neural Internetworking"
 nav_title: Neural Internetworking
+description: "By supporting sticky requests which send data whenever conditions are matched, we enable neural-like behavior across all applications."
+image: /images/neural_net.jpg
 navigation_weight: 5
 icon: fa-share-alt
 purpose: "By supporting sticky requests which send data whenever conditions are matched, we enable neural-like behavior across all applications."

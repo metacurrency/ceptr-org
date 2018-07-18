@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Holochain dev Sprint and Hackathon
+image: http://ceptr.org/images/Holochain_Subsystems.png
 date: 2017-02-21 10:56:21 -0500
 date_gmt: 2017-02-21 15:56:21 -0000
 status: publish

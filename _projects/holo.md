@@ -3,9 +3,11 @@ layout: project
 slug: holo
 title: "Holo"
 nav_title: Holo
+description: "Brings cloud computing out to the edges by enabling truly distributed applications and hosting on laptops, phones, and personal dedicated hosting devices, as well as servers."
+image: https://holo.host/wp-content/uploads/2017/10/Holo-logo_Final-NEW-BLUE.png
 navigation_weight: 3
 icon: fa-cloud
-purpose: "Purpose: Brings cloud computing out to the edges by enabling truly distributed applications and hosting on laptops, phones, and personal dedicated hosting devices, as well as servers."
+purpose: "Brings cloud computing out to the edges by enabling truly distributed applications and hosting on laptops, phones, and personal dedicated hosting devices, as well as servers."
 repos:
   "Holo": https://github.com/holo-host
 ---

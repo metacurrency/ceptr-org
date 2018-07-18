@@ -3,6 +3,8 @@ layout: project
 slug: core
 title: "Ceptr Core"
 nav_title: Ceptr Core
+description: "To be the fabric which binds all the sub-projects into an integrated framework via Virtual Machine Hosts, Fractal Receptors, Parallel Tree Processing, a Ceptr Network and a Compository for managing shared code & data reuse."
+image: /images/neural_net.jpg
 navigation_weight: 6
 icon: fa-gears
 purpose: "To be the fabric which binds all the sub-projects into an integrated framework via Virtual Machine Hosts, Fractal Receptors, Parallel Tree Processing, a Ceptr Network and a Compository for managing shared code & data reuse."

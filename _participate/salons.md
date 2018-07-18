@@ -3,7 +3,7 @@ layout: participate
 status: publish
 published: true
 title: Salons
-image:
+image: https://i.ytimg.com/vi/88FZtLz-K5w/hqdefault.jpg
 nav_title: Salons
 navigation_weight: 5
 slug: Salons
@@ -39,7 +39,7 @@ Our salons give us an opportunity to share ideas, explore them in conversation, 
 ## UPCOMING SALONS
 
 ### Topic TBD
-Sunday August 6th, 2017 
+Sunday August 6th, 2017
 9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
 
 [//]: # (Join us for a dialogue about ... )
@@ -57,22 +57,22 @@ When the time comes, [Join the Salon in Zoom](https://zoom.us/j/2184944435).
 ## ARCHIVE
 
 ### Transnational Republics of Commoning
-Sunday July 9th, 2017 
+Sunday July 9th, 2017
 9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
 
-Join us for an online conversation exploring new forms of digital commons with examples from the empowered humans over at Enspiral and other communities. 
+Join us for an online conversation exploring new forms of digital commons with examples from the empowered humans over at Enspiral and other communities.
 
-The super-dork-fun discussion prompt for this Salon is a short portion of a report by David Bollier called  "Transnational Republics of Commoning".  We'll focus on the section "Digital Commons as New Species of Production and Governance", which is on pdf pages 10-16. 
+The super-dork-fun discussion prompt for this Salon is a short portion of a report by David Bollier called  "Transnational Republics of Commoning".  We'll focus on the section "Digital Commons as New Species of Production and Governance", which is on pdf pages 10-16.
 
-This topic lands as a bit of a bridge between some of our recent more general conversations on governance and a more detailed exploration of the types of tools that Ceptr and others are creating to support new forms of relationship and organization. 
+This topic lands as a bit of a bridge between some of our recent more general conversations on governance and a more detailed exploration of the types of tools that Ceptr and others are creating to support new forms of relationship and organization.
 
 The article is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
 
 Here is the article: https://www.foe.co.uk/sites/default/files/downloads/transnational-republics-commoning-reinventing-governance-through-emergent.pdf
 
-[VIDEO RECORDING]
+[VIDEO RECORDING](https://www.youtube.com/watch?v=88FZtLz-K5w)
 
-[AUDIO RECORDING]
+[AUDIO RECORDING](https://soundcloud.com/metacurrency/ceptr-salon-july-9-2017-transnational-republics-of-commoning)
 
 ![Voting](/images/vote.jpg){:class="img-responsive"}
 ### Broken Assumptions of Governance
@@ -80,9 +80,9 @@ Sunday June 11th, 2017
 
 9:30 AM Pacific - 12:30 PM Eastern - 6:30 PM Central Europe
 
-Join us for a dialogue with Metacurrency co-founder Arthur Brock about the Broken Assumptions of Governance. 
+Join us for a dialogue with Metacurrency co-founder Arthur Brock about the Broken Assumptions of Governance.
 
-"To meet the huge challenges confronting us, we need more than incremental digital tweaks, we need a breakthrough in large-scale collective wisdom." 
+"To meet the huge challenges confronting us, we need more than incremental digital tweaks, we need a breakthrough in large-scale collective wisdom."
 
 [The article](https://medium.com/metacurrency-project/broken-assumptions-of-governance-63cc946ccc6c) is a short read. Please bring comments or questions to this 90 minute online salon so we can explore this terrain together.
 
