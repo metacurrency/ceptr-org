@@ -1,6 +1,7 @@
 ---
 layout: whitepaper
-status: Final
+status: Published
+date: "2016-03-31"
 nav_title: Mutual Credit Cryptocurrencies
 navigation_weight: 2
 title: "Mutual Credit Cryptocurrencies: Beyond Blockchain Bottlenecks"
