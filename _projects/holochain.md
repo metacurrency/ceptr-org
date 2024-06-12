@@ -3,12 +3,11 @@ layout: project
 slug: holochain
 title: "Holochains for <br />Distributed Data Integrity"
 nav_title: Holochain
-description: "Go beyond Blockchain bottlenecks and global consensus ledgers for scalability which ensures data integrity and distributed sharing."
+description: "Data integrity engine for P2P apps -- transcends bottlenecks & scalability issues typical to decentralized computing."
 image: http://ceptr.org/images/Holochain_Subsystems.png
 navigation_weight: 2
 icon: fa-link
-purpose: "Go beyond Blockchain bottlenecks and global consensus ledgers
-          for scalability which ensures data integrity and distributed sharing."
+purpose: "Data integrity engine for P2P apps -- transcends bottlenecks &   scalability issues typical to decentralized computing."
 dev_docs: https://github.com/holochain/holochain-proto/wiki
 repos:
   "Holochain": https://github.com/holochain/holochain-proto
@@ -40,19 +39,19 @@ articles:
 ## Overview
 **Holographic storage for distributed applications.** A holochain is a validating distributed hash table (DHT) where every node enforces validation rules on data against the signed chains where the data originated.
 
-In other words, a holochain functions very much **like a blockchain without bottlenecks** when it comes to enforcing validation rules, but is designed to be fully distributed through sharding so each node only needs to hold a portion of the data instead of a full copy of a global ledger. This makes it feasible to run blockchain-like applications on devices as lightweight as mobile phones
+In other words, when it comes to enforcing validation rules a Holochain app works **like a blockchain, but with no bottlenecks and no token.** The workload is fully distributed through sharding so each node only needs to do a small portion of the work and hold a portion of the data, unlike a consensus-driven global ledger. This makes it feasible to run decentralized applications on devices as lightweight as mobile phones.
 
 ## Shared Data Integrity
 Historically, data integrity has been ensured by restricting access to data. If we wanted to prevent anybody from tampering with data, we locked it behind firewalls, or set strict permissions on databases and file systems. Because with centrally stored data, having the ability to write to data typically means you can change whatever you want.
 
-If we want to build peer-to-peer systems where we collectively hold data among many parties, we need better strategies for shared data integrity. Many are excited about building these kinds of applications on the blockchain, because they provide a strategy to maintain integrity of data that can be held by many peers without a single central authority.
+If we want to build peer-to-peer systems where we collectively hold data among many parties, we need better strategies for shared data integrity. Many are excited about building these kinds of applications on a blockchain, because they provide a strategy to maintain integrity of data that can be held by many peers without a single central authority.
 
 However, other limitations have become apparent, such as high computational overhead for achieving consensus, and the Pareto Effects of Proof of Work and Proof of Stake which steer the system toward being more centralized than many would want.
 
 Breakthroughs in shared data integrity enable new social, political, and organizational patterns with less tendencies toward corruption that emerge from power imbalances involved with selective parties controlling data, information, and protocols.
 
-## Beyond Blockchain Bottlenecks
-We believe Holochains are one of these breakthroughs, because they take a different approach to ensuring the integrity of shared data. Instead of being built on top of cryptographic tokens they are organized around cryptographic validation of people (peers) validated against an immutable cryptographic record of those peers actions.
+## Breakthrough Beyond Blockchain Bottlenecks
+Holochain take a different approach to ensuring the integrity of shared data. Instead of being built on top of cryptographic tokens/coins, they validate actions of agents/people/peers as each agent records an immutable cryptographic history of their actions to a hashchain.
 
 This change allows us to manage data integrity without the massive overhead of computing consensus on a global ledger. Our monotonic, validating, graph DHT (distributed hash table) achieves eventual consistency while only allowing valid data to propagate and holding everyone accountable for their actions.
 
